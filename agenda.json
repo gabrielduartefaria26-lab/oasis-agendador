@@ -1,14 +1,78 @@
 [
   {
-    "id": "exemplo-reel-apague",
-    "arquivo": "exemplo.mp4",
-    "quando": "2026-09-25T09:00:00-03:00",
-    "legenda": "Reel. O id precisa ser unico, o arquivo tem que existir no Release, e a hora esta no fuso de Brasilia."
+    "id": "brasil-eua",
+    "arquivos": [
+      "brasil-eua-slide-1.jpg",
+      "brasil-eua-slide-2.jpg",
+      "brasil-eua-slide-3.jpg",
+      "brasil-eua-slide-4.jpg",
+      "brasil-eua-slide-5.jpg",
+      "brasil-eua-slide-6.jpg",
+      "brasil-eua-slide-7.jpg",
+      "brasil-eua-slide-8.jpg"
+    ],
+    "quando": "2026-09-24T09:00:00-03:00",
+    "legenda": "O seu concorrente já está nos 52%.\n\nPesquisa do Sebrae com o Meta Instituto de Pesquisa ouviu 7.182 donos de pequenos negócios: 52% usaram IA nas duas semanas anteriores. Nos Estados Unidos, a pesquisa equivalente do U.S. Census Bureau aponta 21%.\n\nA leitura que quase ninguém fez: não é que o brasileiro seja mais moderno. É que entre a ideia e o teste não existem três camadas de aprovação. A grande monta comitê, o dono aqui resolve na terça. Ser pequeno virou a vantagem.\n\nE entre quem não pretende adotar, 38% dão o mesmo motivo: não sabem o que a IA faz. Não é dinheiro nem equipe. É não saber que já dava para resolver.\n\nEscrevi o mapa: 18 tarefas que já dá para tirar da sua mão, com o sinal de quando cada uma vale e a régua de cinco dias para medir.\n\nComenta MAPA que eu te mando no direct. Também está no link da bio.\nSalva para escolher a sua primeira tarefa.\n\nFonte: Transformação Digital nos Pequenos Negócios (2026), Sebrae e Meta Instituto de Pesquisa, via Agência Sebrae de Notícias, 17.08.2026.\n\n#inteligenciaartificial #pequenosnegocios #automacao #gestao #donodenegocio #produtividade"
   },
   {
-    "id": "exemplo-carrossel-apague",
-    "arquivos": ["exemplo-1.jpg", "exemplo-2.jpg", "exemplo-3.jpg"],
-    "quando": "2026-09-25T18:30:00-03:00",
-    "legenda": "Carrossel: de 2 a 10 imagens, na ordem em que aparecem aqui. Sempre .jpg."
+    "id": "meta",
+    "arquivos": [
+      "meta-slide-1.jpg",
+      "meta-slide-2.jpg",
+      "meta-slide-3.jpg",
+      "meta-slide-4.jpg",
+      "meta-slide-5.jpg",
+      "meta-slide-6.jpg",
+      "meta-slide-7.jpg",
+      "meta-slide-8.jpg",
+      "meta-slide-9.jpg"
+    ],
+    "quando": "2026-09-25T09:00:00-03:00",
+    "legenda": "A Meta acabou de vender um funcionário para o seu concorrente por R$ 60 por mês.\n\nDia 15 saiu o Meta One, a assinatura de IA dentro do Instagram, do Facebook e do WhatsApp. O Meta AI continua grátis. O que virou pago é limite e recurso profissional.\n\nO detalhe que quase ninguém leu está no plano de empresa: vem junto o Meta Business Agent, um agente que responde o seu cliente no direct e no WhatsApp. Piso de R$ 60, teto de R$ 2.000 por mês.\n\nNa mesma semana o Muse subiu nos rankings. Ele compra, negocia preço e cancela assinatura no lugar do usuário, e a Meta já testa voz para ele ligar por você. Em breve quem negocia com a sua empresa não é o cliente, é o agente dele, com meta de preço e paciência infinita.\n\nE no anúncio o Andromeda virou GEM: o criativo passou a ser o principal sinal de segmentação, não a caixa de interesse que você marcava.\n\nA conclusão é desconfortável. A ferramenta ficou barata. O sistema não.\n\nRobô nenhum salva processo ruim. Automatizar operação confusa só deixa a confusão mais rápida, e agora ela fica rápida por R$ 60 na mão de qualquer concorrente seu.\n\nSalva para voltar aqui quando a cobrança aparecer na sua conta.\nSe você quer o agente ligado no SEU processo, e não no que a Meta vende pronto, chama no direct.\n\n#inteligenciaartificial #metaai #automacao #atendimento #donodenegocio #gestao"
+  },
+  {
+    "id": "banco",
+    "arquivos": [
+      "banco-slide-1.jpg",
+      "banco-slide-2.jpg",
+      "banco-slide-3.jpg",
+      "banco-slide-4.jpg",
+      "banco-slide-5.jpg",
+      "banco-slide-6.jpg",
+      "banco-slide-7.jpg"
+    ],
+    "quando": "2026-09-26T09:00:00-03:00",
+    "legenda": "Um banco demitiu 45 atendentes por causa de uma IA e teve que voltar atrás.\n\nO maior banco da Austrália anunciou o corte em julho de 2025. Em agosto reverteu: o volume de chamadas subiu em vez de cair, gestores entraram em hora extra e até líder de equipe voltou a atender telefone. O CEO admitiu que não consideraram todas as variáveis do negócio.\n\nRepara numa coisa: a IA não falhou. O robô fazia o que prometia.\n\nO erro foi decidir sobre 45 pessoas a partir de uma promessa, sem medir o atendimento real rodando.\n\nE você está prestes a fazer a mesma conta, em escala menor. Trocar uma pessoa por um fluxo antes de saber quanto do trabalho dela o fluxo realmente cobre.\n\nRoda em paralelo primeiro. Mede. Depois decide.\n\nComenta ENSAIO que eu te mando o protocolo que eu uso para testar automação sem mexer em ninguém.\nMarca quem está prestes a tomar essa decisão.\n\nFonte: ABC News e Bloomberg, agosto de 2025.\n\n#inteligenciaartificial #automacao #gestaodepessoas #donodenegocio #atendimento #gestao"
+  },
+  {
+    "id": "amazon",
+    "arquivos": [
+      "amazon-slide-1.jpg",
+      "amazon-slide-2.jpg",
+      "amazon-slide-3.jpg",
+      "amazon-slide-4.jpg",
+      "amazon-slide-5.jpg",
+      "amazon-slide-6.jpg",
+      "amazon-slide-7.jpg",
+      "amazon-slide-8.jpg"
+    ],
+    "quando": "2026-09-27T09:00:00-03:00",
+    "legenda": "A Amazon torrou 1,8 milhão de dólares numa única tarefa de IA. Levou 5 meses para alguém perceber.\n\nForam três estouros na mesma casa: cruzamento de dados, 1,8 milhão. Auditoria financeira, 541 mil. Análise de entrega, 134 mil. Somando, 2,47 milhões.\n\nA causa não foi técnica. A empresa mantinha um ranking de quantos tokens cada desenvolvedor consumia e uma meta de 80% dos devs usando IA toda semana.\n\nAdivinha o que aconteceu. Gente passou a mandar agente executar tarefa inútil para subir no ranking. Apelidaram de tokenmaxxing. A Amazon matou o ranking, e um vice-presidente precisou avisar a empresa inteira: não usem IA só para usar IA.\n\nEles mediram uso em vez de resultado, e o time entregou exatamente o que foi medido.\n\nAgora traduz para a sua escala. A assinatura que ninguém cancelou depois do teste. O agente que roda desde março sem ninguém olhar o custo. Soma doze meses e está aí o seu 1,8 milhão, na sua proporção.\n\nO antídoto cabe em quinze minutos por semana: teto por projeto definido antes, alarme em 50, 80 e 100 por cento, e revisão semanal com um nome responsável.\n\nComenta ECONOMIA que eu te mando esse controle pronto.\nMarca quem paga a conta de IA da sua empresa.\n\n#inteligenciaartificial #custodeia #automacao #gestaofinanceira #donodenegocio #gestao"
+  },
+  {
+    "id": "mit",
+    "arquivos": [
+      "mit-slide-1.jpg",
+      "mit-slide-2.jpg",
+      "mit-slide-3.jpg",
+      "mit-slide-4.jpg",
+      "mit-slide-5.jpg",
+      "mit-slide-6.jpg",
+      "mit-slide-7.jpg",
+      "mit-slide-8.jpg",
+      "mit-slide-9.jpg"
+    ],
+    "quando": "2026-09-28T09:00:00-03:00",
+    "legenda": "O MIT achou o culpado dos 95% de prejuízo com IA. E não é a IA.\n\nO estudo Project NANDA analisou mais de 300 iniciativas e ouviu 52 executivos: só 5% dos projetos geram valor financeiro medível. O Gartner, com 782 líderes de TI, chegou a um número mais generoso e ainda assim duro: 28% atingem o retorno esperado e 20% falham por completo.\n\nTodo mundo usa esse número como prova de que IA não funciona. Só que o estudo não mediu a IA. Mediu a empresa.\n\nOs 5% não têm IA melhor. Têm pergunta melhor, e ela é sempre a mesma: qual número eu quero mover, e quanto ele vale por mês. Quem não responde isso em uma frase já entrou nos 95% antes de ligar qualquer coisa.\n\nO que eles fazem que os outros não: definem o número antes, escolhem um processo só, medem contra a linha de base e dão dono e prazo.\n\nE aqui está o perigo do dado. Toda vez que alguém repete os 95%, um dono respira aliviado e empurra a decisão para o próximo trimestre. Enquanto isso, alguém do seu setor já está nos 5%.\n\nUm processo, um número, trinta dias. Esse é o tamanho do teste.\n\nComenta TESTE que eu te mando o roteiro que eu uso com cliente.\nMarca quem vai tocar isso aí na sua empresa.\n\nFontes: MIT Project NANDA e Gartner, 07.04.2026.\n\n#inteligenciaartificial #automacao #roi #donodenegocio #gestao #processos"
   }
 ]
