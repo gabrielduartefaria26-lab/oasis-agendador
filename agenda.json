@@ -74,5 +74,19 @@
     ],
     "quando": "2026-09-28T09:00:00-03:00",
     "legenda": "O MIT achou o culpado dos 95% de prejuízo com IA. E não é a IA.\n\nProject NANDA: mais de 300 iniciativas analisadas, 52 executivos ouvidos, só 5% dão retorno medível. O Gartner, com 782 líderes de TI, chegou a 28%.\n\nO estudo não mediu a IA. Mediu a empresa. Os 5% não têm IA melhor, têm pergunta melhor.\n\nComenta TESTE que eu te mando o roteiro que eu uso com cliente.\nMarca quem vai tocar isso aí.\n\n#inteligenciaartificial #automacao #roi #donodenegocio #gestao #processos"
+  },
+  {
+    "id": "pixel-openai",
+    "arquivos": [
+      "pixel-openai-slide-1.jpg",
+      "pixel-openai-slide-2.jpg",
+      "pixel-openai-slide-3.jpg",
+      "pixel-openai-slide-4.jpg",
+      "pixel-openai-slide-5.jpg",
+      "pixel-openai-slide-6.jpg",
+      "pixel-openai-slide-7.jpg"
+    ],
+    "quando": "2026-09-29T09:00:00-03:00",
+    "legenda": "O ChatGPT agora tem pixel, e ele lê o formulário do site onde está instalado.\n\nInvestigação publicada dia 20: em 936 pixels de anunciante, o código raspou 685 identidades das próprias páginas contra 255 entregues de propósito. O CEP sai em texto puro.\n\nA big tech leva o dado. A conta de explicar de onde ele saiu chega na sua mesa.\n\nComenta SIM ou NÃO: você sabe listar hoje todo pixel do seu site?\nSalva para fazer a varredura na segunda. Marca quem mexe no seu site.\n\n#inteligenciaartificial #chatgpt #openai #lgpd #donodenegocio #marketingdigital #privacidade #trafegopago"
   }
 ]
