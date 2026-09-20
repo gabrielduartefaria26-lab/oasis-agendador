@@ -1,0 +1,8 @@
+[
+  {
+    "id": "exemplo-apague-esta-linha",
+    "arquivo": "exemplo.mp4",
+    "quando": "2026-09-25T09:00:00-03:00",
+    "legenda": "Troque este item pelos Reels de verdade. O id precisa ser unico, o arquivo tem que existir no Release, e a hora esta no fuso de Brasilia."
+  }
+]

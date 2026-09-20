@@ -1,0 +1,43 @@
+name: publicar oasis
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      ensaio:
+        description: "Ensaio: monta o container e nao publica"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-oasis
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: publicar o que venceu
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          VIDEOS_BASE_URL: ${{ secrets.VIDEOS_BASE_URL }}
+          ENSAIO: ${{ inputs.ensaio && '1' || '0' }}
+        run: python3 publicar.py
+
+      - name: guardar o estado
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain estado.json)" ]; then
+            git config user.name "agendador"
+            git config user.email "agendador@users.noreply.github.com"
+            git add estado.json
+            git commit -m "estado: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
