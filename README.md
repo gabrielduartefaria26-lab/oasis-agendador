@@ -108,6 +108,19 @@ python3 agendar-post.py ~/oasis-system/posts/carrosseis/carrossel-x \
 Ele converte os PNG em JPG, sobe no Release, insere na agenda na ordem certa e commita.
 Use `--ensaio` para ver o que ele faria sem escrever nada.
 
+**Quando não passar `--quando`, ele empilha no fim da fila**, um dia depois do último post
+agendado. É o modo normal: produzir em lote com antecedência e deixar a fila correr na
+frente da publicação.
+
+```bash
+python3 agendar-post.py <pasta> --prefixo x              # entra no fim da fila
+python3 agendar-post.py <pasta> --prefixo x --urgente    # entra amanhã e empurra o resto
+python3 agendar-post.py --fila                           # mostra o que está programado
+```
+
+**`--urgente` é para assunto quente**, o que perde valor se esperar. Ele entra no slot de
+amanhã e empurra um dia cada post ainda não publicado. Nada se perde, tudo anda.
+
 **Antes de subir, ele trava a entrega se:** a legenda reprovar no `checar-legenda.py` da
 skill de carrossel, passar dos 2.200 caracteres do Instagram, começar com cabeçalho
 interno, tiver travessão, o carrossel sair da faixa de 2 a 10 slides, ou o id já existir

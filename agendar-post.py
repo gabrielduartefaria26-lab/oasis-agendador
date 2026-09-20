@@ -16,11 +16,14 @@ Regras que ele checa antes de deixar passar, porque cada uma ja deu problema:
   - travessao na legenda
 """
 import argparse, json, pathlib, re, subprocess, sys
+from datetime import datetime, timedelta
 
 REPO = "gabrielduartefaria26-lab/oasis-agendador"
 TAG = "videos-v1"
 RAIZ = pathlib.Path(__file__).resolve().parent
 LIMITE_LEGENDA = 2200
+HORA_DO_POST = 9          # um carrossel por dia, sempre no mesmo horario
+FUSO = "-03:00"
 
 
 def rodar(cmd, **kw):
@@ -38,6 +41,50 @@ def gh():
 
 
 CHECADOR = pathlib.Path.home() / ".claude/skills/carrossel-viral/scripts/checar-legenda.py"
+
+
+def quando_de(item):
+    return datetime.fromisoformat(item["quando"])
+
+
+def slot(dia):
+    return f"{dia.strftime('%Y-%m-%d')}T{HORA_DO_POST:02d}:00:00{FUSO}"
+
+
+def proximo_livre(agenda):
+    """Empilha no fim da fila. A producao corre na frente da publicacao de proposito."""
+    hoje = datetime.now().date()
+    if not agenda:
+        return slot(hoje + timedelta(days=1))
+    ultimo = max(quando_de(i).date() for i in agenda)
+    return slot(max(ultimo, hoje) + timedelta(days=1))
+
+
+def furar_fila(agenda):
+    """Assunto quente nao espera a fila. Entra no primeiro slot e empurra o resto um dia.
+
+    So empurra o que ainda nao foi publicado; o que ja saiu fica onde esta.
+    """
+    alvo = (datetime.now() + timedelta(days=1)).date()
+    ocupados = {quando_de(i).date() for i in agenda}
+    if alvo in ocupados:
+        for i in agenda:
+            if quando_de(i).date() >= alvo:
+                i["quando"] = slot(quando_de(i).date() + timedelta(days=1))
+    return slot(alvo)
+
+
+def mostrar_fila(agenda, estado):
+    if not agenda:
+        print("fila vazia")
+        return
+    hoje = datetime.now().date()
+    for i in sorted(agenda, key=lambda x: x["quando"]):
+        st = estado.get(i["id"], {}).get("status")
+        dia = quando_de(i).date()
+        marca = "publicado" if st == "publicado" else ("erro" if st == "erro" else
+                ("hoje" if dia == hoje else f"em {(dia - hoje).days}d"))
+        print(f"{i['quando'][:10]}  {i['id']:<14} {len(i['arquivos']):>2} slides  {marca}")
 
 
 def conferir(legenda, slides, prefixo, agenda, arquivo_legenda):
@@ -66,11 +113,22 @@ def conferir(legenda, slides, prefixo, agenda, arquivo_legenda):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("pasta", help="pasta do post, a que tem slides/ e legenda.txt")
-    p.add_argument("--prefixo", required=True, help="id do post e prefixo dos arquivos")
-    p.add_argument("--quando", required=True, help="2026-09-24T09:00:00-03:00")
+    p.add_argument("pasta", nargs="?", help="pasta do post, a que tem slides/ e legenda.txt")
+    p.add_argument("--prefixo", help="id do post e prefixo dos arquivos")
+    p.add_argument("--quando", help="data explicita, 2026-09-24T09:00:00-03:00")
+    p.add_argument("--urgente", action="store_true",
+                   help="assunto quente: entra amanha e empurra a fila um dia")
+    p.add_argument("--fila", action="store_true", help="mostra a fila e sai")
     p.add_argument("--ensaio", action="store_true", help="mostra o que faria e para")
     a = p.parse_args()
+
+    agenda_arq = RAIZ / "agenda.json"
+    if a.fila:
+        estado = json.loads((RAIZ / "estado.json").read_text() or "{}")
+        mostrar_fila(json.loads(agenda_arq.read_text()), estado)
+        return 0
+    if not a.pasta or not a.prefixo:
+        sys.exit("faltou a pasta do post ou o --prefixo (use --fila para so ver a fila)")
 
     pasta = pathlib.Path(a.pasta).expanduser()
     slides = sorted((pasta / "slides").glob("slide-*.png"),
@@ -81,7 +139,13 @@ def main():
     if not legenda_arq.exists():
         sys.exit(f"falta {legenda_arq}")
     legenda = legenda_arq.read_text().strip()
-    agenda = json.loads((RAIZ / "agenda.json").read_text())
+    agenda = json.loads(agenda_arq.read_text())
+    if a.quando:
+        quando = a.quando
+    elif a.urgente:
+        quando = furar_fila(agenda)
+    else:
+        quando = proximo_livre(agenda)
 
     problemas = conferir(legenda, slides, a.prefixo, agenda, legenda_arq)
     print(f"{len(slides)} slides · legenda com {len(legenda)} caracteres")
@@ -104,7 +168,7 @@ def main():
         jpgs.append(j)
 
     item = {"id": a.prefixo, "arquivos": [j.name for j in jpgs],
-            "quando": a.quando, "legenda": legenda}
+            "quando": quando, "legenda": legenda}
 
     if a.ensaio:
         print("\nensaio: nada foi escrito. Item que entraria:")
@@ -117,13 +181,15 @@ def main():
 
     agenda.append(item)
     agenda.sort(key=lambda i: i["quando"])
-    (RAIZ / "agenda.json").write_text(json.dumps(agenda, ensure_ascii=False, indent=2) + "\n")
+    agenda_arq.write_text(json.dumps(agenda, ensure_ascii=False, indent=2) + "\n")
+    if a.urgente:
+        print("fila empurrada um dia para abrir espaco")
     rodar(["git", "add", "agenda.json"], cwd=RAIZ)
     rodar(["git", "-c", "user.name=Gabriel D. Faria",
            "-c", "user.email=gabrieldfaria777@gmail.com",
-           "commit", "-m", f"agenda: {a.prefixo} em {a.quando[:10]}"], cwd=RAIZ)
+           "commit", "-m", f"agenda: {a.prefixo} em {quando[:10]}"], cwd=RAIZ)
     rodar(["git", "push", "origin", "main"], cwd=RAIZ)
-    print(f"agendado: {a.prefixo} para {a.quando[:16].replace('T', ' as ')}")
+    print(f"agendado: {a.prefixo} para {quando[:16].replace('T', ' as ')}")
     return 0
 
 
