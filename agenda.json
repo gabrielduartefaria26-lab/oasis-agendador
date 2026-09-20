@@ -1,8 +1,14 @@
 [
   {
-    "id": "exemplo-apague-esta-linha",
+    "id": "exemplo-reel-apague",
     "arquivo": "exemplo.mp4",
     "quando": "2026-09-25T09:00:00-03:00",
-    "legenda": "Troque este item pelos Reels de verdade. O id precisa ser unico, o arquivo tem que existir no Release, e a hora esta no fuso de Brasilia."
+    "legenda": "Reel. O id precisa ser unico, o arquivo tem que existir no Release, e a hora esta no fuso de Brasilia."
+  },
+  {
+    "id": "exemplo-carrossel-apague",
+    "arquivos": ["exemplo-1.jpg", "exemplo-2.jpg", "exemplo-3.jpg"],
+    "quando": "2026-09-25T18:30:00-03:00",
+    "legenda": "Carrossel: de 2 a 10 imagens, na ordem em que aparecem aqui. Sempre .jpg."
   }
 ]
