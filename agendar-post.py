@@ -24,6 +24,7 @@ RAIZ = pathlib.Path(__file__).resolve().parent
 LIMITE_LEGENDA = 2200
 HORA_DO_POST = 9          # um carrossel por dia, sempre no mesmo horario
 FUSO = "-03:00"
+TETO_DIAS = 28            # nao se programa alem de 4 semanas; o que passa vai para a geladeira
 
 
 def rodar(cmd, **kw):
@@ -74,11 +75,41 @@ def furar_fila(agenda):
     return slot(alvo)
 
 
+def avisar(titulo, texto):
+    """Notificacao do macOS. Barato e ele pediu para ser avisado por todo canal."""
+    try:
+        subprocess.run(["osascript", "-e",
+                        f'display notification "{texto}" with title "{titulo}" sound name "Glass"'],
+                       capture_output=True, timeout=10)
+    except Exception:
+        pass
+
+
+def aplicar_teto(agenda):
+    """Corta o que passa de 28 dias e devolve o que saiu.
+
+    Nada e perdido: o que sai da fila vai para geladeira.json e pode voltar depois.
+    """
+    limite = datetime.now().date() + timedelta(days=TETO_DIAS)
+    dentro = [i for i in agenda if quando_de(i).date() <= limite]
+    fora = [i for i in agenda if quando_de(i).date() > limite]
+    if fora:
+        g = RAIZ / "geladeira.json"
+        guardados = json.loads(g.read_text()) if g.exists() else []
+        ids = {x["id"] for x in guardados}
+        guardados += [x for x in fora if x["id"] not in ids]
+        g.write_text(json.dumps(guardados, ensure_ascii=False, indent=2) + "\n")
+    return dentro, fora
+
+
 def mostrar_fila(agenda, estado):
     if not agenda:
         print("fila vazia")
         return
     hoje = datetime.now().date()
+    ultimo = max(quando_de(i).date() for i in agenda)
+    print(f"{len(agenda)} posts · fila cheia ate {ultimo} "
+          f"({(ultimo - hoje).days} de {TETO_DIAS} dias)\n")
     for i in sorted(agenda, key=lambda x: x["quando"]):
         st = estado.get(i["id"], {}).get("status")
         dia = quando_de(i).date()
@@ -181,6 +212,9 @@ def main():
 
     agenda.append(item)
     agenda.sort(key=lambda i: i["quando"])
+    agenda, cortados = aplicar_teto(agenda)
+    for c in cortados:
+        print(f"passou de {TETO_DIAS} dias e foi para a geladeira: {c['id']} ({c['quando'][:10]})")
     agenda_arq.write_text(json.dumps(agenda, ensure_ascii=False, indent=2) + "\n")
     if a.urgente:
         print("fila empurrada um dia para abrir espaco")
@@ -189,7 +223,10 @@ def main():
            "-c", "user.email=gabrieldfaria777@gmail.com",
            "commit", "-m", f"agenda: {a.prefixo} em {quando[:10]}"], cwd=RAIZ)
     rodar(["git", "push", "origin", "main"], cwd=RAIZ)
-    print(f"agendado: {a.prefixo} para {quando[:16].replace('T', ' as ')}")
+    dia = quando[:16].replace("T", " as ")
+    print(f"agendado: {a.prefixo} para {dia}")
+    extra = f", {len(cortados)} foram para a geladeira" if cortados else ""
+    avisar("Carrossel na fila", f"{a.prefixo} sai em {dia}{extra}")
     return 0
 
 
