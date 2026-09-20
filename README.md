@@ -21,6 +21,7 @@ sai no ciclo seguinte.
 | `agenda.json` | Os itens: arquivo, data e hora, legenda |
 | `videos/` | Os MP4 e JPG. Não vão para o Git, vão para o Release |
 | `publicar.py` | Conversa com a API do Instagram |
+| `montar-carrossel.py` | Monta o item do carrossel com os slides na ordem certa |
 | `estado.json` | O que já foi publicado, com o id de cada post |
 
 ## Os três formatos
@@ -37,6 +38,18 @@ O formato sai do próprio item, sem campo de configuração:
 
 `arquivos` é carrossel, de 2 a 10 imagens, na ordem escrita. `arquivo` sozinho é Reel
 quando for `.mp4` e imagem quando for `.jpg`.
+
+A ordem do carrossel é a ordem literal da lista: o primeiro nome é a capa. Para não
+depender de digitação, monte a lista a partir da pasta dos slides:
+
+```bash
+python3 montar-carrossel.py ~/oasis-system/posts/1-manifesto/out \
+    --quando "2026-09-25T09:00:00-03:00" --id manifesto-01
+```
+
+Ele ordena pelo número do nome, não por ordem alfabética, imprime a sequência para você
+conferir e devolve o item pronto para colar na agenda. Ordenação alfabética colocaria o
+`slide-10` logo depois do `slide-1`.
 
 **A API só aceita JPEG.** Os slides saem do render em PNG, então converta antes de subir:
 
