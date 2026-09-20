@@ -96,6 +96,26 @@ administrar.
 Nos dois casos a conta do Instagram precisa estar vinculada a uma **Página do Facebook**.
 Sem Página, a API de publicação não existe para ela.
 
+## Colocar um post novo na fila
+
+Um comando, da pasta do post até a fila:
+
+```bash
+python3 agendar-post.py ~/oasis-system/posts/carrosseis/carrossel-x \
+    --prefixo brasil-eua --quando "2026-09-24T09:00:00-03:00"
+```
+
+Ele converte os PNG em JPG, sobe no Release, insere na agenda na ordem certa e commita.
+Use `--ensaio` para ver o que ele faria sem escrever nada.
+
+**Antes de subir, ele trava a entrega se:** a legenda reprovar no `checar-legenda.py` da
+skill de carrossel, passar dos 2.200 caracteres do Instagram, começar com cabeçalho
+interno, tiver travessão, o carrossel sair da faixa de 2 a 10 slides, ou o id já existir
+na agenda.
+
+**Se você editar uma legenda no disco depois de agendar**, a agenda fica com a versão
+velha, porque ela guarda uma cópia do texto. Nesse caso é preciso ressincronizar.
+
 ## Subir os vídeos
 
 ```bash
