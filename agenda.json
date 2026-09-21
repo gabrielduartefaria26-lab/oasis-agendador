@@ -88,5 +88,20 @@
     ],
     "quando": "2026-09-29T09:00:00-03:00",
     "legenda": "O ChatGPT agora tem pixel, e ele lê o formulário do site onde está instalado.\n\nInvestigação publicada dia 20: em 936 pixels de anunciante, o código raspou 685 identidades das próprias páginas contra 255 entregues de propósito. O CEP sai em texto puro.\n\nA big tech leva o dado. A conta de explicar de onde ele saiu chega na sua mesa.\n\nEscrevi a varredura em duas páginas: como achar todo pixel do seu site em vinte minutos, sem programador, e o que fazer com o que aparecer.\n\nComenta PIXEL que eu te mando.\nSalva para fazer na segunda. Marca quem mexe no seu site.\n\n#inteligenciaartificial #chatgpt #openai #lgpd #donodenegocio #marketingdigital #privacidade #trafegopago"
+  },
+  {
+    "id": "repos-01",
+    "arquivos": [
+      "repos-01-slide-1.jpg",
+      "repos-01-slide-2.jpg",
+      "repos-01-slide-3.jpg",
+      "repos-01-slide-4.jpg",
+      "repos-01-slide-5.jpg",
+      "repos-01-slide-6.jpg",
+      "repos-01-slide-7.jpg",
+      "repos-01-slide-8.jpg"
+    ],
+    "quando": "2026-09-30T09:00:00-03:00",
+    "legenda": "5 repositórios grátis que eu separei esta semana.\n\nO filtro: ativos nos últimos 7 dias, fora do óbvio que todo perfil já postou, e em cada um eu digo quem mantém e onde é arriscado depender.\n\nPorque isso muda o que você faz com eles. Um tem 4 mil estrelas e um único mantenedor. Outro é AGPL, e se você usar dentro de um serviço pago é obrigado a abrir o seu código. Ninguém conta essa parte.\n\nComenta GARIMPO que eu te mando os cinco links, o comando de instalação e a ordem que eu seguiria.\nSalva para instalar com calma depois.\n\n#inteligenciaartificial #github #automacao #ferramentas #donodenegocio #opensource"
   }
 ]
