@@ -25,22 +25,6 @@
     "gancho": "POV: Meus vizinhos me vendo de bermuda e chinelo numa terça-feira às 14:00 tentando entender qual é minha profissão"
   },
   {
-    "id": "obsidian-cerebro",
-    "arquivos": [
-      "obsidian-cerebro-slide-1.jpg",
-      "obsidian-cerebro-slide-2.jpg",
-      "obsidian-cerebro-slide-3.jpg",
-      "obsidian-cerebro-slide-4.jpg",
-      "obsidian-cerebro-slide-5.jpg",
-      "obsidian-cerebro-slide-6.jpg",
-      "obsidian-cerebro-slide-7.jpg"
-    ],
-    "quando": "2026-09-22T21:00:00-03:00",
-    "legenda": "O chat esquece tudo a cada conversa. O problema não é a IA.\n\nÉ que ela não tem onde guardar o que já sabe.\n\nUm segundo cérebro no Obsidian resolve isso: os projetos, as regras e o contexto ficam num lugar só, e a IA vai buscar lá em vez de perguntar de novo.\n\nNas telas tem o passo a passo, do download até o prompt que monta a estrutura.\n\nComenta CEREBRO que eu te mando o prompt completo.\nSalva para montar o seu com calma.\n\n#inteligenciaartificial #obsidian #claude #produtividade #organizacao #donodenegocio",
-    "formato": "tutorial",
-    "gancho": "URGENTE: se você usa Claude ou Codex, você precisa de um segundo cérebro no Obsidian"
-  },
-  {
     "id": "repos-02",
     "arquivos": [
       "repos-02-slide-1.jpg",
