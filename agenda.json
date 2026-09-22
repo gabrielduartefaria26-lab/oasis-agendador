@@ -150,6 +150,24 @@
     "gancho": "Usa isso pra gerar isso (/tinyplanet)"
   },
   {
+    "id": "mit",
+    "arquivos": [
+      "mit-slide-1.jpg",
+      "mit-slide-2.jpg",
+      "mit-slide-3.jpg",
+      "mit-slide-4.jpg",
+      "mit-slide-5.jpg",
+      "mit-slide-6.jpg",
+      "mit-slide-7.jpg",
+      "mit-slide-8.jpg",
+      "mit-slide-9.jpg"
+    ],
+    "quando": "2026-09-28T09:00:00-03:00",
+    "legenda": "O MIT achou o culpado dos 95% de prejuízo com IA. E não é a IA.\n\nProject NANDA: mais de 300 iniciativas analisadas, 52 executivos ouvidos, só 5% dão retorno medível. O Gartner, com 782 líderes de TI, chegou a 28%.\n\nO estudo não mediu a IA. Mediu a empresa. Os 5% não têm IA melhor, têm pergunta melhor.\n\nComenta TESTE que eu te mando o roteiro que eu uso com cliente.\nMarca quem vai tocar isso aí.\n\n#inteligenciaartificial #automacao #roi #donodenegocio #gestao #processos",
+    "formato": "case",
+    "gancho": "O MIT achou o culpado dos 95% de prejuízo com IA"
+  },
+  {
     "id": "meme-produtividade",
     "arquivo": "meme-produtividade.mp4",
     "quando": "2026-09-28T19:00:00-03:00",
