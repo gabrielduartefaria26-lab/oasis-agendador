@@ -67,6 +67,14 @@
     "gancho": "O seu concorrente já está nos 52%"
   },
   {
+    "id": "meme-claude-max",
+    "arquivo": "meme-claude-max.mp4",
+    "quando": "2026-09-24T19:00:00-03:00",
+    "legenda": "Sócio pede metade. O Claude pede a assinatura. 🤣\n\nSiga @system.oasis para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
+    "formato": "meme",
+    "gancho": "POV: Eu tentando explicar para empresários 40+ porque é melhor contratar o Claude Max do que ter sócio"
+  },
+  {
     "id": "meta",
     "arquivos": [
       "meta-slide-1.jpg",
