@@ -124,6 +124,24 @@
     "gancho": "02:30 da madrugada, eu revolucionando o mundo com meu humilde trabalho"
   },
   {
+    "id": "meta",
+    "arquivos": [
+      "meta-slide-1.jpg",
+      "meta-slide-2.jpg",
+      "meta-slide-3.jpg",
+      "meta-slide-4.jpg",
+      "meta-slide-5.jpg",
+      "meta-slide-6.jpg",
+      "meta-slide-7.jpg",
+      "meta-slide-8.jpg",
+      "meta-slide-9.jpg"
+    ],
+    "quando": "2026-09-27T09:00:00-03:00",
+    "legenda": "A Meta acabou de vender um funcionário para o seu concorrente por R$ 60 por mês.\n\nDia 15 saiu o Meta One. Dentro do plano de empresa vem o Business Agent, que responde o seu cliente no direct e no WhatsApp. Piso R$ 60, teto R$ 2.000.\n\nA ferramenta ficou barata. O sistema não. Robô nenhum salva processo ruim.\n\nComenta ROBO que eu te mando o checklist: 5 perguntas antes de deixar um robô responder o seu cliente.\nSalva para voltar quando a cobrança aparecer na sua conta.\nMarca quem responde o WhatsApp da sua empresa.\n\n#inteligenciaartificial #metaai #automacao #atendimento #donodenegocio #gestao",
+    "formato": "case",
+    "gancho": "A Meta começou a vender atendente por R$ 60"
+  },
+  {
     "id": "desc-tiny-planet",
     "arquivo": "desc-tiny-planet.mp4",
     "quando": "2026-09-27T19:00:00-03:00",
