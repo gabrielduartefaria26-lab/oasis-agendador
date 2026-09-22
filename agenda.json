@@ -176,6 +176,23 @@
     "gancho": "Se você nunca trabalhou assim, não quero sua dica de produtividade"
   },
   {
+    "id": "repos-01",
+    "arquivos": [
+      "repos-01-slide-1.jpg",
+      "repos-01-slide-2.jpg",
+      "repos-01-slide-3.jpg",
+      "repos-01-slide-4.jpg",
+      "repos-01-slide-5.jpg",
+      "repos-01-slide-6.jpg",
+      "repos-01-slide-7.jpg",
+      "repos-01-slide-8.jpg"
+    ],
+    "quando": "2026-09-29T09:00:00-03:00",
+    "legenda": "5 ferramentas grátis para descobrir o que o seu concorrente está fazendo.\n\nUma levanta a nota e as avaliações de cada concorrente da sua cidade no Google Maps. Outra desmonta os anúncios que ele tem no ar agora.\n\nEm cada card eu digo onde ela te deixa na mão: uma só roda com a chave da empresa que fez, outra nem arquivo de licença tem.\n\nComenta GARIMPO que eu te mando os cinco links, como instalar cada um e a ordem para testar.\nSalva para antes da próxima campanha.\n\n#inteligenciaartificial #concorrencia #pesquisademercado #github #opensource #donodenegocio",
+    "formato": "ferramenta",
+    "gancho": "5 ferramentas grátis para descobrir o que o seu concorrente está fazendo"
+  },
+  {
     "id": "desc-ferramentas",
     "arquivo": "desc-ferramentas.mp4",
     "quando": "2026-09-29T19:00:00-03:00",
