@@ -17,6 +17,14 @@
     "gancho": "4 skills que fazem o seu texto parar de parecer IA"
   },
   {
+    "id": "meme-vizinhos",
+    "arquivo": "meme-vizinhos.mp4",
+    "quando": "2026-09-22T19:00:00-03:00",
+    "legenda": "Terça, 14h, de chinelo. E a empresa rodando. 🤣\n\nSiga @system.oasis para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
+    "formato": "meme",
+    "gancho": "POV: Meus vizinhos me vendo de bermuda e chinelo numa terça-feira às 14:00 tentando entender qual é minha profissão"
+  },
+  {
     "id": "repos-02",
     "arquivos": [
       "repos-02-slide-1.jpg",
