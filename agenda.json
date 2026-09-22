@@ -1,5 +1,39 @@
 [
   {
+    "id": "texto-ia",
+    "arquivos": [
+      "texto-ia-slide-1.jpg",
+      "texto-ia-slide-2.jpg",
+      "texto-ia-slide-3.jpg",
+      "texto-ia-slide-4.jpg",
+      "texto-ia-slide-5.jpg",
+      "texto-ia-slide-6.jpg",
+      "texto-ia-slide-7.jpg",
+      "texto-ia-slide-8.jpg"
+    ],
+    "quando": "2026-09-22T09:00:00-03:00",
+    "legenda": "4 skills que fazem o seu texto parar de parecer IA.\n\nPesquisa com 668 leitores: 78% param de ler quando percebem que foi a máquina, e 71% passam a evitar quem escreveu.\n\nO cliente não sabe nomear, mas sente. O travessão no meio da frase, o trio de adjetivos, o \"não é só isso, é aquilo\". Essas quatro caçam exatamente o que te entrega.\n\nComenta HUMANO que eu te mando as quatro e a lista dos sinais em português.\nSalva para passar a próxima proposta por ela.\n\n#inteligenciaartificial #copywriting #claudecode #produtividade #donodenegocio #escrita",
+    "formato": "ferramenta",
+    "gancho": "4 skills que fazem o seu texto parar de parecer IA"
+  },
+  {
+    "id": "repos-02",
+    "arquivos": [
+      "repos-02-slide-1.jpg",
+      "repos-02-slide-2.jpg",
+      "repos-02-slide-3.jpg",
+      "repos-02-slide-4.jpg",
+      "repos-02-slide-5.jpg",
+      "repos-02-slide-6.jpg",
+      "repos-02-slide-7.jpg",
+      "repos-02-slide-8.jpg"
+    ],
+    "quando": "2026-09-23T09:00:00-03:00",
+    "legenda": "5 repositórios grátis. E o que cada um não te conta.\n\nUm deles, com 6 mil estrelas no GitHub, exige autorização escrita do autor para qualquer uso comercial. Está na primeira linha da licença.\n\nFerramenta grátis sem ler a licença sai cara depois. Em cada card eu digo quem mantém e onde é arriscado depender.\n\nQual você instalaria primeiro? Comenta o número.\nSalva para instalar com calma. Marca quem vive perdido procurando ferramenta.\n\n#inteligenciaartificial #github #opensource #automacao #ferramentas #donodenegocio",
+    "formato": "ferramenta",
+    "gancho": "5 repositórios grátis. E o que cada um não te conta"
+  },
+  {
     "id": "brasil-eua",
     "arquivos": [
       "brasil-eua-slide-1.jpg",
@@ -117,39 +151,5 @@
     "legenda": "5 repositórios grátis que eu separei esta semana.\n\nO filtro: ativos nos últimos 7 dias, fora do óbvio que todo perfil já postou, e em cada um eu digo quem mantém e onde é arriscado depender.\n\nPorque isso muda o que você faz com eles. Um tem 4 mil estrelas e um único mantenedor. Outro é AGPL, e se você usar dentro de um serviço pago é obrigado a abrir o seu código. Ninguém conta essa parte.\n\nComenta GARIMPO que eu te mando os cinco links, o comando de instalação e a ordem que eu seguiria.\nSalva para instalar com calma depois.\n\n#inteligenciaartificial #github #automacao #ferramentas #donodenegocio #opensource",
     "formato": "ferramenta",
     "gancho": "5 repositórios grátis que eu separei esta semana"
-  },
-  {
-    "id": "texto-ia",
-    "arquivos": [
-      "texto-ia-slide-1.jpg",
-      "texto-ia-slide-2.jpg",
-      "texto-ia-slide-3.jpg",
-      "texto-ia-slide-4.jpg",
-      "texto-ia-slide-5.jpg",
-      "texto-ia-slide-6.jpg",
-      "texto-ia-slide-7.jpg",
-      "texto-ia-slide-8.jpg"
-    ],
-    "quando": "2026-10-01T09:00:00-03:00",
-    "legenda": "4 skills que fazem o seu texto parar de parecer IA.\n\nPesquisa com 668 leitores: 78% param de ler quando percebem que foi a máquina, e 71% passam a evitar quem escreveu.\n\nO cliente não sabe nomear, mas sente. O travessão no meio da frase, o trio de adjetivos, o \"não é só isso, é aquilo\". Essas quatro caçam exatamente o que te entrega.\n\nComenta HUMANO que eu te mando as quatro e a lista dos sinais em português.\nSalva para passar a próxima proposta por ela.\n\n#inteligenciaartificial #copywriting #claudecode #produtividade #donodenegocio #escrita",
-    "formato": "ferramenta",
-    "gancho": "4 skills que fazem o seu texto parar de parecer IA"
-  },
-  {
-    "id": "repos-02",
-    "arquivos": [
-      "repos-02-slide-1.jpg",
-      "repos-02-slide-2.jpg",
-      "repos-02-slide-3.jpg",
-      "repos-02-slide-4.jpg",
-      "repos-02-slide-5.jpg",
-      "repos-02-slide-6.jpg",
-      "repos-02-slide-7.jpg",
-      "repos-02-slide-8.jpg"
-    ],
-    "quando": "2026-10-02T09:00:00-03:00",
-    "legenda": "5 repositórios grátis. E o que cada um não te conta.\n\nUm deles, com 6 mil estrelas no GitHub, exige autorização escrita do autor para qualquer uso comercial. Está na primeira linha da licença.\n\nFerramenta grátis sem ler a licença sai cara depois. Em cada card eu digo quem mantém e onde é arriscado depender.\n\nQual você instalaria primeiro? Comenta o número.\nSalva para instalar com calma. Marca quem vive perdido procurando ferramenta.\n\n#inteligenciaartificial #github #opensource #automacao #ferramentas #donodenegocio",
-    "formato": "ferramenta",
-    "gancho": "5 repositórios grátis. E o que cada um não te conta"
   }
 ]
