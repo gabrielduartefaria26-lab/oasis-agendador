@@ -3,9 +3,12 @@
 Roda uma vez por dia pelo GitHub Actions. Pega TODOS os posts da conta, inclusive os
 publicados a mao pelo app (meme, tutorial), e nao so os que sairam pelo agendador.
 
-O que cada post e (formato, fonte, palavra do CTA, versao do teste) vem da agenda:
-post que saiu pelo agendador ja nasce classificado; post manual entra como "manual" e o
-Gabriel marca o formato na propria planilha.
+O que cada post e (formato, gancho, fonte, versao do teste) vem da agenda: post que saiu
+pelo agendador ja nasce classificado. Post publicado a mao pelo app se classifica em
+classificacao.json, pelo media_id.
+
+Gancho e o texto de abertura na tela (headline do carrossel, hook do video), nao a
+legenda.
 
 Precisa da permissao instagram_manage_insights no token. Sem ela a lista de posts sai,
 mas as colunas de alcance, salvamento e compartilhamento ficam vazias.
@@ -86,10 +89,16 @@ def catalogo():
         item = agenda.get(pid, {})
         saida[e["media_id"]] = {
             "formato": item.get("formato") or ("ferramenta" if pid.startswith("repos") else "case"),
+            "gancho": item.get("gancho", ""),
             "fonte": "agendador",
             "cta": item.get("cta", ""),
             "versao": item.get("versao", ""),
         }
+    try:
+        for mid, c in json.load(open("classificacao.json")).items():
+            saida.setdefault(mid, {"fonte": "app", "cta": "", "versao": "", **c})
+    except FileNotFoundError:
+        pass
     return saida
 
 
@@ -102,7 +111,7 @@ def main():
         if ins is None:
             sem_permissao = True
             ins = {}
-        c = cat.get(p["id"], {"formato": "manual", "fonte": "app", "cta": "", "versao": ""})
+        c = cat.get(p["id"], {"formato": "manual", "gancho": "", "fonte": "app", "cta": "", "versao": ""})
         alcance = ins.get("reach") or 0
         salvos = ins.get("saved") or 0
         linhas.append({
@@ -116,7 +125,6 @@ def main():
             "salvamentos": ins.get("saved", ""), "compartilhamentos": ins.get("shares", ""),
             "interacoes": ins.get("total_interactions", ""),
             "taxa_salvamento": f"{salvos / alcance:.3f}" if alcance else "",
-            "gancho": ((p.get("caption") or "").split("\n")[0])[:120],
             "link": p.get("permalink", ""), "media_id": p["id"], "atualizado": agora,
         })
 

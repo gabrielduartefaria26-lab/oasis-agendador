@@ -4,6 +4,11 @@
     python3 agendar-post.py ~/oasis-system/posts/carrosseis/carrossel-x \
         --prefixo brasil-eua --quando "2026-09-24T09:00:00-03:00"
 
+Video (meme, tutorial, descoberta) usa --video, legenda num .txt e data explicita:
+
+    python3 agendar-post.py --video corte.mp4 --legenda-arq legenda.txt --prefixo meme-x \
+        --formato meme --gancho "texto da tela" --quando "2026-09-22T19:00:00-03:00"
+
 Faz o caminho inteiro: converte os PNG em JPG (a API do Instagram recusa PNG),
 sobe no Release, insere na agenda na ordem certa e commita. Com --ensaio nao
 escreve nada, so mostra o que faria.
@@ -14,6 +19,7 @@ Regras que ele checa antes de deixar passar, porque cada uma ja deu problema:
   - carrossel fora da faixa de 2 a 10 slides
   - id repetido na agenda
   - travessao na legenda
+  - CTA "Comenta PALAVRA" sem nada na pasta Isca Digital (promessa sem entrega)
 """
 import argparse, json, pathlib, re, subprocess, sys
 from datetime import datetime, timedelta
@@ -23,6 +29,7 @@ TAG = "videos-v1"
 RAIZ = pathlib.Path(__file__).resolve().parent
 LIMITE_LEGENDA = 2200
 HORA_DO_POST = 9          # um carrossel por dia, sempre no mesmo horario
+HORA_DO_VIDEO = 19        # o video do dia sai a noite
 FUSO = "-03:00"
 TETO_DIAS = 28            # nao se programa alem de 4 semanas; o que passa vai para a geladeira
 
@@ -48,6 +55,19 @@ def quando_de(item):
     return datetime.fromisoformat(item["quando"])
 
 
+def carrosseis(agenda):
+    # a fila de dias e contada pelos carrosseis; o video do dia entra por fora, com data
+    return [i for i in agenda if i.get("arquivos")]
+
+
+def isca_vazia(legenda, pasta):
+    """CTA com palavra em caixa alta pede material pronto na pasta Isca Digital."""
+    if not re.search(r"\bComenta [A-ZÇÃÕÉ]{3,}\b", legenda):
+        return False
+    isca = pasta / "Isca Digital"
+    return not isca.is_dir() or not any(f for f in isca.iterdir() if not f.name.startswith("."))
+
+
 def slot(dia):
     return f"{dia.strftime('%Y-%m-%d')}T{HORA_DO_POST:02d}:00:00{FUSO}"
 
@@ -55,6 +75,7 @@ def slot(dia):
 def proximo_livre(agenda):
     """Empilha no fim da fila. A producao corre na frente da publicacao de proposito."""
     hoje = datetime.now().date()
+    agenda = carrosseis(agenda)
     if not agenda:
         return slot(hoje + timedelta(days=1))
     ultimo = max(quando_de(i).date() for i in agenda)
@@ -67,9 +88,9 @@ def furar_fila(agenda):
     So empurra o que ainda nao foi publicado; o que ja saiu fica onde esta.
     """
     alvo = (datetime.now() + timedelta(days=1)).date()
-    ocupados = {quando_de(i).date() for i in agenda}
+    ocupados = {quando_de(i).date() for i in carrosseis(agenda)}
     if alvo in ocupados:
-        for i in agenda:
+        for i in carrosseis(agenda):
             if quando_de(i).date() >= alvo:
                 i["quando"] = slot(quando_de(i).date() + timedelta(days=1))
     return slot(alvo)
@@ -115,14 +136,17 @@ def mostrar_fila(agenda, estado):
         dia = quando_de(i).date()
         marca = "publicado" if st == "publicado" else ("erro" if st == "erro" else
                 ("hoje" if dia == hoje else f"em {(dia - hoje).days}d"))
-        print(f"{i['quando'][:10]}  {i['id']:<14} {len(i['arquivos']):>2} slides  {marca}")
+        o_que = f"{len(i['arquivos']):>2} slides" if i.get("arquivos") else f"video {i.get('formato', '')}"
+        print(f"{i['quando'][:16].replace('T', ' ')}  {i['id']:<22} {o_que:<18} {marca}")
 
 
-def conferir(legenda, slides, prefixo, agenda, arquivo_legenda):
+def conferir(legenda, slides, prefixo, agenda, arquivo_legenda, pasta=None, video=False):
     problemas = []
+    if pasta and isca_vazia(legenda, pasta):
+        problemas.append("a legenda pede 'Comenta PALAVRA' e a pasta Isca Digital esta vazia")
     # o checador da skill e a regua oficial da legenda (teto de 600, blocos, hashtags).
     # Aqui so repetimos o teto duro do Instagram, que e outro limite.
-    if CHECADOR.exists():
+    if CHECADOR.exists() and not video:
         r = subprocess.run([sys.executable, str(CHECADOR), str(arquivo_legenda)],
                            text=True, capture_output=True)
         if r.returncode != 0:
@@ -133,7 +157,7 @@ def conferir(legenda, slides, prefixo, agenda, arquivo_legenda):
     primeira = legenda.splitlines()[0] if legenda else ""
     if re.match(r"^\s*(LEGENDA|COPY|#{1,6}\s)", primeira, re.I):
         problemas.append(f"a legenda comeca com cabecalho interno: {primeira[:50]!r}")
-    if not 2 <= len(slides) <= 10:
+    if not video and not 2 <= len(slides) <= 10:
         problemas.append(f"{len(slides)} slides; o carrossel vai de 2 a 10")
     if any(i["id"] == prefixo for i in agenda):
         problemas.append(f"ja existe um item com id {prefixo} na agenda")
@@ -151,6 +175,10 @@ def main():
                    help="assunto quente: entra amanha e empurra a fila um dia")
     p.add_argument("--fila", action="store_true", help="mostra a fila e sai")
     p.add_argument("--ensaio", action="store_true", help="mostra o que faria e para")
+    p.add_argument("--video", help="mp4 do Reel, no lugar da pasta de carrossel")
+    p.add_argument("--legenda-arq", help="legenda do video, num .txt")
+    p.add_argument("--formato", help="case, ferramenta, meme, tutorial, descoberta")
+    p.add_argument("--gancho", help="o texto de abertura na tela, vai para a planilha de metricas")
     a = p.parse_args()
 
     agenda_arq = RAIZ / "agenda.json"
@@ -158,6 +186,8 @@ def main():
         estado = json.loads((RAIZ / "estado.json").read_text() or "{}")
         mostrar_fila(json.loads(agenda_arq.read_text()), estado)
         return 0
+    if a.video:
+        return agendar_video(a, agenda_arq)
     if not a.pasta or not a.prefixo:
         sys.exit("faltou a pasta do post ou o --prefixo (use --fila para so ver a fila)")
 
@@ -178,7 +208,7 @@ def main():
     else:
         quando = proximo_livre(agenda)
 
-    problemas = conferir(legenda, slides, a.prefixo, agenda, legenda_arq)
+    problemas = conferir(legenda, slides, a.prefixo, agenda, legenda_arq, pasta)
     print(f"{len(slides)} slides · legenda com {len(legenda)} caracteres")
     print("ordem:", ", ".join(s.stem for s in slides))
     if problemas:
@@ -200,6 +230,7 @@ def main():
 
     item = {"id": a.prefixo, "arquivos": [j.name for j in jpgs],
             "quando": quando, "legenda": legenda}
+    item.update({k: v for k, v in (("formato", a.formato), ("gancho", a.gancho)) if v})
 
     if a.ensaio:
         print("\nensaio: nada foi escrito. Item que entraria:")
@@ -210,23 +241,78 @@ def main():
     rodar([g, "release", "upload", TAG, *[str(j) for j in jpgs], "--repo", REPO, "--clobber"])
     print(f"{len(jpgs)} arquivos no Release")
 
+    cortados = guardar(agenda, item, f"agenda: {a.prefixo} em {quando[:10]}")
+    if a.urgente:
+        print("fila empurrada um dia para abrir espaco")
+    dia = quando[:16].replace("T", " as ")
+    print(f"agendado: {a.prefixo} para {dia}")
+    extra = f", {len(cortados)} foram para a geladeira" if cortados else ""
+    avisar("Carrossel na fila", f"{a.prefixo} sai em {dia}{extra}")
+    return 0
+
+
+def guardar(agenda, item, mensagem):
+    agenda_arq = RAIZ / "agenda.json"
     agenda.append(item)
     agenda.sort(key=lambda i: i["quando"])
     agenda, cortados = aplicar_teto(agenda)
     for c in cortados:
         print(f"passou de {TETO_DIAS} dias e foi para a geladeira: {c['id']} ({c['quando'][:10]})")
     agenda_arq.write_text(json.dumps(agenda, ensure_ascii=False, indent=2) + "\n")
-    if a.urgente:
-        print("fila empurrada um dia para abrir espaco")
     rodar(["git", "add", "agenda.json"], cwd=RAIZ)
     rodar(["git", "-c", "user.name=Gabriel D. Faria",
            "-c", "user.email=gabrieldfaria777@gmail.com",
-           "commit", "-m", f"agenda: {a.prefixo} em {quando[:10]}"], cwd=RAIZ)
+           "commit", "-m", mensagem], cwd=RAIZ)
     rodar(["git", "push", "origin", "main"], cwd=RAIZ)
-    dia = quando[:16].replace("T", " as ")
+    return cortados
+
+
+def agendar_video(a, agenda_arq):
+    video = pathlib.Path(a.video).expanduser()
+    if not video.exists():
+        sys.exit(f"nao achei {video}")
+    if not (a.prefixo and a.quando and a.legenda_arq and a.formato):
+        sys.exit("video pede --prefixo, --quando, --legenda-arq e --formato")
+    legenda_arq = pathlib.Path(a.legenda_arq).expanduser()
+    legenda = legenda_arq.read_text().strip()
+    agenda = json.loads(agenda_arq.read_text())
+    problemas = conferir(legenda, [], a.prefixo, agenda, legenda_arq, video.parent, video=True)
+    print(f"{video.name} · legenda com {len(legenda)} caracteres")
+    if problemas:
+        print("\nNAO VAI SUBIR:")
+        for x in problemas:
+            print(" -", x)
+        sys.exit(1)
+    item = {"id": a.prefixo, "arquivo": f"{a.prefixo}.mp4", "quando": a.quando,
+            "legenda": legenda, "formato": a.formato}
+    if a.gancho:
+        item["gancho"] = a.gancho
+    if a.ensaio:
+        print(json.dumps({**item, "legenda": legenda[:60] + "..."}, ensure_ascii=False, indent=2))
+        return 0
+    # o iPhone grava em HEVC e 4K, pesado demais para a API; sai H.264 1080 com o
+    # indice no comeco do arquivo, que e o que o Instagram le sem reclamar
+    destino = RAIZ / "videos" / item["arquivo"]
+    destino.parent.mkdir(exist_ok=True)
+    # e o HDR (HLG) do iPhone precisa virar SDR de verdade, senao a pele sai cinza
+    # e o fundo lavado; mesma conversao da esteira de Reels do canal
+    info = subprocess.run(["ffmpeg", "-nostdin", "-i", str(video)], text=True,
+                          capture_output=True).stderr
+    filtro = "scale='min(1080,iw)':-2"
+    if "arib-std-b67" in info or "smpte2084" in info:
+        filtro = ("zscale=t=linear:npl=100,tonemap=hable:desat=0,"
+                  "zscale=p=bt709:t=bt709:m=bt709:r=tv,format=yuv420p," + filtro)
+    rodar(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", str(video),
+           "-vf", filtro, "-r", "30",
+           "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709", "-c:v", "libx264", "-preset", "slow",
+           "-crf", "17", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-ar", "48000",
+           "-movflags", "+faststart", str(destino)])
+    print(f"convertido: {destino.stat().st_size // 1_000_000} MB")
+    rodar([gh(), "release", "upload", TAG, str(destino), "--repo", REPO, "--clobber"])
+    guardar(agenda, item, f"agenda: {a.prefixo} em {a.quando[:10]}")
+    dia = a.quando[:16].replace("T", " as ")
     print(f"agendado: {a.prefixo} para {dia}")
-    extra = f", {len(cortados)} foram para a geladeira" if cortados else ""
-    avisar("Carrossel na fila", f"{a.prefixo} sai em {dia}{extra}")
+    avisar("Video na fila", f"{a.prefixo} sai em {dia}")
     return 0
 
 
