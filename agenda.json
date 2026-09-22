@@ -192,6 +192,14 @@
     "gancho": "O ChatGPT agora tem pixel. E ele lê o formulário do site"
   },
   {
+    "id": "desc-ferramentas",
+    "arquivo": "desc-ferramentas.mp4",
+    "quando": "2026-09-29T19:00:00-03:00",
+    "legenda": "A IA certa para cada tarefa: escrever, gerar imagem, criar aplicativo, automatizar, atender cliente, fazer vídeo e analisar dados.\n\nComenta LISTA que eu te mando a lista completa no direct.\n\nSiga @system.oasis para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #ferramentasdeia #produtividade",
+    "formato": "descoberta",
+    "gancho": "Para escrever use esse, esse ou esse"
+  },
+  {
     "id": "repos-01",
     "arquivos": [
       "repos-01-slide-1.jpg",
