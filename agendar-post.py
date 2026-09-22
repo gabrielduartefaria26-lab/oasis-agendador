@@ -267,6 +267,27 @@ def guardar(agenda, item, mensagem):
     return cortados
 
 
+def converter(video, destino):
+    # o iPhone grava em HEVC e 4K, pesado demais para a API; sai H.264 1080 com o
+    # indice no comeco do arquivo, que e o que o Instagram le sem reclamar
+    destino.parent.mkdir(exist_ok=True)
+    # e o HDR (HLG) do iPhone precisa virar SDR de verdade, senao a pele sai cinza
+    # e o fundo lavado; mesma conversao da esteira de Reels do canal
+    info = subprocess.run(["ffmpeg", "-nostdin", "-i", str(video)], text=True,
+                          capture_output=True).stderr
+    filtro = "scale='min(1080,iw)':-2"
+    if "arib-std-b67" in info or "smpte2084" in info:
+        filtro = ("zscale=t=linear:npl=100,tonemap=hable:desat=0,"
+                  "zscale=p=bt709:t=bt709:m=bt709:r=tv,format=yuv420p," + filtro)
+    # a fala gravada no celular chega baixa (-34 LUFS); o Instagram toca perto de -14
+    audio = ["-af", "loudnorm=I=-14:TP=-1.5:LRA=11"] if "Audio:" in info else []
+    rodar(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", str(video),
+           "-vf", filtro, "-r", "30",
+           "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709", "-c:v", "libx264", "-preset", "slow",
+           "-crf", "17", "-pix_fmt", "yuv420p", *audio, "-c:a", "aac", "-b:a", "160k", "-ar", "48000",
+           "-movflags", "+faststart", str(destino)])
+
+
 def agendar_video(a, agenda_arq):
     video = pathlib.Path(a.video).expanduser()
     if not video.exists():
@@ -290,23 +311,8 @@ def agendar_video(a, agenda_arq):
     if a.ensaio:
         print(json.dumps({**item, "legenda": legenda[:60] + "..."}, ensure_ascii=False, indent=2))
         return 0
-    # o iPhone grava em HEVC e 4K, pesado demais para a API; sai H.264 1080 com o
-    # indice no comeco do arquivo, que e o que o Instagram le sem reclamar
     destino = RAIZ / "videos" / item["arquivo"]
-    destino.parent.mkdir(exist_ok=True)
-    # e o HDR (HLG) do iPhone precisa virar SDR de verdade, senao a pele sai cinza
-    # e o fundo lavado; mesma conversao da esteira de Reels do canal
-    info = subprocess.run(["ffmpeg", "-nostdin", "-i", str(video)], text=True,
-                          capture_output=True).stderr
-    filtro = "scale='min(1080,iw)':-2"
-    if "arib-std-b67" in info or "smpte2084" in info:
-        filtro = ("zscale=t=linear:npl=100,tonemap=hable:desat=0,"
-                  "zscale=p=bt709:t=bt709:m=bt709:r=tv,format=yuv420p," + filtro)
-    rodar(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", str(video),
-           "-vf", filtro, "-r", "30",
-           "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709", "-c:v", "libx264", "-preset", "slow",
-           "-crf", "17", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-ar", "48000",
-           "-movflags", "+faststart", str(destino)])
+    converter(video, destino)
     print(f"convertido: {destino.stat().st_size // 1_000_000} MB")
     rodar([gh(), "release", "upload", TAG, str(destino), "--repo", REPO, "--clobber"])
     guardar(agenda, item, f"agenda: {a.prefixo} em {a.quando[:10]}")
