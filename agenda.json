@@ -42,6 +42,14 @@
     "gancho": "5 repositórios grátis. E o que cada um não te conta"
   },
   {
+    "id": "desc-livro-mapa",
+    "arquivo": "desc-livro-mapa.mp4",
+    "quando": "2026-09-23T19:00:00-03:00",
+    "legenda": "Joga um livro no ChatGPT e usa estes comandos:\n\n/mindmap: o mapa completo do conteúdo\n/sketchnote: resumo com anotações do material\n/flashcards: cartões com os principais tópicos\n/fluxograma: o fluxo de estudo do livro inteiro\n/quadrinhos didáticos: o conteúdo em quadrinhos\n\nSalva para usar no próximo livro.\n\nSiga @system.oasis para ver a IA trabalhando de verdade.\n\n#chatgpt #inteligenciaartificial #produtividade",
+    "formato": "descoberta",
+    "gancho": "Joga um livro no ChatGPT e escreve /mindmap"
+  },
+  {
     "id": "brasil-eua",
     "arquivos": [
       "brasil-eua-slide-1.jpg",
