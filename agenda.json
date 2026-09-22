@@ -215,5 +215,13 @@
     "legenda": "5 repositórios grátis que eu separei esta semana.\n\nO filtro: ativos nos últimos 7 dias, fora do óbvio que todo perfil já postou, e em cada um eu digo quem mantém e onde é arriscado depender.\n\nPorque isso muda o que você faz com eles. Um tem 4 mil estrelas e um único mantenedor. Outro é AGPL, e se você usar dentro de um serviço pago é obrigado a abrir o seu código. Ninguém conta essa parte.\n\nComenta GARIMPO que eu te mando os cinco links, o comando de instalação e a ordem que eu seguiria.\nSalva para instalar com calma depois.\n\n#inteligenciaartificial #github #automacao #ferramentas #donodenegocio #opensource",
     "formato": "ferramenta",
     "gancho": "5 repositórios grátis que eu separei esta semana"
+  },
+  {
+    "id": "meme-tokens",
+    "arquivo": "meme-tokens.mp4",
+    "quando": "2026-09-30T19:00:00-03:00",
+    "legenda": "Os tokens acabaram. Virei leitor. 🤣\n\nSiga @system.oasis para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
+    "formato": "meme",
+    "gancho": "Eu fingindo que gosto de ler livros até os meus tokens do Claude voltarem"
   }
 ]
