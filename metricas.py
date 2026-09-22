@@ -11,7 +11,7 @@ Precisa da permissao instagram_manage_insights no token. Sem ela a lista de post
 mas as colunas de alcance, salvamento e compartilhamento ficam vazias.
 """
 import csv, json, os, sys, urllib.error, urllib.parse, urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 API = "https://graph.facebook.com/v21.0"
 TOKEN = os.environ["IG_TOKEN"]
@@ -19,7 +19,7 @@ IG_ID = os.environ["IG_USER_ID"]
 SAIDA = "metricas.csv"
 
 # o que a planilha mostra, nessa ordem
-COLUNAS = ["data", "formato", "fonte", "cta", "versao", "tipo", "alcance", "views",
+COLUNAS = ["data_postagem", "formato", "fonte", "cta", "versao", "tipo", "alcance", "views",
            "curtidas", "comentarios", "salvamentos", "compartilhamentos", "interacoes",
            "taxa_salvamento", "gancho", "link", "media_id", "atualizado"]
 
@@ -45,6 +45,12 @@ def todos_os_posts():
             return posts
         with urllib.request.urlopen(prox, timeout=60) as r:
             pagina = json.load(r)
+
+
+def brasilia(ts):
+    # a API devolve "2026-09-21T12:00:03+0000"
+    t = datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S%z").astimezone(timezone(timedelta(hours=-3)))
+    return t.strftime("%d/%m/%Y %H:%M")
 
 
 def insights(media_id, produto):
@@ -100,7 +106,9 @@ def main():
         alcance = ins.get("reach") or 0
         salvos = ins.get("saved") or 0
         linhas.append({
-            "data": p["timestamp"][:10],
+            # hora de Brasilia, no formato que a planilha em portugues le como data
+            "data_postagem": brasilia(p["timestamp"]),
+            "_ordem": p["timestamp"],
             **c,
             "tipo": (p.get("media_product_type") or p.get("media_type") or "").lower(),
             "alcance": ins.get("reach", ""), "views": ins.get("views", ""),
@@ -112,7 +120,7 @@ def main():
             "link": p.get("permalink", ""), "media_id": p["id"], "atualizado": agora,
         })
 
-    linhas.sort(key=lambda x: x["data"], reverse=True)
+    linhas.sort(key=lambda x: x.pop("_ordem"), reverse=True)
     with open(SAIDA, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=COLUNAS)
         w.writeheader()
