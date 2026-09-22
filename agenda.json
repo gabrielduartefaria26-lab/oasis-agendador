@@ -1,5 +1,39 @@
 [
   {
+    "id": "texto-ia",
+    "arquivos": [
+      "texto-ia-slide-1.jpg",
+      "texto-ia-slide-2.jpg",
+      "texto-ia-slide-3.jpg",
+      "texto-ia-slide-4.jpg",
+      "texto-ia-slide-5.jpg",
+      "texto-ia-slide-6.jpg",
+      "texto-ia-slide-7.jpg",
+      "texto-ia-slide-8.jpg"
+    ],
+    "quando": "2026-09-22T09:00:00-03:00",
+    "legenda": "4 skills que fazem o seu texto parar de parecer IA.\n\nPesquisa com 668 leitores: 78% param de ler quando percebem que foi a máquina, e 71% passam a evitar quem escreveu.\n\nO cliente não sabe nomear, mas sente. O travessão no meio da frase, o trio de adjetivos, o \"não é só isso, é aquilo\". Essas quatro caçam exatamente o que te entrega.\n\nComenta HUMANO que eu te mando as quatro e a lista dos sinais em português.\nSalva para passar a próxima proposta por ela.\n\n#inteligenciaartificial #copywriting #claudecode #produtividade #donodenegocio #escrita",
+    "formato": "ferramenta",
+    "gancho": "4 skills que fazem o seu texto parar de parecer IA"
+  },
+  {
+    "id": "repos-02",
+    "arquivos": [
+      "repos-02-slide-1.jpg",
+      "repos-02-slide-2.jpg",
+      "repos-02-slide-3.jpg",
+      "repos-02-slide-4.jpg",
+      "repos-02-slide-5.jpg",
+      "repos-02-slide-6.jpg",
+      "repos-02-slide-7.jpg",
+      "repos-02-slide-8.jpg"
+    ],
+    "quando": "2026-09-23T09:00:00-03:00",
+    "legenda": "5 repositórios grátis. E o que cada um não te conta.\n\nUm deles, com 6 mil estrelas no GitHub, exige autorização escrita do autor para qualquer uso comercial. Está na primeira linha da licença.\n\nFerramenta grátis sem ler a licença sai cara depois. Em cada card eu digo quem mantém e onde é arriscado depender.\n\nQual você instalaria primeiro? Comenta o número.\nSalva para instalar com calma. Marca quem vive perdido procurando ferramenta.\n\n#inteligenciaartificial #github #opensource #automacao #ferramentas #donodenegocio",
+    "formato": "ferramenta",
+    "gancho": "5 repositórios grátis. E o que cada um não te conta"
+  },
+  {
     "id": "brasil-eua",
     "arquivos": [
       "brasil-eua-slide-1.jpg",
@@ -12,7 +46,9 @@
       "brasil-eua-slide-8.jpg"
     ],
     "quando": "2026-09-24T09:00:00-03:00",
-    "legenda": "O seu concorrente já está nos 52%.\n\nSebrae e Meta ouviram 7.182 donos de pequeno negócio: 52% usaram IA nas duas últimas semanas. Nos Estados Unidos são 21%.\n\nNão é que o brasileiro seja mais moderno. É que aqui o dono decide na terça e a grande monta comitê. Ser pequeno virou a vantagem.\n\nComenta MAPA que eu te mando as 18 tarefas que já dá para tirar da sua mão.\nSalva para escolher a primeira.\n\n#inteligenciaartificial #automacao #pequenonegocio #donodenegocio #produtividade #gestao"
+    "legenda": "O seu concorrente já está nos 52%.\n\nSebrae e Meta ouviram 7.182 donos de pequeno negócio: 52% usaram IA nas duas últimas semanas. Nos Estados Unidos são 21%.\n\nNão é que o brasileiro seja mais moderno. É que aqui o dono decide na terça e a grande monta comitê. Ser pequeno virou a vantagem.\n\nComenta MAPA que eu te mando as 18 tarefas que já dá para tirar da sua mão.\nSalva para escolher a primeira.\n\n#inteligenciaartificial #automacao #pequenonegocio #donodenegocio #produtividade #gestao",
+    "formato": "case",
+    "gancho": "O seu concorrente já está nos 52%"
   },
   {
     "id": "meta",
@@ -28,7 +64,9 @@
       "meta-slide-9.jpg"
     ],
     "quando": "2026-09-25T09:00:00-03:00",
-    "legenda": "A Meta acabou de vender um funcionário para o seu concorrente por R$ 60 por mês.\n\nDia 15 saiu o Meta One. Dentro do plano de empresa vem o Business Agent, que responde o seu cliente no direct e no WhatsApp. Piso R$ 60, teto R$ 2.000.\n\nA ferramenta ficou barata. O sistema não. Robô nenhum salva processo ruim.\n\nSalva para voltar quando a cobrança aparecer na sua conta.\nMarca quem responde o WhatsApp da sua empresa.\n\n#inteligenciaartificial #metaai #automacao #atendimento #donodenegocio #gestao"
+    "legenda": "A Meta acabou de vender um funcionário para o seu concorrente por R$ 60 por mês.\n\nDia 15 saiu o Meta One. Dentro do plano de empresa vem o Business Agent, que responde o seu cliente no direct e no WhatsApp. Piso R$ 60, teto R$ 2.000.\n\nA ferramenta ficou barata. O sistema não. Robô nenhum salva processo ruim.\n\nSalva para voltar quando a cobrança aparecer na sua conta.\nMarca quem responde o WhatsApp da sua empresa.\n\n#inteligenciaartificial #metaai #automacao #atendimento #donodenegocio #gestao",
+    "formato": "case",
+    "gancho": "A Meta começou a vender atendente por R$ 60"
   },
   {
     "id": "banco",
@@ -42,7 +80,9 @@
       "banco-slide-7.jpg"
     ],
     "quando": "2026-09-26T09:00:00-03:00",
-    "legenda": "Um banco demitiu 45 atendentes por causa de uma IA e teve que voltar atrás.\n\nO maior banco da Austrália cortou em julho de 2025 e reverteu em agosto: as chamadas subiram, gestores entraram em hora extra. O CEO admitiu que não consideraram todas as variáveis.\n\nA IA não falhou. O erro foi decidir sobre 45 pessoas sem medir o atendimento real rodando.\n\nComenta ENSAIO que eu te mando o protocolo para testar automação sem mexer em ninguém.\nMarca quem está prestes a tomar essa decisão.\n\n#inteligenciaartificial #automacao #gestaodepessoas #donodenegocio #atendimento #gestao"
+    "legenda": "Um banco demitiu 45 atendentes por causa de uma IA e teve que voltar atrás.\n\nO maior banco da Austrália cortou em julho de 2025 e reverteu em agosto: as chamadas subiram, gestores entraram em hora extra. O CEO admitiu que não consideraram todas as variáveis.\n\nA IA não falhou. O erro foi decidir sobre 45 pessoas sem medir o atendimento real rodando.\n\nComenta ENSAIO que eu te mando o protocolo para testar automação sem mexer em ninguém.\nMarca quem está prestes a tomar essa decisão.\n\n#inteligenciaartificial #automacao #gestaodepessoas #donodenegocio #atendimento #gestao",
+    "formato": "case",
+    "gancho": "Um banco demitiu 45 pessoas por uma IA e teve que voltar atrás"
   },
   {
     "id": "amazon",
@@ -57,7 +97,9 @@
       "amazon-slide-8.jpg"
     ],
     "quando": "2026-09-27T09:00:00-03:00",
-    "legenda": "A Amazon torrou 1,8 milhão de dólares numa tarefa de IA e levou 5 meses para perceber.\n\nA causa não foi técnica. Eles mantinham um ranking de quantos tokens cada dev consumia. O time passou a inventar tarefa para subir nele. Apelidaram de tokenmaxxing.\n\nMediram uso em vez de resultado, e o time entregou o que foi medido.\n\nComenta ECONOMIA que eu te mando o controle de teto e alarme pronto.\nMarca quem paga a conta de IA aí.\n\n#inteligenciaartificial #custodeia #automacao #gestaofinanceira #donodenegocio #gestao"
+    "legenda": "A Amazon torrou 1,8 milhão de dólares numa tarefa de IA e levou 5 meses para perceber.\n\nA causa não foi técnica. Eles mantinham um ranking de quantos tokens cada dev consumia. O time passou a inventar tarefa para subir nele. Apelidaram de tokenmaxxing.\n\nMediram uso em vez de resultado, e o time entregou o que foi medido.\n\nComenta ECONOMIA que eu te mando o controle de teto e alarme pronto.\nMarca quem paga a conta de IA aí.\n\n#inteligenciaartificial #custodeia #automacao #gestaofinanceira #donodenegocio #gestao",
+    "formato": "case",
+    "gancho": "A Amazon torrou 1,8 milhão em IA e não viu"
   },
   {
     "id": "mit",
@@ -73,7 +115,9 @@
       "mit-slide-9.jpg"
     ],
     "quando": "2026-09-28T09:00:00-03:00",
-    "legenda": "O MIT achou o culpado dos 95% de prejuízo com IA. E não é a IA.\n\nProject NANDA: mais de 300 iniciativas analisadas, 52 executivos ouvidos, só 5% dão retorno medível. O Gartner, com 782 líderes de TI, chegou a 28%.\n\nO estudo não mediu a IA. Mediu a empresa. Os 5% não têm IA melhor, têm pergunta melhor.\n\nComenta TESTE que eu te mando o roteiro que eu uso com cliente.\nMarca quem vai tocar isso aí.\n\n#inteligenciaartificial #automacao #roi #donodenegocio #gestao #processos"
+    "legenda": "O MIT achou o culpado dos 95% de prejuízo com IA. E não é a IA.\n\nProject NANDA: mais de 300 iniciativas analisadas, 52 executivos ouvidos, só 5% dão retorno medível. O Gartner, com 782 líderes de TI, chegou a 28%.\n\nO estudo não mediu a IA. Mediu a empresa. Os 5% não têm IA melhor, têm pergunta melhor.\n\nComenta TESTE que eu te mando o roteiro que eu uso com cliente.\nMarca quem vai tocar isso aí.\n\n#inteligenciaartificial #automacao #roi #donodenegocio #gestao #processos",
+    "formato": "case",
+    "gancho": "O MIT achou o culpado dos 95% de prejuízo com IA"
   },
   {
     "id": "pixel-openai",
@@ -87,7 +131,9 @@
       "pixel-openai-slide-7.jpg"
     ],
     "quando": "2026-09-29T09:00:00-03:00",
-    "legenda": "O ChatGPT agora tem pixel, e ele lê o formulário do site onde está instalado.\n\nInvestigação publicada dia 20: em 936 pixels de anunciante, o código raspou 685 identidades das próprias páginas contra 255 entregues de propósito. O CEP sai em texto puro.\n\nA big tech leva o dado. A conta de explicar de onde ele saiu chega na sua mesa.\n\nEscrevi a varredura em duas páginas: como achar todo pixel do seu site em vinte minutos, sem programador, e o que fazer com o que aparecer.\n\nComenta PIXEL que eu te mando.\nSalva para fazer na segunda. Marca quem mexe no seu site.\n\n#inteligenciaartificial #chatgpt #openai #lgpd #donodenegocio #marketingdigital #privacidade #trafegopago"
+    "legenda": "O ChatGPT agora tem pixel, e ele lê o formulário do site onde está instalado.\n\nInvestigação publicada dia 20: em 936 pixels de anunciante, o código raspou 685 identidades das próprias páginas contra 255 entregues de propósito. O CEP sai em texto puro.\n\nA big tech leva o dado. A conta de explicar de onde ele saiu chega na sua mesa.\n\nEscrevi a varredura em duas páginas: como achar todo pixel do seu site em vinte minutos, sem programador, e o que fazer com o que aparecer.\n\nComenta PIXEL que eu te mando.\nSalva para fazer na segunda. Marca quem mexe no seu site.\n\n#inteligenciaartificial #chatgpt #openai #lgpd #donodenegocio #marketingdigital #privacidade #trafegopago",
+    "formato": "case",
+    "gancho": "O ChatGPT agora tem pixel. E ele lê o formulário do site"
   },
   {
     "id": "repos-01",
@@ -102,36 +148,8 @@
       "repos-01-slide-8.jpg"
     ],
     "quando": "2026-09-30T09:00:00-03:00",
-    "legenda": "5 repositórios grátis que eu separei esta semana.\n\nO filtro: ativos nos últimos 7 dias, fora do óbvio que todo perfil já postou, e em cada um eu digo quem mantém e onde é arriscado depender.\n\nPorque isso muda o que você faz com eles. Um tem 4 mil estrelas e um único mantenedor. Outro é AGPL, e se você usar dentro de um serviço pago é obrigado a abrir o seu código. Ninguém conta essa parte.\n\nComenta GARIMPO que eu te mando os cinco links, o comando de instalação e a ordem que eu seguiria.\nSalva para instalar com calma depois.\n\n#inteligenciaartificial #github #automacao #ferramentas #donodenegocio #opensource"
-  },
-  {
-    "id": "texto-ia",
-    "arquivos": [
-      "texto-ia-slide-1.jpg",
-      "texto-ia-slide-2.jpg",
-      "texto-ia-slide-3.jpg",
-      "texto-ia-slide-4.jpg",
-      "texto-ia-slide-5.jpg",
-      "texto-ia-slide-6.jpg",
-      "texto-ia-slide-7.jpg",
-      "texto-ia-slide-8.jpg"
-    ],
-    "quando": "2026-10-01T09:00:00-03:00",
-    "legenda": "4 skills que fazem o seu texto parar de parecer IA.\n\nPesquisa com 668 leitores: 78% param de ler quando percebem que foi a máquina, e 71% passam a evitar quem escreveu.\n\nO cliente não sabe nomear, mas sente. O travessão no meio da frase, o trio de adjetivos, o \"não é só isso, é aquilo\". Essas quatro caçam exatamente o que te entrega.\n\nComenta HUMANO que eu te mando as quatro e a lista dos sinais em português.\nSalva para passar a próxima proposta por ela.\n\n#inteligenciaartificial #copywriting #claudecode #produtividade #donodenegocio #escrita"
-  },
-  {
-    "id": "repos-02",
-    "arquivos": [
-      "repos-02-slide-1.jpg",
-      "repos-02-slide-2.jpg",
-      "repos-02-slide-3.jpg",
-      "repos-02-slide-4.jpg",
-      "repos-02-slide-5.jpg",
-      "repos-02-slide-6.jpg",
-      "repos-02-slide-7.jpg",
-      "repos-02-slide-8.jpg"
-    ],
-    "quando": "2026-10-02T09:00:00-03:00",
-    "legenda": "5 repositórios grátis. E o que cada um não te conta.\n\nUm deles, com 6 mil estrelas no GitHub, exige autorização escrita do autor para qualquer uso comercial. Está na primeira linha da licença.\n\nFerramenta grátis sem ler a licença sai cara depois. Em cada card eu digo quem mantém e onde é arriscado depender.\n\nQual você instalaria primeiro? Comenta o número.\nSalva para instalar com calma. Marca quem vive perdido procurando ferramenta.\n\n#inteligenciaartificial #github #opensource #automacao #ferramentas #donodenegocio"
+    "legenda": "5 repositórios grátis que eu separei esta semana.\n\nO filtro: ativos nos últimos 7 dias, fora do óbvio que todo perfil já postou, e em cada um eu digo quem mantém e onde é arriscado depender.\n\nPorque isso muda o que você faz com eles. Um tem 4 mil estrelas e um único mantenedor. Outro é AGPL, e se você usar dentro de um serviço pago é obrigado a abrir o seu código. Ninguém conta essa parte.\n\nComenta GARIMPO que eu te mando os cinco links, o comando de instalação e a ordem que eu seguiria.\nSalva para instalar com calma depois.\n\n#inteligenciaartificial #github #automacao #ferramentas #donodenegocio #opensource",
+    "formato": "ferramenta",
+    "gancho": "5 repositórios grátis que eu separei esta semana"
   }
 ]
