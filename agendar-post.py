@@ -177,6 +177,10 @@ def main():
     p.add_argument("--ensaio", action="store_true", help="mostra o que faria e para")
     p.add_argument("--video", help="mp4 do Reel, no lugar da pasta de carrossel")
     p.add_argument("--legenda-arq", help="legenda do video, num .txt")
+    p.add_argument("--capa", help="imagem de capa do Reel; sem ela procura capa.jpg ou "
+                                  "capa.png na pasta do video")
+    p.add_argument("--capa-ms", type=int, help="em vez de imagem, o milissegundo do quadro "
+                                               "do proprio video que vira capa")
     p.add_argument("--formato", help="case, ferramenta, meme, tutorial, descoberta")
     p.add_argument("--gancho", help="o texto de abertura na tela, vai para a planilha de metricas")
     a = p.parse_args()
@@ -288,6 +292,28 @@ def converter(video, destino):
            "-movflags", "+faststart", str(destino)])
 
 
+def achar_capa(a, video):
+    """Capa passada na mao, ou a capa.jpg que estiver na pasta do post."""
+    if a.capa:
+        capa = pathlib.Path(a.capa).expanduser()
+        if not capa.exists():
+            sys.exit(f"nao achei a capa {capa}")
+        return capa
+    for nome in ("capa.jpg", "capa.jpeg", "capa.png"):
+        achada = video.parent / nome
+        if achada.exists():
+            return achada
+    return None
+
+
+def preparar_capa(origem, destino):
+    """O Instagram quer 9:16 em JPEG. Imagem fora da proporcao entra por corte central,
+    que e o mesmo que ele faria sozinho, so que aqui da para conferir antes."""
+    rodar(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", str(origem),
+           "-vf", "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920",
+           "-q:v", "2", str(destino)])
+
+
 def agendar_video(a, agenda_arq):
     video = pathlib.Path(a.video).expanduser()
     if not video.exists():
@@ -304,8 +330,13 @@ def agendar_video(a, agenda_arq):
         for x in problemas:
             print(" -", x)
         sys.exit(1)
+    capa = achar_capa(a, video)
     item = {"id": a.prefixo, "arquivo": f"{a.prefixo}.mp4", "quando": a.quando,
             "legenda": legenda, "formato": a.formato}
+    if capa:
+        item["capa"] = f"{a.prefixo}-capa.jpg"
+    elif a.capa_ms is not None:
+        item["capa_ms"] = a.capa_ms
     if a.gancho:
         item["gancho"] = a.gancho
     if a.ensaio:
@@ -314,7 +345,14 @@ def agendar_video(a, agenda_arq):
     destino = RAIZ / "videos" / item["arquivo"]
     converter(video, destino)
     print(f"convertido: {destino.stat().st_size // 1_000_000} MB")
-    rodar([gh(), "release", "upload", TAG, str(destino), "--repo", REPO, "--clobber"])
+    subir = [destino]
+    if capa:
+        capa_jpg = RAIZ / "videos" / item["capa"]
+        preparar_capa(capa, capa_jpg)
+        print(f"capa: {capa.name}")
+        subir.append(capa_jpg)
+    rodar([gh(), "release", "upload", TAG, *[str(x) for x in subir],
+           "--repo", REPO, "--clobber"])
     guardar(agenda, item, f"agenda: {a.prefixo} em {a.quando[:10]}")
     dia = a.quando[:16].replace("T", " as ")
     print(f"agendado: {a.prefixo} para {dia}")

@@ -97,6 +97,12 @@ def publicar(item):
         campos = {"caption": item["legenda"]}
         if os.path.splitext(item["arquivo"])[1].lower() in VIDEO:
             campos["share_to_feed"] = "true"
+            # A capa e o que aparece na grade do perfil. Sem ela o Instagram usa o
+            # primeiro quadro, que quase sempre e o pior da peca.
+            if item.get("capa"):
+                campos["cover_url"] = f"{BASE_URL}/{urllib.parse.quote(item['capa'])}"
+            elif item.get("capa_ms") is not None:
+                campos["thumb_offset"] = str(item["capa_ms"])
         container = criar_container(item["arquivo"], campos)
     else:
         raise RuntimeError("o item precisa de 'arquivo' ou de 'arquivos'")
