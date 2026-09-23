@@ -172,6 +172,20 @@
     "gancho": "Usa isso pra gerar isso (/tinyplanet)"
   },
   {
+    "id": "bastidor-quadro",
+    "arquivos": [
+      "bastidor-quadro-slide-1.jpg",
+      "bastidor-quadro-slide-2.jpg",
+      "bastidor-quadro-slide-3.jpg",
+      "bastidor-quadro-slide-4.jpg",
+      "bastidor-quadro-slide-5.jpg",
+      "bastidor-quadro-slide-6.jpg",
+      "bastidor-quadro-slide-7.jpg"
+    ],
+    "quando": "2026-09-28T09:00:00-03:00",
+    "legenda": "Vinte posts programados, e nenhum deles foi decidido hoje de manhã.\n\nCarrossel às 09:00, vídeo às 19:00, formato definido por horário, e nada entra na fila sem o arquivo pronto e a entrega no ar.\n\nConteúdo não morre por falta de ideia. Morre por decisão diária, que cansa mais do que o próprio trabalho.\n\nSalva para montar a sua fila, e me conta aqui quantos dias de estoque você tem hoje.\n\n#conteudo #marketing #produtividade #inteligenciaartificial #instagram #donodenegocio #processos #organizacao"
+  },
+  {
     "id": "tut-ebook",
     "arquivo": "tut-ebook.mp4",
     "quando": "2026-09-28T12:00:00-03:00",
