@@ -116,6 +116,20 @@
     "gancho": "Eu demiti o social media e agora o Claude faz todas as minhas postagens"
   },
   {
+    "id": "bastidor-cerebro",
+    "arquivos": [
+      "bastidor-cerebro-slide-1.jpg",
+      "bastidor-cerebro-slide-2.jpg",
+      "bastidor-cerebro-slide-3.jpg",
+      "bastidor-cerebro-slide-4.jpg",
+      "bastidor-cerebro-slide-5.jpg",
+      "bastidor-cerebro-slide-6.jpg",
+      "bastidor-cerebro-slide-7.jpg"
+    ],
+    "quando": "2026-09-26T09:00:00-03:00",
+    "legenda": "Tudo que eu sei mora num arquivo só, e a IA lê tudo antes de me responder.\n\nNotas, propostas, o que cada cliente comprou e reclamou, as decisões que tomei e o que deu errado no dia em que deu errado.\n\nA IA não é burra, ela não sabe nada sobre você. Resposta genérica é o retrato de um contexto vazio, e contexto vale mais que prompt bonito.\n\nComenta CEREBRO que eu te mando o prompt que monta isso a partir do que você já tem escrito, mesmo bagunçado.\n\n#inteligenciaartificial #segundocerebro #obsidian #produtividade #iaparanegocios #organizacao #claude #donodenegocio"
+  },
+  {
     "id": "tut-10agentes",
     "arquivo": "tut-10agentes.mp4",
     "quando": "2026-09-26T12:00:00-03:00",
