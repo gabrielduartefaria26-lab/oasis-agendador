@@ -66,6 +66,14 @@
     "gancho": "Um banco demitiu 45 pessoas por uma IA e teve que voltar atrás"
   },
   {
+    "id": "tut-ajustes",
+    "arquivo": "tut-ajustes.mp4",
+    "quando": "2026-09-24T12:00:00-03:00",
+    "legenda": "3 ajustes no Claude que você deveria fazer agora 👇\n\nPASSO 1: Faça o Claude lembrar de você.\n\nEntre em Configurações → Capacidades e ligue \"Pesquisar e consultar conversas passadas\" e \"Gerar memória a partir do histórico de chats\".\n\nCom as duas ligadas, ele carrega o seu contexto de uma conversa para a outra e entende quem você é e como você trabalha. Sem isso, todo chat novo começa do zero.\n\nPASSO 2: Leve o seu histórico do ChatGPT junto.\n\nNo ChatGPT, vá em Configurações → Exportar dados. Você recebe um e-mail com os arquivos. Dentro deles, procure o conversations.json.\n\nMande esse arquivo para o Claude com este comando:\n\n\"Leia todo o meu histórico de conversas do ChatGPT e levante o máximo de informação sobre mim, meu trabalho, meus objetivos, minhas preferências e minha forma de escrever. Depois use isso para atualizar a sua memória e personalizar as nossas próximas conversas.\"\n\nDois anos de contexto entram de uma vez.\n\nPASSO 3: Estude pelo que você faz, não pelo que está na moda.\n\nA Anthropic abriu a Claude Academy em academy.claude.com, com dezenas de cursos gratuitos e certificado de conclusão.\n\nPegue o link e peça:\n\n\"Considerando tudo o que você já sabe sobre mim, olhe esse catálogo, escolha os 2 cursos que mais mudam o meu trabalho agora e monte um plano de estudo de 7 dias, com o que eu aplico no meu negócio depois de cada aula.\"\n\nEm vez de estudar tudo e não aplicar nada, você sai com dois cursos escolhidos para o seu caso e uma aplicação por dia.\n\nComenta CEREBRO que eu te mando o prompt completo do passo 2, o que monta a sua memória do zero.\n\n(segue o perfil primeiro, senão a mensagem não chega na sua DM)",
+    "formato": "tutorial",
+    "gancho": "Você está usando o CLAUDE ERRADO e perdendo dinheiro se não fez essas 3 coisas ainda"
+  },
+  {
     "id": "meme-claude-max",
     "arquivo": "meme-claude-max.mp4",
     "quando": "2026-09-24T19:00:00-03:00",
