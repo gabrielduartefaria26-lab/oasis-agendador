@@ -241,6 +241,14 @@
     "gancho": "O ChatGPT agora tem pixel. E ele lê o formulário do site"
   },
   {
+    "id": "meme-ifood",
+    "arquivo": "meme-ifood.mp4",
+    "quando": "2026-09-30T12:00:00-03:00",
+    "legenda": "Cancelei a assinatura e fui de IA gratuita. O atendimento do iFood resolveu meu código em Python e ainda perguntou se eu queria opções de lanche.\n\nServiço completo.\n\nSegue @system.oasis se você também usa IA para tudo, menos para o que ela foi feita.",
+    "formato": "meme",
+    "gancho": "POV: Cancelei a assinatura do Claude e agora só uso a IA do iFood"
+  },
+  {
     "id": "meme-tokens",
     "arquivo": "meme-tokens.mp4",
     "quando": "2026-09-30T19:00:00-03:00",
