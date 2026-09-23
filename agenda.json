@@ -42,6 +42,20 @@
     "gancho": "5 ferramentas grátis que editam o seu vídeo por você"
   },
   {
+    "id": "gpt6-empresa",
+    "arquivos": [
+      "gpt6-empresa-slide-1.jpg",
+      "gpt6-empresa-slide-2.jpg",
+      "gpt6-empresa-slide-3.jpg",
+      "gpt6-empresa-slide-4.jpg",
+      "gpt6-empresa-slide-5.jpg",
+      "gpt6-empresa-slide-6.jpg",
+      "gpt6-empresa-slide-7.jpg"
+    ],
+    "quando": "2026-09-23T15:00:00-03:00",
+    "legenda": "Se 100 leads caíssem hoje no seu comercial, você colocaria o modelo mais caro para ler mensagem por mensagem?\n\nEu não. Luna organiza os contatos, Sol acha o padrão das objeções, Astra entra só no caso difícil.\n\nLuna e Sol são da mesma família, mas Luna custa 20 vezes menos por token na API. Num processo que roda todo dia, isso aparece na conta.\n\nPreço baixo não paga retrabalho. Antes de escalar, meça qualidade, tempo, correção e custo do fluxo inteiro.\n\nQual tarefa da sua empresa entraria nesse teste primeiro?\n\n#gpt6 #openai #inteligenciaartificial #iaparaempresas #automacaocomia #atendimentocomia #produtividade #empresas"
+  },
+  {
     "id": "desc-livro-mapa",
     "arquivo": "desc-livro-mapa.mp4",
     "quando": "2026-09-23T19:00:00-03:00",
