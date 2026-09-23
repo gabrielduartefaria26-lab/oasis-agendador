@@ -42,6 +42,14 @@
     "gancho": "5 ferramentas grátis que editam o seu vídeo por você"
   },
   {
+    "id": "desc-opus55",
+    "arquivo": "desc-opus55.mp4",
+    "quando": "2026-09-23T12:00:00-03:00",
+    "legenda": "A Anthropic lançou o Opus 5.5 ontem, e o que muda para a sua empresa é o preço.\n\nRodar ficou 40% mais barato que o Opus 5: 4 dólares por milhão de tokens de entrada contra 5, e 20 contra 25 na saída. A leitura de cache caiu de 0,50 para 0,20.\n\nModelo mais barato deixa de ser vantagem rápido, porque todo mundo vai ter o mesmo. A vantagem fica com quem já tem fluxo construído e consegue medir quanto ele gera.\n\nSalva para quando você for montar o seu primeiro agente.\n\n#inteligenciaartificial #anthropic #claude #iaparanegocios #automacao #agentesdeia #donodenegocio #produtividade",
+    "formato": "descoberta",
+    "gancho": "Anthropic lançou o Opus 5.5 e isso vai acontecer"
+  },
+  {
     "id": "gpt6-empresa",
     "arquivos": [
       "gpt6-empresa-slide-1.jpg",
