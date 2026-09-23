@@ -75,7 +75,7 @@
       "bastidor-agendador-slide-7.jpg"
     ],
     "quando": "2026-09-24T09:00:00-03:00",
-    "legenda": "Este post foi publicado por um script, na hora marcada, enquanto eu dormia.\n\nO agendador é meu: um arquivo guarda a fila, um robô do GitHub confere a hora de 15 em 15 minutos, e a API do Instagram publica. Custo por mês: R$ 0.\n\nToda tarefa com hora marcada que depende de alguém lembrar é um gargalo esperando a hora de aparecer.\n\nComenta AGENDA que eu te mando o kit e o guia. Salva para configurar no fim de semana.\n\n#inteligenciaartificial #automacao #iaparanegocios #instagram #produtividade #donodenegocio #claude #github"
+    "legenda": "As quatro peças que publicaram este post sozinhas, enquanto eu dormia.\n\nUm arquivo de texto guardando a fila, um robô do GitHub que acorda de 15 em 15 minutos, um Release hospedando os arquivos e duas chamadas na API do Instagram.\n\nO plano gratuito dá 2.000 minutos por mês e essa rotina usa 20 segundos por vez. A conta do mês fecha em R$ 0.\n\nComenta AGENDA que eu te mando o kit que você instala e o guia com a parte da Meta, print por print.\n\n#inteligenciaartificial #automacao #instagram #github #iaparanegocios #produtividade #conteudo #donodenegocio"
   },
   {
     "id": "tut-ajustes",
