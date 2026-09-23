@@ -64,22 +64,6 @@
     "gancho": "Joga um livro no ChatGPT e escreve /mindmap"
   },
   {
-    "id": "banco",
-    "arquivos": [
-      "banco-slide-1.jpg",
-      "banco-slide-2.jpg",
-      "banco-slide-3.jpg",
-      "banco-slide-4.jpg",
-      "banco-slide-5.jpg",
-      "banco-slide-6.jpg",
-      "banco-slide-7.jpg"
-    ],
-    "quando": "2026-09-24T09:00:00-03:00",
-    "legenda": "Um banco demitiu 45 atendentes por causa de uma IA e teve que voltar atrás.\n\nO maior banco da Austrália cortou em julho de 2025 e reverteu em agosto: as chamadas subiram, gestores entraram em hora extra. O CEO admitiu que não consideraram todas as variáveis.\n\nA IA não falhou. O erro foi decidir sobre 45 pessoas sem medir o atendimento real rodando.\n\nComenta ENSAIO que eu te mando o protocolo para testar automação sem mexer em ninguém.\nMarca quem está prestes a tomar essa decisão.\n\n#inteligenciaartificial #automacao #gestaodepessoas #donodenegocio #atendimento #gestao",
-    "formato": "case",
-    "gancho": "Um banco demitiu 45 pessoas por uma IA e teve que voltar atrás"
-  },
-  {
     "id": "tut-ajustes",
     "arquivo": "tut-ajustes.mp4",
     "quando": "2026-09-24T12:00:00-03:00",
@@ -96,46 +80,12 @@
     "gancho": "POV: Eu tentando explicar para empresários 40+ porque é melhor contratar o Claude Max do que ter sócio"
   },
   {
-    "id": "brasil-eua",
-    "arquivos": [
-      "brasil-eua-slide-1.jpg",
-      "brasil-eua-slide-2.jpg",
-      "brasil-eua-slide-3.jpg",
-      "brasil-eua-slide-4.jpg",
-      "brasil-eua-slide-5.jpg",
-      "brasil-eua-slide-6.jpg",
-      "brasil-eua-slide-7.jpg",
-      "brasil-eua-slide-8.jpg"
-    ],
-    "quando": "2026-09-25T09:00:00-03:00",
-    "legenda": "O seu concorrente já está nos 52%.\n\nSebrae e Meta ouviram 7.182 donos de pequeno negócio: 52% usaram IA nas duas últimas semanas. Nos Estados Unidos são 21%.\n\nNão é que o brasileiro seja mais moderno. É que aqui o dono decide na terça e a grande monta comitê. Ser pequeno virou a vantagem.\n\nComenta MAPA que eu te mando as 18 tarefas que já dá para tirar da sua mão.\nSalva para escolher a primeira.\n\n#inteligenciaartificial #automacao #pequenonegocio #donodenegocio #produtividade #gestao",
-    "formato": "case",
-    "gancho": "O seu concorrente já está nos 52%"
-  },
-  {
     "id": "tut-agendador",
     "arquivo": "tut-agendador.mp4",
     "quando": "2026-09-25T19:00:00-03:00",
     "legenda": "Eu demiti o social media. Agora o Claude posta tudo sozinho aqui no Instagram.\n\nVocê só precisa de três contas: Claude, GitHub e Instagram profissional.\n\nComenta AGENDA que eu te mando o kit e o guia passo a passo.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #automacao",
     "formato": "tutorial",
     "gancho": "Eu demiti o social media e agora o Claude faz todas as minhas postagens"
-  },
-  {
-    "id": "amazon",
-    "arquivos": [
-      "amazon-slide-1.jpg",
-      "amazon-slide-2.jpg",
-      "amazon-slide-3.jpg",
-      "amazon-slide-4.jpg",
-      "amazon-slide-5.jpg",
-      "amazon-slide-6.jpg",
-      "amazon-slide-7.jpg",
-      "amazon-slide-8.jpg"
-    ],
-    "quando": "2026-09-26T09:00:00-03:00",
-    "legenda": "A Amazon torrou 1,8 milhão de dólares numa tarefa de IA e levou 5 meses para perceber.\n\nA causa não foi técnica. Eles mantinham um ranking de quantos tokens cada dev consumia. O time passou a inventar tarefa para subir nele. Apelidaram de tokenmaxxing.\n\nMediram uso em vez de resultado, e o time entregou o que foi medido.\n\nComenta ECONOMIA que eu te mando o controle de teto e alarme pronto.\nMarca quem paga a conta de IA aí.\n\n#inteligenciaartificial #custodeia #automacao #gestaofinanceira #donodenegocio #gestao",
-    "formato": "case",
-    "gancho": "A Amazon torrou 1,8 milhão em IA e não viu"
   },
   {
     "id": "tut-10agentes",
@@ -178,24 +128,6 @@
     "legenda": "Os comandos que eu usei. Manda uma foto no ChatGPT e escreve um deles:\n\n/tinyplanet\n/floating3d\n/handwritten\n/metaad\n/magazinecover\n/3Dbillboard\n/explodedview\n\nSalva e testa com uma foto sua.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #inteligenciaartificial #criatividade",
     "formato": "descoberta",
     "gancho": "Usa isso pra gerar isso (/tinyplanet)"
-  },
-  {
-    "id": "mit",
-    "arquivos": [
-      "mit-slide-1.jpg",
-      "mit-slide-2.jpg",
-      "mit-slide-3.jpg",
-      "mit-slide-4.jpg",
-      "mit-slide-5.jpg",
-      "mit-slide-6.jpg",
-      "mit-slide-7.jpg",
-      "mit-slide-8.jpg",
-      "mit-slide-9.jpg"
-    ],
-    "quando": "2026-09-28T09:00:00-03:00",
-    "legenda": "O MIT achou o culpado dos 95% de prejuízo com IA. E não é a IA.\n\nProject NANDA: mais de 300 iniciativas analisadas, 52 executivos ouvidos, só 5% dão retorno medível. O Gartner, com 782 líderes de TI, chegou a 28%.\n\nO estudo não mediu a IA. Mediu a empresa. Os 5% não têm IA melhor, têm pergunta melhor.\n\nComenta TESTE que eu te mando o roteiro que eu uso com cliente.\nMarca quem vai tocar isso aí.\n\n#inteligenciaartificial #automacao #roi #donodenegocio #gestao #processos",
-    "formato": "case",
-    "gancho": "O MIT achou o culpado dos 95% de prejuízo com IA"
   },
   {
     "id": "tut-ebook",
