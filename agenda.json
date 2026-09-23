@@ -1,13 +1,5 @@
 [
   {
-    "id": "teste-trial",
-    "arquivo": "meme-tokens.mp4",
-    "quando": "2026-09-01T09:00:00-03:00",
-    "trial": true,
-    "legenda": "teste de container, nao vai ao ar",
-    "formato": "meme"
-  },
-  {
     "id": "texto-ia",
     "arquivos": [
       "texto-ia-slide-1.jpg",
@@ -23,6 +15,14 @@
     "legenda": "4 skills que fazem o seu texto parar de parecer IA.\n\nPesquisa com 668 leitores: 78% param de ler quando percebem que foi a máquina, e 71% passam a evitar quem escreveu.\n\nO cliente não sabe nomear, mas sente. O travessão no meio da frase, o trio de adjetivos, o \"não é só isso, é aquilo\". Essas quatro caçam exatamente o que te entrega.\n\nComenta HUMANO que eu te mando as quatro e a lista dos sinais em português.\nSalva para passar a próxima proposta por ela.\n\n#inteligenciaartificial #copywriting #claudecode #produtividade #donodenegocio #escrita",
     "formato": "ferramenta",
     "gancho": "4 skills que fazem o seu texto parar de parecer IA"
+  },
+  {
+    "id": "meme-vizinhos",
+    "arquivo": "meme-vizinhos.mp4",
+    "quando": "2026-09-22T19:00:00-03:00",
+    "legenda": "Terça, 14h, de chinelo. E a empresa rodando. 🤣\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
+    "formato": "meme",
+    "gancho": "POV: Meus vizinhos me vendo de bermuda e chinelo numa terça-feira às 14:00 tentando entender qual é minha profissão"
   },
   {
     "id": "repos-02",
@@ -65,6 +65,14 @@
     "legenda": "A Anthropic lançou o Opus 5.5, e a mudança que interessa para a sua empresa não é inteligência. É custo.\n\n40% menos custo por tarefa em trabalhos típicos, pela conta da própria Anthropic. A entrada caiu de 5 para 4 dólares por milhão de tokens, a saída de 25 para 20, e a leitura de cache de 0,50 para 0,20.\n\nO ganho não é ter mais IA. É concluir mais trabalho pelo mesmo dinheiro, e isso muda o que vale a pena automatizar.\n\nSalva e revisa com esses olhos o processo mais travado da sua operação.\n\n#inteligenciaartificial #anthropic #claude #opus55 #iaparanegocios #automacao #agentesdeia #donodenegocio"
   },
   {
+    "id": "desc-livro-mapa",
+    "arquivo": "desc-livro-mapa.mp4",
+    "quando": "2026-09-23T19:00:00-03:00",
+    "legenda": "Joga um livro no ChatGPT e usa estes comandos:\n\n/mindmap: o mapa completo do conteúdo\n/sketchnote: resumo com anotações do material\n/flashcards: cartões com os principais tópicos\n/fluxograma: o fluxo de estudo do livro inteiro\n/quadrinhos didáticos: o conteúdo em quadrinhos\n\nSalva para usar no próximo livro.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #inteligenciaartificial #produtividade",
+    "formato": "descoberta",
+    "gancho": "Joga um livro no ChatGPT e escreve /mindmap"
+  },
+  {
     "id": "bastidor-agendador",
     "arquivos": [
       "bastidor-agendador-slide-1.jpg",
@@ -93,6 +101,14 @@
     "legenda": "Se 100 leads caíssem hoje no seu comercial, você colocaria o modelo mais caro para ler mensagem por mensagem?\n\nEu não. Luna organiza os contatos, Sol acha o padrão das objeções, Astra entra só no caso difícil.\n\nLuna e Sol são da mesma família, mas Luna custa 20 vezes menos por token na API. Num processo que roda todo dia, isso aparece na conta.\n\nPreço baixo não paga retrabalho. Antes de escalar, meça qualidade, tempo, correção e custo do fluxo inteiro.\n\nQual tarefa da sua empresa entraria nesse teste primeiro?\n\n#gpt6 #openai #inteligenciaartificial #iaparaempresas #automacaocomia #atendimentocomia #produtividade #empresas"
   },
   {
+    "id": "meme-claude-max",
+    "arquivo": "meme-claude-max.mp4",
+    "quando": "2026-09-24T19:00:00-03:00",
+    "legenda": "Sócio pede metade. O Claude pede a assinatura. 🤣\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
+    "formato": "meme",
+    "gancho": "POV: Eu tentando explicar para empresários 40+ porque é melhor contratar o Claude Max do que ter sócio"
+  },
+  {
     "id": "bastidor-esteira",
     "arquivos": [
       "bastidor-esteira-slide-1.jpg",
@@ -107,6 +123,22 @@
     "legenda": "Uma gravação de 58 minutos virou cinco Reels, sem editor e sem enviar arquivo para lugar nenhum.\n\nWhisper transcreve no próprio computador, 9.412 palavras com hora de início e fim. O corte sai lendo o texto, não assistindo tudo de novo.\n\nO enquadramento acompanha o rosto quadro a quadro, e a legenda entra queimada no arquivo, no mesmo padrão de sempre.\n\nComenta EDITOR que eu te mando as cinco ferramentas gratuitas que fazem isso, com link e instalação.\n\n#inteligenciaartificial #reels #edicaodevideo #conteudo #automacao #iaparanegocios #produtividade #criadordeconteudo"
   },
   {
+    "id": "tut-ajustes",
+    "arquivo": "tut-ajustes.mp4",
+    "quando": "2026-09-25T12:00:00-03:00",
+    "legenda": "3 ajustes no Claude que você deveria fazer agora 👇\n\nPASSO 1: Faça o Claude lembrar de você.\n\nEntre em Configurações → Capacidades e ligue \"Pesquisar e consultar conversas passadas\" e \"Gerar memória a partir do histórico de chats\".\n\nCom as duas ligadas, ele carrega o seu contexto de uma conversa para a outra e entende quem você é e como você trabalha. Sem isso, todo chat novo começa do zero.\n\nPASSO 2: Leve o seu histórico do ChatGPT junto.\n\nNo ChatGPT, vá em Configurações → Exportar dados. Você recebe um e-mail com os arquivos. Dentro deles, procure o conversations.json.\n\nMande esse arquivo para o Claude com este comando:\n\n\"Leia todo o meu histórico de conversas do ChatGPT e levante o máximo de informação sobre mim, meu trabalho, meus objetivos, minhas preferências e minha forma de escrever. Depois use isso para atualizar a sua memória e personalizar as nossas próximas conversas.\"\n\nDois anos de contexto entram de uma vez.\n\nPASSO 3: Estude pelo que você faz, não pelo que está na moda.\n\nA Anthropic abriu a Claude Academy em academy.claude.com, com dezenas de cursos gratuitos e certificado de conclusão.\n\nPegue o link e peça:\n\n\"Considerando tudo o que você já sabe sobre mim, olhe esse catálogo, escolha os 2 cursos que mais mudam o meu trabalho agora e monte um plano de estudo de 7 dias, com o que eu aplico no meu negócio depois de cada aula.\"\n\nEm vez de estudar tudo e não aplicar nada, você sai com dois cursos escolhidos para o seu caso e uma aplicação por dia.\n\nComenta CEREBRO que eu te mando o prompt completo do passo 2, o que monta a sua memória do zero.\n\n(segue o perfil primeiro, senão a mensagem não chega na sua DM)",
+    "formato": "tutorial",
+    "gancho": "Você está usando o CLAUDE ERRADO e perdendo dinheiro se não fez essas 3 coisas ainda"
+  },
+  {
+    "id": "tut-agendador",
+    "arquivo": "tut-agendador.mp4",
+    "quando": "2026-09-25T19:00:00-03:00",
+    "legenda": "Eu demiti o social media. Agora o Claude posta tudo sozinho aqui no Instagram.\n\nVocê só precisa de três contas: Claude, GitHub e Instagram profissional.\n\nComenta AGENDA que eu te mando o kit e o guia passo a passo.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #automacao",
+    "formato": "tutorial",
+    "gancho": "Eu demiti o social media e agora o Claude faz todas as minhas postagens"
+  },
+  {
     "id": "bastidor-cerebro",
     "arquivos": [
       "bastidor-cerebro-slide-1.jpg",
@@ -119,6 +151,22 @@
     ],
     "quando": "2026-09-26T09:00:00-03:00",
     "legenda": "Uma pasta, e a IA parou de me perguntar quem eu sou a cada conversa nova.\n\nSeis pastas: negócio, projetos, aprendizados, pessoas, ideias e uma caixa de entrada. O prompt te entrevista com sete perguntas antes de escrever qualquer arquivo.\n\nDepois disso eu pergunto em vez de procurar. A resposta vem com o arquivo e a data de onde saiu, então dá para conferir.\n\nComenta CEREBRO que eu te mando o prompt inteiro, com as sete perguntas e as etapas, para colar e rodar hoje.\n\n#inteligenciaartificial #segundocerebro #obsidian #produtividade #iaparanegocios #organizacao #claude #donodenegocio"
+  },
+  {
+    "id": "tut-10agentes",
+    "arquivo": "tut-10agentes.mp4",
+    "quando": "2026-09-26T12:00:00-03:00",
+    "legenda": "Comenta SEMANA10 que eu te mando o guia com o passo a passo dos 10 🔗\n\nOs dez moram no mesmo lugar: um Project do Claude, com a instrução fixa, os seus arquivos e as conexões.\n\n01. Resumo matinal\nLê agenda, e-mail e notícias e devolve o dia numa página só.\n\n02. Preparação de reunião\nPesquisa a empresa e quem vai estar na sala, e sugere os assuntos e os pontos de atenção.\n\n03. Organizador da caixa de entrada\nSepara o que exige você, o que pode esperar e o que ignorar. E já deixa a resposta em rascunho.\n\n04. Pesquisa de prospect\nVocê dá o nome, ele devolve empresa, cargo, contexto e a mensagem de abertura.\n\n05. Conselho particular\nQuatro cabeças analisam a mesma decisão por ângulos diferentes e entregam uma conclusão.\n\n06. Segundo cérebro\nNotas, documentos e prints num lugar só, com busca por pergunta em vez de pasta.\n\n07. Máquina de conteúdo\nUm material longo entra, sai uma semana de posts no seu tom.\n\n08. Sistema financeiro\nRenda, despesa e meta entram, sai um plano que se atualiza todo mês.\n\n09. Revisão semanal\nToda sexta: o que andou, o que travou e o que entra na próxima semana.\n\n10. Clone de escrita\nCinco textos seus e a resposta passa a sair com a sua cara.\n\nEscolhe um e coloca para rodar neste fim de semana ✴️\n\nComenta SEMANA10 e eu te mando o guia com a instrução pronta de cada um.\n\n(segue o perfil primeiro, senão a mensagem não chega na sua DM)",
+    "formato": "tutorial",
+    "gancho": "10 Sistemas que você pode criar com o CLAUDE neste final de semana"
+  },
+  {
+    "id": "meme-madrugada",
+    "arquivo": "meme-madrugada.mp4",
+    "quando": "2026-09-26T19:00:00-03:00",
+    "legenda": "Quem trabalha com IA de madrugada sabe exatamente como é. 🤣\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
+    "formato": "meme",
+    "gancho": "02:30 da madrugada, eu revolucionando o mundo com meu humilde trabalho"
   },
   {
     "id": "meta",
@@ -139,6 +187,14 @@
     "gancho": "A Meta começou a vender atendente por R$ 60"
   },
   {
+    "id": "desc-tiny-planet",
+    "arquivo": "desc-tiny-planet.mp4",
+    "quando": "2026-09-27T19:00:00-03:00",
+    "legenda": "Os comandos que eu usei. Manda uma foto no ChatGPT e escreve um deles:\n\n/tinyplanet\n/floating3d\n/handwritten\n/metaad\n/magazinecover\n/3Dbillboard\n/explodedview\n\nSalva e testa com uma foto sua.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #inteligenciaartificial #criatividade",
+    "formato": "descoberta",
+    "gancho": "Usa isso pra gerar isso (/tinyplanet)"
+  },
+  {
     "id": "bastidor-quadro",
     "arquivos": [
       "bastidor-quadro-slide-1.jpg",
@@ -151,6 +207,22 @@
     ],
     "quando": "2026-09-28T09:00:00-03:00",
     "legenda": "Os meus próximos 20 posts já estão marcados, com hora, e nenhum foi decidido hoje de manhã.\n\nSeis colunas separam produzir de publicar: enquanto o arquivo não existe, o card não atravessa. Cinco eliminações barram o assunto antes de virar peça, e na semana passada cortaram quatro carrosséis prontos.\n\nToda palavra que eu peço no comentário já tem arquivo publicado antes do post existir. São treze hoje.\n\nComenta FILA com o número de dias de estoque que você tem. Se for zero, é só isso que está entre você e publicar todo dia.\n\n#conteudo #marketing #produtividade #inteligenciaartificial #instagram #donodenegocio #processos #organizacao"
+  },
+  {
+    "id": "tut-ebook",
+    "arquivo": "tut-ebook.mp4",
+    "quando": "2026-09-28T12:00:00-03:00",
+    "legenda": "Em vez de maratonar Netflix hoje à noite, faz esse:\n\nO esboço sai em uma conversa. O design sai no Canva. O resto é você vender.\n\nPASSO 1: o assunto.\nNão invente tema. Escolha o que você já resolve para alguém há pelo menos um ano. Quem compra e-book de R$27,90 está com um problema pequeno e urgente, não procurando enciclopédia.\n\nCinco que vendem bem porque a dor é específica:\n. o que fazer nos 30 dias antes de abrir o CNPJ\n. o roteiro de atendimento no WhatsApp para quem vende serviço\n. a rotina de treino para quem só tem 40 minutos e três dias na semana\n. como organizar a planilha do mês quando a renda é variável\n. o passo a passo do primeiro anúncio para quem nunca subiu campanha\n\nPASSO 2: o esboço, no Claude.\n\n\"Você vai me ajudar a escrever um e-book curto, de 30 a 40 páginas, sobre [assunto], para [quem é a pessoa e em que momento ela está]. Antes de escrever, me faça 5 perguntas sobre o que eu já sei desse assunto na prática. Depois entregue o sumário com capítulos e o que cada um resolve, um por linha, e diga qual capítulo é o que faz a pessoa sentir que valeu o dinheiro.\"\n\nResponda as 5 perguntas com a sua experiência. É isso que separa o seu e-book do e-book genérico que ele escreveria sozinho.\n\nPASSO 3: capítulo por capítulo.\n\n\"Escreva o capítulo [X] com as minhas palavras, em no máximo 900 palavras, usando os exemplos que eu te dei. Nada de introdução sobre a importância do tema. Comece pelo que a pessoa faz primeiro.\"\n\nPASSO 4: o design.\nCanva, modelo de e-book, cola o texto, troca as cores, exporta em PDF. Capa com a promessa e o número, não com o seu nome.\n\nA conta do vídeo é conta, não promessa: 100 cópias a R$27,90. Quem tem 200 seguidores não vende 100 no primeiro dia. Mas o arquivo fica pronto hoje e vende enquanto você dorme, o que a série da Netflix nunca vai fazer.\n\nSalva para fazer hoje à noite.",
+    "formato": "tutorial",
+    "gancho": "Em vez de maratonar Netflix hoje à noite"
+  },
+  {
+    "id": "meme-produtividade",
+    "arquivo": "meme-produtividade.mp4",
+    "quando": "2026-09-28T19:00:00-03:00",
+    "legenda": "Pai, empresário e com o Claude aberto. Produtividade é outra coisa. 🤣\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
+    "formato": "meme",
+    "gancho": "Se você nunca trabalhou assim, não quero sua dica de produtividade"
   },
   {
     "id": "repos-01",
@@ -170,6 +242,14 @@
     "gancho": "5 ferramentas grátis para descobrir o que o seu concorrente está fazendo"
   },
   {
+    "id": "desc-ferramentas",
+    "arquivo": "desc-ferramentas.mp4",
+    "quando": "2026-09-29T19:00:00-03:00",
+    "legenda": "A IA certa para cada tarefa: escrever, gerar imagem, criar aplicativo, automatizar, atender cliente, fazer vídeo e analisar dados.\n\nComenta LISTA que eu te mando a lista completa no direct.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #ferramentasdeia #produtividade",
+    "formato": "descoberta",
+    "gancho": "Para escrever use esse, esse ou esse"
+  },
+  {
     "id": "pixel-openai",
     "arquivos": [
       "pixel-openai-slide-1.jpg",
@@ -184,6 +264,22 @@
     "legenda": "O ChatGPT agora tem pixel, e ele lê o formulário do site onde está instalado.\n\nInvestigação publicada dia 20: em 936 pixels de anunciante, o código raspou 685 identidades das próprias páginas contra 255 entregues de propósito. O CEP sai em texto puro.\n\nA big tech leva o dado. A conta de explicar de onde ele saiu chega na sua mesa.\n\nEscrevi a varredura em duas páginas: como achar todo pixel do seu site em vinte minutos, sem programador, e o que fazer com o que aparecer.\n\nComenta PIXEL que eu te mando.\nSalva para fazer na segunda. Marca quem mexe no seu site.\n\n#inteligenciaartificial #chatgpt #openai #lgpd #donodenegocio #marketingdigital #privacidade #trafegopago",
     "formato": "case",
     "gancho": "O ChatGPT agora tem pixel. E ele lê o formulário do site"
+  },
+  {
+    "id": "meme-ifood",
+    "arquivo": "meme-ifood.mp4",
+    "quando": "2026-09-30T12:00:00-03:00",
+    "legenda": "Cancelei a assinatura e fui de IA gratuita. O atendimento do iFood resolveu meu código em Python e ainda perguntou se eu queria opções de lanche.\n\nServiço completo.\n\nSegue @gabrielfaria.ia se você também usa IA para tudo, menos para o que ela foi feita.",
+    "formato": "meme",
+    "gancho": "POV: Cancelei a assinatura do Claude e agora só uso a IA do iFood"
+  },
+  {
+    "id": "meme-tokens",
+    "arquivo": "meme-tokens.mp4",
+    "quando": "2026-09-30T19:00:00-03:00",
+    "legenda": "Os tokens acabaram. Virei leitor. 🤣\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
+    "formato": "meme",
+    "gancho": "Eu fingindo que gosto de ler livros até os meus tokens do Claude voltarem"
   },
   {
     "id": "agentes-sem-dono",
@@ -213,5 +309,13 @@
     ],
     "quando": "2026-10-02T09:00:00-03:00",
     "legenda": "Antes de soltar o agente, esse comando te diz quanto ele vai custar.\n\nloop-engineering: 11.288 estrelas no GitHub, licença MIT, 38 pessoas contribuindo, versão 1.6.0 com commit de hoje.\n\nA regra vale mais que a ferramenta. O agente só sobe para rodar sozinho depois que o verificador acertou a semana inteira.\n\nComenta CICLO que eu te mando o comando, os 8 padrões com o custo de cada um e o que conferir antes de soltar.\nSalva para o dia em que você for automatizar de verdade.\n\n#inteligenciaartificial #claudecode #automacao #github #opensource #agentesdeia #produtividade"
+  },
+  {
+    "id": "tut-financeiro",
+    "arquivo": "tut-financeiro.mp4",
+    "quando": "2026-10-02T12:00:00-03:00",
+    "legenda": "O Claude arruma a sua vida financeira em um fim de semana. Os prompts estão aqui 👇\n\nVocê precisa de três coisas na mão: o extrato dos últimos 3 meses, a fatura do cartão e a lista do que entra por mês. Exporta tudo em PDF ou planilha e joga na conversa.\n\nPROMPT 1: o diagnóstico.\n\n\"Vou te enviar meus extratos e faturas dos últimos 3 meses. Leia tudo e me diga, sem suavizar: quanto entra por mês em média, quanto sai, e para onde vai. Separe em fixo, variável e invisível, que é o gasto pequeno e repetido que eu nem percebo. No fim, aponte os 3 buracos que mais custam caro e quanto cada um representa por ano.\"\n\nPROMPT 2: o plano.\n\n\"Com base no diagnóstico, monte meu plano dos próximos 90 dias. Quero: quanto preciso deixar de reserva antes de qualquer outra coisa, quanto dá para guardar por mês sem que a vida fique insuportável, qual dívida quito primeiro e por quê, e o único corte que faz mais diferença do que todos os outros juntos. Fale em número, não em conselho.\"\n\nPROMPT 3: a revisão que não deixa você desistir.\n\n\"Todo dia 1, me peça os números do mês que passou e compare com o plano. Diga o que eu cumpri, o que eu furei e quanto isso custou. Se eu furar duas vezes a mesma meta, ela está errada e não sou eu: refaça a meta.\"\n\nUm aviso honesto: ele não é consultor financeiro e não vai te dizer onde investir. O que ele faz bem é o trabalho chato que você adia, que é olhar 3 meses de extrato linha a linha e te mostrar o padrão que você não quer ver.\n\nDuas horas no sábado resolvem o que você vem empurrando há um ano.\n\nSalva e faz no fim de semana.",
+    "formato": "tutorial",
+    "gancho": "O CLAUDE vai salvar sua vida financeira em um final de semana"
   }
 ]
