@@ -65,20 +65,6 @@
     "legenda": "A Anthropic lançou o Opus 5.5, e a mudança que interessa para a sua empresa não é inteligência. É custo.\n\n40% menos custo por tarefa em trabalhos típicos, pela conta da própria Anthropic. A entrada caiu de 5 para 4 dólares por milhão de tokens, a saída de 25 para 20, e a leitura de cache de 0,50 para 0,20.\n\nO ganho não é ter mais IA. É concluir mais trabalho pelo mesmo dinheiro, e isso muda o que vale a pena automatizar.\n\nSalva e revisa com esses olhos o processo mais travado da sua operação.\n\n#inteligenciaartificial #anthropic #claude #opus55 #iaparanegocios #automacao #agentesdeia #donodenegocio"
   },
   {
-    "id": "gpt6-empresa",
-    "arquivos": [
-      "gpt6-empresa-slide-1.jpg",
-      "gpt6-empresa-slide-2.jpg",
-      "gpt6-empresa-slide-3.jpg",
-      "gpt6-empresa-slide-4.jpg",
-      "gpt6-empresa-slide-5.jpg",
-      "gpt6-empresa-slide-6.jpg",
-      "gpt6-empresa-slide-7.jpg"
-    ],
-    "quando": "2026-09-24T15:00:00-03:00",
-    "legenda": "Se 100 leads caíssem hoje no seu comercial, você colocaria o modelo mais caro para ler mensagem por mensagem?\n\nEu não. Luna organiza os contatos, Sol acha o padrão das objeções, Astra entra só no caso difícil.\n\nLuna e Sol são da mesma família, mas Luna custa 20 vezes menos por token na API. Num processo que roda todo dia, isso aparece na conta.\n\nPreço baixo não paga retrabalho. Antes de escalar, meça qualidade, tempo, correção e custo do fluxo inteiro.\n\nQual tarefa da sua empresa entraria nesse teste primeiro?\n\n#gpt6 #openai #inteligenciaartificial #iaparaempresas #automacaocomia #atendimentocomia #produtividade #empresas"
-  },
-  {
     "id": "desc-livro-mapa",
     "arquivo": "desc-livro-mapa.mp4",
     "quando": "2026-09-23T19:00:00-03:00",
@@ -101,12 +87,18 @@
     "legenda": "As quatro peças que publicaram este post sozinhas, enquanto eu dormia.\n\nUm arquivo de texto guardando a fila, um robô do GitHub que acorda de 15 em 15 minutos, um Release hospedando os arquivos e duas chamadas na API do Instagram.\n\nO plano gratuito dá 2.000 minutos por mês e essa rotina usa 20 segundos por vez. A conta do mês fecha em R$ 0.\n\nComenta AGENDA que eu te mando o kit que você instala e o guia com a parte da Meta, print por print.\n\n#inteligenciaartificial #automacao #instagram #github #iaparanegocios #produtividade #conteudo #donodenegocio"
   },
   {
-    "id": "tut-ajustes",
-    "arquivo": "tut-ajustes.mp4",
-    "quando": "2026-09-25T12:00:00-03:00",
-    "legenda": "3 ajustes no Claude que você deveria fazer agora 👇\n\nPASSO 1: Faça o Claude lembrar de você.\n\nEntre em Configurações → Capacidades e ligue \"Pesquisar e consultar conversas passadas\" e \"Gerar memória a partir do histórico de chats\".\n\nCom as duas ligadas, ele carrega o seu contexto de uma conversa para a outra e entende quem você é e como você trabalha. Sem isso, todo chat novo começa do zero.\n\nPASSO 2: Leve o seu histórico do ChatGPT junto.\n\nNo ChatGPT, vá em Configurações → Exportar dados. Você recebe um e-mail com os arquivos. Dentro deles, procure o conversations.json.\n\nMande esse arquivo para o Claude com este comando:\n\n\"Leia todo o meu histórico de conversas do ChatGPT e levante o máximo de informação sobre mim, meu trabalho, meus objetivos, minhas preferências e minha forma de escrever. Depois use isso para atualizar a sua memória e personalizar as nossas próximas conversas.\"\n\nDois anos de contexto entram de uma vez.\n\nPASSO 3: Estude pelo que você faz, não pelo que está na moda.\n\nA Anthropic abriu a Claude Academy em academy.claude.com, com dezenas de cursos gratuitos e certificado de conclusão.\n\nPegue o link e peça:\n\n\"Considerando tudo o que você já sabe sobre mim, olhe esse catálogo, escolha os 2 cursos que mais mudam o meu trabalho agora e monte um plano de estudo de 7 dias, com o que eu aplico no meu negócio depois de cada aula.\"\n\nEm vez de estudar tudo e não aplicar nada, você sai com dois cursos escolhidos para o seu caso e uma aplicação por dia.\n\nComenta CEREBRO que eu te mando o prompt completo do passo 2, o que monta a sua memória do zero.\n\n(segue o perfil primeiro, senão a mensagem não chega na sua DM)",
-    "formato": "tutorial",
-    "gancho": "Você está usando o CLAUDE ERRADO e perdendo dinheiro se não fez essas 3 coisas ainda"
+    "id": "gpt6-empresa",
+    "arquivos": [
+      "gpt6-empresa-slide-1.jpg",
+      "gpt6-empresa-slide-2.jpg",
+      "gpt6-empresa-slide-3.jpg",
+      "gpt6-empresa-slide-4.jpg",
+      "gpt6-empresa-slide-5.jpg",
+      "gpt6-empresa-slide-6.jpg",
+      "gpt6-empresa-slide-7.jpg"
+    ],
+    "quando": "2026-09-24T15:00:00-03:00",
+    "legenda": "Se 100 leads caíssem hoje no seu comercial, você colocaria o modelo mais caro para ler mensagem por mensagem?\n\nEu não. Luna organiza os contatos, Sol acha o padrão das objeções, Astra entra só no caso difícil.\n\nLuna e Sol são da mesma família, mas Luna custa 20 vezes menos por token na API. Num processo que roda todo dia, isso aparece na conta.\n\nPreço baixo não paga retrabalho. Antes de escalar, meça qualidade, tempo, correção e custo do fluxo inteiro.\n\nQual tarefa da sua empresa entraria nesse teste primeiro?\n\n#gpt6 #openai #inteligenciaartificial #iaparaempresas #automacaocomia #atendimentocomia #produtividade #empresas"
   },
   {
     "id": "meme-claude-max",
@@ -129,6 +121,14 @@
     ],
     "quando": "2026-09-25T09:00:00-03:00",
     "legenda": "Uma gravação de 58 minutos virou cinco Reels, sem editor e sem enviar arquivo para lugar nenhum.\n\nWhisper transcreve no próprio computador, 9.412 palavras com hora de início e fim. O corte sai lendo o texto, não assistindo tudo de novo.\n\nO enquadramento acompanha o rosto quadro a quadro, e a legenda entra queimada no arquivo, no mesmo padrão de sempre.\n\nComenta EDITOR que eu te mando as cinco ferramentas gratuitas que fazem isso, com link e instalação.\n\n#inteligenciaartificial #reels #edicaodevideo #conteudo #automacao #iaparanegocios #produtividade #criadordeconteudo"
+  },
+  {
+    "id": "tut-ajustes",
+    "arquivo": "tut-ajustes.mp4",
+    "quando": "2026-09-25T12:00:00-03:00",
+    "legenda": "3 ajustes no Claude que você deveria fazer agora 👇\n\nPASSO 1: Faça o Claude lembrar de você.\n\nEntre em Configurações → Capacidades e ligue \"Pesquisar e consultar conversas passadas\" e \"Gerar memória a partir do histórico de chats\".\n\nCom as duas ligadas, ele carrega o seu contexto de uma conversa para a outra e entende quem você é e como você trabalha. Sem isso, todo chat novo começa do zero.\n\nPASSO 2: Leve o seu histórico do ChatGPT junto.\n\nNo ChatGPT, vá em Configurações → Exportar dados. Você recebe um e-mail com os arquivos. Dentro deles, procure o conversations.json.\n\nMande esse arquivo para o Claude com este comando:\n\n\"Leia todo o meu histórico de conversas do ChatGPT e levante o máximo de informação sobre mim, meu trabalho, meus objetivos, minhas preferências e minha forma de escrever. Depois use isso para atualizar a sua memória e personalizar as nossas próximas conversas.\"\n\nDois anos de contexto entram de uma vez.\n\nPASSO 3: Estude pelo que você faz, não pelo que está na moda.\n\nA Anthropic abriu a Claude Academy em academy.claude.com, com dezenas de cursos gratuitos e certificado de conclusão.\n\nPegue o link e peça:\n\n\"Considerando tudo o que você já sabe sobre mim, olhe esse catálogo, escolha os 2 cursos que mais mudam o meu trabalho agora e monte um plano de estudo de 7 dias, com o que eu aplico no meu negócio depois de cada aula.\"\n\nEm vez de estudar tudo e não aplicar nada, você sai com dois cursos escolhidos para o seu caso e uma aplicação por dia.\n\nComenta CEREBRO que eu te mando o prompt completo do passo 2, o que monta a sua memória do zero.\n\n(segue o perfil primeiro, senão a mensagem não chega na sua DM)",
+    "formato": "tutorial",
+    "gancho": "Você está usando o CLAUDE ERRADO e perdendo dinheiro se não fez essas 3 coisas ainda"
   },
   {
     "id": "tut-agendador",
@@ -280,6 +280,20 @@
     "legenda": "Os tokens acabaram. Virei leitor. 🤣\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
     "formato": "meme",
     "gancho": "Eu fingindo que gosto de ler livros até os meus tokens do Claude voltarem"
+  },
+  {
+    "id": "agentes-sem-dono",
+    "arquivos": [
+      "agentes-sem-dono-slide-1.jpg",
+      "agentes-sem-dono-slide-2.jpg",
+      "agentes-sem-dono-slide-3.jpg",
+      "agentes-sem-dono-slide-4.jpg",
+      "agentes-sem-dono-slide-5.jpg",
+      "agentes-sem-dono-slide-6.jpg",
+      "agentes-sem-dono-slide-7.jpg"
+    ],
+    "quando": "2026-10-01T09:00:00-03:00",
+    "legenda": "1 em cada 4 agentes de IA roda sem ninguém olhando.\n\nÉ o Observability Forecast 2026 da New Relic, feito com a Enterprise Technology Research ouvindo 2.575 líderes de tecnologia.\n\nAgente sem verificador não é automação, é aposta. O problema nunca foi ele errar, é ninguém descobrir.\n\nComenta VIGIA que eu te mando as 7 perguntas que revelam se o seu robô está rodando sem dono.\nSalva para quando ligar o próximo. Marca quem ligou um bot e nunca mais abriu.\n\n#inteligenciaartificial #agentesdeia #automacao #iaparanegocios #gestao #produtividade #donodenegocio"
   },
   {
     "id": "tut-financeiro",
