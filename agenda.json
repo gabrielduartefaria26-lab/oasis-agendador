@@ -64,6 +64,20 @@
     "gancho": "Joga um livro no ChatGPT e escreve /mindmap"
   },
   {
+    "id": "bastidor-agendador",
+    "arquivos": [
+      "bastidor-agendador-slide-1.jpg",
+      "bastidor-agendador-slide-2.jpg",
+      "bastidor-agendador-slide-3.jpg",
+      "bastidor-agendador-slide-4.jpg",
+      "bastidor-agendador-slide-5.jpg",
+      "bastidor-agendador-slide-6.jpg",
+      "bastidor-agendador-slide-7.jpg"
+    ],
+    "quando": "2026-09-24T09:00:00-03:00",
+    "legenda": "Este post foi publicado por um script, na hora marcada, enquanto eu dormia.\n\nO agendador é meu: um arquivo guarda a fila, um robô do GitHub confere a hora de 15 em 15 minutos, e a API do Instagram publica. Custo por mês: R$ 0.\n\nToda tarefa com hora marcada que depende de alguém lembrar é um gargalo esperando a hora de aparecer.\n\nComenta AGENDA que eu te mando o kit e o guia. Salva para configurar no fim de semana.\n\n#inteligenciaartificial #automacao #iaparanegocios #instagram #produtividade #donodenegocio #claude #github"
+  },
+  {
     "id": "tut-ajustes",
     "arquivo": "tut-ajustes.mp4",
     "quando": "2026-09-24T12:00:00-03:00",
