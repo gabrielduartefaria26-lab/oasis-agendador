@@ -94,6 +94,20 @@
     "gancho": "POV: Eu tentando explicar para empresários 40+ porque é melhor contratar o Claude Max do que ter sócio"
   },
   {
+    "id": "bastidor-esteira",
+    "arquivos": [
+      "bastidor-esteira-slide-1.jpg",
+      "bastidor-esteira-slide-2.jpg",
+      "bastidor-esteira-slide-3.jpg",
+      "bastidor-esteira-slide-4.jpg",
+      "bastidor-esteira-slide-5.jpg",
+      "bastidor-esteira-slide-6.jpg",
+      "bastidor-esteira-slide-7.jpg"
+    ],
+    "quando": "2026-09-25T09:00:00-03:00",
+    "legenda": "Quatro gravações viraram vinte Reels em dois dias, sem editor contratado.\n\nO áudio vira texto no meu próprio computador, os trechos que se sustentam sozinhos são separados, o corte fica vertical acompanhando o rosto e a legenda entra queimada no padrão de sempre.\n\nO caro nunca foi editar. O caro é decidir o que cortar, e é exatamente aí que a máquina não trava.\n\nComenta EDITOR que eu te mando as cinco ferramentas gratuitas que fazem esse trabalho. Salva para usar no seu próximo vídeo.\n\n#inteligenciaartificial #reels #edicaodevideo #conteudo #automacao #iaparanegocios #produtividade #criadordeconteudo"
+  },
+  {
     "id": "tut-agendador",
     "arquivo": "tut-agendador.mp4",
     "quando": "2026-09-25T19:00:00-03:00",
