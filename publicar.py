@@ -18,6 +18,7 @@ BASE_URL = os.environ["VIDEOS_BASE_URL"].rstrip("/")
 # Ensaio: monta o container na Meta e para antes de publicar. Valida token,
 # permissoes e download do arquivo sem postar nada no perfil.
 ENSAIO = os.environ.get("ENSAIO") == "1"
+SOMENTE = os.environ.get("SOMENTE", "").strip()   # no ensaio, um id so
 
 VIDEO = (".mp4", ".mov")
 # A API de publicacao do Instagram so aceita JPEG. PNG e recusado la na frente,
@@ -97,6 +98,11 @@ def publicar(item):
         campos = {"caption": item["legenda"]}
         if os.path.splitext(item["arquivo"])[1].lower() in VIDEO:
             campos["share_to_feed"] = "true"
+            # Reel de teste: so vai para quem NAO segue. A opcao nao aparece no app
+            # abaixo de 1.000 seguidores; aqui a gente pede pela API e ve se a Meta aceita.
+            if item.get("trial"):
+                campos["trial_params"] = json.dumps(
+                    {"graduation_strategy": item.get("graduacao", "MANUAL")})
             # A capa e o que aparece na grade do perfil. Sem ela o Instagram usa o
             # primeiro quadro, que quase sempre e o pior da peca.
             if item.get("capa"):
@@ -122,7 +128,8 @@ def main():
     pendente = lambda i: estado.get(i["id"], {}).get("status") != "publicado"
     vencidos = [i for i in agenda
                 if (ENSAIO or datetime.fromisoformat(i["quando"]) <= agora)
-                and pendente(i)]
+                and pendente(i)
+                and (not SOMENTE or i["id"] == SOMENTE)]
     if not vencidos:
         print("nada a publicar")
         return 0

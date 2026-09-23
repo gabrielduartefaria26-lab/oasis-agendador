@@ -1,5 +1,13 @@
 [
   {
+    "id": "teste-trial",
+    "arquivo": "meme-tokens.mp4",
+    "quando": "2026-09-01T09:00:00-03:00",
+    "trial": true,
+    "legenda": "teste de container, nao vai ao ar",
+    "formato": "meme"
+  },
+  {
     "id": "texto-ia",
     "arquivos": [
       "texto-ia-slide-1.jpg",
