@@ -42,6 +42,21 @@
     "gancho": "Anthropic lançou o Opus 5.5 e isso vai acontecer"
   },
   {
+    "id": "opus55-cards",
+    "arquivos": [
+      "opus55-cards-slide-1.jpg",
+      "opus55-cards-slide-2.jpg",
+      "opus55-cards-slide-3.jpg",
+      "opus55-cards-slide-4.jpg",
+      "opus55-cards-slide-5.jpg",
+      "opus55-cards-slide-6.jpg",
+      "opus55-cards-slide-7.jpg",
+      "opus55-cards-slide-8.jpg"
+    ],
+    "quando": "2026-09-23T16:00:00-03:00",
+    "legenda": "A Anthropic lançou o Opus 5.5, e a mudança que interessa para a sua empresa não é inteligência. É custo.\n\n40% menos custo por tarefa em trabalhos típicos, pela conta da própria Anthropic. A entrada caiu de 5 para 4 dólares por milhão de tokens, a saída de 25 para 20, e a leitura de cache de 0,50 para 0,20.\n\nO ganho não é ter mais IA. É concluir mais trabalho pelo mesmo dinheiro, e isso muda o que vale a pena automatizar.\n\nSalva e revisa com esses olhos o processo mais travado da sua operação.\n\n#inteligenciaartificial #anthropic #claude #opus55 #iaparanegocios #automacao #agentesdeia #donodenegocio"
+  },
+  {
     "id": "bastidor-agendador",
     "arquivos": [
       "bastidor-agendador-slide-1.jpg",
