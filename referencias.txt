@@ -1,6 +1,10 @@
 # Perfis de referência para o caçador de Reels fora da curva (outliers.py).
-# Saíram do benchmark de 19/09/2026 (~/oasis-system/conteudo/benchmark-ia.html).
-# Um @ por linha. Perfil pessoal (não comercial) é pulado pela API.
+# Um @ por linha. Linha '## grupo' abre um grupo; o grupo vai para a coluna 'grupo' do outliers.csv.
+# ia: quem fala de IA (topo, gente que usa IA). dono: quem fala com empresário (fundo, quem paga
+# consultoria e implementação). Perfil pessoal ou que esconde curtida é pulado pela API.
+# Base: benchmark de 19/09/2026 + listas públicas de 24/09/2026 (Apify, cpdf.ai, Magnet).
+
+## ia
 odanilogato
 dailyprompter
 lucianapapini
@@ -33,3 +37,48 @@ abria.oficial
 iainfinityoficial
 spotsales.ai
 dataplai_
+thaismartan
+paulo.ia
+bubows.ia
+diegoalmeida.ia
+handlytech
+yourchatgptguide
+mavgpt
+rowancheung
+sabrina_ramonov
+awakpenn
+nick_saraev
+kallaway
+automatewithmarko
+tenfoldmarc
+noevarner.ai
+leadgenman
+zeeeljain
+nicholas.puru
+liamjohnston.ai
+itstylergermain
+realrileybrown
+chrisdonnellyofficial
+tech.unicorn
+mytechceo
+alberta.tech
+mattfarmerai
+theaisavvy
+ai.with.andrew
+mpaige13
+100xengineers
+
+## dono
+hormozi
+leilahormozi
+codiesanchez
+danmartell
+garyvee
+stevenbartlett
+joeljota
+tallisgomes
+camilafarani
+joaokepler
+caiocarneiro
+thiagoconcer
+geracaodevalor

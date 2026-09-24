@@ -9,7 +9,9 @@ Usa business_discovery da API do Instagram: só funciona com perfil comercial ou
 e devolve curtida e comentário, não visualização. Perfil pessoal ou que esconde curtida
 aparece como pulado no log.
 
-A lista de perfis mora em referencias.txt, um @ por linha (linha com # é comentário).
+A lista de perfis mora em referencias.txt, um @ por linha (linha com # é comentário). Uma
+linha "## nome" abre um grupo (ia, dono): o perfil herda o grupo, que vai para o CSV, para
+separar o que funciona com quem ama IA do que funciona com empresário.
 """
 import csv, json, os, statistics, sys, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timedelta, timezone
@@ -24,7 +26,7 @@ POSTS_POR_PERFIL = 40
 MINIMO_PARA_MEDIANA = 8
 MINIMO_INTERACOES = 100  # perfil com mediana 3 gera '8x' com 26 interações: isso é ruído
 
-COLUNAS = ["vezes_acima", "perfil", "seguidores", "data", "interacoes", "curtidas",
+COLUNAS = ["vezes_acima", "grupo", "perfil", "seguidores", "data", "interacoes", "curtidas",
            "comentarios", "mediana_perfil", "legenda", "link", "coletado"]
 
 
@@ -40,8 +42,16 @@ def chamar(caminho, params=None):
 
 
 def perfis():
+    """[(usuario, grupo)] na ordem do arquivo."""
+    lista, grupo = [], ""
     with open("referencias.txt", encoding="utf-8") as f:
-        return [l.strip().lstrip("@") for l in f if l.strip() and not l.startswith("#")]
+        for l in f:
+            l = l.strip()
+            if l.startswith("## "):
+                grupo = l[3:].strip()
+            elif l and not l.startswith("#"):
+                lista.append((l.lstrip("@"), grupo))
+    return lista
 
 
 def posts_de(usuario):
@@ -56,7 +66,7 @@ def main():
     agora = datetime.now(timezone.utc)
     corte = agora - timedelta(days=JANELA_DIAS)
     achados, pulados = [], []
-    for u in perfis():
+    for u, grupo in perfis():
         try:
             seg, posts = posts_de(u)
         except Exception as e:
@@ -73,7 +83,7 @@ def main():
             vezes = inter(p) / mediana
             if quando >= corte and vezes >= VEZES and inter(p) >= MINIMO_INTERACOES:
                 achados.append({
-                    "vezes_acima": f"{vezes:.1f}", "perfil": u, "seguidores": seg,
+                    "vezes_acima": f"{vezes:.1f}", "grupo": grupo, "perfil": u, "seguidores": seg,
                     "data": quando.astimezone(timezone(timedelta(hours=-3))).strftime("%d/%m/%Y"),
                     "interacoes": inter(p), "curtidas": p.get("like_count", 0),
                     "comentarios": p.get("comments_count", 0), "mediana_perfil": int(mediana),
