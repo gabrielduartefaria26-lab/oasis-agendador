@@ -98,12 +98,13 @@
     "gancho": "POV: Eu tentando explicar para empresários 40+ porque é melhor contratar o Claude Max do que ter sócio"
   },
   {
-    "id": "desc-tiny-planet",
-    "arquivo": "desc-tiny-planet.mp4",
-    "quando": "2026-09-30T12:00:00-03:00",
-    "legenda": "Os comandos que eu usei. Manda uma foto no ChatGPT e escreve um deles:\n\n/tinyplanet\n/floating3d\n/handwritten\n/metaad\n/magazinecover\n/3Dbillboard\n/explodedview\n\nSalva e testa com uma foto sua.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #inteligenciaartificial #criatividade",
+    "id": "desc-novos-modelos",
+    "arquivo": "desc-novos-modelos.mp4",
+    "quando": "2026-09-25T12:00:00-03:00",
+    "legenda": "Astra, Sol e Luna: os três modelos novos do ChatGPT e qual usar para cada tarefa.\n\nAtenção: o Sol e o Luna ainda não aparecem no chat normal. No plano pago, procura no ChatGPT Work. No grátis, o Luna está só no app de computador.\n\nSalva para lembrar a regra de bolso.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #inteligenciaartificial #produtividade",
     "formato": "descoberta",
-    "gancho": "Usa isso pra gerar isso (/tinyplanet)"
+    "capa_ms": 1000,
+    "gancho": "Essa atualização do ChatGPT vai fazer você ganhar mais e gastar menos"
   },
   {
     "id": "meme-madrugada",
@@ -176,6 +177,14 @@
     "legenda": "Eu demiti o social media. Agora o Claude posta tudo sozinho aqui no Instagram.\n\nVocê só precisa de três contas: Claude, GitHub e Instagram profissional.\n\nComenta DOCUMENTO que eu te mando o kit e o guia passo a passo.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #automacao",
     "formato": "tutorial",
     "gancho": "Eu demiti o social media e agora o Claude faz todas as minhas postagens"
+  },
+  {
+    "id": "desc-tiny-planet",
+    "arquivo": "desc-tiny-planet.mp4",
+    "quando": "2026-09-30T12:00:00-03:00",
+    "legenda": "Os comandos que eu usei. Manda uma foto no ChatGPT e escreve um deles:\n\n/tinyplanet\n/floating3d\n/handwritten\n/metaad\n/magazinecover\n/3Dbillboard\n/explodedview\n\nSalva e testa com uma foto sua.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #inteligenciaartificial #criatividade",
+    "formato": "descoberta",
+    "gancho": "Usa isso pra gerar isso (/tinyplanet)"
   },
   {
     "id": "vendi-15",
