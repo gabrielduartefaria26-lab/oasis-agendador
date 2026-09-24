@@ -8,9 +8,10 @@ on:
 permissions:
   contents: write
 
-# mesmo grupo da publicacao: as duas commitam no repositorio e nao podem se cruzar
+# grupo proprio: no grupo da publicacao, todo plantao novo cancelava a coleta (24/09 ficou
+# sem metricas). So mexe no metricas.csv, e o pull --rebase antes do push resolve o resto.
 concurrency:
-  group: publicar-oasis
+  group: metricas-oasis
   cancel-in-progress: false
 
 jobs:
