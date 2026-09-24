@@ -22,6 +22,7 @@ VEZES = 3.0          # quantas vezes a mediana do perfil para contar como fora d
 JANELA_DIAS = 60     # formato mais velho que isso provavelmente já saturou
 POSTS_POR_PERFIL = 40
 MINIMO_PARA_MEDIANA = 8
+MINIMO_INTERACOES = 100  # perfil com mediana 3 gera '8x' com 26 interações: isso é ruído
 
 COLUNAS = ["vezes_acima", "perfil", "seguidores", "data", "interacoes", "curtidas",
            "comentarios", "mediana_perfil", "legenda", "link", "coletado"]
@@ -70,7 +71,7 @@ def main():
         for p in reels:
             quando = datetime.fromisoformat(p["timestamp"].replace("+0000", "+00:00"))
             vezes = inter(p) / mediana
-            if quando >= corte and vezes >= VEZES:
+            if quando >= corte and vezes >= VEZES and inter(p) >= MINIMO_INTERACOES:
                 achados.append({
                     "vezes_acima": f"{vezes:.1f}", "perfil": u, "seguidores": seg,
                     "data": quando.astimezone(timezone(timedelta(hours=-3))).strftime("%d/%m/%Y"),
