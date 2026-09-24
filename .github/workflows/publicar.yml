@@ -47,8 +47,11 @@ jobs:
           VIDEOS_BASE_URL: ${{ secrets.VIDEOS_BASE_URL }}
           SOMENTE: ${{ inputs.somente }}
           ENSAIO: ${{ inputs.ensaio && '1' || '0' }}
-          # ensaio e "somente" rodam uma vez e saem; o plantao e para a operacao normal
-          UMA_VEZ: ${{ (inputs.ensaio || inputs.somente != '' || inputs.plantao == false) && '1' || '0' }}
+          # ensaio e "somente" rodam uma vez e saem; o plantao e para a operacao normal.
+          # So vale no disparo manual: no cron os inputs vem vazios, e vazio == false e
+          # verdadeiro para o GitHub. Esse erro fez todo cron rodar uma vez e sair em 8 s,
+          # e o post das 12:00 de 24/09 so saiu as 12:30, disparado na mao.
+          UMA_VEZ: ${{ github.event_name == 'workflow_dispatch' && (inputs.ensaio || inputs.somente != '' || !inputs.plantao) && '1' || '0' }}
         run: |
           git config user.name "agendador"
           git config user.email "agendador@users.noreply.github.com"
