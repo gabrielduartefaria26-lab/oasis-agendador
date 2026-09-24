@@ -1,0 +1,36 @@
+# Perfis de referência para o caçador de Reels fora da curva (outliers.py).
+# Saíram do benchmark de 19/09/2026 (~/oasis-system/conteudo/benchmark-ia.html).
+# Um @ por linha. Perfil pessoal (não comercial) é pulado pela API.
+odanilogato
+dailyprompter
+lucianapapini
+godofprompt
+brunogabarra
+karinedolago
+menteprompt
+gregisenberg
+renatoasse
+theaiagents
+emiliatalexandre
+claudiosoares.creator
+filipe.detrey
+aibrasil.ai
+liamottley
+empreendeaioficial
+consultoresia
+aiautomation.cc
+alemdoprompt
+jjuniormoraes
+leoandradenet
+wellpires.ai
+nateherk
+promptado
+elirigobeli
+rafasouzaconsultor
+inbotbr
+inteligenciamilgrau
+n8n.io
+abria.oficial
+iainfinityoficial
+spotsales.ai
+dataplai_
