@@ -19,7 +19,7 @@ Regras que ele checa antes de deixar passar, porque cada uma ja deu problema:
   - carrossel fora da faixa de 2 a 10 slides
   - id repetido na agenda
   - travessao na legenda
-  - CTA "Comenta PALAVRA" sem nada na pasta Isca Digital (promessa sem entrega)
+  - CTA "Comenta PALAVRA" com palavra que nao existe no iscas.json (promessa sem entrega)
 """
 import argparse, json, pathlib, re, subprocess, sys
 from datetime import datetime, timedelta
@@ -60,12 +60,29 @@ def carrosseis(agenda):
     return [i for i in agenda if i.get("arquivos")]
 
 
-def isca_vazia(legenda, pasta):
-    """CTA com palavra em caixa alta pede material pronto na pasta Isca Digital."""
-    if not re.search(r"\bComenta [A-ZÇÃÕÉ]{3,}\b", legenda):
-        return False
-    isca = pasta / "Isca Digital"
-    return not isca.is_dir() or not any(f for f in isca.iterdir() if not f.name.startswith("."))
+ISCAS_URL = "https://gabrieldfaria.com/oasis-iscas/iscas.json"
+ISCAS_DISCO = pathlib.Path.home() / "raio-x-app/public/oasis-iscas/iscas.json"
+
+
+def palavras_de_isca():
+    """Palavras que o direct automatico entrega: a lista publicada manda; o disco e reserva."""
+    import json, unicodedata, urllib.request
+    try:
+        with urllib.request.urlopen(ISCAS_URL, timeout=15) as r:
+            iscas = json.load(r)
+    except Exception:
+        iscas = json.loads(ISCAS_DISCO.read_text()) if ISCAS_DISCO.exists() else []
+    norm = lambda s: unicodedata.normalize("NFD", s).encode("ascii", "ignore").decode().upper()
+    return {norm(w) for i in iscas for w in [i["p"], *i.get("apelidos", [])]}, norm
+
+
+def isca_faltando(legenda):
+    """CTA "Comenta PALAVRA" so passa se a palavra existe no iscas.json. Devolve a que falta."""
+    m = re.search(r"\bComenta ([A-ZÀ-Ý0-9]{3,})\b", legenda)
+    if not m:
+        return None
+    palavras, norm = palavras_de_isca()
+    return None if norm(m.group(1)) in palavras else m.group(1)
 
 
 def slot(dia):
@@ -142,8 +159,10 @@ def mostrar_fila(agenda, estado):
 
 def conferir(legenda, slides, prefixo, agenda, arquivo_legenda, pasta=None, video=False):
     problemas = []
-    if pasta and isca_vazia(legenda, pasta):
-        problemas.append("a legenda pede 'Comenta PALAVRA' e a pasta Isca Digital esta vazia")
+    falta = isca_faltando(legenda)
+    if falta:
+        problemas.append(f"a legenda pede 'Comenta {falta}' e essa palavra nao existe no iscas.json: "
+                         "o direct nao entregaria nada")
     # o checador da skill e a regua oficial da legenda (teto de 600, blocos, hashtags).
     # Aqui so repetimos o teto duro do Instagram, que e outro limite.
     if CHECADOR.exists() and not video:
