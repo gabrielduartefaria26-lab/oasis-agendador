@@ -8,9 +8,10 @@ on:
 permissions:
   contents: write
 
-# mesmo grupo da publicacao: as duas commitam no repositorio e nao podem se cruzar
+# grupo proprio: o plantao da publicacao fica ate 5h30 rodando e seguraria esta fila.
+# So mexe no outliers.csv, e o pull --rebase antes do push resolve o resto.
 concurrency:
-  group: publicar-oasis
+  group: outliers-oasis
   cancel-in-progress: false
 
 jobs:
