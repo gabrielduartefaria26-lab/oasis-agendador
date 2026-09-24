@@ -1,0 +1,92 @@
+[
+  {
+    "id": "2026-09-24-1",
+    "data": "2026-09-24",
+    "formato": "descoberta",
+    "horario_sugerido": "30/09 · 12:00",
+    "fala_com": "quem ama IA",
+    "aberturas": [
+      "Testei IA paga de graça, sem cartão",
+      "Economizei uma assinatura mudando um clique",
+      "Ninguém me contou que dava pra testar de graça"
+    ],
+    "o_que_se_ve": "entra prompt num modelo pago, sai resposta sem conta nova criada",
+    "roteiro": [
+      {"bloco": "Gancho", "tempo": "0 a 3 s", "tela": "Testei IA paga de graça", "topicos": ["mostra tela cheia de créditos", "aponta preço riscado"]},
+      {"bloco": "Entrega", "tempo": "3 a 15 s", "tela": "Gateway credits do n8n", "topicos": ["abre o n8n", "escolhe modelo pago", "roda sem criar conta nova"]},
+      {"bloco": "Prova", "tempo": "15 a 22 s", "tela": "resposta certa na tela", "topicos": ["mostra resultado real", "compara com preço da assinatura"]},
+      {"bloco": "Fecho", "tempo": "22 a 28 s", "tela": "salva pra testar hoje", "topicos": ["convida a testar agora", "pede pra salvar"]}
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdMCUhWAwjg/",
+      "perfil": "nicholas.puru",
+      "vezes": "1015.0",
+      "molde": "monta em casa, de graça, o que todo mundo paga para ter"
+    },
+    "fonte": {
+      "nome": "n8n Blog — Gateway credits para testar modelos sem criar conta paga",
+      "link": "https://blog.n8n.io/"
+    },
+    "isca_sugerida": "GATEWAY: o passo a passo para testar IA paga sem criar conta"
+  },
+  {
+    "id": "2026-09-24-2",
+    "data": "2026-09-24",
+    "formato": "meme",
+    "horario_sugerido": "30/09 · 19:00",
+    "fala_com": "quem ama IA",
+    "aberturas": [
+      "POV: cliente manda áudio de 4 minutos",
+      "Quando o cliente pergunta o que a IA já respondeu",
+      "Cliente manda áudio, eu mando o prompt"
+    ],
+    "o_que_se_ve": "entra áudio longo do cliente, sai resposta pronta em uma linha",
+    "roteiro": [
+      {"bloco": "Gancho", "tempo": "0 a 3 s", "tela": "POV: cliente manda áudio de 4 min", "topicos": ["ele de fone ouvindo", "cara de paciência"]},
+      {"bloco": "Entrega", "tempo": "3 a 10 s", "tela": "eu resolvo em 10 palavras", "topicos": ["digita prompt curto", "manda resposta pronta"]},
+      {"bloco": "Prova", "tempo": "10 a 15 s", "tela": "resposta certa, cliente feliz", "topicos": ["mostra print da resposta", "reação de aprovação"]},
+      {"bloco": "Fecho", "tempo": "15 a 20 s", "tela": "segue pra ver a IA trabalhando", "topicos": ["convite pra seguir"]}
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/Dc9bd24P-Y9/",
+      "perfil": "alberta.tech",
+      "vezes": "91.9",
+      "molde": "reclamação boba do dia a dia com IA vira piada de identificação imediata"
+    },
+    "fonte": {
+      "nome": "cena própria, sem fonte externa",
+      "link": ""
+    },
+    "isca_sugerida": ""
+  },
+  {
+    "id": "2026-09-24-3",
+    "data": "2026-09-24",
+    "formato": "tutorial",
+    "horario_sugerido": "26/09 · 16:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Ciclo de planejamento caiu de 10 dias pra 2 dias e meio",
+      "Investigação que levava 6 dias, agora sai em 20 minutos",
+      "Fatura mais e lucra menos? Aqui está o motivo"
+    ],
+    "o_que_se_ve": "entra processo manual de dias, sai decisão em horas",
+    "roteiro": [
+      {"bloco": "Gancho", "tempo": "0 a 3 s", "tela": "10 dias virou 2 dias e meio", "topicos": ["mostra número grande riscado", "aponta número novo"]},
+      {"bloco": "Entrega", "tempo": "3 a 15 s", "tela": "3 perguntas antes de automatizar", "topicos": ["processo se repete todo dia", "dá pra medir o ganho em R$", "alguém já faz isso manual hoje"]},
+      {"bloco": "Prova", "tempo": "15 a 22 s", "tela": "case com número de horas", "topicos": ["mostra antes e depois", "aponta economia em horas ou reais"]},
+      {"bloco": "Fecho", "tempo": "22 a 28 s", "tela": "comenta e recebe o checklist", "topicos": ["cta comentar palavra-chave", "convite pra aplicar essa semana"]}
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdmwrUMiQ7c/",
+      "perfil": "danmartell",
+      "vezes": "135.6",
+      "molde": "pergunta de decisão de dinheiro que todo dono já se fez, respondida com prova"
+    },
+    "fonte": {
+      "nome": "Microsoft — Frontier Playbook, mais de 100 casos internos de IA (17/09/2026)",
+      "link": "https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation/"
+    },
+    "isca_sugerida": "PLAYBOOK: as 3 perguntas antes de automatizar um processo"
+  }
+]
