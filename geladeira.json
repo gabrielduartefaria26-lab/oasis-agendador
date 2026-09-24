@@ -1,0 +1,162 @@
+[
+  {
+    "id": "bastidor-agendador",
+    "arquivos": [
+      "bastidor-agendador-slide-1.jpg",
+      "bastidor-agendador-slide-2.jpg",
+      "bastidor-agendador-slide-3.jpg",
+      "bastidor-agendador-slide-4.jpg",
+      "bastidor-agendador-slide-5.jpg",
+      "bastidor-agendador-slide-6.jpg",
+      "bastidor-agendador-slide-7.jpg"
+    ],
+    "quando": "2026-09-24T09:00:00-03:00",
+    "legenda": "As quatro peças que publicaram este post sozinhas, enquanto eu dormia.\n\nUm arquivo de texto guardando a fila, um robô do GitHub que acorda de 15 em 15 minutos, um Release hospedando os arquivos e duas chamadas na API do Instagram.\n\nO plano gratuito dá 2.000 minutos por mês e essa rotina usa 20 segundos por vez. A conta do mês fecha em R$ 0.\n\nComenta AGENDA que eu te mando o kit que você instala e o guia com a parte da Meta, print por print.\n\n#inteligenciaartificial #automacao #instagram #github #iaparanegocios #produtividade #conteudo #donodenegocio",
+    "pausado": "2026-09-23: carrossel pausado a pedido do Gabriel (alcance de 17 contas em 4 posts)"
+  },
+  {
+    "id": "gpt6-empresa",
+    "arquivos": [
+      "gpt6-empresa-slide-1.jpg",
+      "gpt6-empresa-slide-2.jpg",
+      "gpt6-empresa-slide-3.jpg",
+      "gpt6-empresa-slide-4.jpg",
+      "gpt6-empresa-slide-5.jpg",
+      "gpt6-empresa-slide-6.jpg",
+      "gpt6-empresa-slide-7.jpg"
+    ],
+    "quando": "2026-09-24T15:00:00-03:00",
+    "legenda": "Se 100 leads caíssem hoje no seu comercial, você colocaria o modelo mais caro para ler mensagem por mensagem?\n\nEu não. Luna organiza os contatos, Sol acha o padrão das objeções, Astra entra só no caso difícil.\n\nLuna e Sol são da mesma família, mas Luna custa 20 vezes menos por token na API. Num processo que roda todo dia, isso aparece na conta.\n\nPreço baixo não paga retrabalho. Antes de escalar, meça qualidade, tempo, correção e custo do fluxo inteiro.\n\nQual tarefa da sua empresa entraria nesse teste primeiro?\n\n#gpt6 #openai #inteligenciaartificial #iaparaempresas #automacaocomia #atendimentocomia #produtividade #empresas",
+    "pausado": "2026-09-23: carrossel pausado a pedido do Gabriel (alcance de 17 contas em 4 posts)"
+  },
+  {
+    "id": "bastidor-esteira",
+    "arquivos": [
+      "bastidor-esteira-slide-1.jpg",
+      "bastidor-esteira-slide-2.jpg",
+      "bastidor-esteira-slide-3.jpg",
+      "bastidor-esteira-slide-4.jpg",
+      "bastidor-esteira-slide-5.jpg",
+      "bastidor-esteira-slide-6.jpg",
+      "bastidor-esteira-slide-7.jpg"
+    ],
+    "quando": "2026-09-25T09:00:00-03:00",
+    "legenda": "Uma gravação de 58 minutos virou cinco Reels, sem editor e sem enviar arquivo para lugar nenhum.\n\nWhisper transcreve no próprio computador, 9.412 palavras com hora de início e fim. O corte sai lendo o texto, não assistindo tudo de novo.\n\nO enquadramento acompanha o rosto quadro a quadro, e a legenda entra queimada no arquivo, no mesmo padrão de sempre.\n\nComenta EDITOR que eu te mando as cinco ferramentas gratuitas que fazem isso, com link e instalação.\n\n#inteligenciaartificial #reels #edicaodevideo #conteudo #automacao #iaparanegocios #produtividade #criadordeconteudo",
+    "pausado": "2026-09-23: carrossel pausado a pedido do Gabriel (alcance de 17 contas em 4 posts)"
+  },
+  {
+    "id": "bastidor-cerebro",
+    "arquivos": [
+      "bastidor-cerebro-slide-1.jpg",
+      "bastidor-cerebro-slide-2.jpg",
+      "bastidor-cerebro-slide-3.jpg",
+      "bastidor-cerebro-slide-4.jpg",
+      "bastidor-cerebro-slide-5.jpg",
+      "bastidor-cerebro-slide-6.jpg",
+      "bastidor-cerebro-slide-7.jpg"
+    ],
+    "quando": "2026-09-26T09:00:00-03:00",
+    "legenda": "Uma pasta, e a IA parou de me perguntar quem eu sou a cada conversa nova.\n\nSeis pastas: negócio, projetos, aprendizados, pessoas, ideias e uma caixa de entrada. O prompt te entrevista com sete perguntas antes de escrever qualquer arquivo.\n\nDepois disso eu pergunto em vez de procurar. A resposta vem com o arquivo e a data de onde saiu, então dá para conferir.\n\nComenta CEREBRO que eu te mando o prompt inteiro, com as sete perguntas e as etapas, para colar e rodar hoje.\n\n#inteligenciaartificial #segundocerebro #obsidian #produtividade #iaparanegocios #organizacao #claude #donodenegocio",
+    "pausado": "2026-09-23: carrossel pausado a pedido do Gabriel (alcance de 17 contas em 4 posts)"
+  },
+  {
+    "id": "meta",
+    "arquivos": [
+      "meta-slide-1.jpg",
+      "meta-slide-2.jpg",
+      "meta-slide-3.jpg",
+      "meta-slide-4.jpg",
+      "meta-slide-5.jpg",
+      "meta-slide-6.jpg",
+      "meta-slide-7.jpg",
+      "meta-slide-8.jpg",
+      "meta-slide-9.jpg"
+    ],
+    "quando": "2026-09-27T09:00:00-03:00",
+    "legenda": "A Meta acabou de vender um funcionário para o seu concorrente por R$ 60 por mês.\n\nDia 15 saiu o Meta One. Dentro do plano de empresa vem o Business Agent, que responde o seu cliente no direct e no WhatsApp. Piso R$ 60, teto R$ 2.000.\n\nA ferramenta ficou barata. O sistema não. Robô nenhum salva processo ruim.\n\nComenta ROBO que eu te mando o checklist: 5 perguntas antes de deixar um robô responder o seu cliente.\nSalva para voltar quando a cobrança aparecer na sua conta.\nMarca quem responde o WhatsApp da sua empresa.\n\n#inteligenciaartificial #metaai #automacao #atendimento #donodenegocio #gestao",
+    "formato": "case",
+    "gancho": "A Meta começou a vender atendente por R$ 60",
+    "pausado": "2026-09-23: carrossel pausado a pedido do Gabriel (alcance de 17 contas em 4 posts)"
+  },
+  {
+    "id": "bastidor-quadro",
+    "arquivos": [
+      "bastidor-quadro-slide-1.jpg",
+      "bastidor-quadro-slide-2.jpg",
+      "bastidor-quadro-slide-3.jpg",
+      "bastidor-quadro-slide-4.jpg",
+      "bastidor-quadro-slide-5.jpg",
+      "bastidor-quadro-slide-6.jpg",
+      "bastidor-quadro-slide-7.jpg"
+    ],
+    "quando": "2026-09-28T09:00:00-03:00",
+    "legenda": "Os meus próximos 20 posts já estão marcados, com hora, e nenhum foi decidido hoje de manhã.\n\nSeis colunas separam produzir de publicar: enquanto o arquivo não existe, o card não atravessa. Cinco eliminações barram o assunto antes de virar peça, e na semana passada cortaram quatro carrosséis prontos.\n\nToda palavra que eu peço no comentário já tem arquivo publicado antes do post existir. São treze hoje.\n\nComenta FILA com o número de dias de estoque que você tem. Se for zero, é só isso que está entre você e publicar todo dia.\n\n#conteudo #marketing #produtividade #inteligenciaartificial #instagram #donodenegocio #processos #organizacao",
+    "pausado": "2026-09-23: carrossel pausado a pedido do Gabriel (alcance de 17 contas em 4 posts)"
+  },
+  {
+    "id": "repos-01",
+    "arquivos": [
+      "repos-01-slide-1.jpg",
+      "repos-01-slide-2.jpg",
+      "repos-01-slide-3.jpg",
+      "repos-01-slide-4.jpg",
+      "repos-01-slide-5.jpg",
+      "repos-01-slide-6.jpg",
+      "repos-01-slide-7.jpg",
+      "repos-01-slide-8.jpg"
+    ],
+    "quando": "2026-09-29T09:00:00-03:00",
+    "legenda": "5 ferramentas grátis para descobrir o que o seu concorrente está fazendo.\n\nUma levanta a nota e as avaliações de cada concorrente da sua cidade no Google Maps. Outra desmonta os anúncios que ele tem no ar agora.\n\nEm cada card eu digo onde ela te deixa na mão: uma só roda com a chave da empresa que fez, outra nem arquivo de licença tem.\n\nComenta GARIMPO que eu te mando os cinco links, como instalar cada um e a ordem para testar.\nSalva para antes da próxima campanha.\n\n#inteligenciaartificial #concorrencia #pesquisademercado #github #opensource #donodenegocio",
+    "formato": "ferramenta",
+    "gancho": "5 ferramentas grátis para descobrir o que o seu concorrente está fazendo",
+    "pausado": "2026-09-23: carrossel pausado a pedido do Gabriel (alcance de 17 contas em 4 posts)"
+  },
+  {
+    "id": "pixel-openai",
+    "arquivos": [
+      "pixel-openai-slide-1.jpg",
+      "pixel-openai-slide-2.jpg",
+      "pixel-openai-slide-3.jpg",
+      "pixel-openai-slide-4.jpg",
+      "pixel-openai-slide-5.jpg",
+      "pixel-openai-slide-6.jpg",
+      "pixel-openai-slide-7.jpg"
+    ],
+    "quando": "2026-09-30T09:00:00-03:00",
+    "legenda": "O ChatGPT agora tem pixel, e ele lê o formulário do site onde está instalado.\n\nInvestigação publicada dia 20: em 936 pixels de anunciante, o código raspou 685 identidades das próprias páginas contra 255 entregues de propósito. O CEP sai em texto puro.\n\nA big tech leva o dado. A conta de explicar de onde ele saiu chega na sua mesa.\n\nEscrevi a varredura em duas páginas: como achar todo pixel do seu site em vinte minutos, sem programador, e o que fazer com o que aparecer.\n\nComenta PIXEL que eu te mando.\nSalva para fazer na segunda. Marca quem mexe no seu site.\n\n#inteligenciaartificial #chatgpt #openai #lgpd #donodenegocio #marketingdigital #privacidade #trafegopago",
+    "formato": "case",
+    "gancho": "O ChatGPT agora tem pixel. E ele lê o formulário do site",
+    "pausado": "2026-09-23: carrossel pausado a pedido do Gabriel (alcance de 17 contas em 4 posts)"
+  },
+  {
+    "id": "agentes-sem-dono",
+    "arquivos": [
+      "agentes-sem-dono-slide-1.jpg",
+      "agentes-sem-dono-slide-2.jpg",
+      "agentes-sem-dono-slide-3.jpg",
+      "agentes-sem-dono-slide-4.jpg",
+      "agentes-sem-dono-slide-5.jpg",
+      "agentes-sem-dono-slide-6.jpg",
+      "agentes-sem-dono-slide-7.jpg"
+    ],
+    "quando": "2026-10-01T09:00:00-03:00",
+    "legenda": "1 em cada 4 agentes de IA roda sem ninguém olhando.\n\nÉ o Observability Forecast 2026 da New Relic, feito com a Enterprise Technology Research ouvindo 2.575 líderes de tecnologia.\n\nAgente sem verificador não é automação, é aposta. O problema nunca foi ele errar, é ninguém descobrir.\n\nComenta VIGIA que eu te mando as 7 perguntas que revelam se o seu robô está rodando sem dono.\nSalva para quando ligar o próximo. Marca quem ligou um bot e nunca mais abriu.\n\n#inteligenciaartificial #agentesdeia #automacao #iaparanegocios #gestao #produtividade #donodenegocio",
+    "pausado": "2026-09-23: carrossel pausado a pedido do Gabriel (alcance de 17 contas em 4 posts)"
+  },
+  {
+    "id": "loop-ciclo",
+    "arquivos": [
+      "loop-ciclo-slide-1.jpg",
+      "loop-ciclo-slide-2.jpg",
+      "loop-ciclo-slide-3.jpg",
+      "loop-ciclo-slide-4.jpg",
+      "loop-ciclo-slide-5.jpg",
+      "loop-ciclo-slide-6.jpg",
+      "loop-ciclo-slide-7.jpg",
+      "loop-ciclo-slide-8.jpg"
+    ],
+    "quando": "2026-10-02T09:00:00-03:00",
+    "legenda": "Antes de soltar o agente, esse comando te diz quanto ele vai custar.\n\nloop-engineering: 11.288 estrelas no GitHub, licença MIT, 38 pessoas contribuindo, versão 1.6.0 com commit de hoje.\n\nA regra vale mais que a ferramenta. O agente só sobe para rodar sozinho depois que o verificador acertou a semana inteira.\n\nComenta CICLO que eu te mando o comando, os 8 padrões com o custo de cada um e o que conferir antes de soltar.\nSalva para o dia em que você for automatizar de verdade.\n\n#inteligenciaartificial #claudecode #automacao #github #opensource #agentesdeia #produtividade",
+    "pausado": "2026-09-23: carrossel pausado a pedido do Gabriel (alcance de 17 contas em 4 posts)"
+  }
+]
