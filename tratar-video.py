@@ -41,33 +41,46 @@ def para_sdr(info):
             "zscale=t=709:m=709:r=tv,format=yuv420p,")
 
 
+def e_pele(r, g, b):
+    """Pele de qualquer tom tem vermelho acima de verde e azul. Parede de LED azul, roupa preta
+    e cabelo ficam de fora; pele pálida sob luz neutra também, e aí vale o plano B."""
+    return r > 45 and r >= g and r >= b and r - min(g, b) >= 12
+
+
 def medir(video, prefixo, duracao):
-    """Mede a pele (o terço mais claro de cada quadro) e o quadro inteiro."""
+    """Mede a pele (pixels com cor de pele) e o quadro inteiro."""
     fps = min(4, max(1, 40 / max(duracao, 1)))
     bruto = subprocess.run(["ffmpeg", "-v", "error", "-i", video, "-vf",
                             f"{prefixo}fps={fps:.3f},scale={LARG}:{ALT},format=rgb24",
                             "-f", "rawvideo", "-"], capture_output=True, check=True).stdout
     px = LARG * ALT
     quadros = [bruto[i:i + px * 3] for i in range(0, len(bruto) - px * 3 + 1, px * 3)]
-    lum_geral, estourado, pele = [], 0, []
+    lum_geral, estourado, pele, claros = [], 0, [], []
     for q in quadros:
         pontos = []
         for i in range(0, len(q), 3):
             r, g, b = q[i], q[i + 1], q[i + 2]
-            y = 0.2126 * r + 0.7152 * g + 0.0722 * b
-            pontos.append((y, r, g, b))
-            estourado += y >= 250
+            p = (0.2126 * r + 0.7152 * g + 0.0722 * b, r, g, b)
+            pontos.append(p)
+            estourado += p[0] >= 250
+            if e_pele(r, g, b):
+                pele.append(p)
         lum_geral.append(sum(p[0] for p in pontos) / px)
-        pontos.sort(reverse=True)
-        pele += pontos[:px // 6]
-    n = len(pele) or 1
-    sat = sum((max(p[1:]) - min(p[1:])) / max(max(p[1:]), 1) for p in pele) / n
+        claros += sorted(pontos, reverse=True)[:px // 6]
+    total = max(len(quadros) * px, 1)
+    achou = len(pele) / total >= 0.02
+    amostra = pele if achou else claros  # plano B: sem pele reconhecível, o rosto é o mais claro
+    n = len(amostra) or 1
+    lums = sorted(p[0] for p in amostra) or [0]
     return {
+        "achou_pele": achou,
         "quadro": sum(lum_geral) / max(len(lum_geral), 1),
-        "pele": sum(p[0] for p in pele) / n,
-        "calor": sum(p[1] - p[3] for p in pele) / n,  # vermelho menos azul: pele saudável fica entre 40 e 70
-        "cor": sat,                                  # saturação da pele: saudável fica entre 0,25 e 0,45
-        "estourado": estourado / max(len(quadros) * px, 1),
+        "pele": sum(lums) / n,
+        "brilho_max": lums[int(len(lums) * 0.9)],     # os 10% mais claros: testa, nariz, reflexo
+        "calor": sum(p[1] - p[3] for p in amostra) / n,  # vermelho menos azul: pele saudável 40 a 80
+        "amarelo": sum(p[2] - p[3] for p in amostra) / n,  # verde menos azul: pele saudável 18 a 35
+        "cor": sum((max(p[1:]) - min(p[1:])) / max(max(p[1:]), 1) for p in amostra) / n,
+        "estourado": estourado / total,
     }
 
 
@@ -77,20 +90,28 @@ def receita(m, f):
     if m["quadro"] < 90:
         filtros.append(f"hqdn3d={1.5 * f:.2f}:{1.2 * f:.2f}:{4 * f:.2f}:{3 * f:.2f}")
         notas.append("tira ruído de pouca luz")
-    desce = min(0.14, max(0.0, (m["pele"] - 195) / 255 * 1.3)) * f
-    sobe = min(0.05, max(0.0, (70 - m["quadro"]) / 255 * 0.6)) * f
-    clareia = min(0.10, max(0.0, (160 - m["pele"]) / 255 * 0.8)) * f  # rosto apagado demais
-    if desce or sobe or clareia:
-        filtros.append("curves=all='0/0 0.15/{:.3f} 0.5/{:.3f} 0.8/{:.3f} 1/{:.3f}'".format(
-            0.15 + sobe, 0.5 - desce * 0.3 + clareia, 0.8 - desce + clareia * 0.6, 1 - desce * 0.6))
-        notas.append(f"baixa as altas luzes em {desce * 100:.0f}%" if desce
-                     else "clareia o rosto" if clareia else "levanta as sombras")
-    if m["calor"] < 45:
+    desce = min(0.14, max(0.0, (m["brilho_max"] - 205) / 255 * 1.3)) * f
+    # Nada de clarear: rosto mais claro à noite lê como pele mais branca, e levantar sombra
+    # lava o fundo. Só desce o que estourou e firma um pouco o contraste.
+    if desce:
+        filtros.append("curves=all='0/0 0.5/{:.3f} 0.8/{:.3f} 1/{:.3f}'".format(
+            0.5 - desce * 0.3, 0.8 - desce, 1 - desce * 0.6))
+        notas.append(f"baixa as altas luzes em {desce * 100:.0f}%")
+    if m["achou_pele"]:
+        # Só nos tons de pele: devolve o amarelo que a luz fria roubou e tira o magenta.
+        # O resto da cena, inclusive fundo de LED, fica como está.
+        falta = max(0.0, 24 - m["amarelo"])
+        if falta:
+            y = min(0.40, falta / 100 * 2.2) * f
+            filtros.append(f"selectivecolor=reds='0 {-y * 0.35:.3f} {y:.3f} {y * 0.15:.3f}':"
+                           f"yellows='0 {-y * 0.25:.3f} {y * 0.8:.3f} {y * 0.1:.3f}'")
+            notas.append(f"devolve o amarelo da pele (+{y * 100:.0f}%), sem mexer no fundo")
+    elif m["calor"] < 45:
         temp = max(5000, 6500 - (45 - m["calor"]) * 35 * f)
         filtros.append(f"colortemperature=temperature={temp:.0f}:pl=0.6")
-        notas.append(f"esquenta a pele ({temp:.0f}K)")
-    if m["cor"] < 0.28:
-        filtros.append(f"vibrance=intensity={min(0.45, (0.30 - m['cor']) * 2.5) * f:.2f}")
+        notas.append(f"esquenta a imagem ({temp:.0f}K)")
+    if m["cor"] < 0.30 and not m["achou_pele"]:  # com pele achada o selectivecolor já devolve a cor
+        filtros.append(f"vibrance=intensity={min(0.45, (0.32 - m['cor']) * 2.5) * f:.2f}")
         notas.append("devolve cor à pele")
     filtros.append(f"unsharp=5:5:{0.35 * f:.2f}:5:5:0")
     return ",".join(filtros), notas
@@ -123,7 +144,9 @@ def main():
 
     print(f"vídeo: {info['width']}x{info['height']}, {duracao:.1f}s, "
           f"{'HDR, vai virar SDR' if prefixo else 'SDR'}")
-    print(f"pele: brilho {m['pele']:.0f}/255, calor {m['calor']:.0f}, cor {m['cor']:.2f}  |  "
+    print(f"pele{'' if m['achou_pele'] else ' (não reconhecida, usei a parte mais clara)'}: "
+          f"brilho {m['pele']:.0f}/255, amarelo {m['amarelo']:.0f}, calor {m['calor']:.0f}, "
+          f"cor {m['cor']:.2f}  |  "
           f"quadro: brilho {m['quadro']:.0f}/255")
     if m["estourado"] > 0.02:
         print(f"aviso: {m['estourado'] * 100:.0f}% da imagem está branco puro. Isso não volta na "

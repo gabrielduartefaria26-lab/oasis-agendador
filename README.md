@@ -139,7 +139,9 @@ python3 tratar-video.py corte.mp4 --provas        # folha com original, leve, m�
 python3 tratar-video.py corte.mp4 --forca medio   # gera corte-tratado.mp4
 ```
 
-Ele mede a pele e corrige só o que a medição pediu. Se o vídeo for HDR (padrão do iPhone),
+Ele reconhece os pixels de pele e corrige só eles: devolve o amarelo que luz fria ou LED azul
+roubou, sem mexer no fundo. Não clareia o rosto, porque à noite rosto mais claro lê como pele
+mais branca. Se o vídeo for HDR (padrão do iPhone),
 converte para SDR primeiro, que é o que tira o aspecto lavado. Se avisar que parte da
 imagem está branco puro, isso não volta na edição: grave com a luz mais longe do rosto ou
 com a exposição mais baixa.
