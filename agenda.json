@@ -235,6 +235,22 @@
     "gancho": "Eu demiti o social media e agora o Claude faz todas as minhas postagens"
   },
   {
+    "id": "lote02-cursos",
+    "arquivos": [
+      "lote02-cursos-slide-1.jpg",
+      "lote02-cursos-slide-2.jpg",
+      "lote02-cursos-slide-3.jpg",
+      "lote02-cursos-slide-4.jpg",
+      "lote02-cursos-slide-5.jpg",
+      "lote02-cursos-slide-6.jpg",
+      "lote02-cursos-slide-7.jpg"
+    ],
+    "quando": "2026-09-30T09:00:00-03:00",
+    "legenda": "7 cursos oficiais de IA, grátis e com certificado.\n\nSão da OpenAI Academy e da Anthropic Academy, em inglês, sem custo e com certificado no final.\n\nCurso sem aplicação é entretenimento. Faça um por semana e use no mesmo dia.\n\nComenta CURSOS que eu te mando os 7 links na ordem em que eu faria.\n\n#inteligenciaartificial #ia #cursosgratuitos #chatgpt #claude #openai #anthropic #aprendizado",
+    "formato": "ferramenta",
+    "gancho": "7 cursos oficiais de IA grátis e com certificado"
+  },
+  {
     "id": "tut-google-maps",
     "arquivo": "tut-google-maps.mp4",
     "quando": "2026-10-01T12:00:00-03:00",
