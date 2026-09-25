@@ -232,6 +232,7 @@ def main():
         quando = proximo_livre(agenda)
 
     problemas = conferir(legenda, slides, a.prefixo, agenda, legenda_arq, pasta)
+    problemas += choque_de_horario(agenda, quando, a.prefixo)
     print(f"{len(slides)} slides · legenda com {len(legenda)} caracteres")
     print("ordem:", ", ".join(s.stem for s in slides))
     if problemas:
@@ -272,6 +273,13 @@ def main():
     extra = f", {len(cortados)} foram para a geladeira" if cortados else ""
     avisar("Carrossel na fila", f"{a.prefixo} sai em {dia}{extra}")
     return 0
+
+
+def choque_de_horario(agenda, quando, prefixo):
+    """Dois posts no mesmo minuto brigam pelo mesmo público e um some. Recusa antes de subir."""
+    alvo = quando_de({"quando": quando})
+    outros = [i["id"] for i in agenda if i["id"] != prefixo and quando_de(i) == alvo]
+    return [f"horario {quando[:16].replace('T', ' ')} ja ocupado por {', '.join(outros)}: escolha outro --quando"] if outros else []
 
 
 def guardar(agenda, item, mensagem):
@@ -343,6 +351,7 @@ def agendar_video(a, agenda_arq):
     legenda = legenda_arq.read_text().strip()
     agenda = json.loads(agenda_arq.read_text())
     problemas = conferir(legenda, [], a.prefixo, agenda, legenda_arq, video.parent, video=True)
+    problemas += choque_de_horario(agenda, a.quando, a.prefixo)
     print(f"{video.name} · legenda com {len(legenda)} caracteres")
     if problemas:
         print("\nNAO VAI SUBIR:")
