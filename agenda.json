@@ -251,6 +251,22 @@
     "gancho": "Joga um livro no ChatGPT e escreve estes 5 comandos"
   },
   {
+    "id": "lote01-equipe",
+    "arquivos": [
+      "lote01-equipe-slide-1.jpg",
+      "lote01-equipe-slide-2.jpg",
+      "lote01-equipe-slide-3.jpg",
+      "lote01-equipe-slide-4.jpg",
+      "lote01-equipe-slide-5.jpg",
+      "lote01-equipe-slide-6.jpg",
+      "lote01-equipe-slide-7.jpg"
+    ],
+    "quando": "2026-10-01T09:00:00-03:00",
+    "legenda": "Ferramenta todo mundo tem. Memória, quase nenhuma empresa.\n\nComenta CEREBRO que eu te mando o passo a passo das 5 áreas e o prompt que monta tudo a partir das suas anotações.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #ia #gestao #equipe #obsidian #empreendedorismo",
+    "formato": "case",
+    "gancho": "Sua equipe usa IA todo dia e ninguém sabe o que funcionou ontem"
+  },
+  {
     "id": "vendi-15",
     "arquivo": "vendi-15.mp4",
     "quando": "2026-10-01T19:00:00-03:00",
