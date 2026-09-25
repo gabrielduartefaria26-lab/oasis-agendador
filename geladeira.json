@@ -158,5 +158,73 @@
     "quando": "2026-10-02T09:00:00-03:00",
     "legenda": "Antes de soltar o agente, esse comando te diz quanto ele vai custar.\n\nloop-engineering: 11.288 estrelas no GitHub, licença MIT, 38 pessoas contribuindo, versão 1.6.0 com commit de hoje.\n\nA regra vale mais que a ferramenta. O agente só sobe para rodar sozinho depois que o verificador acertou a semana inteira.\n\nComenta CICLO que eu te mando o comando, os 8 padrões com o custo de cada um e o que conferir antes de soltar.\nSalva para o dia em que você for automatizar de verdade.\n\n#inteligenciaartificial #claudecode #automacao #github #opensource #agentesdeia #produtividade",
     "pausado": "2026-09-23: carrossel pausado a pedido do Gabriel (alcance de 17 contas em 4 posts)"
+  },
+  {
+    "id": "lote01-burro",
+    "arquivos": [
+      "lote01-burro-slide-1.jpg",
+      "lote01-burro-slide-2.jpg",
+      "lote01-burro-slide-3.jpg",
+      "lote01-burro-slide-4.jpg",
+      "lote01-burro-slide-5.jpg",
+      "lote01-burro-slide-6.jpg",
+      "lote01-burro-slide-7.jpg"
+    ],
+    "quando": "2026-09-28T09:00:00-03:00",
+    "legenda": "A ferramenta é a mesma para todo mundo. O que muda é o que você entrega para ela.\n\nComenta PROCESSO que eu te mando o modelo de uma página e o prompt que transforma um áudio da sua equipe no processo escrito.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #ia #gestao #processos #empreendedorismo #equipe",
+    "formato": "case",
+    "gancho": "A IA vai substituir quem é burro",
+    "pausado": "reprovado por ele em 25/09/2026: foto dele, copy de meio/fundo, não é viral"
+  },
+  {
+    "id": "lote01-meta",
+    "arquivos": [
+      "lote01-meta-slide-1.jpg",
+      "lote01-meta-slide-2.jpg",
+      "lote01-meta-slide-3.jpg",
+      "lote01-meta-slide-4.jpg",
+      "lote01-meta-slide-5.jpg",
+      "lote01-meta-slide-6.jpg",
+      "lote01-meta-slide-7.jpg"
+    ],
+    "quando": "2026-09-29T09:00:00-03:00",
+    "legenda": "Antes de assinar mais uma ferramenta, confere se a Meta já não faz de graça.\n\nComenta CHAT que eu te mando o passo a passo com cada tela.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#instagram #automacao #inteligenciaartificial #ia #marketingdigital #directinstagram",
+    "formato": "ferramenta",
+    "gancho": "Você paga ManyChat por uma coisa que a Meta dá de graça",
+    "pausado": "reprovado por ele em 25/09/2026: foto dele, copy de meio/fundo, não é viral"
+  },
+  {
+    "id": "lote01-livro",
+    "arquivos": [
+      "lote01-livro-slide-1.jpg",
+      "lote01-livro-slide-2.jpg",
+      "lote01-livro-slide-3.jpg",
+      "lote01-livro-slide-4.jpg",
+      "lote01-livro-slide-5.jpg",
+      "lote01-livro-slide-6.jpg",
+      "lote01-livro-slide-7.jpg"
+    ],
+    "quando": "2026-09-30T09:00:00-03:00",
+    "legenda": "Ler é a parte fácil. Lembrar do livro seis meses depois é que é difícil.\n\nComenta LIVRO que eu te mando os 5 comandos com o prompt completo de cada um.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #leitura #inteligenciaartificial #ia #produtividade #estudos",
+    "formato": "ferramenta",
+    "gancho": "Joga um livro no ChatGPT e escreve estes 5 comandos",
+    "pausado": "reprovado por ele em 25/09/2026: foto dele, copy de meio/fundo, não é viral"
+  },
+  {
+    "id": "lote01-equipe",
+    "arquivos": [
+      "lote01-equipe-slide-1.jpg",
+      "lote01-equipe-slide-2.jpg",
+      "lote01-equipe-slide-3.jpg",
+      "lote01-equipe-slide-4.jpg",
+      "lote01-equipe-slide-5.jpg",
+      "lote01-equipe-slide-6.jpg",
+      "lote01-equipe-slide-7.jpg"
+    ],
+    "quando": "2026-10-01T09:00:00-03:00",
+    "legenda": "Ferramenta todo mundo tem. Memória, quase nenhuma empresa.\n\nComenta CEREBRO que eu te mando o passo a passo das 5 áreas e o prompt que monta tudo a partir das suas anotações.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #ia #gestao #equipe #obsidian #empreendedorismo",
+    "formato": "case",
+    "gancho": "Sua equipe usa IA todo dia e ninguém sabe o que funcionou ontem",
+    "pausado": "reprovado por ele em 25/09/2026: foto dele, copy de meio/fundo, não é viral"
   }
 ]
