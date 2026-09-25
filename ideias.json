@@ -1,1 +1,182 @@
-[]
+[
+  {
+    "id": "2026-09-25-1",
+    "data": "2026-09-25",
+    "formato": "tutorial",
+    "horario_sugerido": "01/10 · 12:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Eu pagava quase trezentos reais por mês só para o comentário virar mensagem no Direct.",
+      "Trezentos reais por mês. Só para o comentário virar mensagem no Direct.",
+      "Descobri que a Meta libera de graça o que eu pagava trezentos reais por mês para fazer."
+    ],
+    "o_que_se_ve": "entra print da fatura do ManyChat, sai a automação nativa da Meta rodando e a planilha de leads enchendo sozinha",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "print da fatura ManyChat, R$ 300/mês",
+        "topicos": [
+          "Eu pagava quase trezentos reais por mês só para o comentário virar mensagem no Direct.",
+          "Só que a própria Meta libera isso de graça, sem precisar de ManyChat."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "automação nativa da Meta configurando resposta automática",
+        "topicos": [
+          "Então é só configurar a resposta automática dentro do próprio Instagram, sem contratar nada por fora.",
+          "A partir daí, todo comentário na palavra certa já cai direto na conversa, sem eu tocar em nada."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 22 s",
+        "tela": "planilha de leads enchendo sozinha",
+        "topicos": [
+          "E o resultado aparece na planilha de leads enchendo sozinha, com nome, e-mail e WhatsApp de quem comentou."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "22 a 25 s",
+        "tela": "Comenta GRATIS",
+        "topicos": [
+          "Comenta GRATIS que eu te mando o passo a passo completo no Direct."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdmAhlIiDdg/",
+      "perfil": "99hud",
+      "vezes": "375.8",
+      "molde": "abre com o custo em reais da alternativa paga, mostra a automação rodando na tela, fecha pedindo para comentar a palavra"
+    },
+    "fonte": {
+      "nome": "Automação de comentário nativa da Meta, já rodando no perfil dele (moldes.md)",
+      "link": ""
+    },
+    "isca_sugerida": "GRATIS: o passo a passo de como configurar a automação de comentário nativa da Meta sem ManyChat"
+  },
+  {
+    "id": "2026-09-25-2",
+    "data": "2026-09-25",
+    "formato": "bastidor",
+    "horario_sugerido": "26/09 · 16:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Lead chega, cai na planilha, e ninguém liga no mesmo dia.",
+      "Metade dos meus leads não virava cliente só porque a ligação demorava.",
+      "O lead esfria enquanto ninguém liga no mesmo dia."
+    ],
+    "o_que_se_ve": "entra a planilha de leads parada sem contato, sai o aviso por e-mail disparando e o time ligando no mesmo dia",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "planilha de leads com linha antiga sem contato",
+        "topicos": [
+          "Lead chega, cai na planilha, e ninguém liga no mesmo dia.",
+          "Só que essa demora é o motivo pelo qual metade desses leads nunca vira cliente."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "e-mail de aviso chegando na caixa de entrada",
+        "topicos": [
+          "Então eu montei um aviso automático por e-mail assim que o lead cai na planilha.",
+          "E aí o time de vendas já liga ainda no mesmo dia, com o nome, o e-mail e o WhatsApp da pessoa na tela."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 22 s",
+        "tela": "tela mostrando a primeira venda fechada",
+        "topicos": [
+          "Foi assim que fechei minha primeira venda de implementação de IA, com um perfil que eu tinha acabado de criar do zero."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "22 a 25 s",
+        "tela": "Comenta RAPIDO",
+        "topicos": [
+          "Comenta RAPIDO que eu te mando como montar esse aviso no seu negócio."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdnRmRzjb_i/",
+      "perfil": "fabianocarvalhojr",
+      "vezes": "42.5",
+      "molde": "dor do dono dita em frase seca, seguida da prova do sistema resolvendo com números reais"
+    },
+    "fonte": {
+      "nome": "Funil de leads dele: planilha, aviso por e-mail e time ligando no mesmo dia (moldes.md)",
+      "link": ""
+    },
+    "isca_sugerida": "RAPIDO: como montar o aviso automático que faz o time ligar no mesmo dia do lead"
+  },
+  {
+    "id": "2026-09-25-3",
+    "data": "2026-09-25",
+    "formato": "meme",
+    "horario_sugerido": "30/09 · 19:00",
+    "fala_com": "quem ama IA",
+    "aberturas": [
+      "Antes, seis da manhã era eu respondendo Direct comentário por comentário.",
+      "Seis da manhã já foi eu, no celular, comentário por comentário.",
+      "Antes eu acordava e já ia direto pro Direct responder comentário um por um."
+    ],
+    "o_que_se_ve": "entra ele de pijama e café numa manhã comum, sai a planilha de leads cheia de madrugada sem ele ter feito nada",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "ele de pijama e café, texto 'Antes: 6h da manhã'",
+        "topicos": [
+          "Antes, seis da manhã era eu respondendo Direct comentário por comentário.",
+          "Só que agora seis da manhã é café, pijama e nenhuma notificação de trabalho na tela."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "ele abrindo o celular e mostrando a planilha",
+        "topicos": [
+          "E aí eu só abro o celular para ver a planilha de leads que encheu sozinha durante a madrugada.",
+          "Então eu tomo o café com a calma de quem não fez nada disso."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 20 s",
+        "tela": "print da planilha com horários de madrugada",
+        "topicos": [
+          "A planilha mostra hora três, hora quatro da manhã, e eu dormindo o tempo todo."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "20 a 23 s",
+        "tela": "Siga @gabrielfaria.ia",
+        "topicos": [
+          "Siga @gabrielfaria.ia para ver a IA trabalhando de verdade."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdcK5RyRnzc/",
+      "perfil": "allesinisgalli",
+      "vezes": "3.8",
+      "molde": "contraste antes e depois narrado em primeira pessoa, mostrando a virada sem explicar o mecanismo"
+    },
+    "fonte": {
+      "nome": "Cena da vida dele, rotina real com a esteira de conteúdo rodando (moldes.md)",
+      "link": ""
+    },
+    "isca_sugerida": ""
+  }
+]
