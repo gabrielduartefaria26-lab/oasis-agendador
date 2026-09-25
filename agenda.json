@@ -171,6 +171,22 @@
     "gancho": "POV: Cancelei a assinatura do Claude e agora só uso a IA do iFood"
   },
   {
+    "id": "lote02-empresa",
+    "arquivos": [
+      "lote02-empresa-slide-1.jpg",
+      "lote02-empresa-slide-2.jpg",
+      "lote02-empresa-slide-3.jpg",
+      "lote02-empresa-slide-4.jpg",
+      "lote02-empresa-slide-5.jpg",
+      "lote02-empresa-slide-6.jpg",
+      "lote02-empresa-slide-7.jpg"
+    ],
+    "quando": "2026-09-28T09:00:00-03:00",
+    "legenda": "A Anthropic lançou um Claude só para pequena empresa, com 43 tarefas prontas.\n\nJá passou de 900 mil instalações e em 15/09 ganhou 27 integrações novas (fonte: blog oficial do Claude).\n\nO fluxo pronto só rende em cima de processo escrito. Sem isso, é bagunça mais rápida.\n\nComenta EMPRESA que eu te mando o passo a passo e os 5 fluxos que eu ligaria primeiro.\n\n#claude #anthropic #inteligenciaartificial #ia #pequenasempresas #empreendedorismo #automacao #gestao",
+    "formato": "descoberta",
+    "gancho": "A Anthropic lançou um Claude só para pequena empresa"
+  },
+  {
     "id": "tut-ebook",
     "arquivo": "tut-ebook.mp4",
     "quando": "2026-09-28T12:00:00-03:00",
