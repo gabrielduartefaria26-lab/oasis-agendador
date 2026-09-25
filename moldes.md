@@ -23,6 +23,15 @@ numeradas); a câmera entra em cada equipe na palavra falada. Serve para qualque
 5 partes. Toda semana, pelo menos 1 ideia de posicionamento deve vir neste formato, com as 5
 equipes já escritas no roteiro. Molde técnico em Conteúdos Instagram/_moldes/mapa-equipes.
 
+## "FAZENDO NA PRÁTICA" (pedido dele em 25/09/2026)
+
+Ele quer mais vídeos do tipo do @mate.jimenez com o Claude Design: ele FAZ na tela uma coisa
+útil (carrossel, proposta, página, automação), do começo ao resultado, em menos de 1 minuto, e
+a isca é o prompt ou o passo a passo. Também quer que a rotina TRAGA IDEIAS DE COISAS NOVAS PARA
+CONSTRUIR (não só para falar), desde que sirvam ao posicionamento: algo que um dono de empresa
+ou um profissional liberal usaria na segunda-feira. Toda ideia desse tipo diz o que ele constrói,
+em quanto tempo, e qual processo por trás faz funcionar (a tese).
+
 ## DUAS PISTAS (o mix das ideias do dia)
 
 1. **ALCANCE (até 2 por dia): tutorial e novidade**, que criam base de seguidores. Continua
@@ -131,6 +140,8 @@ desde que a pessoa consiga repetir hoje.
 
 - "Posto 2 vídeos por dia sem equipe de conteúdo" (mapa de equipes, isca ESTEIRA)
 - "Esse mapa te mostra como transformar seguidores em clientes" (FUNIL, JÁ GRAVADO e programado 08/10)
+- "Toda empresa precisa de um cérebro. O da minha fica aqui." (consulta pronta, isca CEREBRO, mapa com as 5 áreas do Claude Brain)
+- Carrosséis virais com o Claude Design a partir de referências (em construção com ele)
 - As 10 pautas da tese (25/09): substituir todo mundo vs quem é burro · sua equipe usa IA errado
   e a culpa não é da IA · configurei o computador de um cliente e ele sumiu duas semanas (iMake) ·
   mandar mensagem no ChatGPT não é usar IA · a IA me deu tempo e eu gastei trabalhando mais ·
