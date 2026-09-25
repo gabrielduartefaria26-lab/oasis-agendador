@@ -2,12 +2,12 @@
 cliente: "Grupo Valor"
 etapa: "04 HUB"
 fase: "2 · Fundação"
-status: não iniciado
+status: concluído
 responsavel:
 inicio:
 prazo:
 concluido:
-entregavel:
+entregavel: "https://grupo-valor-marca.vercel.app/"
 retrabalho: 0
 tags:
   - fluxo-cliente
@@ -23,10 +23,11 @@ tags:
 - [[Clientes/Grupo Valor/03 Pesquisa de Concorrentes|03 Pesquisa de Concorrentes]]
 
 ## Checklist
-- [ ] Estrutura do HUB criada
+- [ ] Página inicial do HUB (logo, frase da marca, versão)
 - [ ] Pesquisas de público, mercado e concorrentes publicadas
+- [ ] Um card por documento (Manual, Plano, Materiais Comerciais, Reuniões)
 - [ ] Link do HUB enviado ao cliente
-- [ ] Rotina: cada nova entrega é publicada no HUB
+- [ ] Rotina: cada nova entrega e cada reunião é publicada no HUB
 
 ## Falhas e aprendizados
 <!-- Anote o que travou ou deu errado. A cada "Não" num ponto de aprovação, some 1 em `retrabalho`. -->

@@ -23,7 +23,7 @@ tags:
 
 ## Checklist
 - [ ] Relatório de resultados do mês
-- [ ] Reunião de revisão com o cliente
+- [ ] Reunião de revisão com o cliente (apresentação publicada no HUB)
 - [ ] Ajustes levados ao Plano de Crescimento
 - [ ] Publicado no HUB
 

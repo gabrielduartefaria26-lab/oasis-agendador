@@ -2,12 +2,12 @@
 cliente: "Grupo Valor"
 etapa: "06 Plano de Crescimento"
 fase: "2 · Fundação"
-status: não iniciado
+status: concluído
 responsavel:
 inicio:
 prazo:
 concluido:
-entregavel:
+entregavel: "https://grupo-valor-marca.vercel.app/"
 retrabalho: 0
 tags:
   - fluxo-cliente
@@ -21,10 +21,12 @@ tags:
 - [[Clientes/Grupo Valor/04 HUB|04 HUB]]
 
 ## Checklist
-- [ ] Metas e indicadores (faturamento, leads, CAC)
-- [ ] Canais prioritários
-- [ ] Cronograma e marcos
-- [ ] Orçamento de mídia
+- [ ] Onde estamos: números atuais (faturamento, ticket, origem das vendas, equipe)
+- [ ] Diagnóstico principal em uma frase
+- [ ] Alavancas de crescimento
+- [ ] Primeiras ações, em ordem
+- [ ] O que cabe à agência × o que cabe ao cliente
+- [ ] Metas e preços validados pelo cliente
 - [ ] Publicado no HUB
 
 ## Falhas e aprendizados

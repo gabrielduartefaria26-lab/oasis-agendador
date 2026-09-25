@@ -2,12 +2,12 @@
 cliente: "Grupo Valor"
 etapa: "05 Manual da Marca"
 fase: "2 · Fundação"
-status: não iniciado
+status: concluído
 responsavel:
 inicio:
 prazo:
 concluido:
-entregavel:
+entregavel: "https://grupo-valor-marca.vercel.app/"
 retrabalho: 0
 tags:
   - fluxo-cliente
@@ -21,9 +21,14 @@ tags:
 - [[Clientes/Grupo Valor/04 HUB|04 HUB]]
 
 ## Checklist
-- [ ] Posicionamento e proposta de valor
-- [ ] Tom de voz e mensagens-chave
-- [ ] Identidade visual (cores, tipografia, aplicações)
+- [ ] Essência e posicionamento
+- [ ] Inimigo declarado
+- [ ] Público (a partir da pesquisa)
+- [ ] Arquitetura de marca (marca principal e frentes pessoais)
+- [ ] Logotipo, cores e tipografia
+- [ ] Tom de voz
+- [ ] Aplicações
+- [ ] Limites legais da comunicação
 - [ ] Publicado no HUB
 
 ## Falhas e aprendizados
