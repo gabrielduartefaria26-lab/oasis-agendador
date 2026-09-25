@@ -251,6 +251,22 @@
     "gancho": "7 cursos oficiais de IA grátis e com certificado"
   },
   {
+    "id": "lote02-design",
+    "arquivos": [
+      "lote02-design-slide-1.jpg",
+      "lote02-design-slide-2.jpg",
+      "lote02-design-slide-3.jpg",
+      "lote02-design-slide-4.jpg",
+      "lote02-design-slide-5.jpg",
+      "lote02-design-slide-6.jpg",
+      "lote02-design-slide-7.jpg"
+    ],
+    "quando": "2026-10-01T09:00:00-03:00",
+    "legenda": "O Claude agora faz design, apresentação e documento no meio de qualquer conversa.\n\nDesde 16/09 o chat e o Cowork viraram um aplicativo só; a liberação chega aos poucos nos planos Pro e Max (fonte: notas de versão do Claude).\n\nA ferramenta desenha o que você mandar. Sem referência, sai design genérico em volume.\n\nComenta DESIGN que eu te mando o prompt que transforma o Claude no seu editor de carrosséis.\n\n#claude #claudedesign #anthropic #inteligenciaartificial #ia #design #carrossel #marketingdigital",
+    "formato": "descoberta",
+    "gancho": "O Claude agora faz design no meio de qualquer conversa"
+  },
+  {
     "id": "tut-google-maps",
     "arquivo": "tut-google-maps.mp4",
     "quando": "2026-10-01T12:00:00-03:00",
