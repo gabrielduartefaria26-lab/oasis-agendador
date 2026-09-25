@@ -123,12 +123,44 @@
     "gancho": "02:30 da madrugada, eu revolucionando o mundo com meu humilde trabalho"
   },
   {
+    "id": "lote02-empresa",
+    "arquivos": [
+      "lote02-empresa-slide-1.jpg",
+      "lote02-empresa-slide-2.jpg",
+      "lote02-empresa-slide-3.jpg",
+      "lote02-empresa-slide-4.jpg",
+      "lote02-empresa-slide-5.jpg",
+      "lote02-empresa-slide-6.jpg",
+      "lote02-empresa-slide-7.jpg"
+    ],
+    "quando": "2026-09-26T09:00:00-03:00",
+    "legenda": "A Anthropic lançou um Claude só para pequena empresa, com 43 tarefas prontas.\n\nJá passou de 900 mil instalações e em 15/09 ganhou 27 integrações novas (fonte: blog oficial do Claude).\n\nO fluxo pronto só rende em cima de processo escrito. Sem isso, é bagunça mais rápida.\n\nComenta EMPRESA que eu te mando o passo a passo e os 5 fluxos que eu ligaria primeiro.\n\n#claude #anthropic #inteligenciaartificial #ia #pequenasempresas #empreendedorismo #automacao #gestao",
+    "formato": "descoberta",
+    "gancho": "A Anthropic lançou um Claude só para pequena empresa"
+  },
+  {
     "id": "tut-10agentes",
     "arquivo": "tut-10agentes.mp4",
     "quando": "2026-09-26T12:00:00-03:00",
     "legenda": "Comenta SEMANA10 que eu te mando o guia com o passo a passo dos 10 🔗\n\nOs dez moram no mesmo lugar: um Project do Claude, com a instrução fixa, os seus arquivos e as conexões.\n\n01. Resumo matinal\nLê agenda, e-mail e notícias e devolve o dia numa página só.\n\n02. Preparação de reunião\nPesquisa a empresa e quem vai estar na sala, e sugere os assuntos e os pontos de atenção.\n\n03. Organizador da caixa de entrada\nSepara o que exige você, o que pode esperar e o que ignorar. E já deixa a resposta em rascunho.\n\n04. Pesquisa de prospect\nVocê dá o nome, ele devolve empresa, cargo, contexto e a mensagem de abertura.\n\n05. Conselho particular\nQuatro cabeças analisam a mesma decisão por ângulos diferentes e entregam uma conclusão.\n\n06. Segundo cérebro\nNotas, documentos e prints num lugar só, com busca por pergunta em vez de pasta.\n\n07. Máquina de conteúdo\nUm material longo entra, sai uma semana de posts no seu tom.\n\n08. Sistema financeiro\nRenda, despesa e meta entram, sai um plano que se atualiza todo mês.\n\n09. Revisão semanal\nToda sexta: o que andou, o que travou e o que entra na próxima semana.\n\n10. Clone de escrita\nCinco textos seus e a resposta passa a sair com a sua cara.\n\nEscolhe um e coloca para rodar neste fim de semana ✴️\n\nComenta SEMANA10 e eu te mando o guia com a instrução pronta de cada um.\n\n(segue o perfil primeiro, senão a mensagem não chega na sua DM)",
     "formato": "tutorial",
     "gancho": "10 Sistemas que você pode criar com o CLAUDE neste final de semana"
+  },
+  {
+    "id": "lote02-word",
+    "arquivos": [
+      "lote02-word-slide-1.jpg",
+      "lote02-word-slide-2.jpg",
+      "lote02-word-slide-3.jpg",
+      "lote02-word-slide-4.jpg",
+      "lote02-word-slide-5.jpg",
+      "lote02-word-slide-6.jpg",
+      "lote02-word-slide-7.jpg"
+    ],
+    "quando": "2026-09-26T16:00:00-03:00",
+    "legenda": "O ChatGPT agora funciona dentro do Word, até no plano grátis.\n\nSaiu em 17/09, numa barra lateral dentro do documento, com limite de uso no plano grátis (fonte: notas de versão do ChatGPT).\n\nO ganho não é escrever mais rápido. É parar de levar o documento para fora de onde ele mora.\n\nComenta WORD que eu te mando os 10 pedidos que eu uso em contrato, proposta e ata.\n\n#chatgpt #openai #microsoftword #inteligenciaartificial #ia #produtividade #empreendedorismo #ferramentas",
+    "formato": "descoberta",
+    "gancho": "O ChatGPT agora funciona dentro do Word"
   },
   {
     "id": "meme-produtividade",
@@ -163,6 +195,22 @@
     "gancho": "Para escrever use esse, esse ou esse"
   },
   {
+    "id": "lote02-cursos",
+    "arquivos": [
+      "lote02-cursos-slide-1.jpg",
+      "lote02-cursos-slide-2.jpg",
+      "lote02-cursos-slide-3.jpg",
+      "lote02-cursos-slide-4.jpg",
+      "lote02-cursos-slide-5.jpg",
+      "lote02-cursos-slide-6.jpg",
+      "lote02-cursos-slide-7.jpg"
+    ],
+    "quando": "2026-09-27T16:00:00-03:00",
+    "legenda": "7 cursos oficiais de IA, grátis e com certificado.\n\nSão da OpenAI Academy e da Anthropic Academy, em inglês, sem custo e com certificado no final.\n\nCurso sem aplicação é entretenimento. Faça um por semana e use no mesmo dia.\n\nComenta CURSOS que eu te mando os 7 links na ordem em que eu faria.\n\n#inteligenciaartificial #ia #cursosgratuitos #chatgpt #claude #openai #anthropic #aprendizado",
+    "formato": "ferramenta",
+    "gancho": "7 cursos oficiais de IA grátis e com certificado"
+  },
+  {
     "id": "meme-ifood",
     "arquivo": "meme-ifood.mp4",
     "quando": "2026-09-27T19:00:00-03:00",
@@ -171,20 +219,20 @@
     "gancho": "POV: Cancelei a assinatura do Claude e agora só uso a IA do iFood"
   },
   {
-    "id": "lote02-empresa",
+    "id": "lote02-design",
     "arquivos": [
-      "lote02-empresa-slide-1.jpg",
-      "lote02-empresa-slide-2.jpg",
-      "lote02-empresa-slide-3.jpg",
-      "lote02-empresa-slide-4.jpg",
-      "lote02-empresa-slide-5.jpg",
-      "lote02-empresa-slide-6.jpg",
-      "lote02-empresa-slide-7.jpg"
+      "lote02-design-slide-1.jpg",
+      "lote02-design-slide-2.jpg",
+      "lote02-design-slide-3.jpg",
+      "lote02-design-slide-4.jpg",
+      "lote02-design-slide-5.jpg",
+      "lote02-design-slide-6.jpg",
+      "lote02-design-slide-7.jpg"
     ],
     "quando": "2026-09-28T09:00:00-03:00",
-    "legenda": "A Anthropic lançou um Claude só para pequena empresa, com 43 tarefas prontas.\n\nJá passou de 900 mil instalações e em 15/09 ganhou 27 integrações novas (fonte: blog oficial do Claude).\n\nO fluxo pronto só rende em cima de processo escrito. Sem isso, é bagunça mais rápida.\n\nComenta EMPRESA que eu te mando o passo a passo e os 5 fluxos que eu ligaria primeiro.\n\n#claude #anthropic #inteligenciaartificial #ia #pequenasempresas #empreendedorismo #automacao #gestao",
+    "legenda": "O Claude agora faz design, apresentação e documento no meio de qualquer conversa.\n\nDesde 16/09 o chat e o Cowork viraram um aplicativo só; a liberação chega aos poucos nos planos Pro e Max (fonte: notas de versão do Claude).\n\nA ferramenta desenha o que você mandar. Sem referência, sai design genérico em volume.\n\nComenta DESIGN que eu te mando o prompt que transforma o Claude no seu editor de carrosséis.\n\n#claude #claudedesign #anthropic #inteligenciaartificial #ia #design #carrossel #marketingdigital",
     "formato": "descoberta",
-    "gancho": "A Anthropic lançou um Claude só para pequena empresa"
+    "gancho": "O Claude agora faz design no meio de qualquer conversa"
   },
   {
     "id": "tut-ebook",
@@ -195,6 +243,22 @@
     "gancho": "Em vez de maratonar Netflix hoje à noite"
   },
   {
+    "id": "lote02-conecta",
+    "arquivos": [
+      "lote02-conecta-slide-1.jpg",
+      "lote02-conecta-slide-2.jpg",
+      "lote02-conecta-slide-3.jpg",
+      "lote02-conecta-slide-4.jpg",
+      "lote02-conecta-slide-5.jpg",
+      "lote02-conecta-slide-6.jpg",
+      "lote02-conecta-slide-7.jpg"
+    ],
+    "quando": "2026-09-28T16:00:00-03:00",
+    "legenda": "A Anthropic abriu uma loja com mais de 2.000 conectores para o Claude.\n\nSaiu em 23/09 e vale para todo plano, pessoal ou empresa (fonte: blog oficial do Claude).\n\nDois mil conectores não são dois mil motivos para ligar. Comece por onde a informação mora.\n\nComenta CONECTA que eu te mando a ordem em que eu ligaria numa empresa, com o cuidado de cada um.\n\n#claude #anthropic #inteligenciaartificial #ia #automacao #gestao #empreendedorismo #produtividade",
+    "formato": "descoberta",
+    "gancho": "A Anthropic abriu uma loja com mais de 2.000 conectores"
+  },
+  {
     "id": "meme-tokens",
     "arquivo": "meme-tokens.mp4",
     "quando": "2026-09-28T19:00:00-03:00",
@@ -203,20 +267,20 @@
     "gancho": "Eu fingindo que gosto de ler livros até os meus tokens do Claude voltarem"
   },
   {
-    "id": "lote02-word",
+    "id": "lote02-lista",
     "arquivos": [
-      "lote02-word-slide-1.jpg",
-      "lote02-word-slide-2.jpg",
-      "lote02-word-slide-3.jpg",
-      "lote02-word-slide-4.jpg",
-      "lote02-word-slide-5.jpg",
-      "lote02-word-slide-6.jpg",
-      "lote02-word-slide-7.jpg"
+      "lote02-lista-slide-1.jpg",
+      "lote02-lista-slide-2.jpg",
+      "lote02-lista-slide-3.jpg",
+      "lote02-lista-slide-4.jpg",
+      "lote02-lista-slide-5.jpg",
+      "lote02-lista-slide-6.jpg",
+      "lote02-lista-slide-7.jpg"
     ],
     "quando": "2026-09-29T09:00:00-03:00",
-    "legenda": "O ChatGPT agora funciona dentro do Word, até no plano grátis.\n\nSaiu em 17/09, numa barra lateral dentro do documento, com limite de uso no plano grátis (fonte: notas de versão do ChatGPT).\n\nO ganho não é escrever mais rápido. É parar de levar o documento para fora de onde ele mora.\n\nComenta WORD que eu te mando os 10 pedidos que eu uso em contrato, proposta e ata.\n\n#chatgpt #openai #microsoftword #inteligenciaartificial #ia #produtividade #empreendedorismo #ferramentas",
-    "formato": "descoberta",
-    "gancho": "O ChatGPT agora funciona dentro do Word"
+    "legenda": "7 tarefas, 21 IAs: a certa para cada uma.\n\nVocê não precisa de 21. Precisa da que resolve a tarefa que mais te toma tempo, testada por uma semana antes de pagar.\n\nFerramenta nenhuma salva tarefa que ninguém sabe fazer.\n\nComenta LISTA que eu te mando as 21 com o endereço e o que cada uma resolve.\n\n#inteligenciaartificial #ia #ferramentasdeia #chatgpt #claude #produtividade #automacao #empreendedorismo",
+    "formato": "ferramenta",
+    "gancho": "7 tarefas, 21 IAs, a certa para cada uma"
   },
   {
     "id": "tut-financeiro",
@@ -235,38 +299,6 @@
     "gancho": "Eu demiti o social media e agora o Claude faz todas as minhas postagens"
   },
   {
-    "id": "lote02-cursos",
-    "arquivos": [
-      "lote02-cursos-slide-1.jpg",
-      "lote02-cursos-slide-2.jpg",
-      "lote02-cursos-slide-3.jpg",
-      "lote02-cursos-slide-4.jpg",
-      "lote02-cursos-slide-5.jpg",
-      "lote02-cursos-slide-6.jpg",
-      "lote02-cursos-slide-7.jpg"
-    ],
-    "quando": "2026-09-30T09:00:00-03:00",
-    "legenda": "7 cursos oficiais de IA, grátis e com certificado.\n\nSão da OpenAI Academy e da Anthropic Academy, em inglês, sem custo e com certificado no final.\n\nCurso sem aplicação é entretenimento. Faça um por semana e use no mesmo dia.\n\nComenta CURSOS que eu te mando os 7 links na ordem em que eu faria.\n\n#inteligenciaartificial #ia #cursosgratuitos #chatgpt #claude #openai #anthropic #aprendizado",
-    "formato": "ferramenta",
-    "gancho": "7 cursos oficiais de IA grátis e com certificado"
-  },
-  {
-    "id": "lote02-design",
-    "arquivos": [
-      "lote02-design-slide-1.jpg",
-      "lote02-design-slide-2.jpg",
-      "lote02-design-slide-3.jpg",
-      "lote02-design-slide-4.jpg",
-      "lote02-design-slide-5.jpg",
-      "lote02-design-slide-6.jpg",
-      "lote02-design-slide-7.jpg"
-    ],
-    "quando": "2026-10-01T09:00:00-03:00",
-    "legenda": "O Claude agora faz design, apresentação e documento no meio de qualquer conversa.\n\nDesde 16/09 o chat e o Cowork viraram um aplicativo só; a liberação chega aos poucos nos planos Pro e Max (fonte: notas de versão do Claude).\n\nA ferramenta desenha o que você mandar. Sem referência, sai design genérico em volume.\n\nComenta DESIGN que eu te mando o prompt que transforma o Claude no seu editor de carrosséis.\n\n#claude #claudedesign #anthropic #inteligenciaartificial #ia #design #carrossel #marketingdigital",
-    "formato": "descoberta",
-    "gancho": "O Claude agora faz design no meio de qualquer conversa"
-  },
-  {
     "id": "tut-google-maps",
     "arquivo": "tut-google-maps.mp4",
     "quando": "2026-10-01T12:00:00-03:00",
@@ -283,38 +315,6 @@
     "formato": "bastidor",
     "capa_ms": 1500,
     "gancho": "Vendi R$ 4.000 em IA com 15 seguidores"
-  },
-  {
-    "id": "lote02-conecta",
-    "arquivos": [
-      "lote02-conecta-slide-1.jpg",
-      "lote02-conecta-slide-2.jpg",
-      "lote02-conecta-slide-3.jpg",
-      "lote02-conecta-slide-4.jpg",
-      "lote02-conecta-slide-5.jpg",
-      "lote02-conecta-slide-6.jpg",
-      "lote02-conecta-slide-7.jpg"
-    ],
-    "quando": "2026-10-02T09:00:00-03:00",
-    "legenda": "A Anthropic abriu uma loja com mais de 2.000 conectores para o Claude.\n\nSaiu em 23/09 e vale para todo plano, pessoal ou empresa (fonte: blog oficial do Claude).\n\nDois mil conectores não são dois mil motivos para ligar. Comece por onde a informação mora.\n\nComenta CONECTA que eu te mando a ordem em que eu ligaria numa empresa, com o cuidado de cada um.\n\n#claude #anthropic #inteligenciaartificial #ia #automacao #gestao #empreendedorismo #produtividade",
-    "formato": "descoberta",
-    "gancho": "A Anthropic abriu uma loja com mais de 2.000 conectores"
-  },
-  {
-    "id": "lote02-lista",
-    "arquivos": [
-      "lote02-lista-slide-1.jpg",
-      "lote02-lista-slide-2.jpg",
-      "lote02-lista-slide-3.jpg",
-      "lote02-lista-slide-4.jpg",
-      "lote02-lista-slide-5.jpg",
-      "lote02-lista-slide-6.jpg",
-      "lote02-lista-slide-7.jpg"
-    ],
-    "quando": "2026-10-03T09:00:00-03:00",
-    "legenda": "7 tarefas, 21 IAs: a certa para cada uma.\n\nVocê não precisa de 21. Precisa da que resolve a tarefa que mais te toma tempo, testada por uma semana antes de pagar.\n\nFerramenta nenhuma salva tarefa que ninguém sabe fazer.\n\nComenta LISTA que eu te mando as 21 com o endereço e o que cada uma resolve.\n\n#inteligenciaartificial #ia #ferramentasdeia #chatgpt #claude #produtividade #automacao #empreendedorismo",
-    "formato": "ferramenta",
-    "gancho": "7 tarefas, 21 IAs, a certa para cada uma"
   },
   {
     "id": "funil-equipes",
