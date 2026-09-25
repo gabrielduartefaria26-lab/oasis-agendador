@@ -203,6 +203,22 @@
     "gancho": "Eu fingindo que gosto de ler livros até os meus tokens do Claude voltarem"
   },
   {
+    "id": "lote01-meta",
+    "arquivos": [
+      "lote01-meta-slide-1.jpg",
+      "lote01-meta-slide-2.jpg",
+      "lote01-meta-slide-3.jpg",
+      "lote01-meta-slide-4.jpg",
+      "lote01-meta-slide-5.jpg",
+      "lote01-meta-slide-6.jpg",
+      "lote01-meta-slide-7.jpg"
+    ],
+    "quando": "2026-09-29T09:00:00-03:00",
+    "legenda": "Antes de assinar mais uma ferramenta, confere se a Meta já não faz de graça.\n\nComenta CHAT que eu te mando o passo a passo com cada tela.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#instagram #automacao #inteligenciaartificial #ia #marketingdigital #directinstagram",
+    "formato": "ferramenta",
+    "gancho": "Você paga ManyChat por uma coisa que a Meta dá de graça"
+  },
+  {
     "id": "tut-financeiro",
     "arquivo": "tut-financeiro.mp4",
     "quando": "2026-09-29T12:00:00-03:00",
