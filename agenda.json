@@ -147,22 +147,6 @@
     "gancho": "10 Sistemas que você pode criar com o CLAUDE neste final de semana"
   },
   {
-    "id": "lote02-word",
-    "arquivos": [
-      "lote02-word-slide-1.jpg",
-      "lote02-word-slide-2.jpg",
-      "lote02-word-slide-3.jpg",
-      "lote02-word-slide-4.jpg",
-      "lote02-word-slide-5.jpg",
-      "lote02-word-slide-6.jpg",
-      "lote02-word-slide-7.jpg"
-    ],
-    "quando": "2026-09-26T16:00:00-03:00",
-    "legenda": "O ChatGPT agora funciona dentro do Word, até no plano grátis.\n\nSaiu em 17/09, numa barra lateral dentro do documento, com limite de uso no plano grátis (fonte: notas de versão do ChatGPT).\n\nO ganho não é escrever mais rápido. É parar de levar o documento para fora de onde ele mora.\n\nComenta WORD que eu te mando os 10 pedidos que eu uso em contrato, proposta e ata.\n\n#chatgpt #openai #microsoftword #inteligenciaartificial #ia #produtividade #empreendedorismo #ferramentas",
-    "formato": "descoberta",
-    "gancho": "O ChatGPT agora funciona dentro do Word"
-  },
-  {
     "id": "meme-produtividade",
     "arquivo": "meme-produtividade.mp4",
     "quando": "2026-09-26T19:00:00-03:00",
@@ -195,28 +179,44 @@
     "gancho": "Para escrever use esse, esse ou esse"
   },
   {
-    "id": "lote02-cursos",
-    "arquivos": [
-      "lote02-cursos-slide-1.jpg",
-      "lote02-cursos-slide-2.jpg",
-      "lote02-cursos-slide-3.jpg",
-      "lote02-cursos-slide-4.jpg",
-      "lote02-cursos-slide-5.jpg",
-      "lote02-cursos-slide-6.jpg",
-      "lote02-cursos-slide-7.jpg"
-    ],
-    "quando": "2026-09-27T16:00:00-03:00",
-    "legenda": "7 cursos oficiais de IA, grátis e com certificado.\n\nSão da OpenAI Academy e da Anthropic Academy, em inglês, sem custo e com certificado no final.\n\nCurso sem aplicação é entretenimento. Faça um por semana e use no mesmo dia.\n\nComenta CURSOS que eu te mando os 7 links na ordem em que eu faria.\n\n#inteligenciaartificial #ia #cursosgratuitos #chatgpt #claude #openai #anthropic #aprendizado",
-    "formato": "ferramenta",
-    "gancho": "7 cursos oficiais de IA grátis e com certificado"
-  },
-  {
     "id": "meme-ifood",
     "arquivo": "meme-ifood.mp4",
     "quando": "2026-09-27T19:00:00-03:00",
     "legenda": "Cancelei a assinatura e fui de IA gratuita. O atendimento do iFood resolveu meu código em Python e ainda perguntou se eu queria opções de lanche.\n\nServiço completo.\n\nSegue @gabrielfaria.ia se você também usa IA para tudo, menos para o que ela foi feita.",
     "formato": "meme",
     "gancho": "POV: Cancelei a assinatura do Claude e agora só uso a IA do iFood"
+  },
+  {
+    "id": "lote02-word",
+    "arquivos": [
+      "lote02-word-slide-1.jpg",
+      "lote02-word-slide-2.jpg",
+      "lote02-word-slide-3.jpg",
+      "lote02-word-slide-4.jpg",
+      "lote02-word-slide-5.jpg",
+      "lote02-word-slide-6.jpg",
+      "lote02-word-slide-7.jpg"
+    ],
+    "quando": "2026-09-28T09:00:00-03:00",
+    "legenda": "O ChatGPT agora funciona dentro do Word, até no plano grátis.\n\nSaiu em 17/09, numa barra lateral dentro do documento, com limite de uso no plano grátis (fonte: notas de versão do ChatGPT).\n\nO ganho não é escrever mais rápido. É parar de levar o documento para fora de onde ele mora.\n\nComenta WORD que eu te mando os 10 pedidos que eu uso em contrato, proposta e ata.\n\n#chatgpt #openai #microsoftword #inteligenciaartificial #ia #produtividade #empreendedorismo #ferramentas",
+    "formato": "descoberta",
+    "gancho": "O ChatGPT agora funciona dentro do Word"
+  },
+  {
+    "id": "tut-ebook",
+    "arquivo": "tut-ebook.mp4",
+    "quando": "2026-09-28T12:00:00-03:00",
+    "legenda": "Em vez de maratonar Netflix hoje à noite, faz esse:\n\nO esboço sai em uma conversa. O design sai no Canva. O resto é você vender.\n\nPASSO 1: o assunto.\nNão invente tema. Escolha o que você já resolve para alguém há pelo menos um ano. Quem compra e-book de R$27,90 está com um problema pequeno e urgente, não procurando enciclopédia.\n\nCinco que vendem bem porque a dor é específica:\n. o que fazer nos 30 dias antes de abrir o CNPJ\n. o roteiro de atendimento no WhatsApp para quem vende serviço\n. a rotina de treino para quem só tem 40 minutos e três dias na semana\n. como organizar a planilha do mês quando a renda é variável\n. o passo a passo do primeiro anúncio para quem nunca subiu campanha\n\nPASSO 2: o esboço, no Claude.\n\n\"Você vai me ajudar a escrever um e-book curto, de 30 a 40 páginas, sobre [assunto], para [quem é a pessoa e em que momento ela está]. Antes de escrever, me faça 5 perguntas sobre o que eu já sei desse assunto na prática. Depois entregue o sumário com capítulos e o que cada um resolve, um por linha, e diga qual capítulo é o que faz a pessoa sentir que valeu o dinheiro.\"\n\nResponda as 5 perguntas com a sua experiência. É isso que separa o seu e-book do e-book genérico que ele escreveria sozinho.\n\nPASSO 3: capítulo por capítulo.\n\n\"Escreva o capítulo [X] com as minhas palavras, em no máximo 900 palavras, usando os exemplos que eu te dei. Nada de introdução sobre a importância do tema. Comece pelo que a pessoa faz primeiro.\"\n\nPASSO 4: o design.\nCanva, modelo de e-book, cola o texto, troca as cores, exporta em PDF. Capa com a promessa e o número, não com o seu nome.\n\nA conta do vídeo é conta, não promessa: 100 cópias a R$27,90. Quem tem 200 seguidores não vende 100 no primeiro dia. Mas o arquivo fica pronto hoje e vende enquanto você dorme, o que a série da Netflix nunca vai fazer.\n\nSalva para fazer hoje à noite.",
+    "formato": "tutorial",
+    "gancho": "Em vez de maratonar Netflix hoje à noite"
+  },
+  {
+    "id": "meme-tokens",
+    "arquivo": "meme-tokens.mp4",
+    "quando": "2026-09-28T19:00:00-03:00",
+    "legenda": "Os tokens acabaram. Virei leitor. 🤣\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
+    "formato": "meme",
+    "gancho": "Eu fingindo que gosto de ler livros até os meus tokens do Claude voltarem"
   },
   {
     "id": "lote02-design",
@@ -229,58 +229,10 @@
       "lote02-design-slide-6.jpg",
       "lote02-design-slide-7.jpg"
     ],
-    "quando": "2026-09-28T09:00:00-03:00",
+    "quando": "2026-09-29T09:00:00-03:00",
     "legenda": "O Claude agora faz design, apresentação e documento no meio de qualquer conversa.\n\nDesde 16/09 o chat e o Cowork viraram um aplicativo só; a liberação chega aos poucos nos planos Pro e Max (fonte: notas de versão do Claude).\n\nA ferramenta desenha o que você mandar. Sem referência, sai design genérico em volume.\n\nComenta DESIGN que eu te mando o prompt que transforma o Claude no seu editor de carrosséis.\n\n#claude #claudedesign #anthropic #inteligenciaartificial #ia #design #carrossel #marketingdigital",
     "formato": "descoberta",
     "gancho": "O Claude agora faz design no meio de qualquer conversa"
-  },
-  {
-    "id": "tut-ebook",
-    "arquivo": "tut-ebook.mp4",
-    "quando": "2026-09-28T12:00:00-03:00",
-    "legenda": "Em vez de maratonar Netflix hoje à noite, faz esse:\n\nO esboço sai em uma conversa. O design sai no Canva. O resto é você vender.\n\nPASSO 1: o assunto.\nNão invente tema. Escolha o que você já resolve para alguém há pelo menos um ano. Quem compra e-book de R$27,90 está com um problema pequeno e urgente, não procurando enciclopédia.\n\nCinco que vendem bem porque a dor é específica:\n. o que fazer nos 30 dias antes de abrir o CNPJ\n. o roteiro de atendimento no WhatsApp para quem vende serviço\n. a rotina de treino para quem só tem 40 minutos e três dias na semana\n. como organizar a planilha do mês quando a renda é variável\n. o passo a passo do primeiro anúncio para quem nunca subiu campanha\n\nPASSO 2: o esboço, no Claude.\n\n\"Você vai me ajudar a escrever um e-book curto, de 30 a 40 páginas, sobre [assunto], para [quem é a pessoa e em que momento ela está]. Antes de escrever, me faça 5 perguntas sobre o que eu já sei desse assunto na prática. Depois entregue o sumário com capítulos e o que cada um resolve, um por linha, e diga qual capítulo é o que faz a pessoa sentir que valeu o dinheiro.\"\n\nResponda as 5 perguntas com a sua experiência. É isso que separa o seu e-book do e-book genérico que ele escreveria sozinho.\n\nPASSO 3: capítulo por capítulo.\n\n\"Escreva o capítulo [X] com as minhas palavras, em no máximo 900 palavras, usando os exemplos que eu te dei. Nada de introdução sobre a importância do tema. Comece pelo que a pessoa faz primeiro.\"\n\nPASSO 4: o design.\nCanva, modelo de e-book, cola o texto, troca as cores, exporta em PDF. Capa com a promessa e o número, não com o seu nome.\n\nA conta do vídeo é conta, não promessa: 100 cópias a R$27,90. Quem tem 200 seguidores não vende 100 no primeiro dia. Mas o arquivo fica pronto hoje e vende enquanto você dorme, o que a série da Netflix nunca vai fazer.\n\nSalva para fazer hoje à noite.",
-    "formato": "tutorial",
-    "gancho": "Em vez de maratonar Netflix hoje à noite"
-  },
-  {
-    "id": "lote02-conecta",
-    "arquivos": [
-      "lote02-conecta-slide-1.jpg",
-      "lote02-conecta-slide-2.jpg",
-      "lote02-conecta-slide-3.jpg",
-      "lote02-conecta-slide-4.jpg",
-      "lote02-conecta-slide-5.jpg",
-      "lote02-conecta-slide-6.jpg",
-      "lote02-conecta-slide-7.jpg"
-    ],
-    "quando": "2026-09-28T16:00:00-03:00",
-    "legenda": "A Anthropic abriu uma loja com mais de 2.000 conectores para o Claude.\n\nSaiu em 23/09 e vale para todo plano, pessoal ou empresa (fonte: blog oficial do Claude).\n\nDois mil conectores não são dois mil motivos para ligar. Comece por onde a informação mora.\n\nComenta CONECTA que eu te mando a ordem em que eu ligaria numa empresa, com o cuidado de cada um.\n\n#claude #anthropic #inteligenciaartificial #ia #automacao #gestao #empreendedorismo #produtividade",
-    "formato": "descoberta",
-    "gancho": "A Anthropic abriu uma loja com mais de 2.000 conectores"
-  },
-  {
-    "id": "meme-tokens",
-    "arquivo": "meme-tokens.mp4",
-    "quando": "2026-09-28T19:00:00-03:00",
-    "legenda": "Os tokens acabaram. Virei leitor. 🤣\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
-    "formato": "meme",
-    "gancho": "Eu fingindo que gosto de ler livros até os meus tokens do Claude voltarem"
-  },
-  {
-    "id": "lote02-lista",
-    "arquivos": [
-      "lote02-lista-slide-1.jpg",
-      "lote02-lista-slide-2.jpg",
-      "lote02-lista-slide-3.jpg",
-      "lote02-lista-slide-4.jpg",
-      "lote02-lista-slide-5.jpg",
-      "lote02-lista-slide-6.jpg",
-      "lote02-lista-slide-7.jpg"
-    ],
-    "quando": "2026-09-29T09:00:00-03:00",
-    "legenda": "7 tarefas, 21 IAs: a certa para cada uma.\n\nVocê não precisa de 21. Precisa da que resolve a tarefa que mais te toma tempo, testada por uma semana antes de pagar.\n\nFerramenta nenhuma salva tarefa que ninguém sabe fazer.\n\nComenta LISTA que eu te mando as 21 com o endereço e o que cada uma resolve.\n\n#inteligenciaartificial #ia #ferramentasdeia #chatgpt #claude #produtividade #automacao #empreendedorismo",
-    "formato": "ferramenta",
-    "gancho": "7 tarefas, 21 IAs, a certa para cada uma"
   },
   {
     "id": "tut-financeiro",
@@ -297,6 +249,38 @@
     "legenda": "Eu demiti o social media. Agora o Claude posta tudo sozinho aqui no Instagram.\n\nVocê só precisa de três contas: Claude, GitHub e Instagram profissional.\n\nComenta DOCUMENTO que eu te mando o kit e o guia passo a passo.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #automacao",
     "formato": "tutorial",
     "gancho": "Eu demiti o social media e agora o Claude faz todas as minhas postagens"
+  },
+  {
+    "id": "lote02-conecta",
+    "arquivos": [
+      "lote02-conecta-slide-1.jpg",
+      "lote02-conecta-slide-2.jpg",
+      "lote02-conecta-slide-3.jpg",
+      "lote02-conecta-slide-4.jpg",
+      "lote02-conecta-slide-5.jpg",
+      "lote02-conecta-slide-6.jpg",
+      "lote02-conecta-slide-7.jpg"
+    ],
+    "quando": "2026-09-30T09:00:00-03:00",
+    "legenda": "A Anthropic abriu uma loja com mais de 2.000 conectores para o Claude.\n\nSaiu em 23/09 e vale para todo plano, pessoal ou empresa (fonte: blog oficial do Claude).\n\nDois mil conectores não são dois mil motivos para ligar. Comece por onde a informação mora.\n\nComenta CONECTA que eu te mando a ordem em que eu ligaria numa empresa, com o cuidado de cada um.\n\n#claude #anthropic #inteligenciaartificial #ia #automacao #gestao #empreendedorismo #produtividade",
+    "formato": "descoberta",
+    "gancho": "A Anthropic abriu uma loja com mais de 2.000 conectores"
+  },
+  {
+    "id": "lote02-cursos",
+    "arquivos": [
+      "lote02-cursos-slide-1.jpg",
+      "lote02-cursos-slide-2.jpg",
+      "lote02-cursos-slide-3.jpg",
+      "lote02-cursos-slide-4.jpg",
+      "lote02-cursos-slide-5.jpg",
+      "lote02-cursos-slide-6.jpg",
+      "lote02-cursos-slide-7.jpg"
+    ],
+    "quando": "2026-10-01T09:00:00-03:00",
+    "legenda": "7 cursos oficiais de IA, grátis e com certificado.\n\nSão da OpenAI Academy e da Anthropic Academy, em inglês, sem custo e com certificado no final.\n\nCurso sem aplicação é entretenimento. Faça um por semana e use no mesmo dia.\n\nComenta CURSOS que eu te mando os 7 links na ordem em que eu faria.\n\n#inteligenciaartificial #ia #cursosgratuitos #chatgpt #claude #openai #anthropic #aprendizado",
+    "formato": "ferramenta",
+    "gancho": "7 cursos oficiais de IA grátis e com certificado"
   },
   {
     "id": "tut-google-maps",

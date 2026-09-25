@@ -226,5 +226,22 @@
     "formato": "case",
     "gancho": "Sua equipe usa IA todo dia e ninguém sabe o que funcionou ontem",
     "pausado": "reprovado por ele em 25/09/2026: foto dele, copy de meio/fundo, não é viral"
+  },
+  {
+    "id": "lote02-lista",
+    "arquivos": [
+      "lote02-lista-slide-1.jpg",
+      "lote02-lista-slide-2.jpg",
+      "lote02-lista-slide-3.jpg",
+      "lote02-lista-slide-4.jpg",
+      "lote02-lista-slide-5.jpg",
+      "lote02-lista-slide-6.jpg",
+      "lote02-lista-slide-7.jpg"
+    ],
+    "quando": "2026-09-29T09:00:00-03:00",
+    "legenda": "7 tarefas, 21 IAs: a certa para cada uma.\n\nVocê não precisa de 21. Precisa da que resolve a tarefa que mais te toma tempo, testada por uma semana antes de pagar.\n\nFerramenta nenhuma salva tarefa que ninguém sabe fazer.\n\nComenta LISTA que eu te mando as 21 com o endereço e o que cada uma resolve.\n\n#inteligenciaartificial #ia #ferramentasdeia #chatgpt #claude #produtividade #automacao #empreendedorismo",
+    "formato": "ferramenta",
+    "gancho": "7 tarefas, 21 IAs, a certa para cada uma",
+    "pausado": "perene; entra na próxima leva (ele: um por dia, programar só até quinta 01/10)"
   }
 ]
