@@ -4,6 +4,31 @@ Lido pela Pauta do dia ANTES do outliers.csv. Dos moldes se copia a FORMA (visua
 grupo `gabriel` no outliers.csv (perfis que ele escolheu em 25/09/2026). Os grupos `ia` e
 `dono` são reserva, para quando nada daqui servir.
 
+## A TESE DO PERFIL (conversa com ele em 25/09/2026, manda em tudo abaixo)
+
+**A IA amplifica o que você já é.** Empresa sem processo ganha bagunça mais rápida; quem não tem
+conhecimento transforma a IA numa cópia burra de si. Com processo e conhecimento, ela dá
+velocidade, qualidade, volume e tempo de vida. Palavras dele: "A IA não resolve falta de processo
+e ideias ruins"; "vai substituir quem é burro".
+
+- **Público 1 (quem paga):** dono de empresa que quer a EQUIPE usando IA bem (treinamento e implantação).
+- **Público 2 (volume):** profissional liberal e micro empreendedor que quer usar melhor e ganhar dinheiro com IA.
+- **Voz:** professor que faz. Descontraído, trabalha de casa, sem superprodução, ensinando na prática.
+
+## DUAS PISTAS (o mix das ideias do dia)
+
+1. **ALCANCE (até 2 por dia): tutorial e novidade**, que criam base de seguidores. Continua
+   valendo o formato dos perfis de referência (ferramenta rodando na tela, lista de comandos,
+   isca de passo a passo). O que muda é a VOZ: quem testou e julga ("testei, serve para quem X,
+   o erro é Y"), e o fecho liga à tese em uma frase (a ferramenta só rende com processo/contexto).
+2. **POSICIONAMENTO (1 por dia): tese e prova.** Sai da lista "aprovadas esperando gravação" ou
+   de uma variação nova da tese. Atrai menos, converte mais.
+
+Provas reais que podem aparecer (clientes toparam aparecer): **iMake** (automação residencial,
+Boituva): ele configurou o Obsidian, organizou os processos e ensinou o Claude em cima; o dono
+"sumiu duas semanas", criou site, automatizou processos, ensinou a equipe, está criando sistema
+próprio; a esposa faz apresentação no Claude. Números só se ele confirmar.
+
 ## Por que existe
 
 Em 25/09/2026 ele reprovou as ideias da rotina: "estou te mandando referências melhores das
@@ -98,6 +123,12 @@ desde que a pessoa consiga repetir hoje.
 
 - "Posto 2 vídeos por dia sem equipe de conteúdo" (mapa de equipes, isca ESTEIRA)
 - "Seguidor não vira cliente sem isso" (funil no mapa de equipes, isca FUNIL)
+- As 10 pautas da tese (25/09): substituir todo mundo vs quem é burro · sua equipe usa IA errado
+  e a culpa não é da IA · configurei o computador de um cliente e ele sumiu duas semanas (iMake) ·
+  mandar mensagem no ChatGPT não é usar IA · a IA me deu tempo e eu gastei trabalhando mais ·
+  antes de usar IA escreve isso num papel · toda empresa precisa de um cérebro · IA só te deixa
+  testar ideia ruim mais rápido · qualidade, prazo ou volume · a esposa do cliente faz
+  apresentação no Claude
 
 ## Vídeos que ele mandou em 25/09 (ainda não dissecados: a API não entrega o arquivo)
 
