@@ -18,20 +18,49 @@ def chamar(params):
         return json.load(r)
 
 
+def codigo(link):
+    """Shortcode do post: /p/X/ e /reel/X/ são o mesmo vídeo."""
+    partes = [x for x in link.split("?")[0].split("/") if x]
+    return partes[-1]
+
+
+def perfis_dele():
+    lista, grupo = [], ""
+    for l in open("referencias.txt", encoding="utf-8"):
+        l = l.strip()
+        if l.startswith("## "):
+            grupo = l[3:].strip()
+        elif l and not l.startswith("#") and grupo == "gabriel":
+            lista.append(l.lstrip("@"))
+    return lista
+
+
+def posts_de(usuario):
+    campos = f"business_discovery.username({usuario}){{media.limit(100){{permalink,media_url,caption}}}}"
+    return chamar({"fields": campos})["business_discovery"]["media"]["data"]
+
+
 os.makedirs("out", exist_ok=True)
+cache = {}
 for linha in os.environ["ALVOS"].strip().splitlines():
-    usuario, link = linha.split()
-    campos = f"business_discovery.username({usuario}){{media.limit(50){{permalink,media_url,caption}}}}"
-    try:
-        posts = chamar({"fields": campos})["business_discovery"]["media"]["data"]
-    except Exception as e:
-        print(f"{usuario}: erro {str(e).replace(TOKEN, '***')[:200]}")
-        continue
-    alvo = next((p for p in posts if p.get("permalink", "").rstrip("/") == link.rstrip("/")), None)
+    partes = linha.split()
+    link = partes[-1]
+    candidatos = partes[:1] if len(partes) > 1 else perfis_dele()   # só o link: procura nos perfis dele
+    alvo = usuario = None
+    for u in candidatos:
+        try:
+            cache.setdefault(u, posts_de(u))
+        except Exception as e:
+            print(f"{u}: erro {str(e).replace(TOKEN, '***')[:200]}")
+            cache[u] = []
+        alvo = next((p for p in cache[u] if codigo(p.get("permalink", "")) == codigo(link)), None)
+        if alvo:
+            usuario = u
+            break
     if not alvo or not alvo.get("media_url"):
-        print(f"{usuario}: {'sem media_url' if alvo else 'post não achado'}")
+        print(f"{codigo(link)}: {'sem media_url' if alvo else 'post não achado nos perfis'}")
         continue
-    nome = f"out/{usuario}"
+    nome = f"out/{usuario}__{codigo(link)}"
     urllib.request.urlretrieve(alvo["media_url"], nome + ".mp4")
     open(nome + ".txt", "w").write(alvo.get("caption") or "")
-    print(f"{usuario}: ok")
+    print(f"{codigo(link)}: ok ({usuario})")

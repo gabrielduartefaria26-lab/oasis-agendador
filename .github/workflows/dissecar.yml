@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       alvos:
-        description: "Uma linha por Reel: usuario permalink"
+        description: "Uma linha por Reel: usuario permalink, ou só o permalink (procura nos perfis do grupo gabriel)"
         type: string
         required: true
 

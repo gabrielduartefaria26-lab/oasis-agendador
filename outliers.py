@@ -25,6 +25,8 @@ JANELA_DIAS = 60     # formato mais velho que isso provavelmente já saturou
 POSTS_POR_PERFIL = 40
 MINIMO_PARA_MEDIANA = 8
 MINIMO_INTERACOES = 100  # perfil com mediana 3 gera '8x' com 26 interações: isso é ruído
+MEDIANA_MINIMA = 30      # abaixo disso a razão explode (o '1015x' de 24/09 era isso): perfil sai
+VEZES_GRUPO = {"gabriel": 2.0}  # referências dele: régua mais baixa, entram mais Reels
 
 COLUNAS = ["vezes_acima", "grupo", "perfil", "seguidores", "data", "interacoes", "curtidas",
            "comentarios", "mediana_perfil", "legenda", "link", "coletado"]
@@ -78,10 +80,14 @@ def main():
             continue
         inter = lambda p: p.get("like_count", 0) + p.get("comments_count", 0)
         mediana = statistics.median(inter(p) for p in reels) or 1
+        if mediana < MEDIANA_MINIMA and grupo != "gabriel":
+            pulados.append(f"{u}: mediana {mediana:.0f} abaixo de {MEDIANA_MINIMA}")
+            continue
+        regua = VEZES_GRUPO.get(grupo, VEZES)
         for p in reels:
             quando = datetime.fromisoformat(p["timestamp"].replace("+0000", "+00:00"))
             vezes = inter(p) / mediana
-            if quando >= corte and vezes >= VEZES and inter(p) >= MINIMO_INTERACOES:
+            if quando >= corte and vezes >= regua and inter(p) >= MINIMO_INTERACOES:
                 achados.append({
                     "vezes_acima": f"{vezes:.1f}", "grupo": grupo, "perfil": u, "seguidores": seg,
                     "data": quando.astimezone(timezone(timedelta(hours=-3))).strftime("%d/%m/%Y"),
@@ -90,7 +96,7 @@ def main():
                     "legenda": " ".join((p.get("caption") or "").split())[:220],
                     "link": p.get("permalink", ""), "coletado": agora.strftime("%Y-%m-%d %H:%M"),
                 })
-    achados.sort(key=lambda a: float(a["vezes_acima"]), reverse=True)
+    achados.sort(key=lambda a: (a["grupo"] != "gabriel", -float(a["vezes_acima"])))   # dele primeiro
     with open(SAIDA, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=COLUNAS)
         w.writeheader()
