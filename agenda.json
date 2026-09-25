@@ -171,6 +171,22 @@
     "gancho": "POV: Cancelei a assinatura do Claude e agora só uso a IA do iFood"
   },
   {
+    "id": "lote01-burro",
+    "arquivos": [
+      "lote01-burro-slide-1.jpg",
+      "lote01-burro-slide-2.jpg",
+      "lote01-burro-slide-3.jpg",
+      "lote01-burro-slide-4.jpg",
+      "lote01-burro-slide-5.jpg",
+      "lote01-burro-slide-6.jpg",
+      "lote01-burro-slide-7.jpg"
+    ],
+    "quando": "2026-09-28T09:00:00-03:00",
+    "legenda": "A ferramenta é a mesma para todo mundo. O que muda é o que você entrega para ela.\n\nComenta PROCESSO que eu te mando o modelo de uma página e o prompt que transforma um áudio da sua equipe no processo escrito.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #ia #gestao #processos #empreendedorismo #equipe",
+    "formato": "case",
+    "gancho": "A IA vai substituir quem é burro"
+  },
+  {
     "id": "tut-ebook",
     "arquivo": "tut-ebook.mp4",
     "quando": "2026-09-28T12:00:00-03:00",
