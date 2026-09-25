@@ -301,6 +301,22 @@
     "gancho": "A Anthropic abriu uma loja com mais de 2.000 conectores"
   },
   {
+    "id": "lote02-lista",
+    "arquivos": [
+      "lote02-lista-slide-1.jpg",
+      "lote02-lista-slide-2.jpg",
+      "lote02-lista-slide-3.jpg",
+      "lote02-lista-slide-4.jpg",
+      "lote02-lista-slide-5.jpg",
+      "lote02-lista-slide-6.jpg",
+      "lote02-lista-slide-7.jpg"
+    ],
+    "quando": "2026-10-03T09:00:00-03:00",
+    "legenda": "7 tarefas, 21 IAs: a certa para cada uma.\n\nVocê não precisa de 21. Precisa da que resolve a tarefa que mais te toma tempo, testada por uma semana antes de pagar.\n\nFerramenta nenhuma salva tarefa que ninguém sabe fazer.\n\nComenta LISTA que eu te mando as 21 com o endereço e o que cada uma resolve.\n\n#inteligenciaartificial #ia #ferramentasdeia #chatgpt #claude #produtividade #automacao #empreendedorismo",
+    "formato": "ferramenta",
+    "gancho": "7 tarefas, 21 IAs, a certa para cada uma"
+  },
+  {
     "id": "funil-equipes",
     "arquivo": "funil-equipes.mp4",
     "quando": "2026-10-08T19:00:00-03:00",
