@@ -1,6 +1,6 @@
 # Moldes do Gabriel
 
-Lido pela Pauta do dia ANTES do outliers.csv. As ideias do dia saem daqui e dos Reels do
+Lido pela Pauta do dia ANTES do outliers.csv. Dos moldes se copia a FORMA (visual, ritmo, isca); a VOZ é a da seção abaixo, nunca a do perfil de referência. As ideias do dia saem daqui e dos Reels do
 grupo `gabriel` no outliers.csv (perfis que ele escolheu em 25/09/2026). Os grupos `ia` e
 `dono` são reserva, para quando nada daqui servir.
 
@@ -9,6 +9,44 @@ grupo `gabriel` no outliers.csv (perfis que ele escolheu em 25/09/2026). Os grup
 Em 25/09/2026 ele reprovou as ideias da rotina: "estou te mandando referências melhores das
 que você está me mandando". As ideias vinham de perfis que eu escolhi, com régua de curtida
 que inflava perfil pequeno (o "1015x"), e sem checar se ele tem aquilo rodando.
+
+## Voz e nível: operador, não iniciante deslumbrado (LEIA ANTES DE ESCREVER QUALQUER ABERTURA)
+
+Em 25/09/2026 ele reprovou as ideias por serem óbvias: "fico com a sensação de que a pessoa
+que está falando tudo isso está começando a trabalhar agora e acha tudo surreal".
+
+Quem fala: dono de agência de marketing (Dominium) e consultor que instala sistema de vendas e
+IA dentro de empresas de serviço de R$ 30 mil a R$ 500 mil por mês. Já viu dezenas de operações
+por dentro. Atleta de formação (taekwondo, seleção). Pai. Ele não se impressiona com
+ferramenta: ele julga ferramenta.
+
+**A ferramenta nunca é a estrela; ela é a prova de uma tese.** Estrutura de toda ideia:
+1. a TESE: uma opinião que um iniciante não teria, dita com convicção;
+2. o ERRO que ele vê nas empresas (o que o dono faz de errado, o que custa);
+3. o sistema dele como PROVA (aqui entra a ferramenta, o mapa, a tela);
+4. o CRITÉRIO: quando usar, quando não usar, o que decide.
+
+**Teses dele que podem abrir vídeo** (do posicionamento e do mapa de crenças; cite a de onde veio):
+- Empresa não trava por falta de lead, trava por falta de sistema.
+- Construir com IA custa uma fração do que o mercado acredita.
+- O inimigo é o consultor que entrega relatório em PDF e devolve a execução para o dono.
+- Confundir esforço com sistema: trabalhar mais não escala, desenhar melhor escala.
+- "Se eu sair, a empresa para" é o problema, não o orgulho.
+- #220 Complexidade é inimiga: o que roda a máquina é 20% do que o dono acha que precisa.
+- #219 Se existe caminho mais rápido, é obrigação encontrar (e o risco é trocar profundidade por velocidade).
+- #113 Posicionamento vem antes de comunicação: ferramenta nenhuma salva oferta ruim.
+- #4 Conhecimento que não vira ação tem pouco valor: curso de IA sem implementação é entretenimento.
+- #203 Aparência sem substância: empresa que "usa IA" no discurso e não tem um processo rodando.
+- #3 Quem não se adapta é ultrapassado, mas adaptar não é sair assinando toda ferramenta nova.
+
+**Proibido** (é a voz do iniciante): "surreal", "descobri", "ninguém te conta", "isso muda
+tudo", "olha isso", "de graça" como gancho principal, espanto com o que a IA faz, e confissão
+de amador ("eu fazia na mão", "eu pagava caro sem saber"). Ferramenta nova só entra como
+decisão de quem já avaliou ("testei, e só vale para quem...").
+
+**Dois testes antes de gravar a ideia no arquivo:**
+- TROCA-NOME: se a abertura funciona na boca de qualquer criador de IA que começou este mês, não entra.
+- DONO DE R$ 200 MIL/MÊS: ele assistiria e sentiria que ouviu alguém mais experiente que ele? Se não, não entra.
 
 ## Os perfis e o que se copia de cada um
 
