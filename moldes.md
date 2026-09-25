@@ -55,3 +55,27 @@ desde que a pessoa consiga repetir hoje.
 
 Dbq_oQNSCdb, Dcb64f7OXHK, DdMQwC5u2yn, DYYHgFsTFXb, DXxCqF3zk82, DXy1LfXuk4V, Ddm5a-dRlOb,
 DdmpxScjPVU (este é do 99hud: "Comenta ADS", Claude subindo Meta Ads).
+
+## Já publicado ou na fila (NÃO repetir o assunto, nem com outra abertura)
+
+Leia também a agenda.json: todo id ali é assunto usado. Em 25/09/2026 a rotina propôs de novo a
+automação nativa da Meta (já saiu em 24/09 como tut-automacao-meta, isca CHAT). Assuntos usados:
+texto sem cara de IA · ferramentas grátis de edição · Opus 5.5 · livro no ChatGPT · 3 ajustes no
+Claude · automação de comentário nativa da Meta · novos modelos do ChatGPT (Astra, Sol, Luna) ·
+10 agentes · IA certa para cada tarefa · e-book · Claude organizando finanças · agendador que
+posta sozinho (demiti o social media) · tiny planet · primeira venda com 15 seguidores.
+
+## Regras de fato (a ideia que quebrar uma delas não entra)
+
+- **Número só com fonte.** Só use número que esteja nesta lista ou em metricas.csv. Sem fonte,
+  a ideia não usa número nenhum: nunca invente "metade dos leads", "R$ 300 por mês" etc.
+  Números confirmados: 2 vídeos por dia · direct em 3 segundos · R$ 0 por contato · primeira
+  venda de implementação com 15 seguidores e 4 dias postando. Ele assinava o ManyChat, mas o
+  valor não está confirmado.
+- **Não invente causa nem cena.** A venda da escola NÃO veio do funil de planilha (o funil é
+  de 24/09, depois da venda). Não descreva hábito dele que não esteja aqui (ex.: acordar às 6h
+  para responder direct).
+- **Não misture sistemas.** A automação nativa da Meta só manda a mensagem; ela não grava
+  planilha. Planilha, página e aviso por e-mail são do sistema próprio dele (isca DIRECT).
+- **Meme é sem fala:** 7 a 12 s, texto na tela no segundo zero + cena real dele. Nunca roteiro
+  narrado. Se não houver cena real conhecida, não proponha meme.
