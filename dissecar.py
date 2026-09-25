@@ -48,11 +48,13 @@ for linha in os.environ["ALVOS"].strip().splitlines():
     candidatos = partes[:1] if len(partes) > 1 else perfis_dele()   # só o link: procura nos perfis dele
     alvo = usuario = None
     for u in candidatos:
-        try:
-            cache.setdefault(u, posts_de(u))
-        except Exception as e:
-            print(f"{u}: erro {str(e).replace(TOKEN, '***')[:200]}")
-            cache[u] = []
+        if u not in cache:
+            try:
+                cache[u] = posts_de(u)
+                print(f"{u}: {len(cache[u])} posts lidos")
+            except Exception as e:
+                print(f"{u}: erro {str(e).replace(TOKEN, '***')[:200]}")
+                cache[u] = []
         alvo = next((p for p in cache[u] if codigo(p.get("permalink", "")) == codigo(link)), None)
         if alvo:
             usuario = u
