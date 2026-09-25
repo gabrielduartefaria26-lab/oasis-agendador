@@ -285,6 +285,22 @@
     "gancho": "Vendi R$ 4.000 em IA com 15 seguidores"
   },
   {
+    "id": "lote02-conecta",
+    "arquivos": [
+      "lote02-conecta-slide-1.jpg",
+      "lote02-conecta-slide-2.jpg",
+      "lote02-conecta-slide-3.jpg",
+      "lote02-conecta-slide-4.jpg",
+      "lote02-conecta-slide-5.jpg",
+      "lote02-conecta-slide-6.jpg",
+      "lote02-conecta-slide-7.jpg"
+    ],
+    "quando": "2026-10-02T09:00:00-03:00",
+    "legenda": "A Anthropic abriu uma loja com mais de 2.000 conectores para o Claude.\n\nSaiu em 23/09 e vale para todo plano, pessoal ou empresa (fonte: blog oficial do Claude).\n\nDois mil conectores não são dois mil motivos para ligar. Comece por onde a informação mora.\n\nComenta CONECTA que eu te mando a ordem em que eu ligaria numa empresa, com o cuidado de cada um.\n\n#claude #anthropic #inteligenciaartificial #ia #automacao #gestao #empreendedorismo #produtividade",
+    "formato": "descoberta",
+    "gancho": "A Anthropic abriu uma loja com mais de 2.000 conectores"
+  },
+  {
     "id": "funil-equipes",
     "arquivo": "funil-equipes.mp4",
     "quando": "2026-10-08T19:00:00-03:00",
