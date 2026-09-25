@@ -58,5 +58,125 @@
    "link": ""
   },
   "isca_sugerida": "DIRECT: o passo a passo de como montar o funil de comentário até venda"
+ },
+ {
+  "id": "2026-09-25-2",
+  "data": "2026-09-25",
+  "formato": "descoberta",
+  "horario_sugerido": "26/09 · 16:00",
+  "fala_com": "empresário",
+  "aberturas": [
+   "Configurar canal de vendas no WhatsApp Business ainda hoje passa de mão em mão dentro da empresa.",
+   "O WhatsApp Business da sua empresa ainda depende de alguém configurando isso na mão, etapa por etapa.",
+   "A Meta acabou de tirar o trabalho manual de montar o canal de vendas no WhatsApp Business."
+  ],
+  "o_que_se_ve": "entra número de WhatsApp sem canal configurado, sai conta comercial ativa com modelo de mensagem aprovado, tudo feito pelo Claude dentro da conversa",
+  "roteiro": [
+   {
+    "bloco": "Gancho",
+    "tempo": "0 a 3 s",
+    "tela": "A META TIROU O TRABALHO MANUAL DO WHATSAPP BUSINESS",
+    "topicos": [
+     "Configurar canal de vendas no WhatsApp Business ainda hoje passa de mão em mão dentro da empresa."
+    ]
+   },
+   {
+    "bloco": "Entrega",
+    "tempo": "3 a 15 s",
+    "tela": "Claude configurando o WhatsApp Business",
+    "topicos": [
+     "A Meta lançou um MCP oficial que deixa o Claude fazer isso sozinho, dentro da própria conversa.",
+     "Ele confere o status da conta, cadastra o número, confirma o código de verificação e escreve o modelo de mensagem que a Meta aprova."
+    ]
+   },
+   {
+    "bloco": "Prova",
+    "tempo": "15 a 25 s",
+    "tela": "tela do Claude criando o template e o número ativo",
+    "topicos": [
+     "É gratuito, é oficial da própria Meta, e por enquanto serve para montar e testar o canal, não para disparo em massa."
+    ]
+   },
+   {
+    "bloco": "Fecho",
+    "tempo": "25 a 30 s",
+    "tela": "CANAL",
+    "topicos": [
+     "Isso só vale a pena se a sua empresa ainda depende de alguém configurando esse canal na mão. Se o seu WhatsApp Business já está redondo, o ganho aqui é zero.",
+     "Comenta CANAL que eu te mando o passo a passo, e se travar, comenta CONSULTORIA que eu configuro isso pra sua empresa."
+    ]
+   }
+  ],
+  "referencia": {
+   "link": "https://www.instagram.com/reel/DdpTXOED49r/",
+   "perfil": "99hud",
+   "vezes": "219.2",
+   "molde": "dor em reais no gancho, mostra a ferramenta rodando, fecha com comenta PALAVRA"
+  },
+  "fonte": {
+   "nome": "TechCrunch — Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+   "link": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/"
+  },
+  "isca_sugerida": "CANAL: o passo a passo de como o Claude configura o WhatsApp Business sozinho"
+ },
+ {
+  "id": "2026-09-25-3",
+  "data": "2026-09-25",
+  "formato": "tutorial",
+  "horario_sugerido": "01/10 · 12:00",
+  "fala_com": "quem ama IA",
+  "aberturas": [
+   "Lista de lead comprada é dinheiro jogado fora, porque ela já nasce desatualizada.",
+   "Todo negócio local paga por lista de contato que morreu antes de chegar na mão de quem vende.",
+   "O erro mais caro em prospecção não é a abordagem, é comprar a lista errada."
+  ],
+  "o_que_se_ve": "entra segmento e cidade digitados, sai lista de negócios com nome, telefone e site direto do Google Maps, sem pagar nada",
+  "roteiro": [
+   {
+    "bloco": "Gancho",
+    "tempo": "0 a 3 s",
+    "tela": "PARA DE PAGAR POR LISTA DE LEAD",
+    "topicos": [
+     "Lista de lead comprada é dinheiro jogado fora, porque ela já nasce desatualizada."
+    ]
+   },
+   {
+    "bloco": "Entrega",
+    "tempo": "3 a 15 s",
+    "tela": "terminal rodando o scraper",
+    "topicos": [
+     "Existe uma ferramenta open source e gratuita que puxa direto do Google Maps: nome, telefone, site e endereço, de qualquer nicho e qualquer cidade.",
+     "Ela roda no seu computador, sem pedir conta nem cartão, você só digita o segmento e a cidade."
+    ]
+   },
+   {
+    "bloco": "Prova",
+    "tempo": "15 a 25 s",
+    "tela": "lista saindo pronta do terminal",
+    "topicos": [
+     "O que sai dali é atual e recortado pro seu público, diferente da base genérica que todo mundo compra igual."
+    ]
+   },
+   {
+    "bloco": "Fecho",
+    "tempo": "25 a 30 s",
+    "tela": "MAPA",
+    "topicos": [
+     "Isso serve pra quem precisa de volume em prospecção fria. Se o seu problema é converter quem já comenta no seu post, isso não resolve, o funil é outro assunto.",
+     "Comenta MAPA que eu te mando o passo a passo de instalação e o comando pronto pra rodar."
+    ]
+   }
+  ],
+  "referencia": {
+   "link": "https://www.instagram.com/reel/DdkFEHnEiSb/",
+   "perfil": "99hud",
+   "vezes": "19.8",
+   "molde": "dor em reais no gancho (lista de lead comprada), mostra o scraper rodando local, fecha com comenta PALAVRA"
+  },
+  "fonte": {
+   "nome": "gosom/google-maps-scraper (GitHub, open source)",
+   "link": "https://github.com/gosom/google-maps-scraper"
+  },
+  "isca_sugerida": "MAPA: o passo a passo de instalação do scraper e o comando pronto pra rodar"
  }
 ]
