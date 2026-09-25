@@ -15,6 +15,14 @@ e ideias ruins"; "vai substituir quem é burro".
 - **Público 2 (volume):** profissional liberal e micro empreendedor que quer usar melhor e ganhar dinheiro com IA.
 - **Voz:** professor que faz. Descontraído, trabalha de casa, sem superprodução, ensinando na prática.
 
+## FORMATO FAVORITO DELE PARA MEIO E FUNDO: mapa de equipes (aprovado 25/09/2026)
+
+"Quero fazer mais conteúdos assim, gostei demaaaaais da contaaaa." Tela dividida: rosto embaixo,
+mapa em cima (logo no centro, 5 "equipes" com círculo tracejado, mascote pixel e 3 tarefas
+numeradas); a câmera entra em cada equipe na palavra falada. Serve para qualquer SISTEMA dele com
+5 partes. Toda semana, pelo menos 1 ideia de posicionamento deve vir neste formato, com as 5
+equipes já escritas no roteiro. Molde técnico em Conteúdos Instagram/_moldes/mapa-equipes.
+
 ## DUAS PISTAS (o mix das ideias do dia)
 
 1. **ALCANCE (até 2 por dia): tutorial e novidade**, que criam base de seguidores. Continua
@@ -122,7 +130,7 @@ desde que a pessoa consiga repetir hoje.
 ## Ideias aprovadas por ele esperando gravação (não repetir)
 
 - "Posto 2 vídeos por dia sem equipe de conteúdo" (mapa de equipes, isca ESTEIRA)
-- "Seguidor não vira cliente sem isso" (funil no mapa de equipes, isca FUNIL)
+- "Esse mapa te mostra como transformar seguidores em clientes" (FUNIL, JÁ GRAVADO e programado 08/10)
 - As 10 pautas da tese (25/09): substituir todo mundo vs quem é burro · sua equipe usa IA errado
   e a culpa não é da IA · configurei o computador de um cliente e ele sumiu duas semanas (iMake) ·
   mandar mensagem no ChatGPT não é usar IA · a IA me deu tempo e eu gastei trabalhando mais ·
