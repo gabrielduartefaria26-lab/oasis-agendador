@@ -235,6 +235,22 @@
     "gancho": "Eu demiti o social media e agora o Claude faz todas as minhas postagens"
   },
   {
+    "id": "lote01-livro",
+    "arquivos": [
+      "lote01-livro-slide-1.jpg",
+      "lote01-livro-slide-2.jpg",
+      "lote01-livro-slide-3.jpg",
+      "lote01-livro-slide-4.jpg",
+      "lote01-livro-slide-5.jpg",
+      "lote01-livro-slide-6.jpg",
+      "lote01-livro-slide-7.jpg"
+    ],
+    "quando": "2026-09-30T09:00:00-03:00",
+    "legenda": "Ler é a parte fácil. Lembrar do livro seis meses depois é que é difícil.\n\nComenta LIVRO que eu te mando os 5 comandos com o prompt completo de cada um.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #leitura #inteligenciaartificial #ia #produtividade #estudos",
+    "formato": "ferramenta",
+    "gancho": "Joga um livro no ChatGPT e escreve estes 5 comandos"
+  },
+  {
     "id": "vendi-15",
     "arquivo": "vendi-15.mp4",
     "quando": "2026-10-01T19:00:00-03:00",
