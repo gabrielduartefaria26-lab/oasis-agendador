@@ -4,8 +4,8 @@
 			"id": "b426b451fa02ede5",
 			"type": "group",
 			"label": "0 · Entrada",
-			"x": -40,
-			"y": -180,
+			"x": -220,
+			"y": -60,
 			"width": 440,
 			"height": 340
 		},
@@ -13,26 +13,26 @@
 			"id": "a706901ea1db7fd2",
 			"type": "group",
 			"label": "1 · Diagnóstico",
-			"x": 720,
-			"y": -480,
-			"width": 440,
-			"height": 940
+			"x": -640,
+			"y": 590,
+			"width": 1280,
+			"height": 340
 		},
 		{
 			"id": "c1d331d2844fdbf7",
 			"type": "group",
 			"label": "2 · Fundação",
-			"x": 1480,
-			"y": -330,
-			"width": 880,
-			"height": 640
+			"x": -430,
+			"y": 1240,
+			"width": 860,
+			"height": 720
 		},
 		{
 			"id": "deb6e75931c4b1b7",
 			"type": "group",
 			"label": "3 · Oferta",
-			"x": 2680,
-			"y": -180,
+			"x": -220,
+			"y": 2270,
 			"width": 440,
 			"height": 340
 		},
@@ -40,26 +40,26 @@
 			"id": "e222d6aac45a848a",
 			"type": "group",
 			"label": "4 · Conversão",
-			"x": 3440,
-			"y": -330,
-			"width": 440,
-			"height": 640
+			"x": -430,
+			"y": 2920,
+			"width": 860,
+			"height": 340
 		},
 		{
 			"id": "b424f5af85d422f9",
 			"type": "group",
 			"label": "5 · Tração",
-			"x": 4200,
-			"y": -330,
-			"width": 880,
-			"height": 640
+			"x": -430,
+			"y": 3570,
+			"width": 860,
+			"height": 720
 		},
 		{
 			"id": "fe080a7180df2333",
 			"type": "group",
 			"label": "6 · Loop",
-			"x": 5080,
-			"y": -180,
+			"x": -220,
+			"y": 4390,
 			"width": 440,
 			"height": 340
 		},
@@ -67,8 +67,8 @@
 			"id": "3ac2ad350a868d4b",
 			"type": "file",
 			"file": "Clientes/Grupo Valor/00 Onboarding.md",
-			"x": 0,
-			"y": -120,
+			"x": -180,
+			"y": 0,
 			"width": 360,
 			"height": 240,
 			"color": "5"
@@ -77,8 +77,8 @@
 			"id": "f497f145848e1815",
 			"type": "file",
 			"file": "Clientes/Grupo Valor/01 Pesquisa de Público.md",
-			"x": 760,
-			"y": -420,
+			"x": -600,
+			"y": 650,
 			"width": 360,
 			"height": 240,
 			"color": "5"
@@ -87,8 +87,8 @@
 			"id": "24f2b213650818f6",
 			"type": "file",
 			"file": "Clientes/Grupo Valor/02 Pesquisa de Mercado.md",
-			"x": 760,
-			"y": -120,
+			"x": -180,
+			"y": 650,
 			"width": 360,
 			"height": 240,
 			"color": "5"
@@ -97,8 +97,8 @@
 			"id": "b071dcae9544b393",
 			"type": "file",
 			"file": "Clientes/Grupo Valor/03 Pesquisa de Concorrentes.md",
-			"x": 760,
-			"y": 180,
+			"x": 240,
+			"y": 650,
 			"width": 360,
 			"height": 240,
 			"color": "5"
@@ -107,8 +107,8 @@
 			"id": "522719c9203d38b5",
 			"type": "file",
 			"file": "Clientes/Grupo Valor/04 HUB.md",
-			"x": 1520,
-			"y": -120,
+			"x": -180,
+			"y": 1300,
 			"width": 360,
 			"height": 240,
 			"color": "4"
@@ -117,8 +117,8 @@
 			"id": "90d6cfad548d4872",
 			"type": "file",
 			"file": "Clientes/Grupo Valor/05 Manual da Marca.md",
-			"x": 1960,
-			"y": -270,
+			"x": 30,
+			"y": 1680,
 			"width": 360,
 			"height": 240,
 			"color": "4"
@@ -127,8 +127,8 @@
 			"id": "c887d419ee6f1773",
 			"type": "file",
 			"file": "Clientes/Grupo Valor/06 Plano de Crescimento.md",
-			"x": 1960,
-			"y": 30,
+			"x": -390,
+			"y": 1680,
 			"width": 360,
 			"height": 240,
 			"color": "4"
@@ -137,8 +137,8 @@
 			"id": "997d515f8476a824",
 			"type": "file",
 			"file": "Clientes/Grupo Valor/07 Produto e Funis de Vendas.md",
-			"x": 2720,
-			"y": -120,
+			"x": -180,
+			"y": 2330,
 			"width": 360,
 			"height": 240,
 			"color": "5"
@@ -147,8 +147,8 @@
 			"id": "7f5ac892b236c23b",
 			"type": "file",
 			"file": "Clientes/Grupo Valor/08 Site - LP.md",
-			"x": 3480,
-			"y": -270,
+			"x": -390,
+			"y": 2980,
 			"width": 360,
 			"height": 240,
 			"color": "5"
@@ -157,8 +157,8 @@
 			"id": "40932e6bab5df472",
 			"type": "file",
 			"file": "Clientes/Grupo Valor/09 Playbooks Comerciais.md",
-			"x": 3480,
-			"y": 30,
+			"x": 30,
+			"y": 2980,
 			"width": 360,
 			"height": 240,
 			"color": "4"
@@ -167,8 +167,8 @@
 			"id": "75880b2a41e1ec03",
 			"type": "file",
 			"file": "Clientes/Grupo Valor/10 Estratégia de Conteúdo.md",
-			"x": 4240,
-			"y": -120,
+			"x": -180,
+			"y": 3630,
 			"width": 360,
 			"height": 240,
 			"color": "5"
@@ -177,8 +177,8 @@
 			"id": "034af902a525be38",
 			"type": "file",
 			"file": "Clientes/Grupo Valor/10.1 Orgânico.md",
-			"x": 4680,
-			"y": -270,
+			"x": -390,
+			"y": 4010,
 			"width": 360,
 			"height": 240,
 			"color": "5"
@@ -187,8 +187,8 @@
 			"id": "fd7e47d1aad02580",
 			"type": "file",
 			"file": "Clientes/Grupo Valor/10.2 Anúncios.md",
-			"x": 4680,
-			"y": 30,
+			"x": 30,
+			"y": 4010,
 			"width": 360,
 			"height": 240,
 			"color": "5"
@@ -197,8 +197,8 @@
 			"id": "ca2994973fce3514",
 			"type": "file",
 			"file": "Clientes/Grupo Valor/11 Métricas e Revisão.md",
-			"x": 5120,
-			"y": -120,
+			"x": -180,
+			"y": 4450,
 			"width": 360,
 			"height": 240,
 			"color": "5"
@@ -207,8 +207,8 @@
 			"id": "e4ac111ea6c35070",
 			"type": "text",
 			"text": "◆ **Briefing e acessos completos?**",
-			"x": 440,
-			"y": -65,
+			"x": -120,
+			"y": 380,
 			"width": 240,
 			"height": 130,
 			"color": "6"
@@ -217,8 +217,8 @@
 			"id": "ea0bc62ea02763fb",
 			"type": "text",
 			"text": "◆ **Cliente validou as pesquisas?**",
-			"x": 1200,
-			"y": -65,
+			"x": -120,
+			"y": 1030,
 			"width": 240,
 			"height": 130,
 			"color": "6"
@@ -227,8 +227,8 @@
 			"id": "27af0a5cfb9fc54b",
 			"type": "text",
 			"text": "◆ **Manual e Plano aprovados?**",
-			"x": 2400,
-			"y": -65,
+			"x": -120,
+			"y": 2060,
 			"width": 240,
 			"height": 130,
 			"color": "6"
@@ -237,8 +237,8 @@
 			"id": "dd2bdb13f9cfaf83",
 			"type": "text",
 			"text": "◆ **Oferta e funis aprovados?**",
-			"x": 3160,
-			"y": -65,
+			"x": -120,
+			"y": 2710,
 			"width": 240,
 			"height": 130,
 			"color": "6"
@@ -247,8 +247,8 @@
 			"id": "d1c5c4c4cc7922ef",
 			"type": "text",
 			"text": "◆ **LP e Playbooks aprovados?**",
-			"x": 3920,
-			"y": -65,
+			"x": -120,
+			"y": 3360,
 			"width": 240,
 			"height": 130,
 			"color": "6"
@@ -257,8 +257,8 @@
 			"id": "5bc9a30f6a35d37f",
 			"type": "text",
 			"text": "# Grupo Valor\n\n**HUB:** [https://grupo-valor-marca.vercel.app/](https://grupo-valor-marca.vercel.app/)\n\nClique em um card para abrir a etapa. Atualize o `status` na nota **e** a cor do card.",
-			"x": 0,
-			"y": -820,
+			"x": -600,
+			"y": -420,
 			"width": 720,
 			"height": 220
 		},
@@ -266,8 +266,8 @@
 			"id": "fe12e93b1799f4d0",
 			"type": "text",
 			"text": "### Legenda\n🔵 Não iniciado\n🟡 Em andamento\n🟠 Aguardando cliente\n🟢 Concluído\n🔴 Bloqueado / com erro\n🟣 ◆ Aprovação do cliente",
-			"x": 760,
-			"y": -820,
+			"x": 160,
+			"y": -420,
 			"width": 360,
 			"height": 260
 		}
@@ -276,231 +276,231 @@
 		{
 			"id": "599a40442d69921a",
 			"fromNode": "522719c9203d38b5",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "90d6cfad548d4872",
-			"toSide": "left"
+			"toSide": "top"
 		},
 		{
 			"id": "87cd5245dcf1e514",
 			"fromNode": "522719c9203d38b5",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "c887d419ee6f1773",
-			"toSide": "left"
+			"toSide": "top"
 		},
 		{
 			"id": "a6d8f9112e300c02",
 			"fromNode": "75880b2a41e1ec03",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "034af902a525be38",
-			"toSide": "left"
+			"toSide": "top"
 		},
 		{
 			"id": "25f1aa380f4917b7",
 			"fromNode": "75880b2a41e1ec03",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "fd7e47d1aad02580",
-			"toSide": "left"
+			"toSide": "top"
 		},
 		{
 			"id": "8bfd6796e458915d",
 			"fromNode": "034af902a525be38",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "ca2994973fce3514",
-			"toSide": "left"
+			"toSide": "top"
 		},
 		{
 			"id": "9d55100502d5f520",
 			"fromNode": "fd7e47d1aad02580",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "ca2994973fce3514",
-			"toSide": "left"
+			"toSide": "top"
 		},
 		{
 			"id": "fac5a8b544fe384c",
 			"fromNode": "3ac2ad350a868d4b",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "e4ac111ea6c35070",
-			"toSide": "left"
+			"toSide": "top"
 		},
 		{
 			"id": "590e1fcf3098740b",
 			"fromNode": "e4ac111ea6c35070",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "f497f145848e1815",
-			"toSide": "left",
+			"toSide": "top",
 			"label": "Sim",
 			"color": "4"
 		},
 		{
 			"id": "87c037d54cae3473",
 			"fromNode": "e4ac111ea6c35070",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "24f2b213650818f6",
-			"toSide": "left",
+			"toSide": "top",
 			"label": "Sim",
 			"color": "4"
 		},
 		{
 			"id": "5d95837d5f21238a",
 			"fromNode": "e4ac111ea6c35070",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "b071dcae9544b393",
-			"toSide": "left",
+			"toSide": "top",
 			"label": "Sim",
 			"color": "4"
 		},
 		{
 			"id": "486b7b01c8c9dfac",
 			"fromNode": "e4ac111ea6c35070",
-			"fromSide": "bottom",
+			"fromSide": "right",
 			"toNode": "b426b451fa02ede5",
-			"toSide": "bottom",
+			"toSide": "right",
 			"label": "Não → ajustar",
 			"color": "1"
 		},
 		{
 			"id": "eae3fb865ebf6bdf",
 			"fromNode": "f497f145848e1815",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "ea0bc62ea02763fb",
-			"toSide": "left"
+			"toSide": "top"
 		},
 		{
 			"id": "5cf6fdf0a86b67c4",
 			"fromNode": "24f2b213650818f6",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "ea0bc62ea02763fb",
-			"toSide": "left"
+			"toSide": "top"
 		},
 		{
 			"id": "73b8a4578c53dd5e",
 			"fromNode": "b071dcae9544b393",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "ea0bc62ea02763fb",
-			"toSide": "left"
+			"toSide": "top"
 		},
 		{
 			"id": "9633076ec6a018d7",
 			"fromNode": "ea0bc62ea02763fb",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "522719c9203d38b5",
-			"toSide": "left",
+			"toSide": "top",
 			"label": "Sim",
 			"color": "4"
 		},
 		{
 			"id": "a430ef933a9a21b6",
 			"fromNode": "ea0bc62ea02763fb",
-			"fromSide": "bottom",
+			"fromSide": "right",
 			"toNode": "a706901ea1db7fd2",
-			"toSide": "bottom",
+			"toSide": "right",
 			"label": "Não → ajustar",
 			"color": "1"
 		},
 		{
 			"id": "be43447641c7d203",
 			"fromNode": "90d6cfad548d4872",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "27af0a5cfb9fc54b",
-			"toSide": "left"
+			"toSide": "top"
 		},
 		{
 			"id": "78aeb6e953f01b58",
 			"fromNode": "c887d419ee6f1773",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "27af0a5cfb9fc54b",
-			"toSide": "left"
+			"toSide": "top"
 		},
 		{
 			"id": "136610eef2b3afff",
 			"fromNode": "27af0a5cfb9fc54b",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "997d515f8476a824",
-			"toSide": "left",
+			"toSide": "top",
 			"label": "Sim",
 			"color": "4"
 		},
 		{
 			"id": "5c02d9de76409eb0",
 			"fromNode": "27af0a5cfb9fc54b",
-			"fromSide": "bottom",
+			"fromSide": "right",
 			"toNode": "c1d331d2844fdbf7",
-			"toSide": "bottom",
+			"toSide": "right",
 			"label": "Não → ajustar",
 			"color": "1"
 		},
 		{
 			"id": "3ef25bbc531ca490",
 			"fromNode": "997d515f8476a824",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "dd2bdb13f9cfaf83",
-			"toSide": "left"
+			"toSide": "top"
 		},
 		{
 			"id": "1a381a711c956082",
 			"fromNode": "dd2bdb13f9cfaf83",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "7f5ac892b236c23b",
-			"toSide": "left",
+			"toSide": "top",
 			"label": "Sim",
 			"color": "4"
 		},
 		{
 			"id": "0f373e80a53ae0ae",
 			"fromNode": "dd2bdb13f9cfaf83",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "40932e6bab5df472",
-			"toSide": "left",
+			"toSide": "top",
 			"label": "Sim",
 			"color": "4"
 		},
 		{
 			"id": "f0d72391023ad36d",
 			"fromNode": "dd2bdb13f9cfaf83",
-			"fromSide": "bottom",
+			"fromSide": "right",
 			"toNode": "deb6e75931c4b1b7",
-			"toSide": "bottom",
+			"toSide": "right",
 			"label": "Não → ajustar",
 			"color": "1"
 		},
 		{
 			"id": "508d82b9f56cffdc",
 			"fromNode": "7f5ac892b236c23b",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "d1c5c4c4cc7922ef",
-			"toSide": "left"
+			"toSide": "top"
 		},
 		{
 			"id": "d90903399778ab72",
 			"fromNode": "40932e6bab5df472",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "d1c5c4c4cc7922ef",
-			"toSide": "left"
+			"toSide": "top"
 		},
 		{
 			"id": "6f19bb68196021c1",
 			"fromNode": "d1c5c4c4cc7922ef",
-			"fromSide": "right",
+			"fromSide": "bottom",
 			"toNode": "75880b2a41e1ec03",
-			"toSide": "left",
+			"toSide": "top",
 			"label": "Sim",
 			"color": "4"
 		},
 		{
 			"id": "5fde129c534b29ca",
 			"fromNode": "d1c5c4c4cc7922ef",
-			"fromSide": "bottom",
+			"fromSide": "right",
 			"toNode": "e222d6aac45a848a",
-			"toSide": "bottom",
+			"toSide": "right",
 			"label": "Não → ajustar",
 			"color": "1"
 		},
 		{
 			"id": "0bd71071e2895ade",
 			"fromNode": "ca2994973fce3514",
-			"fromSide": "top",
+			"fromSide": "left",
 			"toNode": "c887d419ee6f1773",
-			"toSide": "top",
+			"toSide": "left",
 			"label": "Revisão mensal → ajustar plano",
 			"color": "3"
 		}

@@ -212,20 +212,32 @@ GATES = [
 
 W, H = 360, 240          # tamanho dos cards de etapa
 GW, GH = 240, 130        # tamanho dos cards de decisão
-POS = {                  # posição (x, y) de cada card
-    "onb": (0, -120),
-    "g1": (440, -65),
-    "pub": (760, -420), "mer": (760, -120), "con": (760, 180),
-    "g2": (1200, -65),
-    "hub": (1520, -120), "man": (1960, -270), "pla": (1960, 30),
-    "g3": (2400, -65),
-    "pro": (2720, -120),
-    "g4": (3160, -65),
-    "lp": (3480, -270), "pb": (3480, 30),
-    "g5": (3920, -65),
-    "est": (4240, -120), "org": (4680, -270), "ads": (4680, 30),
-    "met": (5120, -120),
-}
+# Fluxo vertical: cada linha desce; cards da mesma linha rodam em paralelo, lado a lado.
+LINHAS = [
+    ["onb"], ["g1"],
+    ["pub", "mer", "con"], ["g2"],
+    ["hub"], ["pla", "man"], ["g3"],
+    ["pro"], ["g4"],
+    ["lp", "pb"], ["g5"],
+    ["est"], ["org", "ads"],
+    ["met"],
+]
+ESPACO_X, ESPACO_Y = 60, 140
+
+
+def _posicoes():
+    pos, y = {}, 0
+    for linha in LINHAS:
+        gate = linha[0].startswith("g")
+        w, h = (GW, GH) if gate else (W, H)
+        total = len(linha) * w + (len(linha) - 1) * ESPACO_X
+        for i, k in enumerate(linha):
+            pos[k] = (-total // 2 + i * (w + ESPACO_X), y)
+        y += h + (ESPACO_Y + 60 if linha == ["org", "ads"] else ESPACO_Y)
+    return pos
+
+
+POS = _posicoes()
 GRUPOS = [  # (id, rótulo, etapas dentro)
     ("G0", "0 · Entrada", ["onb"]),
     ("G1", "1 · Diagnóstico", ["pub", "mer", "con"]),
@@ -319,17 +331,17 @@ def canvas(cliente, pasta_cliente, hub_url, por_id):
         "id": nid(cliente, "cabecalho"), "type": "text",
         "text": f"# {cliente}\n\n**HUB:** {hub}\n\n"
                 f"Clique em um card para abrir a etapa. Atualize o `status` na nota **e** a cor do card.",
-        "x": 0, "y": -820, "width": 720, "height": 220,
+        "x": -600, "y": -420, "width": 720, "height": 220,
     })
     nodes.append({
         "id": nid(cliente, "legenda"), "type": "text",
         "text": "### Legenda\n"
                 "🔵 Não iniciado\n🟡 Em andamento\n🟠 Aguardando cliente\n"
                 "🟢 Concluído\n🔴 Bloqueado / com erro\n🟣 ◆ Aprovação do cliente",
-        "x": 760, "y": -820, "width": 360, "height": 260,
+        "x": 160, "y": -420, "width": 360, "height": 260,
     })
 
-    def edge(a, b, fs="right", ts="left", **extra):
+    def edge(a, b, fs="bottom", ts="top", **extra):
         edges.append({"id": nid(cliente, "e", a, b), "fromNode": nid(cliente, a), "fromSide": fs,
                       "toNode": nid(cliente, b), "toSide": ts, **extra})
 
@@ -343,10 +355,10 @@ def canvas(cliente, pasta_cliente, hub_url, por_id):
             edge(a, gid)
         for b in depois:
             edge(gid, b, label="Sim", color=COR_SIM)
-        edge(gid, volta, fs="bottom", ts="bottom", label="Não → ajustar", color=COR_NAO)
+        edge(gid, volta, fs="right", ts="right", label="Não → ajustar", color=COR_NAO)
 
     # Loop: métricas voltam para o plano
-    edge("met", "pla", fs="top", ts="top", label="Revisão mensal → ajustar plano", color="3")
+    edge("met", "pla", fs="left", ts="left", label="Revisão mensal → ajustar plano", color="3")
 
     return {"nodes": nodes, "edges": edges}
 
