@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: cacar Reels fora da curva
+      - name: cacar Reels e carrosseis fora da curva
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -28,10 +28,10 @@ jobs:
 
       - name: guardar
         run: |
-          if [ -n "$(git status --porcelain outliers.csv)" ]; then
+          if [ -n "$(git status --porcelain outliers.csv outliers-carrossel.csv)" ]; then
             git config user.name "agendador"
             git config user.email "agendador@users.noreply.github.com"
-            git add outliers.csv
+            git add outliers.csv outliers-carrossel.csv
             git commit -m "outliers: $(date -u +%Y-%m-%d)"
             git pull --rebase --quiet origin main
             git push
