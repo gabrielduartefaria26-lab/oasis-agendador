@@ -129,6 +129,21 @@ na agenda.
 **Se você editar uma legenda no disco depois de agendar**, a agenda fica com a versão
 velha, porque ela guarda uma cópia do texto. Nesse caso é preciso ressincronizar.
 
+## Tratar a cor antes de subir
+
+Vídeo gravado à noite costuma sair com a pele branca demais, fria e sem cor. Antes de
+subir, passe o corte pelo tratador:
+
+```bash
+python3 tratar-video.py corte.mp4 --provas        # folha com original, leve, médio e forte
+python3 tratar-video.py corte.mp4 --forca medio   # gera corte-tratado.mp4
+```
+
+Ele mede a pele e corrige só o que a medição pediu. Se o vídeo for HDR (padrão do iPhone),
+converte para SDR primeiro, que é o que tira o aspecto lavado. Se avisar que parte da
+imagem está branco puro, isso não volta na edição: grave com a luz mais longe do rosto ou
+com a exposição mais baixa.
+
 ## Subir os vídeos
 
 ```bash
