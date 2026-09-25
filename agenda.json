@@ -203,6 +203,22 @@
     "gancho": "Eu fingindo que gosto de ler livros até os meus tokens do Claude voltarem"
   },
   {
+    "id": "lote02-word",
+    "arquivos": [
+      "lote02-word-slide-1.jpg",
+      "lote02-word-slide-2.jpg",
+      "lote02-word-slide-3.jpg",
+      "lote02-word-slide-4.jpg",
+      "lote02-word-slide-5.jpg",
+      "lote02-word-slide-6.jpg",
+      "lote02-word-slide-7.jpg"
+    ],
+    "quando": "2026-09-29T09:00:00-03:00",
+    "legenda": "O ChatGPT agora funciona dentro do Word, até no plano grátis.\n\nSaiu em 17/09, numa barra lateral dentro do documento, com limite de uso no plano grátis (fonte: notas de versão do ChatGPT).\n\nO ganho não é escrever mais rápido. É parar de levar o documento para fora de onde ele mora.\n\nComenta WORD que eu te mando os 10 pedidos que eu uso em contrato, proposta e ata.\n\n#chatgpt #openai #microsoftword #inteligenciaartificial #ia #produtividade #empreendedorismo #ferramentas",
+    "formato": "descoberta",
+    "gancho": "O ChatGPT agora funciona dentro do Word"
+  },
+  {
     "id": "tut-financeiro",
     "arquivo": "tut-financeiro.mp4",
     "quando": "2026-09-29T12:00:00-03:00",
