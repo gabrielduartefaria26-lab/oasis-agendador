@@ -1,122 +1,62 @@
 [
-  {
-    "id": "2026-09-25-1",
-    "data": "2026-09-25",
-    "formato": "descoberta",
-    "horario_sugerido": "30/09 · 12:00",
-    "fala_com": "empresário",
-    "aberturas": [
-      "Empresa não trava por falta de lead. Trava por falta de sistema.",
-      "O problema quase nunca é atrair lead. É o que acontece depois que ele comenta.",
-      "Ninguém perde venda por falta de comentário. Perde por não ter sistema depois dele."
-    ],
-    "o_que_se_ve": "entra comentário no post, sai lead com nome, e-mail e WhatsApp na planilha, e o time de vendas ligando no mesmo dia",
-    "roteiro": [
-      {
-        "bloco": "Gancho",
-        "tempo": "0 a 3 s",
-        "tela": "NÃO É FALTA DE LEAD, É FALTA DE SISTEMA",
-        "topicos": [
-          "Empresa não trava por falta de lead. Trava por falta de sistema."
-        ]
-      },
-      {
-        "bloco": "Entrega",
-        "tempo": "3 a 15 s",
-        "tela": "o funil depois do comentário",
-        "topicos": [
-          "O erro que eu vejo em quase toda empresa de serviço é investir em gerar mais comentário e esquecer o que acontece depois dele.",
-          "No meu Instagram, o comentário vira direct em 3 segundos, sem eu pagar nada por isso, e cai numa página que pega nome, e-mail e WhatsApp."
-        ]
-      },
-      {
-        "bloco": "Prova",
-        "tempo": "15 a 25 s",
-        "tela": "planilha de leads + aviso por e-mail",
-        "topicos": [
-          "Daí isso vai direto pra minha planilha de leads, eu recebo o aviso por e-mail na hora, e o time de vendas já liga no mesmo dia, com o interesse ainda quente."
-        ]
-      },
-      {
-        "bloco": "Fecho",
-        "tempo": "25 a 30 s",
-        "tela": "COMENTA DIRECT",
-        "topicos": [
-          "Isso só vale a pena se você já tem gente comentando e ninguém responde rápido. Se o seu problema ainda é atrair, resolve isso primeiro.",
-          "Comenta DIRECT que eu te mando o passo a passo de como montar isso no seu Instagram."
-        ]
-      }
-    ],
-    "referencia": {
-      "link": "https://www.instagram.com/reel/DdmAhlIiDdg/",
-      "perfil": "99hud",
-      "vezes": "375.8",
-      "molde": "dor em reais no gancho, mostra o sistema rodando, fecha com comenta PALAVRA"
-    },
-    "fonte": {
-      "nome": "Inventário próprio (moldes.md — sistema de leads)",
-      "link": ""
-    },
-    "isca_sugerida": "DIRECT: o passo a passo de como montar o funil de comentário até venda"
+ {
+  "id": "2026-09-25-1",
+  "data": "2026-09-25",
+  "formato": "descoberta",
+  "horario_sugerido": "30/09 · 12:00",
+  "fala_com": "empresário",
+  "aberturas": [
+   "Empresa não trava por falta de lead. Trava por falta de sistema.",
+   "O problema quase nunca é atrair lead. É o que acontece depois que ele comenta.",
+   "Ninguém perde venda por falta de comentário. Perde por não ter sistema depois dele."
+  ],
+  "o_que_se_ve": "entra comentário no post, sai lead com nome, e-mail e WhatsApp na planilha, e o time de vendas ligando no mesmo dia",
+  "roteiro": [
+   {
+    "bloco": "Gancho",
+    "tempo": "0 a 3 s",
+    "tela": "NÃO É FALTA DE LEAD, É FALTA DE SISTEMA",
+    "topicos": [
+     "Empresa não trava por falta de lead. Trava por falta de sistema."
+    ]
+   },
+   {
+    "bloco": "Entrega",
+    "tempo": "3 a 15 s",
+    "tela": "o funil depois do comentário",
+    "topicos": [
+     "O erro que eu vejo em quase toda empresa de serviço é investir em gerar mais comentário e esquecer o que acontece depois dele.",
+     "No meu Instagram, o comentário vira direct em 3 segundos, sem eu pagar nada por isso, e cai numa página que pega nome, e-mail e WhatsApp."
+    ]
+   },
+   {
+    "bloco": "Prova",
+    "tempo": "15 a 25 s",
+    "tela": "planilha de leads + aviso por e-mail",
+    "topicos": [
+     "Daí isso vai direto pra minha planilha de leads, eu recebo o aviso por e-mail na hora, e o time de vendas já liga no mesmo dia, com o interesse ainda quente."
+    ]
+   },
+   {
+    "bloco": "Fecho",
+    "tempo": "25 a 30 s",
+    "tela": "COMENTA DIRECT",
+    "topicos": [
+     "Isso só vale a pena se você já tem gente comentando e ninguém responde rápido. Se o seu problema ainda é atrair, resolve isso primeiro.",
+     "Comenta DIRECT que eu te mando o passo a passo de como montar isso no seu Instagram."
+    ]
+   }
+  ],
+  "referencia": {
+   "link": "https://www.instagram.com/reel/DdmAhlIiDdg/",
+   "perfil": "99hud",
+   "vezes": "375.8",
+   "molde": "dor em reais no gancho, mostra o sistema rodando, fecha com comenta PALAVRA"
   },
-  {
-    "id": "2026-09-25-2",
-    "data": "2026-09-25",
-    "formato": "tutorial",
-    "horario_sugerido": "01/10 · 12:00",
-    "fala_com": "quem ama IA",
-    "aberturas": [
-      "A maioria fala de estratégia de conteúdo e não tem processo nenhum rodando atrás disso.",
-      "Quase todo mundo escolhe pauta pelo que parece estar bombando. Isso não é estratégia.",
-      "Ideia de vídeo não devia sair do feeling. Devia sair de processo."
-    ],
-    "o_que_se_ve": "entra a lista de perfis que ele escolheu, sai só os vídeos que romperam a média de cada um deles, prontos para virar pauta",
-    "roteiro": [
-      {
-        "bloco": "Gancho",
-        "tempo": "0 a 3 s",
-        "tela": "PROCESSO, NÃO FEELING",
-        "topicos": [
-          "A maioria fala de estratégia de conteúdo e não tem processo nenhum rodando atrás disso."
-        ]
-      },
-      {
-        "bloco": "Entrega",
-        "tempo": "3 a 15 s",
-        "tela": "o caçador de vídeos fora da curva",
-        "topicos": [
-          "O erro é escolher pauta pelo que parece estar bombando.",
-          "No meu caso, um sistema lê os perfis que eu escolhi e separa só os vídeos que romperam a própria média de cada um."
-        ]
-      },
-      {
-        "bloco": "Prova",
-        "tempo": "15 a 25 s",
-        "tela": "lista de vídeos fora da curva",
-        "topicos": [
-          "Isso vira a minha pauta do dia, com a lógica de cada vídeo pronta antes de eu sentar pra gravar."
-        ]
-      },
-      {
-        "bloco": "Fecho",
-        "tempo": "25 a 30 s",
-        "tela": "SIGA @gabrielfaria.ia",
-        "topicos": [
-          "Só funciona se você já sabe quem quer copiar. Se ainda não escolheu suas referências, resolve isso primeiro.",
-          "Segue @gabrielfaria.ia para ver a IA trabalhando de verdade."
-        ]
-      }
-    ],
-    "referencia": {
-      "link": "https://www.instagram.com/reel/Dde7TF5DE-R/",
-      "perfil": "99hud",
-      "vezes": "13.7",
-      "molde": "revela um sistema interno que ninguém via, mostra rodando, fecha convidando a seguir"
-    },
-    "fonte": {
-      "nome": "Inventário próprio (moldes.md — caçador de vídeos fora da curva)",
-      "link": ""
-    },
-    "isca_sugerida": ""
-  }
+  "fonte": {
+   "nome": "Inventário próprio (moldes.md — sistema de leads)",
+   "link": ""
+  },
+  "isca_sugerida": "DIRECT: o passo a passo de como montar o funil de comentário até venda"
+ }
 ]

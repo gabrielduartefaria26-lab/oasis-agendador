@@ -70,11 +70,21 @@ decisão de quem já avaliou ("testei, e só vale para quem...").
 - **nikolassfaria**: legenda sempre "Siga para mais"; o molde está no vídeo, não na legenda.
   Enquanto não for dissecado, use só se o vídeo tiver sido visto.
 
+## Bastidor que NUNCA vira conteúdo
+
+Em 25/09/2026 a rotina propôs um vídeo mostrando o caçador de vídeos fora da curva ("um sistema
+lê os perfis que eu escolhi"). Ele barrou: "to pensando em criar posicionamento e você ta
+pensando em falar para as pessoas que eu copio criadores de conteúdo". Nunca proponha ideia que
+mostre ou sugira que ele se inspira, copia, modela ou garimpa outros criadores: caçador de
+outliers, lista de referências, moldes, "quem copiar", "o que está bombando nos outros perfis".
+A esteira de conteúdo pode aparecer como OPERAÇÃO (volume, publicação sozinha, captação,
+métricas), nunca como fonte de ideias.
+
 ## O que ele tem rodando (regra do inventário)
 
 Só vira ideia o que ele construiu ou usa. Lista em 25/09/2026:
 
-- Esteira de conteúdo: Pauta do dia, caçador de vídeos fora da curva, consulta de gravação,
+- Esteira de conteúdo (o caçador e as referências são INTERNOS, ver acima): consulta de gravação,
   edição, agendador que publica 2 vídeos por dia, quadro de produção, métricas semanais.
 - Comentário vira direct sem ManyChat (custo zero), página do material com nome, e-mail e
   WhatsApp, planilha de leads, aviso por e-mail, time de vendas chamando no mesmo dia.
