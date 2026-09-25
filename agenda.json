@@ -98,6 +98,14 @@
     "gancho": "POV: Eu tentando explicar para empresários 40+ porque é melhor contratar o Claude Max do que ter sócio"
   },
   {
+    "id": "desc-tiny-planet",
+    "arquivo": "desc-tiny-planet.mp4",
+    "quando": "2026-09-25T12:00:00-03:00",
+    "legenda": "Os comandos que eu usei. Manda uma foto no ChatGPT e escreve um deles:\n\n/tinyplanet\n/floating3d\n/handwritten\n/metaad\n/magazinecover\n/3Dbillboard\n/explodedview\n\nSalva e testa com uma foto sua.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #inteligenciaartificial #criatividade",
+    "formato": "descoberta",
+    "gancho": "Usa isso pra gerar isso (/tinyplanet)"
+  },
+  {
     "id": "desc-novos-modelos",
     "arquivo": "desc-novos-modelos.mp4",
     "quando": "2026-09-25T16:00:00-03:00",
@@ -179,14 +187,6 @@
     "gancho": "Eu demiti o social media e agora o Claude faz todas as minhas postagens"
   },
   {
-    "id": "desc-tiny-planet",
-    "arquivo": "desc-tiny-planet.mp4",
-    "quando": "2026-09-25T12:00:00-03:00",
-    "legenda": "Os comandos que eu usei. Manda uma foto no ChatGPT e escreve um deles:\n\n/tinyplanet\n/floating3d\n/handwritten\n/metaad\n/magazinecover\n/3Dbillboard\n/explodedview\n\nSalva e testa com uma foto sua.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #inteligenciaartificial #criatividade",
-    "formato": "descoberta",
-    "gancho": "Usa isso pra gerar isso (/tinyplanet)"
-  },
-  {
     "id": "vendi-15",
     "arquivo": "vendi-15.mp4",
     "quando": "2026-10-01T19:00:00-03:00",
@@ -194,5 +194,13 @@
     "formato": "bastidor",
     "capa_ms": 1500,
     "gancho": "Vendi R$ 4.000 em IA com 15 seguidores"
+  },
+  {
+    "id": "funil-equipes",
+    "arquivo": "funil-equipes.mp4",
+    "quando": "2026-10-15T19:00:00-03:00",
+    "legenda": "Seguidor não paga boleto. Contato na mão do time de vendas paga.\n\nComenta FUNIL que eu te mando o mapa completo e o kit para montar o seu.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#automacao #instagram #vendas",
+    "formato": "bastidor",
+    "gancho": "Esse mapa te mostra como transformar seguidores em clientes"
   }
 ]
