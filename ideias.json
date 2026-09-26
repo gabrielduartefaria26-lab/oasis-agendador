@@ -118,5 +118,65 @@
       "link": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/"
     },
     "isca_sugerida": "CANAL: o passo a passo de como o Claude configura o WhatsApp Business sozinho"
+  },
+  {
+    "id": "2026-09-26-1",
+    "data": "2026-09-26",
+    "formato": "descoberta",
+    "horario_sugerido": "26/09 · 16:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Se existe um jeito mais rápido de chegar no mesmo resultado, é obrigação sua encontrar. E isso vale pra automação também.",
+      "Ainda tem empresa pagando caro pra desenhar fluxograma de automação passo por passo quando dá pra só descrever a tarefa.",
+      "Automação parou de exigir fluxograma. Agora dá pra só descrever o que você quer que aconteça."
+    ],
+    "o_que_se_ve": "entra descrição da tarefa em texto, sai agente configurado e respondendo sozinho, sem desenhar workflow",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "AUTOMAÇÃO SEM DESENHAR WORKFLOW",
+        "topicos": [
+          "Se existe um jeito mais rápido de chegar no mesmo resultado, é obrigação sua encontrar. E isso vale pra automação também."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "n8n Agents rodando dentro da plataforma",
+        "topicos": [
+          "O n8n lançou um jeito novo de automatizar: você descreve a tarefa, escolhe o modelo e as ferramentas, e o próprio agente resolve os passos sozinho.",
+          "Não precisa desenhar fluxograma nem saber como workflow funciona, o assistente monta o agente a partir da sua descrição."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 25 s",
+        "tela": "criando o primeiro agente, sem cartão de crédito",
+        "topicos": [
+          "Testei agora: dá pra ter o primeiro agente rodando com os créditos gratuitos da própria plataforma, sem cadastrar chave de nenhuma IA."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "25 a 30 s",
+        "tela": "AGENTE",
+        "topicos": [
+          "Isso só vale a pena pra tarefa aberta, tipo responder gente no Slack ou fazer uma triagem. Se o seu processo já é uma sequência fixa, o workflow tradicional continua sendo melhor.",
+          "Comenta AGENTE que eu te mando o passo a passo pra montar o seu primeiro agente ainda hoje. Se travar ou quiser que eu monte isso pra sua empresa, comenta CONSULTORIA."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdmpxScjPVU/",
+      "perfil": "99hud",
+      "vezes": "105.0",
+      "molde": "dor em reais no gancho, mostra a ferramenta rodando, fecha com comenta PALAVRA"
+    },
+    "fonte": {
+      "nome": "n8n — Introducing n8n Agents",
+      "link": "https://blog.n8n.io/introducing-n8n-agents/"
+    },
+    "isca_sugerida": "AGENTE: o passo a passo pra criar seu primeiro agente n8n hoje sem pagar nada"
   }
 ]
