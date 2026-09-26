@@ -334,6 +334,15 @@
     "gancho": "Esses 5 comandos vão fazer o ChatGPT te responder como um estrategista"
   },
   {
+    "id": "tut-zapmeta",
+    "arquivo": "tut-zapmeta.mp4",
+    "quando": "2026-10-03T12:00:00-03:00",
+    "legenda": "A parte chata do WhatsApp Business da sua empresa agora é uma conversa com o Claude.\n\nComenta ZAPMETA que eu te mando o passo a passo para ligar a ferramenta no seu Claude.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#whatsappbusiness #inteligenciaartificial #ia #claude #meta #automacao #atendimento",
+    "formato": "descoberta",
+    "capa_ms": 2500,
+    "gancho": "A Meta lançou uma ferramenta que deixa o Claude acessar o WhatsApp da sua empresa"
+  },
+  {
     "id": "tut-agendador",
     "arquivo": "tut-agendador.mp4",
     "quando": "2026-10-09T12:00:00-03:00",
