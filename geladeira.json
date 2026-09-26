@@ -226,5 +226,25 @@
     "formato": "case",
     "gancho": "Sua equipe usa IA todo dia e ninguém sabe o que funcionou ontem",
     "pausado": "reprovado por ele em 25/09/2026: foto dele, copy de meio/fundo, não é viral"
+  },
+  {
+    "id": "visao-prestador",
+    "arquivo": "visao-prestador.mp4",
+    "quando": "2026-09-28T21:30:00-03:00",
+    "legenda": "Executar ficou fácil. Pensar, não.\n\nVocê acha que o prestador que só executa ainda tem quantos anos de mercado?\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #marketingdigital #empreendedorismo",
+    "formato": "visao",
+    "capa_ms": 1500,
+    "gancho": "A IA acabou com o prestador que só executa",
+    "pausado": "26/09: ele vai colocar a headline no app (fonte Literature); não publicar com a minha fonte"
+  },
+  {
+    "id": "visao-burro",
+    "arquivo": "visao-burro.mp4",
+    "quando": "2026-09-30T21:30:00-03:00",
+    "legenda": "Aprender de novo dá trabalho. É exatamente por isso que vale.\n\nQual foi a última coisa nova que você aprendeu? Conta aqui.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #empreendedorismo #aprendizado",
+    "formato": "visao",
+    "capa_ms": 1500,
+    "gancho": "Quando foi a última vez que você se sentiu burro?",
+    "pausado": "26/09: ele vai colocar a headline no app (fonte Literature); não publicar com a minha fonte"
   }
 ]
