@@ -325,6 +325,15 @@
     "gancho": "7 tarefas, 21 IAs, a certa para cada uma"
   },
   {
+    "id": "tut-comandos",
+    "arquivo": "tut-comandos.mp4",
+    "quando": "2026-10-02T12:00:00-03:00",
+    "legenda": "A resposta genérica não é culpa da IA. É do pedido.\n\nComenta COMANDOS que eu te mando mais 50 comandos para o ChatGPT pensar como estrategista do seu negócio.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #inteligenciaartificial #ia #prompts #produtividade #claude #negocios",
+    "formato": "tutorial",
+    "capa_ms": 2500,
+    "gancho": "Esses 5 comandos vão fazer o ChatGPT te responder como um estrategista"
+  },
+  {
     "id": "tut-agendador",
     "arquivo": "tut-agendador.mp4",
     "quando": "2026-10-09T12:00:00-03:00",
