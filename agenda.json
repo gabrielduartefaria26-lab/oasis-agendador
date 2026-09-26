@@ -267,6 +267,15 @@
     "gancho": "A Anthropic abriu uma loja com mais de 2.000 conectores"
   },
   {
+    "id": "tut-google-maps",
+    "arquivo": "tut-google-maps.mp4",
+    "quando": "2026-09-30T12:00:00-03:00",
+    "legenda": "Lista de lead comprada já nasce desatualizada. A do Google Maps sai na hora, da sua cidade e do seu segmento.\n\nNome, telefone, site, e-mail público e nota de cada empresa, e o Claude ainda ranqueia o gargalo de cada uma e escreve a primeira mensagem.\n\nComenta MAPA que eu te mando o kit com o passo a passo no direct.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #ia #claude #prospeccao #vendas #googlemaps #empreendedorismo",
+    "formato": "tutorial",
+    "capa_ms": 2500,
+    "gancho": "O Claude tira do Google Maps a lista de empresas da sua cidade"
+  },
+  {
     "id": "lote02-cursos",
     "arquivos": [
       "lote02-cursos-slide-1.jpg",
@@ -283,13 +292,12 @@
     "gancho": "7 cursos oficiais de IA grátis e com certificado"
   },
   {
-    "id": "tut-google-maps",
-    "arquivo": "tut-google-maps.mp4",
+    "id": "funil-equipes",
+    "arquivo": "funil-equipes.mp4",
     "quando": "2026-10-01T12:00:00-03:00",
-    "legenda": "Lista de lead comprada já nasce desatualizada. A do Google Maps sai na hora, da sua cidade e do seu segmento.\n\nNome, telefone, site, e-mail público e nota de cada empresa, e o Claude ainda ranqueia o gargalo de cada uma e escreve a primeira mensagem.\n\nComenta MAPA que eu te mando o kit com o passo a passo no direct.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #ia #claude #prospeccao #vendas #googlemaps #empreendedorismo",
-    "formato": "tutorial",
-    "capa_ms": 2500,
-    "gancho": "O Claude tira do Google Maps a lista de empresas da sua cidade"
+    "legenda": "Seguidor não paga boleto. Contato na mão do time de vendas paga.\n\nComenta FUNIL que eu te mando o mapa completo e o kit para montar o seu.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#automacao #instagram #vendas",
+    "formato": "bastidor",
+    "gancho": "Esse mapa te mostra como transformar seguidores em clientes"
   },
   {
     "id": "vendi-15",
@@ -315,13 +323,5 @@
     "legenda": "7 tarefas, 21 IAs: a certa para cada uma.\n\nVocê não precisa de 21. Precisa da que resolve a tarefa que mais te toma tempo, testada por uma semana antes de pagar.\n\nFerramenta nenhuma salva tarefa que ninguém sabe fazer.\n\nComenta LISTA que eu te mando as 21 com o endereço e o que cada uma resolve.\n\n#inteligenciaartificial #ia #ferramentasdeia #chatgpt #claude #produtividade #automacao #empreendedorismo",
     "formato": "ferramenta",
     "gancho": "7 tarefas, 21 IAs, a certa para cada uma"
-  },
-  {
-    "id": "funil-equipes",
-    "arquivo": "funil-equipes.mp4",
-    "quando": "2026-10-08T19:00:00-03:00",
-    "legenda": "Seguidor não paga boleto. Contato na mão do time de vendas paga.\n\nComenta FUNIL que eu te mando o mapa completo e o kit para montar o seu.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#automacao #instagram #vendas",
-    "formato": "bastidor",
-    "gancho": "Esse mapa te mostra como transformar seguidores em clientes"
   }
 ]
