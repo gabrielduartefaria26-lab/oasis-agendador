@@ -243,14 +243,6 @@
     "gancho": "O CLAUDE vai salvar sua vida financeira em um final de semana"
   },
   {
-    "id": "tut-agendador",
-    "arquivo": "tut-agendador.mp4",
-    "quando": "2026-09-29T19:00:00-03:00",
-    "legenda": "Eu demiti o social media. Agora o Claude posta tudo sozinho aqui no Instagram.\n\nVocê só precisa de três contas: Claude, GitHub e Instagram profissional.\n\nComenta DOCUMENTO que eu te mando o kit e o guia passo a passo.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #automacao",
-    "formato": "tutorial",
-    "gancho": "Eu demiti o social media e agora o Claude faz todas as minhas postagens"
-  },
-  {
     "id": "lote02-conecta",
     "arquivos": [
       "lote02-conecta-slide-1.jpg",
@@ -274,6 +266,15 @@
     "formato": "tutorial",
     "capa_ms": 2500,
     "gancho": "O Claude tira do Google Maps a lista de empresas da sua cidade"
+  },
+  {
+    "id": "vendi-15",
+    "arquivo": "vendi-15.mp4",
+    "quando": "2026-09-30T19:00:00-03:00",
+    "legenda": "Minha primeira venda de implementação de IA saiu com 15 seguidores e 4 dias postando.\n\nUma escola particular: vou ensinar os professores a usar o ChatGPT com contexto e a criar material didático do jeito certo.\n\nSe você quer aplicar IA no seu negócio para ganhar tempo e dinheiro, segue o @gabrielfaria.ia.\n\n#inteligenciaartificial #empreendedorismo #chatgpt",
+    "formato": "bastidor",
+    "capa_ms": 1500,
+    "gancho": "Vendi R$ 4.000 em IA com 15 seguidores"
   },
   {
     "id": "lote02-cursos",
@@ -300,15 +301,6 @@
     "gancho": "Esse mapa te mostra como transformar seguidores em clientes"
   },
   {
-    "id": "vendi-15",
-    "arquivo": "vendi-15.mp4",
-    "quando": "2026-10-01T19:00:00-03:00",
-    "legenda": "Minha primeira venda de implementação de IA saiu com 15 seguidores e 4 dias postando.\n\nUma escola particular: vou ensinar os professores a usar o ChatGPT com contexto e a criar material didático do jeito certo.\n\nSe você quer aplicar IA no seu negócio para ganhar tempo e dinheiro, segue o @gabrielfaria.ia.\n\n#inteligenciaartificial #empreendedorismo #chatgpt",
-    "formato": "bastidor",
-    "capa_ms": 1500,
-    "gancho": "Vendi R$ 4.000 em IA com 15 seguidores"
-  },
-  {
     "id": "lote02-lista",
     "arquivos": [
       "lote02-lista-slide-1.jpg",
@@ -323,5 +315,13 @@
     "legenda": "7 tarefas, 21 IAs: a certa para cada uma.\n\nVocê não precisa de 21. Precisa da que resolve a tarefa que mais te toma tempo, testada por uma semana antes de pagar.\n\nFerramenta nenhuma salva tarefa que ninguém sabe fazer.\n\nComenta LISTA que eu te mando as 21 com o endereço e o que cada uma resolve.\n\n#inteligenciaartificial #ia #ferramentasdeia #chatgpt #claude #produtividade #automacao #empreendedorismo",
     "formato": "ferramenta",
     "gancho": "7 tarefas, 21 IAs, a certa para cada uma"
+  },
+  {
+    "id": "tut-agendador",
+    "arquivo": "tut-agendador.mp4",
+    "quando": "2026-10-09T12:00:00-03:00",
+    "legenda": "Eu demiti o social media. Agora o Claude posta tudo sozinho aqui no Instagram.\n\nVocê só precisa de três contas: Claude, GitHub e Instagram profissional.\n\nComenta DOCUMENTO que eu te mando o kit e o guia passo a passo.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #automacao",
+    "formato": "tutorial",
+    "gancho": "Eu demiti o social media e agora o Claude faz todas as minhas postagens"
   }
 ]
