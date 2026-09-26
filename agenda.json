@@ -296,6 +296,15 @@
     "gancho": "Eu fingindo que gosto de ler livros até os meus tokens do Claude voltarem"
   },
   {
+    "id": "visao-burro",
+    "arquivo": "visao-burro.mp4",
+    "quando": "2026-09-30T21:30:00-03:00",
+    "legenda": "Aprender de novo dá trabalho. É exatamente por isso que vale.\n\nQual foi a última coisa nova que você aprendeu? Conta aqui.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #empreendedorismo #aprendizado",
+    "formato": "visao",
+    "capa_ms": 1500,
+    "gancho": "Quando foi a última vez que você se sentiu burro?"
+  },
+  {
     "id": "lote02-cursos",
     "arquivos": [
       "lote02-cursos-slide-1.jpg",
