@@ -243,6 +243,14 @@
     "gancho": "O CLAUDE vai salvar sua vida financeira em um final de semana"
   },
   {
+    "id": "meme-trabalhando-pesado",
+    "arquivo": "meme-trabalhando-pesado.mp4",
+    "quando": "2026-09-29T19:00:00-03:00",
+    "legenda": "Claude e eu trabalhando pesado no escritório.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
+    "formato": "meme",
+    "gancho": "Claude e eu trabalhando pesado no escritório"
+  },
+  {
     "id": "lote02-conecta",
     "arquivos": [
       "lote02-conecta-slide-1.jpg",
