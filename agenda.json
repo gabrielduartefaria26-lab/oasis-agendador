@@ -379,6 +379,15 @@
     "gancho": "Você pagou caro pelo seu site e o Google nem sabe que ele existe"
   },
   {
+    "id": "tut-biblioteca",
+    "arquivo": "tut-biblioteca.mp4",
+    "quando": "2026-10-08T12:00:00-03:00",
+    "legenda": "Prompt do zero é retrabalho. Tem muita gente que já testou antes de você.\n\nComenta BIBLIOTECA que eu te mando o link e os 10 prompts dela que eu mais uso.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#prompts #chatgpt #inteligenciaartificial #ia #claude #produtividade #ferramentasdeia",
+    "formato": "descoberta",
+    "capa_ms": 2500,
+    "gancho": "Liberaram de graça a maior biblioteca de prompts do mundo"
+  },
+  {
     "id": "tut-agendador",
     "arquivo": "tut-agendador.mp4",
     "quando": "2026-10-09T12:00:00-03:00",
