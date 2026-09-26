@@ -148,6 +148,14 @@
     "gancho": "Esses 5 comandos vão fazer o ChatGPT te responder como um estrategista"
   },
   {
+    "id": "meme-treino",
+    "arquivo": "meme-treino.mp4",
+    "quando": "2026-09-26T16:20:00-03:00",
+    "legenda": "O Claude trabalha e eu treino.\nEnfim, uma nova era. 🤖\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
+    "formato": "meme",
+    "gancho": "O Claude trabalha e eu treino. Enfim, uma nova era."
+  },
+  {
     "id": "meme-produtividade",
     "arquivo": "meme-produtividade.mp4",
     "quando": "2026-09-26T19:00:00-03:00",
@@ -404,14 +412,6 @@
     "formato": "tutorial",
     "capa_ms": 2500,
     "gancho": "Você pagou caro pelo seu site e o Google nem sabe que ele existe"
-  },
-  {
-    "id": "meme-treino",
-    "arquivo": "meme-treino.mp4",
-    "quando": "2026-10-04T19:00:00-03:00",
-    "legenda": "O Claude trabalha e eu treino.\nEnfim, uma nova era. 🤖\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
-    "formato": "meme",
-    "gancho": "O Claude trabalha e eu treino. Enfim, uma nova era."
   },
   {
     "id": "tut-biblioteca",
