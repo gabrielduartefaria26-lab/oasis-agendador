@@ -343,6 +343,15 @@
     "gancho": "A Meta lançou uma ferramenta que deixa o Claude acessar o WhatsApp da sua empresa"
   },
   {
+    "id": "tut-gestor",
+    "arquivo": "tut-gestor.mp4",
+    "quando": "2026-10-04T12:00:00-03:00",
+    "legenda": "Antes de trocar de agência, deixa o Claude auditar a sua conta de anúncios.\n\nComenta GESTOR que eu te mando o link e o passo a passo para instalar.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#trafegopago #inteligenciaartificial #ia #claude #anuncios #marketingdigital #metaads",
+    "formato": "descoberta",
+    "capa_ms": 2500,
+    "gancho": "Antes de contratar a próxima agência, deixa o Claude cuidar dos seus anúncios"
+  },
+  {
     "id": "tut-agendador",
     "arquivo": "tut-agendador.mp4",
     "quando": "2026-10-09T12:00:00-03:00",
