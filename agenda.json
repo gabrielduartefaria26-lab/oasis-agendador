@@ -371,6 +371,15 @@
     "gancho": "Claude e eu trabalhando pesado no escritório"
   },
   {
+    "id": "visao-saas",
+    "arquivo": "visao-saas.mp4",
+    "quando": "2026-10-02T21:30:00-03:00",
+    "legenda": "Tem gente perdendo tempo criando SaaS enquanto a empresa do lado paga para aprender o básico de IA.\n\nVocê já usa IA no seu negócio ou ainda está pesquisando? Conta aqui.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #empreendedorismo #chatgpt",
+    "formato": "visao",
+    "capa_ms": 1000,
+    "gancho": "Tem empresas pagando para aprender a usar o ChatGPT"
+  },
+  {
     "id": "tut-metricas",
     "arquivo": "tut-metricas.mp4",
     "quando": "2026-10-03T12:00:00-03:00",
