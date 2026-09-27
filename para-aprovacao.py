@@ -31,7 +31,8 @@ def main(pid, video):
               "-c:v", "libx264", "-preset", "veryfast", "-crf", "28", "-c:a", "aac", "-b:a", "96k",
               "-movflags", "+faststart", str(leve)])
     item["aprovacao"] = True
-    item["previa"] = ap.subir_previa(leve, "video/mp4")
+    import time
+    item["previa"] = ap.subir_previa(leve, "video/mp4") + f"?v={int(time.time())}"   # fura o cache do Blob e sempre muda a agenda
     item.pop("ajuste", None)
     (RAIZ / "agenda.json").write_text(json.dumps(agenda, ensure_ascii=False, indent=2) + "\n")
     ap.rodar(["git", "add", "agenda.json"], cwd=RAIZ)
