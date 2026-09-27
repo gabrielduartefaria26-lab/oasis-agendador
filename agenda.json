@@ -189,16 +189,6 @@
     "gancho": "A Meta lançou uma ferramenta que deixa o Claude acessar o WhatsApp da sua empresa"
   },
   {
-    "id": "lofi-jev",
-    "arquivo": "lofi-jev.mp4",
-    "quando": "2026-09-27T15:41:00-03:00",
-    "legenda": "Comente “JEV” e eu enviarei este sistema exato + o guia de configuração 👇\n\nJev é um novo modelo de IA lançado nesta semana, e acho que é exatamente para esse tipo de trabalho que ele serve.\n\nDei a ele o Instagram inteiro de Alex Hormozi. O Apify coleta todos os vídeos. O Whisper os transforma em transcrições. Depois, o Jev lê cada uma e classifica o tema, o tipo de gancho, a estrutura e a chamada para ação no final. Ele até identifica a função de cada frase: gancho, contexto, entrega ou oferta.\n\nEntão, cada Reel aparece em um gráfico conforme seu desempenho, com cores que indicam o tipo de gancho. Em vez de assistir aos vídeos um por um, você vê a conta inteira em uma imagem e pode abrir qualquer gancho que queira estudar.\n\nO Jev me custou 17 centavos de dólar para analisar a conta toda.\n\nFaça isso com qualquer criador do seu nicho ou com seu próprio perfil para descobrir quais ganchos seu público realmente prefere.\n\n#inteligenciaartificial #ia #instagram #marketingdigital #conteudo #claude",
-    "formato": "lofi",
-    "gancho": "Jev decodifica o Instagram inteiro do Hormozi",
-    "aprovacao": true,
-    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lofi-jev-previa.mp4"
-  },
-  {
     "id": "tut-10agentes",
     "arquivo": "tut-10agentes.mp4",
     "quando": "2026-09-27T19:00:00-03:00",
