@@ -185,7 +185,7 @@
     "quando": "2026-09-27T12:00:00-03:00",
     "legenda": "A parte chata do WhatsApp Business da sua empresa agora é uma conversa com o Claude.\n\nComenta ZAPMETA que eu te mando o passo a passo para ligar a ferramenta no seu Claude.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#whatsappbusiness #inteligenciaartificial #ia #claude #meta #automacao #atendimento",
     "formato": "descoberta",
-    "capa_ms": 2500,
+    "capa_ms": 3450,
     "gancho": "A Meta lançou uma ferramenta que deixa o Claude acessar o WhatsApp da sua empresa"
   },
   {
@@ -218,7 +218,7 @@
     "quando": "2026-09-28T12:00:00-03:00",
     "legenda": "Lista de lead comprada já nasce desatualizada. A do Google Maps sai na hora, da sua cidade e do seu segmento.\n\nNome, telefone, site, e-mail público e nota de cada empresa, e o Claude ainda ranqueia o gargalo de cada uma e escreve a primeira mensagem.\n\nComenta MAPA que eu te mando o kit com o passo a passo no direct.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #ia #claude #prospeccao #vendas #googlemaps #empreendedorismo",
     "formato": "tutorial",
-    "capa_ms": 2500,
+    "capa_ms": 2920,
     "gancho": "O Claude tira do Google Maps a lista de empresas da sua cidade",
     "aprovacao": true,
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-google-maps-previa.mp4"
@@ -262,7 +262,7 @@
     "quando": "2026-09-29T12:00:00-03:00",
     "legenda": "Antes de trocar de agência, deixa o Claude auditar a sua conta de anúncios.\n\nComenta GESTOR que eu te mando o link e o passo a passo para instalar.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#trafegopago #inteligenciaartificial #ia #claude #anuncios #marketingdigital #metaads",
     "formato": "descoberta",
-    "capa_ms": 2500,
+    "capa_ms": 3050,
     "gancho": "Antes de contratar a próxima agência, deixa o Claude cuidar dos seus anúncios"
   },
   {
@@ -271,7 +271,7 @@
     "quando": "2026-09-29T16:30:00-03:00",
     "legenda": "A resposta genérica não é culpa da IA. É do pedido.\n\nComenta COMANDOS que eu te mando mais 50 comandos para o ChatGPT pensar como estrategista do seu negócio.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #inteligenciaartificial #ia #prompts #produtividade #claude #negocios",
     "formato": "tutorial",
-    "capa_ms": 1500,
+    "capa_ms": 2140,
     "gancho": "Seu ChatGPT respondendo como estrategista com 5 comandos",
     "aprovacao": true,
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-comandos-v2-previa.mp4"
@@ -308,7 +308,8 @@
     "formato": "bastidor",
     "gancho": "Esse mapa te mostra como transformar seguidores em clientes",
     "aprovacao": true,
-    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/funil-equipes-previa.mp4"
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/funil-equipes-previa.mp4",
+    "capa_ms": 2200
   },
   {
     "id": "meme-tokens",
@@ -349,7 +350,7 @@
     "quando": "2026-10-01T12:00:00-03:00",
     "legenda": "IA sem memória da empresa é estagiário no primeiro dia, todo dia.\n\nComenta CEREBRO que eu te mando o passo a passo para montar o cérebro da sua empresa.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #empreendedorismo #processos",
     "formato": "tutorial",
-    "capa_ms": 2500,
+    "capa_ms": 2520,
     "gancho": "A maioria das empresas usa IA como se fosse um estagiário",
     "aprovacao": true,
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-cerebro-previa.mp4"
@@ -402,7 +403,7 @@
     "quando": "2026-10-03T12:00:00-03:00",
     "legenda": "Seu Instagram já sabe o que funciona. Faltava alguém ler os números por você.\n\nComenta METRICAS que eu te mando o prompt que monta o dashboard com os seus melhores posts.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#instagram #metricas #inteligenciaartificial #ia #claude #marketingdigital #conteudo",
     "formato": "descoberta",
-    "capa_ms": 2500,
+    "capa_ms": 2340,
     "gancho": "Agora você pode ligar as métricas do seu Instagram com o Claude",
     "aprovacao": true,
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-metricas-previa.mp4"
@@ -421,7 +422,7 @@
     "quando": "2026-10-04T12:00:00-03:00",
     "legenda": "Antes de pagar anúncio, confere se o Google pelo menos sabe que o seu site existe.\n\nComenta INDEXA que eu te mando o checklist e os pedidos para o Claude fazer com você.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#google #seo #sites #inteligenciaartificial #ia #marketingdigital #empresas",
     "formato": "tutorial",
-    "capa_ms": 2500,
+    "capa_ms": 3780,
     "gancho": "Você pagou caro pelo seu site e o Google nem sabe que ele existe",
     "aprovacao": true,
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-indexa-previa.mp4"
@@ -432,7 +433,7 @@
     "quando": "2026-10-05T12:00:00-03:00",
     "legenda": "Prompt do zero é retrabalho. Tem muita gente que já testou antes de você.\n\nComenta BIBLIOTECA que eu te mando o link e os 10 prompts dela que eu mais uso.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#prompts #chatgpt #inteligenciaartificial #ia #claude #produtividade #ferramentasdeia",
     "formato": "descoberta",
-    "capa_ms": 2500,
+    "capa_ms": 1940,
     "gancho": "Liberaram de graça a maior biblioteca de prompts do mundo",
     "aprovacao": true,
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-biblioteca-previa.mp4"
