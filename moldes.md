@@ -4,7 +4,60 @@ Lido pela Pauta do dia ANTES do outliers.csv. Dos moldes se copia a FORMA (visua
 grupo `gabriel` no outliers.csv (perfis que ele escolheu em 25/09/2026). Os grupos `ia` e
 `dono` são reserva, para quando nada daqui servir.
 
-## A TESE DO PERFIL (conversa com ele em 25/09/2026, manda em tudo abaixo)
+## VIRADA DE 27/09/2026 (manda em tudo abaixo; onde conflitar, vale esta seção)
+
+**Bio definitiva:** "Uso a IA para ganhar dinheiro, ter mais tempo de qualidade com minha família
+e fazer o que eu gosto." A PROMESSA do perfil é dinheiro, tempo e liberdade. A IA é o MECANISMO.
+
+**Público:** empreendedor e empresário. As dores dele, nas palavras do Gabriel: investir menos e
+ganhar mais; acelerar o crescimento; travar na execução; ter tempo de qualidade com quem ama;
+fazer o que gosta. Essa promessa já foi validada no perfil pessoal dele (13 mil seguidores).
+
+**Prova de dados da própria conta:** os dois vídeos que mais alcançaram foram memes de IDENTIDADE,
+a vida de quem trabalha com IA ("Claude & eu trabalhando pesado no escritório", 1.946; "POV: meus
+vizinhos me vendo de bermuda e chinelo numa terça às 14h", 872). Notícia de ferramenta ficou entre
+46 e 145. Carrossel ficou entre 5 e 7. A ideia quente é o combustível; a embalagem de vida e
+dinheiro é o que espalha.
+
+### Regra 1: gancho com dinheiro ou vida, nunca com a ferramenta
+Nas ideias ORIGINAIS (radar, notícia quente), o segundo zero fala de reais, horas, cliente,
+família, tarde livre. A ferramenta aparece depois, como prova. Ex.: não "o n8n lançou agentes",
+e sim o que isso devolve ao dono em dinheiro ou tempo.
+
+### Regra 2: modelagem de vídeo validado = copiar o esqueleto, trocar só o assunto
+Quando a ideia sai de um vídeo que já viralizou (outliers.csv ou meme conhecido), MANTENHA: a
+estrutura da frase do gancho (troca só o substantivo), a duração, o ritmo dos cortes, o visual,
+o áudio e o ponto da virada. MUDE só o assunto, trazido para o mundo do Gabriel. Aqui o gancho
+original manda mais que a Regra 1, porque ele já foi testado. Quanto mais se muda, mais se joga
+fora o que foi validado. Nunca invente POV do zero: ele reprovou ("seu POV ficou estranho").
+
+### Regra 3: a mistura do dia (aprovada em 27/09) é de 6 vagas
+| Vaga | Formato | Horário proposto |
+|---|---|---|
+| 1 | carrossel (é para salvar, não para alcance) | 09:00 |
+| 2 | ideia quente, descoberta ou tutorial, pode ser REACT em meia tela | 12:00 |
+| 3 | meme modelado de meme validado | 14:30 |
+| 4 | ideia quente, descoberta ou tutorial, pode ser REACT em meia tela | 16:30 |
+| 5 | meme modelado de meme validado | 19:00 |
+| 6 | ELE É O CASE (posicionamento) | 21:30 |
+Horários são proposta; nada entra na agenda sem aprovação dele. Ele grava o que precisar.
+
+### Regra 4: ele é o case (vaga 6)
+Não há clientes suficientes para prova de cliente. A prova é a vida e a operação dele:
+- a operação rodando sozinha (o assistente lendo e-mail, WhatsApp e reuniões; o agendador
+  publicando; a esteira produzindo vários posts por dia sem time);
+- números dele, só os confirmados na seção "Regras de fato";
+- momentos que a IA devolveu (a filha, o treino, a tarde de terça). Só cena que ele confirmou
+  ou que já apareceu em post; não invente hábito.
+
+### Os 3 produtos (fundo de funil; isca e fecho podem apontar para eles)
+- **Minha equipe de marketing**: o processo de conteúdo e geração de demanda (a edição de vídeo
+  é o 20x, produto separado).
+- **Como criar seu produto**: transformar conhecimento em renda.
+- **Meu assistente**: o painel que junta e-mail, WhatsApp e reuniões.
+Ainda sem página nem preço: não prometa preço, prazo ou vaga.
+
+## A TESE DO PERFIL (conversa com ele em 25/09/2026; hoje é o MECANISMO da promessa acima)
 
 **A IA amplifica o que você já é.** Empresa sem processo ganha bagunça mais rápida; quem não tem
 conhecimento transforma a IA numa cópia burra de si. Com processo e conhecimento, ela dá
@@ -131,6 +184,7 @@ Só vira ideia o que ele construiu ou usa. Lista em 25/09/2026:
 - Comentário vira direct sem ManyChat (custo zero), página do material com nome, e-mail e
   WhatsApp, planilha de leads, aviso por e-mail, time de vendas chamando no mesmo dia.
 - Automação de comentário nativa da Meta (grátis).
+- Assistente que lê e-mail, WhatsApp, reuniões e agenda e monta o painel de tarefas do dia.
 - Primeira venda de implementação de IA (escola), com o perfil criado do zero.
 
 Ferramenta nova que ele consegue MOSTRAR rodando em 20 minutos também vale (formato 99hud),
@@ -176,4 +230,7 @@ posta sozinho (demiti o social media) · tiny planet · primeira venda com 15 se
 - **Não misture sistemas.** A automação nativa da Meta só manda a mensagem; ela não grava
   planilha. Planilha, página e aviso por e-mail são do sistema próprio dele (isca DIRECT).
 - **Meme é sem fala:** 7 a 12 s, texto na tela no segundo zero + cena real dele. Nunca roteiro
-  narrado. Se não houver cena real conhecida, não proponha meme.
+  narrado. Desde 27/09 todo meme parte de um meme VALIDADO (link do original obrigatório no
+  campo referencia) e segue a Regra 2: mesmo texto-esqueleto, mesma cena-tipo, mesmo áudio; só o
+  assunto vira a vida dele com IA (trabalho de casa, tempo livre, dinheiro, cliente). Sem meme
+  validado com link, não proponha meme.
