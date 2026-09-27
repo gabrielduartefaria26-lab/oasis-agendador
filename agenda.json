@@ -335,7 +335,9 @@
     "legenda": "IA sem memória da empresa é estagiário no primeiro dia, todo dia.\n\nComenta CEREBRO que eu te mando o passo a passo para montar o cérebro da sua empresa.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #empreendedorismo #processos",
     "formato": "tutorial",
     "capa_ms": 2500,
-    "gancho": "A maioria das empresas usa IA como se fosse um estagiário"
+    "gancho": "A maioria das empresas usa IA como se fosse um estagiário",
+    "aprovacao": true,
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-cerebro-previa.mp4"
   },
   {
     "id": "tut-ebook",
