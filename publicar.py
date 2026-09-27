@@ -129,6 +129,7 @@ def main():
     vencidos = [i for i in agenda
                 if (ENSAIO or datetime.fromisoformat(i["quando"]) <= agora)
                 and pendente(i)
+                and not i.get("aprovacao")   # espera o Gabriel aprovar no quadro
                 and (not SOMENTE or i["id"] == SOMENTE)]
     if not vencidos:
         print("nada a publicar")

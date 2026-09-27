@@ -32,6 +32,9 @@ HORA_DO_POST = 9          # um carrossel por dia, sempre no mesmo horario
 HORA_DO_VIDEO = 19        # o video do dia sai a noite
 FUSO = "-03:00"
 TETO_DIAS = 28            # nao se programa alem de 4 semanas; o que passa vai para a geladeira
+# Previa leve para o Gabriel assistir no quadro antes de aprovar. O Release do GitHub serve
+# octet-stream, que o Safari do iPhone nao toca; o Blob publico serve video/mp4 com Range.
+PREVIAS_TOKEN = pathlib.Path.home() / ".config/oasis/previas-token"
 
 
 def rodar(cmd, **kw):
@@ -202,6 +205,8 @@ def main():
                                                "do proprio video que vira capa")
     p.add_argument("--formato", help="case, ferramenta, meme, tutorial, descoberta")
     p.add_argument("--gancho", help="o texto de abertura na tela, vai para a planilha de metricas")
+    p.add_argument("--sem-aprovacao", action="store_true",
+                   help="vai direto para Programado; sem isso o post espera aprovacao no quadro")
     a = p.parse_args()
 
     agenda_arq = RAIZ / "agenda.json"
@@ -264,6 +269,10 @@ def main():
     g = gh()
     rodar([g, "release", "upload", TAG, *[str(j) for j in jpgs], "--repo", REPO, "--clobber"])
     print(f"{len(jpgs)} arquivos no Release")
+    if not a.sem_aprovacao:
+        item["aprovacao"] = True
+        item["previa"] = [subir_previa(j, "image/jpeg") for j in jpgs]
+        print("previa no quadro, esperando aprovacao")
 
     cortados = guardar(agenda, item, f"agenda: {a.prefixo} em {quando[:10]}")
     if a.urgente:
@@ -273,6 +282,20 @@ def main():
     extra = f", {len(cortados)} foram para a geladeira" if cortados else ""
     avisar("Carrossel na fila", f"{a.prefixo} sai em {dia}{extra}")
     return 0
+
+
+def subir_previa(arquivo, tipo):
+    if not PREVIAS_TOKEN.exists():
+        sys.exit(f"falta {PREVIAS_TOKEN} (token do Blob oasis-previas); ou use --sem-aprovacao")
+    r = subprocess.run(["vercel", "blob", "put", str(arquivo), "--rw-token", PREVIAS_TOKEN.read_text().strip(),
+                        "--access", "public", "--pathname", f"previas/{arquivo.name}",
+                        "--content-type", tipo, "--allow-overwrite", "true"],
+                       cwd=PREVIAS_TOKEN.parent, text=True, capture_output=True)
+    saida = r.stdout + r.stderr
+    url = re.search(r"https://\S+", saida)
+    if not url:
+        sys.exit(f"o Blob nao devolveu endereco: {saida[-200:]}")
+    return url.group(0)
 
 
 def choque_de_horario(agenda, quando, prefixo):
@@ -381,6 +404,14 @@ def agendar_video(a, agenda_arq):
         subir.append(capa_jpg)
     rodar([gh(), "release", "upload", TAG, *[str(x) for x in subir],
            "--repo", REPO, "--clobber"])
+    if not a.sem_aprovacao:
+        leve = RAIZ / "videos" / f"{a.prefixo}-previa.mp4"
+        rodar(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", str(destino),
+               "-vf", "scale=-2:960", "-c:v", "libx264", "-preset", "veryfast", "-crf", "28",
+               "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", str(leve)])
+        item["aprovacao"] = True
+        item["previa"] = subir_previa(leve, "video/mp4")
+        print(f"previa no quadro ({leve.stat().st_size // 1_000_000} MB), esperando aprovacao")
     guardar(agenda, item, f"agenda: {a.prefixo} em {a.quando[:10]}")
     dia = a.quando[:16].replace("T", " as ")
     print(f"agendado: {a.prefixo} para {dia}")
