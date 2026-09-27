@@ -388,7 +388,9 @@
     "legenda": "Seu Instagram já sabe o que funciona. Faltava alguém ler os números por você.\n\nComenta METRICAS que eu te mando o prompt que monta o dashboard com os seus melhores posts.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#instagram #metricas #inteligenciaartificial #ia #claude #marketingdigital #conteudo",
     "formato": "descoberta",
     "capa_ms": 2500,
-    "gancho": "Agora você pode ligar as métricas do seu Instagram com o Claude"
+    "gancho": "Agora você pode ligar as métricas do seu Instagram com o Claude",
+    "aprovacao": true,
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-metricas-previa.mp4"
   },
   {
     "id": "tut-financeiro",
