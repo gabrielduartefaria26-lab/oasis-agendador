@@ -312,6 +312,17 @@
     "capa_ms": 1500
   },
   {
+    "id": "tut-zapmeta-v2",
+    "arquivo": "tut-zapmeta-v2.mp4",
+    "quando": "2026-09-30T16:30:00-03:00",
+    "legenda": "A parte chata do WhatsApp Business da sua empresa agora é uma conversa com o Claude.\n\nComenta ZAPMETA que eu te mando o passo a passo para ligar a ferramenta no seu Claude.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#whatsappbusiness #inteligenciaartificial #ia #claude #meta #automacao #atendimento",
+    "formato": "descoberta",
+    "capa_ms": 3400,
+    "gancho": "O Claude configura o seu WhatsApp",
+    "aprovacao": true,
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-zapmeta-v2-previa.mp4"
+  },
+  {
     "id": "meme-tokens",
     "arquivo": "meme-tokens.mp4",
     "quando": "2026-09-30T19:00:00-03:00",
