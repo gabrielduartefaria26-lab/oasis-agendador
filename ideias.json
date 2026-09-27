@@ -178,5 +178,176 @@
       "link": "https://blog.n8n.io/introducing-n8n-agents/"
     },
     "isca_sugerida": "AGENTE: o passo a passo pra criar seu primeiro agente n8n hoje sem pagar nada"
+  },
+  {
+    "id": "2026-09-27-1",
+    "data": "2026-09-27",
+    "vaga": "quente",
+    "formato": "tutorial",
+    "horario_sugerido": "27/09 · 16:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "O gargalo que mais atrasa o lançamento de conteúdo não é gravar. É esperar a edição voltar.",
+      "Toda empresa que depende de vídeo trava no mesmo ponto: o corte parado na fila do editor.",
+      "Enquanto o corte não volta do editor, o lançamento inteiro fica esperando."
+    ],
+    "o_que_se_ve": "entra timeline crua parada na fila, sai corte pronto, comandado por texto, sem clicar em nada",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "O GARGALO NÃO É GRAVAR, É ESPERAR A EDIÇÃO",
+        "topicos": [
+          "O gargalo que mais atrasa o lançamento de conteúdo não é gravar. É esperar a edição voltar."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "Claude cortando dentro do DaVinci Resolve",
+        "topicos": [
+          "A Blackmagic colocou um MCP oficial dentro do próprio Resolve, na versão 21.1.",
+          "Isso deixa o Claude entrar na timeline e cortar, sem eu clicar em nada, só conversando em português."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 25 s",
+        "tela": "GRAVAR TELA: 15 a 20 s do Claude cortando a timeline de um vídeo real",
+        "topicos": [
+          "Testei numa timeline real e o corte que eu levava minutos pra fazer saiu enquanto eu ainda estava escrevendo o pedido."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "25 a 30 s",
+        "tela": "EDITAR",
+        "topicos": [
+          "Isso só vale a pena se sua edição trava em corte simples e repetitivo. Se o vídeo depende de decisão criativa fina, o editor continua sendo melhor.",
+          "Comenta EDITAR que eu te mando o passo a passo de como ligar isso no seu Resolve."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdrzQrlio3T/",
+      "perfil": "99hud",
+      "vezes": "61.4",
+      "molde": "dor em reais no gancho sobre o gargalo, mostra a ferramenta rodando na timeline, fecha com comenta PALAVRA"
+    },
+    "fonte": {
+      "nome": "Molde interno (outliers.csv — 99hud, Reel sobre o MCP oficial do DaVinci Resolve 21.1)",
+      "link": ""
+    },
+    "isca_sugerida": "EDITAR: o passo a passo de como ligar o Claude no DaVinci Resolve pra cortar sozinho"
+  },
+  {
+    "id": "2026-09-27-2",
+    "data": "2026-09-27",
+    "vaga": "quente",
+    "formato": "descoberta",
+    "horario_sugerido": "28/09 · 16:30",
+    "fala_com": "quem usa IA",
+    "aberturas": [
+      "Prompt bom virou produto caro, só que ele nunca foi segredo, sempre foi documentação técnica.",
+      "Tem gente vendendo curso de 'prompt certo' com o mesmo texto que está aberto num repositório público.",
+      "Quem cobra caro por prompt perfeito está vendendo o que já é documentação pública."
+    ],
+    "o_que_se_ve": "entra busca por um prompt pronto, sai prompt copiado e colado direto no Claude, funcionando",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "PROMPT BOM NUNCA FOI SEGREDO",
+        "topicos": [
+          "Prompt bom virou produto caro, só que ele nunca foi segredo, sempre foi documentação técnica."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "navegando no prompts.chat",
+        "topicos": [
+          "Existe um repositório aberto no GitHub chamado prompts.chat, o antigo Awesome ChatGPT Prompts, com a maior coleção pública de prompts prontos.",
+          "Dá pra abrir, filtrar por tarefa e copiar o prompt sem pagar nada por ele."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 25 s",
+        "tela": "GRAVAR TELA: 15 a 20 s abrindo o prompts.chat e colando um prompt dentro do Claude",
+        "topicos": [
+          "Testei agora: achei um prompt pronto pra relatório de reunião e colei direto no Claude, sem ajustar quase nada."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "25 a 30 s",
+        "tela": "PROMPTS",
+        "topicos": [
+          "Isso só vale a pena se o seu problema é começar do zero. Se o seu prompt já é afinado pro seu processo, esse repositório não muda seu resultado.",
+          "Comenta PROMPTS que eu te mando o link e como organizar isso numa biblioteca sua."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdhgKEYiSwY/",
+      "perfil": "99hud",
+      "vezes": "59.8",
+      "molde": "dor em reais no gancho, mostra achado grátis rodando, fecha com comenta PALAVRA"
+    },
+    "fonte": {
+      "nome": "Molde interno (outliers.csv — 99hud, Reel sobre o prompts.chat)",
+      "link": ""
+    },
+    "isca_sugerida": "PROMPTS: o link do repositório e como organizar isso numa biblioteca sua"
+  },
+  {
+    "id": "2026-09-27-3",
+    "data": "2026-09-27",
+    "vaga": "meme",
+    "formato": "meme",
+    "horario_sugerido": "27/09 · 14:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "POV: a agenda finalmente sobrou uma tarde livre pra buscar minha filha"
+    ],
+    "o_que_se_ve": "entra rotina de trabalho, sai tarde livre pra buscar a filha",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "POV: A AGENDA FINALMENTE SOBROU UMA TARDE LIVRE",
+        "topicos": [
+          "sem fala"
+        ]
+      },
+      {
+        "bloco": "Virada",
+        "tempo": "3 a 8 s",
+        "tela": "cena real: saindo pra buscar a filha",
+        "topicos": [
+          "sem fala, cena real"
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "8 a 12 s",
+        "tela": "Siga @gabrielfaria.ia",
+        "topicos": [
+          "sem fala"
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdpAuUXBvPW/",
+      "perfil": "danmartell",
+      "vezes": "10.4",
+      "molde": "POV curto escrito na tela sobre algo que finalmente se resolve, cena real satisfatória, sem fala, 7 a 12 s"
+    },
+    "fonte": {
+      "nome": "Momento confirmado (moldes.md — Regra 4, 'a filha')",
+      "link": ""
+    },
+    "isca_sugerida": ""
   }
 ]
