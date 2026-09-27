@@ -263,7 +263,9 @@
     "legenda": "Antes de trocar de agência, deixa o Claude auditar a sua conta de anúncios.\n\nComenta GESTOR que eu te mando o link e o passo a passo para instalar.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#trafegopago #inteligenciaartificial #ia #claude #anuncios #marketingdigital #metaads",
     "formato": "descoberta",
     "capa_ms": 3050,
-    "gancho": "Antes de contratar a próxima agência, deixa o Claude cuidar dos seus anúncios"
+    "gancho": "Antes de contratar a próxima agência, deixa o Claude cuidar dos seus anúncios",
+    "aprovacao": true,
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-gestor-previa.mp4?v=1790529174"
   },
   {
     "id": "tut-comandos-v2",
