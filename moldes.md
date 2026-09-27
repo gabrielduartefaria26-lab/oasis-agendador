@@ -229,6 +229,7 @@ posta sozinho (demiti o social media) · tiny planet · primeira venda com 15 se
   para responder direct).
 - **Não misture sistemas.** A automação nativa da Meta só manda a mensagem; ela não grava
   planilha. Planilha, página e aviso por e-mail são do sistema próprio dele (isca DIRECT).
+- **Vídeo de ferramenta pede tela gravada:** toda ideia de descoberta ou tutorial traz no roteiro o pedido "GRAVAR TELA: 10 a 20 s da ferramenta rodando na sua conta (o que mostrar)". Ele autorizou pedir sempre (27/09); é a prova mais forte do motion.
 - **Meme é sem fala:** 7 a 12 s, texto na tela no segundo zero + cena real dele. Nunca roteiro
   narrado. Desde 27/09 todo meme parte de um meme VALIDADO (link do original obrigatório no
   campo referencia) e segue a Regra 2: mesmo texto-esqueleto, mesma cena-tipo, mesmo áudio; só o
