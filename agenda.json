@@ -418,7 +418,9 @@
     "legenda": "Prompt do zero é retrabalho. Tem muita gente que já testou antes de você.\n\nComenta BIBLIOTECA que eu te mando o link e os 10 prompts dela que eu mais uso.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#prompts #chatgpt #inteligenciaartificial #ia #claude #produtividade #ferramentasdeia",
     "formato": "descoberta",
     "capa_ms": 2500,
-    "gancho": "Liberaram de graça a maior biblioteca de prompts do mundo"
+    "gancho": "Liberaram de graça a maior biblioteca de prompts do mundo",
+    "aprovacao": true,
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-biblioteca-previa.mp4"
   },
   {
     "id": "tut-agendador",
