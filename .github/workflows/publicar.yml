@@ -28,6 +28,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # 27/09: o plantao abre o proprio substituto
 
 concurrency:
   group: publicar-oasis
@@ -46,6 +47,7 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           VIDEOS_BASE_URL: ${{ secrets.VIDEOS_BASE_URL }}
           SOMENTE: ${{ inputs.somente }}
+          GH_TOKEN: ${{ github.token }}
           ENSAIO: ${{ inputs.ensaio && '1' || '0' }}
           # ensaio e "somente" rodam uma vez e saem; o plantao e para a operacao normal.
           # So vale no disparo manual: no cron os inputs vem vazios, e vazio == false e
@@ -79,6 +81,12 @@ jobs:
             # traz agenda nova (posso ter agendado algo enquanto o plantao rodava)
             git pull -q --rebase origin main || true
             publicar_e_guardar || echo "falhou nesta volta, tento de novo em 2 min"
+            # 27/09/2026: o cron do GitHub chegou a atrasar 6 h e o post das 09:00 caiu no
+            # buraco entre dois plantoes (saiu 09:18). Perto das 5 h, este plantao abre o
+            # proprio substituto; o cancel-in-progress encerra este quando o novo entra.
+            if [ "$volta" = "150" ]; then
+              gh workflow run publicar.yml --ref main -f plantao=true && echo "substituto aberto" || echo "nao consegui abrir o substituto, fica o cron"
+            fi
             sleep 120
           done
           echo "plantao encerrado, o proximo cron abre outro"
