@@ -266,6 +266,17 @@
     "gancho": "Antes de contratar a próxima agência, deixa o Claude cuidar dos seus anúncios"
   },
   {
+    "id": "tut-comandos-v2",
+    "arquivo": "tut-comandos-v2.mp4",
+    "quando": "2026-09-29T16:30:00-03:00",
+    "legenda": "A resposta genérica não é culpa da IA. É do pedido.\n\nComenta COMANDOS que eu te mando mais 50 comandos para o ChatGPT pensar como estrategista do seu negócio.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #inteligenciaartificial #ia #prompts #produtividade #claude #negocios",
+    "formato": "tutorial",
+    "capa_ms": 1500,
+    "gancho": "Seu ChatGPT respondendo como estrategista com 5 comandos",
+    "aprovacao": true,
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-comandos-v2-previa.mp4"
+  },
+  {
     "id": "desc-ferramentas",
     "arquivo": "desc-ferramentas.mp4",
     "quando": "2026-09-29T19:00:00-03:00",
