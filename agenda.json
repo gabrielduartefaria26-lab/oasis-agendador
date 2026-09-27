@@ -235,6 +235,17 @@
     "aprovacao": true
   },
   {
+    "id": "visao-ia-familia",
+    "arquivo": "visao-ia-familia.mp4",
+    "quando": "2026-09-28T16:30:00-03:00",
+    "legenda": "Use a IA para ganhar dinheiro e ter mais tempo de qualidade com a sua família. Todo o resto é perda de tempo.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #ia #claude #empreendedorismo #negocios #produtividade #familia",
+    "formato": "visao",
+    "capa_ms": 800,
+    "gancho": "Use a IA para ganhar dinheiro e ter mais tempo de qualidade com sua família",
+    "aprovacao": true,
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/visao-ia-familia-previa.mp4"
+  },
+  {
     "id": "meme-ifood",
     "arquivo": "meme-ifood.mp4",
     "quando": "2026-09-28T19:00:00-03:00",
