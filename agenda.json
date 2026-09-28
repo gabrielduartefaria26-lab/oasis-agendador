@@ -345,6 +345,32 @@
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/funil-equipes-previa.mp4?v=1790579458"
   },
   {
+    "id": "ref-limite",
+    "arquivos": [
+      "ref-limite-slide-1.jpg",
+      "ref-limite-slide-2.jpg",
+      "ref-limite-slide-3.jpg",
+      "ref-limite-slide-4.jpg",
+      "ref-limite-slide-5.jpg",
+      "ref-limite-slide-6.jpg",
+      "ref-limite-slide-7.jpg"
+    ],
+    "quando": "2026-09-30T16:30:00-03:00",
+    "legenda": "Seu limite do Claude acaba antes do trabalho? 5 ferramentas grátis resolvem.\n\nTodas de código aberto; juntas passam de 260 mil estrelas no GitHub (dados de 28/09).\n\nO limite não acaba por falta de plano. Acaba por conversa bagunçada.\n\nComenta LIMITE que eu te mando os 5 links e o cuidado de cada um.\n\n#claude #claudecode #anthropic #inteligenciaartificial #ia #produtividade #ferramentasdeia #opensource",
+    "formato": "ferramenta",
+    "gancho": "Seu limite do Claude acaba antes do trabalho?",
+    "aprovacao": true,
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-7.jpg"
+    ]
+  },
+  {
     "id": "meme-tokens",
     "arquivo": "meme-tokens.mp4",
     "quando": "2026-09-30T19:00:00-03:00",
