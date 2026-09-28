@@ -591,6 +591,32 @@
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-biblioteca-previa.mp4?v=1790578116"
   },
   {
+    "id": "lote03-critico",
+    "arquivos": [
+      "lote03-critico-slide-1.jpg",
+      "lote03-critico-slide-2.jpg",
+      "lote03-critico-slide-3.jpg",
+      "lote03-critico-slide-4.jpg",
+      "lote03-critico-slide-5.jpg",
+      "lote03-critico-slide-6.jpg",
+      "lote03-critico-slide-7.jpg"
+    ],
+    "quando": "2026-10-05T15:00:00-03:00",
+    "legenda": "Se a IA concorda com tudo, o problema é a sua pergunta.\n\nMesma ideia, duas perguntas: uma ganha elogio, a outra acha o furo antes de você gastar.\n\nA IA amplifica o que você já é.\n\nComenta CRITICO que eu te mando as 5 frases e o prompt que eu uso antes de decisão grande.\n\n#inteligenciaartificial #ia #chatgpt #claude #tomadadedecisao #empreendedorismo #negocios #prompts",
+    "formato": "ferramenta",
+    "gancho": "Se a IA concorda com tudo, o problema é a sua pergunta",
+    "aprovacao": true,
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-7.jpg"
+    ]
+  },
+  {
     "id": "tut-agendador",
     "arquivo": "tut-agendador.mp4",
     "quando": "2026-10-06T12:00:00-03:00",
