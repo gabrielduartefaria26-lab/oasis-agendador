@@ -414,6 +414,32 @@
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-cerebro-previa.mp4?v=1790578031"
   },
   {
+    "id": "ref-atalho",
+    "arquivos": [
+      "ref-atalho-slide-1.jpg",
+      "ref-atalho-slide-2.jpg",
+      "ref-atalho-slide-3.jpg",
+      "ref-atalho-slide-4.jpg",
+      "ref-atalho-slide-5.jpg",
+      "ref-atalho-slide-6.jpg",
+      "ref-atalho-slide-7.jpg"
+    ],
+    "quando": "2026-10-01T16:30:00-03:00",
+    "legenda": "8 atalhos que fazem o ChatGPT trabalhar com duas palavras.\n\nNão são comandos oficiais: são atalhos de pedido que ele entende, e dá para deixar salvos nas instruções.\n\nO atalho é o formato. O conteúdo ainda é você que dá.\n\nComenta ATALHO que eu te mando os 8 com o prompt completo por trás.\n\n#chatgpt #openai #inteligenciaartificial #ia #produtividade #prompts #dicasdeia #ferramentasdeia",
+    "formato": "ferramenta",
+    "gancho": "8 atalhos que fazem o ChatGPT trabalhar com duas palavras",
+    "aprovacao": true,
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-atalho-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-atalho-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-atalho-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-atalho-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-atalho-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-atalho-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-atalho-slide-7.jpg"
+    ]
+  },
+  {
     "id": "tut-ebook",
     "arquivo": "tut-ebook.mp4",
     "quando": "2026-10-01T19:00:00-03:00",
