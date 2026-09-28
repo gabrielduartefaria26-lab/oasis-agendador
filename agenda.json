@@ -415,6 +415,32 @@
     "gancho": "Tem empresas pagando para aprender a usar o ChatGPT"
   },
   {
+    "id": "lote03-seguro",
+    "arquivos": [
+      "lote03-seguro-slide-1.jpg",
+      "lote03-seguro-slide-2.jpg",
+      "lote03-seguro-slide-3.jpg",
+      "lote03-seguro-slide-4.jpg",
+      "lote03-seguro-slide-5.jpg",
+      "lote03-seguro-slide-6.jpg",
+      "lote03-seguro-slide-7.jpg"
+    ],
+    "quando": "2026-10-03T09:00:00-03:00",
+    "legenda": "O ChatGPT agora mostra quem entrou na sua conta.\n\nDesde 25/09, em todos os planos: Configurações, Segurança e login, Histórico de segurança (fonte: notas de versão do ChatGPT).\n\nConta de IA virou arquivo da empresa. Trate como tal.\n\nComenta SEGURO que eu te mando o checklist de 5 minutos para blindar a conta.\n\n#chatgpt #openai #segurancadigital #inteligenciaartificial #ia #empreendedorismo #produtividade #gestao",
+    "formato": "descoberta",
+    "gancho": "O ChatGPT agora mostra quem entrou na sua conta",
+    "aprovacao": true,
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-7.jpg"
+    ]
+  },
+  {
     "id": "tut-metricas",
     "arquivo": "tut-metricas.mp4",
     "quando": "2026-10-03T12:00:00-03:00",
