@@ -631,7 +631,6 @@
     "legenda": "5 comandos que fazem o Claude virar seu professor.\n\nBuscador responde; professor pergunta, corrige e cobra. Os comandos mudam o papel da IA numa conversa só.\n\nConhecimento que não vira ação é entretenimento.\n\nComenta TUTOR que eu te mando os 5 comandos completos.\n\n#claude #anthropic #inteligenciaartificial #ia #aprendizado #estudos #produtividade #chatgpt",
     "formato": "ferramenta",
     "gancho": "5 comandos para o Claude virar seu professor",
-    "aprovacao": true,
     "previa": [
       "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-tutor-slide-1.jpg",
       "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-tutor-slide-2.jpg",
