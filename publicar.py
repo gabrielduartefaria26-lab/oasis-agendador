@@ -132,7 +132,9 @@ def main():
                 and not i.get("aprovacao")   # espera o Gabriel aprovar no quadro
                 # 28/09: aprovado depois de vencido NAO sai sozinho (o ZapMeta v2 saiu as 08:00 do dia
                 # seguinte porque ele aprovou o card atrasado). Mais de 3 h de atraso = so manual.
-                and (SOMENTE or ENSAIO or agora - datetime.fromisoformat(i["quando"]) <= timedelta(hours=3))
+                # So vale para quem passou pelo quadro de aprovacao (tem "previa"); post normal atrasado
+                # pelo GitHub continua saindo.
+                and (SOMENTE or ENSAIO or not i.get("previa") or agora - datetime.fromisoformat(i["quando"]) <= timedelta(hours=3))
                 and (not SOMENTE or i["id"] == SOMENTE)]
     if not vencidos:
         print("nada a publicar")
