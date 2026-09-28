@@ -294,7 +294,8 @@
     "formato": "tutorial",
     "capa_ms": 2140,
     "gancho": "Seu ChatGPT respondendo como estrategista com 5 comandos",
-    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-comandos-v2-previa.mp4?v=1790552495"
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-comandos-v2-previa.mp4?v=1790552495",
+    "aprovacao": true
   },
   {
     "id": "desc-ferramentas",
@@ -327,7 +328,8 @@
     "legenda": "Seguidor não paga boleto. Contato na mão do time de vendas paga.\n\nComenta FUNIL que eu te mando o mapa completo e o kit para montar o seu.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#automacao #instagram #vendas",
     "formato": "bastidor",
     "gancho": "Esse mapa te mostra como transformar seguidores em clientes",
-    "capa_ms": 1500
+    "capa_ms": 1500,
+    "aprovacao": true
   },
   {
     "id": "meme-tokens",
@@ -370,7 +372,8 @@
     "formato": "tutorial",
     "capa_ms": 2520,
     "gancho": "A maioria das empresas usa IA como se fosse um estagiário",
-    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-cerebro-previa.mp4?v=1790552550"
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-cerebro-previa.mp4?v=1790552550",
+    "aprovacao": true
   },
   {
     "id": "tut-ebook",
@@ -422,7 +425,8 @@
     "formato": "descoberta",
     "capa_ms": 2340,
     "gancho": "Agora você pode ligar as métricas do seu Instagram com o Claude",
-    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-metricas-previa.mp4?v=1790552602"
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-metricas-previa.mp4?v=1790552602",
+    "aprovacao": true
   },
   {
     "id": "tut-financeiro",
@@ -440,7 +444,8 @@
     "formato": "tutorial",
     "capa_ms": 3780,
     "gancho": "Você pagou caro pelo seu site e o Google nem sabe que ele existe",
-    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-indexa-previa.mp4?v=1790552991"
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-indexa-previa.mp4?v=1790552991",
+    "aprovacao": true
   },
   {
     "id": "tut-biblioteca",
@@ -450,7 +455,8 @@
     "formato": "descoberta",
     "capa_ms": 1940,
     "gancho": "Liberaram de graça a maior biblioteca de prompts do mundo",
-    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-biblioteca-previa.mp4?v=1790553021"
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-biblioteca-previa.mp4?v=1790553021",
+    "aprovacao": true
   },
   {
     "id": "tut-agendador",
@@ -468,6 +474,7 @@
     "formato": "descoberta",
     "capa_ms": 3050,
     "gancho": "Antes de contratar a próxima agência, deixa o Claude cuidar dos seus anúncios",
-    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-gestor-previa.mp4?v=1790574782"
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-gestor-previa.mp4?v=1790574782",
+    "aprovacao": true
   }
 ]
