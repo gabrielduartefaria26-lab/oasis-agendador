@@ -44,6 +44,17 @@ os.makedirs("out", exist_ok=True)
 cache = {}
 for linha in os.environ["ALVOS"].strip().splitlines():
     partes = linha.split()
+    if len(partes) == 2 and partes[1].startswith("top"):   # "usuario top12": os N vídeos com mais interação dos últimos 100
+        u, n = partes[0].lstrip("@"), int(partes[1][3:] or 10)
+        campos = f"business_discovery.username({u}){{media.limit(100){{permalink,media_url,caption,media_type,like_count,comments_count,timestamp}}}}"
+        todos = [p for p in chamar({"fields": campos})["business_discovery"]["media"]["data"] if p.get("media_type") == "VIDEO" and p.get("media_url")]
+        todos.sort(key=lambda p: p.get("like_count", 0) + p.get("comments_count", 0), reverse=True)
+        for p in todos[:n]:
+            nome = f"out/{u}__{codigo(p['permalink'])}"
+            urllib.request.urlretrieve(p["media_url"], nome + ".mp4")
+            open(nome + ".txt", "w").write(f"{p.get('like_count')} curtidas · {p.get('comments_count')} comentarios · {p.get('timestamp')}\n{p['permalink']}\n\n{p.get('caption') or ''}")
+            print(f"{codigo(p['permalink'])}: ok ({u})")
+        continue
     link = partes[-1]
     candidatos = partes[:1] if len(partes) > 1 else perfis_dele()   # só o link: procura nos perfis dele
     alvo = usuario = None
