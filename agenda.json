@@ -421,6 +421,32 @@
     "gancho": "Vendi R$ 4.000 em IA com 15 seguidores"
   },
   {
+    "id": "ref-canal",
+    "arquivos": [
+      "ref-canal-slide-1.jpg",
+      "ref-canal-slide-2.jpg",
+      "ref-canal-slide-3.jpg",
+      "ref-canal-slide-4.jpg",
+      "ref-canal-slide-5.jpg",
+      "ref-canal-slide-6.jpg",
+      "ref-canal-slide-7.jpg"
+    ],
+    "quando": "2026-10-02T16:30:00-03:00",
+    "legenda": "11 skills grátis que tocam um canal de YouTube.\n\nDo roteiro com gancho pontuado à resposta no comentário; código aberto, licença MIT, criadas em 16/09.\n\nEla escreve. Quem publica é você.\n\nComenta CANAL que eu te mando como instalar e o arquivo de voz que você preenche antes.\n\n#youtube #claude #inteligenciaartificial #ia #criadordeconteudo #youtuber #produtividade #automacao",
+    "formato": "ferramenta",
+    "gancho": "11 skills grátis que tocam um canal de YouTube",
+    "aprovacao": true,
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-canal-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-canal-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-canal-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-canal-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-canal-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-canal-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-canal-slide-7.jpg"
+    ]
+  },
+  {
     "id": "lofi-criar",
     "arquivo": "lofi-criar.mp4",
     "quando": "2026-10-02T19:00:00-03:00",
