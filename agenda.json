@@ -485,6 +485,32 @@
     "gancho": "O CLAUDE vai salvar sua vida financeira em um final de semana"
   },
   {
+    "id": "lote03-ads",
+    "arquivos": [
+      "lote03-ads-slide-1.jpg",
+      "lote03-ads-slide-2.jpg",
+      "lote03-ads-slide-3.jpg",
+      "lote03-ads-slide-4.jpg",
+      "lote03-ads-slide-5.jpg",
+      "lote03-ads-slide-6.jpg",
+      "lote03-ads-slide-7.jpg"
+    ],
+    "quando": "2026-10-04T09:00:00-03:00",
+    "legenda": "O ChatGPT agora tem anúncio no Brasil. E quem aparece ali ainda não é você.\n\nAnúncio para quem usa o plano grátis desde 04/08 e compra direta pelas empresas desde 06/08 (fonte: mkt4edu, com dados da OpenAI).\n\nO anúncio pega quem já está perguntando pelo que você vende.\n\nComenta ADS que eu te mando o passo a passo da primeira campanha de teste.\n\n#chatgpt #openai #trafegopago #marketingdigital #inteligenciaartificial #ia #anuncios #empreendedorismo",
+    "formato": "descoberta",
+    "gancho": "O ChatGPT agora tem anúncio no Brasil",
+    "aprovacao": true,
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-ads-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-ads-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-ads-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-ads-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-ads-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-ads-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-ads-slide-7.jpg"
+    ]
+  },
+  {
     "id": "tut-indexa",
     "arquivo": "tut-indexa.mp4",
     "quando": "2026-10-04T12:00:00-03:00",
