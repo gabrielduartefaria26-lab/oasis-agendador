@@ -14,7 +14,8 @@ rafa.grandi
 fabianocarvalhojr
 99hud
 fabio_cavalcant
-nick_saraev   # 27/09: a linha que ele quer seguir (edição + fala); estudo em Documentos Claude/_pesquisa
+# 27/09: nick_saraev é a linha que ele quer seguir (edição + fala); estudo em Documentos Claude/_pesquisa
+nick_saraev
 
 ## ia
 odanilogato
