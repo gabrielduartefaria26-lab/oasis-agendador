@@ -135,7 +135,7 @@
     ],
     "quando": "2026-09-26T09:00:00-03:00",
     "legenda": "A Anthropic lançou um Claude só para pequena empresa, com 43 tarefas prontas.\n\nJá passou de 900 mil instalações e em 15/09 ganhou 27 integrações novas (fonte: blog oficial do Claude).\n\nO fluxo pronto só rende em cima de processo escrito. Sem isso, é bagunça mais rápida.\n\nComenta EMPRESA que eu te mando o passo a passo e os 5 fluxos que eu ligaria primeiro.\n\n#claude #anthropic #inteligenciaartificial #ia #pequenasempresas #empreendedorismo #automacao #gestao",
-    "formato": "descoberta",
+    "formato": "carrossel",
     "gancho": "A Anthropic lançou um Claude só para pequena empresa"
   },
   {
@@ -176,7 +176,7 @@
     ],
     "quando": "2026-09-27T09:00:00-03:00",
     "legenda": "Com uma foto a IA inventou meu rosto. Com três, acertou.\n\nComenta PROMPT que eu te mando os 5 prompts prontos para copiar e colar, com o jeito certo de mandar as suas fotos.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #ia #gemini #prompts #geracaodeimagem #cinema #fotografia",
-    "formato": "ferramenta",
+    "formato": "carrossel",
     "gancho": "Filmes em PROMPTS · Parte 1"
   },
   {
@@ -219,7 +219,7 @@
     ],
     "quando": "2026-09-28T09:00:00-03:00",
     "legenda": "O ChatGPT agora funciona dentro do Word, até no plano grátis.\n\nSaiu em 17/09, numa barra lateral dentro do documento, com limite de uso no plano grátis (fonte: notas de versão do ChatGPT).\n\nO ganho não é escrever mais rápido. É parar de levar o documento para fora de onde ele mora.\n\nComenta WORD que eu te mando os 10 pedidos que eu uso em contrato, proposta e ata.\n\n#chatgpt #openai #microsoftword #inteligenciaartificial #ia #produtividade #empreendedorismo #ferramentas",
-    "formato": "descoberta",
+    "formato": "carrossel",
     "gancho": "O ChatGPT agora funciona dentro do Word"
   },
   {
@@ -231,16 +231,6 @@
     "capa_ms": 2920,
     "gancho": "O Claude tira do Google Maps a lista de empresas da sua cidade",
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-google-maps-previa.mp4?v=1790552415"
-  },
-  {
-    "id": "visao-ia-familia",
-    "arquivo": "visao-ia-familia.mp4",
-    "quando": "2026-09-28T16:30:00-03:00",
-    "legenda": "Use a IA para ganhar dinheiro e ter mais tempo de qualidade com a sua família. Todo o resto é perda de tempo.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #ia #claude #empreendedorismo #negocios #produtividade #familia",
-    "formato": "visao",
-    "capa_ms": 800,
-    "gancho": "Use a IA para ganhar dinheiro e ter mais tempo de qualidade com sua família",
-    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/visao-ia-familia-previa.mp4"
   },
   {
     "id": "meme-ifood",
@@ -272,7 +262,7 @@
     ],
     "quando": "2026-09-29T09:00:00-03:00",
     "legenda": "O Claude agora faz design, apresentação e documento no meio de qualquer conversa.\n\nDesde 16/09 o chat e o Cowork viraram um aplicativo só; a liberação chega aos poucos nos planos Pro e Max (fonte: notas de versão do Claude).\n\nA ferramenta desenha o que você mandar. Sem referência, sai design genérico em volume.\n\nComenta DESIGN que eu te mando o prompt que transforma o Claude no seu editor de carrosséis.\n\n#claude #claudedesign #anthropic #inteligenciaartificial #ia #design #carrossel #marketingdigital",
-    "formato": "descoberta",
+    "formato": "carrossel",
     "gancho": "O Claude agora faz design no meio de qualquer conversa"
   },
   {
@@ -315,7 +305,7 @@
     ],
     "quando": "2026-09-30T09:00:00-03:00",
     "legenda": "A Anthropic abriu uma loja com mais de 2.000 conectores para o Claude.\n\nSaiu em 23/09 e vale para todo plano, pessoal ou empresa (fonte: blog oficial do Claude).\n\nDois mil conectores não são dois mil motivos para ligar. Comece por onde a informação mora.\n\nComenta CONECTA que eu te mando a ordem em que eu ligaria numa empresa, com o cuidado de cada um.\n\n#claude #anthropic #inteligenciaartificial #ia #automacao #gestao #empreendedorismo #produtividade",
-    "formato": "descoberta",
+    "formato": "carrossel",
     "gancho": "A Anthropic abriu uma loja com mais de 2.000 conectores"
   },
   {
@@ -359,7 +349,7 @@
     ],
     "quando": "2026-10-01T09:00:00-03:00",
     "legenda": "7 cursos oficiais de IA, grátis e com certificado.\n\nSão da OpenAI Academy e da Anthropic Academy, em inglês, sem custo e com certificado no final.\n\nCurso sem aplicação é entretenimento. Faça um por semana e use no mesmo dia.\n\nComenta CURSOS que eu te mando os 7 links na ordem em que eu faria.\n\n#inteligenciaartificial #ia #cursosgratuitos #chatgpt #claude #openai #anthropic #aprendizado",
-    "formato": "ferramenta",
+    "formato": "carrossel",
     "gancho": "7 cursos oficiais de IA grátis e com certificado"
   },
   {
@@ -393,7 +383,7 @@
     ],
     "quando": "2026-10-02T09:00:00-03:00",
     "legenda": "7 tarefas, 21 IAs: a certa para cada uma.\n\nVocê não precisa de 21. Precisa da que resolve a tarefa que mais te toma tempo, testada por uma semana antes de pagar.\n\nFerramenta nenhuma salva tarefa que ninguém sabe fazer.\n\nComenta LISTA que eu te mando as 21 com o endereço e o que cada uma resolve.\n\n#inteligenciaartificial #ia #ferramentasdeia #chatgpt #claude #produtividade #automacao #empreendedorismo",
-    "formato": "ferramenta",
+    "formato": "carrossel",
     "gancho": "7 tarefas, 21 IAs, a certa para cada uma"
   },
   {
@@ -452,6 +442,16 @@
     "capa_ms": 3780,
     "gancho": "Você pagou caro pelo seu site e o Google nem sabe que ele existe",
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-indexa-previa.mp4?v=1790578088"
+  },
+  {
+    "id": "visao-ia-familia",
+    "arquivo": "visao-ia-familia.mp4",
+    "quando": "2026-10-04T21:30:00-03:00",
+    "legenda": "Use a IA para ganhar dinheiro e ter mais tempo de qualidade com a sua família. Todo o resto é perda de tempo.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #ia #claude #empreendedorismo #negocios #produtividade #familia",
+    "formato": "visao",
+    "capa_ms": 800,
+    "gancho": "Use a IA para ganhar dinheiro e ter mais tempo de qualidade com sua família",
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/visao-ia-familia-previa.mp4"
   },
   {
     "id": "tut-biblioteca",
