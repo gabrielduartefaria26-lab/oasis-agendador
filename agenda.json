@@ -406,6 +406,17 @@
     "gancho": "Vendi R$ 4.000 em IA com 15 seguidores"
   },
   {
+    "id": "lofi-criar",
+    "arquivo": "lofi-criar.mp4",
+    "quando": "2026-10-02T19:00:00-03:00",
+    "legenda": "A IA não veio para você passar ainda mais horas na frente do computador. Veio para te devolver tempo: com a sua família, com você e com as ideias que ficaram guardadas.\n\nFomos feitos para criar.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #proposito #empreendedorismo",
+    "formato": "lofi",
+    "capa_ms": 1000,
+    "gancho": "A IA foi criada para que você tenha mais tempo para CRIAR!",
+    "aprovacao": true,
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lofi-criar-previa.mp4"
+  },
+  {
     "id": "visao-saas",
     "arquivo": "visao-saas.mp4",
     "quando": "2026-10-02T21:30:00-03:00",
