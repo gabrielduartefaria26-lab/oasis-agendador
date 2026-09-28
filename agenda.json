@@ -651,6 +651,30 @@
     "gancho": "Eu demiti o social media e agora o Claude faz todas as minhas postagens"
   },
   {
+    "id": "lote03-code",
+    "arquivos": [
+      "lote03-code-slide-1.jpg",
+      "lote03-code-slide-2.jpg",
+      "lote03-code-slide-3.jpg",
+      "lote03-code-slide-4.jpg",
+      "lote03-code-slide-5.jpg",
+      "lote03-code-slide-6.jpg"
+    ],
+    "quando": "2026-10-06T15:00:00-03:00",
+    "legenda": "7 coisas que eu faço com o Claude Code. Nenhuma é programar.\n\nTudo roda na minha empresa hoje, inclusive este carrossel, que saiu de um arquivo de texto.\n\nEle não é ferramenta de programador. É um funcionário que obedece processo escrito.\n\nComenta CODE que eu te mando o mapa dos 7.\n\n#claudecode #claude #anthropic #inteligenciaartificial #ia #automacao #produtividade #empreendedorismo",
+    "formato": "ferramenta",
+    "gancho": "7 coisas que faço com o Claude Code",
+    "aprovacao": true,
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-code-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-code-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-code-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-code-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-code-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-code-slide-6.jpg"
+    ]
+  },
+  {
     "id": "tut-gestor",
     "arquivo": "tut-gestor.mp4",
     "quando": "2026-10-07T12:00:00-03:00",
