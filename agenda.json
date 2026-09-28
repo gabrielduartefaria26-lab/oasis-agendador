@@ -208,15 +208,6 @@
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-zapmeta-v2-previa.mp4?v=1790552379"
   },
   {
-    "id": "bastidor-capcut",
-    "arquivo": "bastidor-capcut.mp4",
-    "quando": "2026-09-27T23:52:00-03:00",
-    "legenda": "Cancelei o CapCut. Agora eu gravo, mando para o Claude e o Reel volta pronto, com motion, legenda e som.\n\nComenta VIDEO que eu te mando o kit com o motor de edição e a skill que eu uso.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#claudeai #edicaodevideo #inteligenciaartificial",
-    "formato": "bastidor",
-    "capa_ms": 1500,
-    "gancho": "Cancelei o CapCut: o Claude faz 100% da minha edição"
-  },
-  {
     "id": "lote02-word",
     "arquivos": [
       "lote02-word-slide-1.jpg",
@@ -287,15 +278,13 @@
     "gancho": "O Claude agora faz design no meio de qualquer conversa"
   },
   {
-    "id": "tut-gestor",
-    "arquivo": "tut-gestor.mp4",
+    "id": "bastidor-capcut",
+    "arquivo": "bastidor-capcut.mp4",
     "quando": "2026-09-29T12:00:00-03:00",
-    "legenda": "Antes de trocar de agência, deixa o Claude auditar a sua conta de anúncios.\n\nComenta GESTOR que eu te mando o link e o passo a passo para instalar.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#trafegopago #inteligenciaartificial #ia #claude #anuncios #marketingdigital #metaads",
-    "formato": "descoberta",
-    "capa_ms": 3050,
-    "gancho": "Antes de contratar a próxima agência, deixa o Claude cuidar dos seus anúncios",
-    "aprovacao": true,
-    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-gestor-previa.mp4?v=1790552458"
+    "legenda": "Cancelei o CapCut. Agora eu gravo, mando para o Claude e o Reel volta pronto, com motion, legenda e som.\n\nComenta VIDEO que eu te mando o kit com o motor de edição e a skill que eu uso.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#claudeai #edicaodevideo #inteligenciaartificial",
+    "formato": "bastidor",
+    "capa_ms": 1500,
+    "gancho": "Cancelei o CapCut: o Claude faz 100% da minha edição"
   },
   {
     "id": "tut-comandos-v2",
@@ -475,5 +464,16 @@
     "legenda": "Eu demiti o social media. Agora o Claude posta tudo sozinho aqui no Instagram.\n\nVocê só precisa de três contas: Claude, GitHub e Instagram profissional.\n\nComenta DOCUMENTO que eu te mando o kit e o guia passo a passo.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #automacao",
     "formato": "tutorial",
     "gancho": "Eu demiti o social media e agora o Claude faz todas as minhas postagens"
+  },
+  {
+    "id": "tut-gestor",
+    "arquivo": "tut-gestor.mp4",
+    "quando": "2026-10-07T12:00:00-03:00",
+    "legenda": "Antes de trocar de agência, deixa o Claude auditar a sua conta de anúncios.\n\nComenta GESTOR que eu te mando o link e o passo a passo para instalar.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#trafegopago #inteligenciaartificial #ia #claude #anuncios #marketingdigital #metaads",
+    "formato": "descoberta",
+    "capa_ms": 3050,
+    "gancho": "Antes de contratar a próxima agência, deixa o Claude cuidar dos seus anúncios",
+    "aprovacao": true,
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-gestor-previa.mp4?v=1790552458"
   }
 ]
