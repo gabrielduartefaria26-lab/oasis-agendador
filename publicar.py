@@ -9,7 +9,7 @@ Tres formatos, deduzidos do proprio item da agenda:
   Carrossel  "arquivos": ["slide-1.jpg", "slide-2.jpg", ...]
 """
 import json, os, sys, time, urllib.error, urllib.parse, urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 API = "https://graph.facebook.com/v21.0"
 TOKEN = os.environ["IG_TOKEN"]
@@ -130,6 +130,9 @@ def main():
                 if (ENSAIO or datetime.fromisoformat(i["quando"]) <= agora)
                 and pendente(i)
                 and not i.get("aprovacao")   # espera o Gabriel aprovar no quadro
+                # 28/09: aprovado depois de vencido NAO sai sozinho (o ZapMeta v2 saiu as 08:00 do dia
+                # seguinte porque ele aprovou o card atrasado). Mais de 3 h de atraso = so manual.
+                and (SOMENTE or ENSAIO or agora - datetime.fromisoformat(i["quando"]) <= timedelta(hours=3))
                 and (not SOMENTE or i["id"] == SOMENTE)]
     if not vencidos:
         print("nada a publicar")
