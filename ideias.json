@@ -349,5 +349,304 @@
       "link": ""
     },
     "isca_sugerida": ""
+  },
+  {
+    "id": "2026-09-28-1",
+    "data": "2026-09-28",
+    "vaga": "carrossel",
+    "formato": "carrossel",
+    "horario_sugerido": "03/10 · 09:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Contratar social media pra cuidar do Instagram custa mais do que a maioria das empresas pequenas consegue pagar todo mês.",
+      "Enquanto você paga mensalidade de social media pra postar por você, esse repositório aberto faz o Claude cuidar do Instagram inteiro de graça.",
+      "Ninguém devia estar pagando mensalidade só pra escrever legenda e responder comentário."
+    ],
+    "o_que_se_ve": "entra perfil de Instagram sem gestão, sai Claude com as skills instaladas cuidando de legenda, resposta e métrica sozinho",
+    "roteiro": [
+      {
+        "bloco": "Slide 1",
+        "tempo": "capa",
+        "tela": "VOCÊ PAGA SOCIAL MEDIA PRA FAZER ISSO",
+        "topicos": [
+          "Contratar social media pra cuidar do Instagram custa mais do que a maioria das empresas pequenas consegue pagar todo mês."
+        ]
+      },
+      {
+        "bloco": "Slide 2",
+        "tempo": "entrega",
+        "tela": "13 skills abertas no GitHub",
+        "topicos": [
+          "Alguém abriu no GitHub 13 skills que ensinam o Claude a cuidar de um Instagram inteiro, de graça."
+        ]
+      },
+      {
+        "bloco": "Slide 3",
+        "tempo": "entrega",
+        "tela": "GRAVAR TELA: print das 5 skills instaladas",
+        "topicos": [
+          "Instalei as 5 que mais resolvem: legenda, resposta de comentário, ideia de conteúdo, métrica da semana e organização da fila de posts."
+        ]
+      },
+      {
+        "bloco": "Slide 4",
+        "tempo": "critério",
+        "tela": "O QUE ISSO NÃO FAZ",
+        "topicos": [
+          "Isso não substitui quem pensa a estratégia. Substitui a parte operacional que trava a maioria das empresas pequenas."
+        ]
+      },
+      {
+        "bloco": "Slide 5",
+        "tempo": "fecho",
+        "tela": "SKILLS",
+        "topicos": [
+          "Comenta SKILLS que eu te mando o link das 13 e o passo a passo de instalação."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/Ddw84SEiXwA/",
+      "perfil": "99hud",
+      "vezes": "85.7",
+      "molde": "checklist de skills grátis do GitHub, mostra instalação, fecha com comenta PALAVRA pela lista"
+    },
+    "fonte": {
+      "nome": "Molde interno (outliers.csv — 99hud, Reel e carrossel sobre as 13 skills de Instagram no GitHub)",
+      "link": ""
+    },
+    "isca_sugerida": "SKILLS: o link das 13 skills e o passo a passo de instalação"
+  },
+  {
+    "id": "2026-09-28-2",
+    "data": "2026-09-28",
+    "vaga": "quente",
+    "formato": "descoberta",
+    "horario_sugerido": "08/10 · 12:00",
+    "fala_com": "quem usa IA",
+    "aberturas": [
+      "Toda empresa que testa IA de verdade esbarra na mesma conta: o limite acaba antes do mês fechar.",
+      "Quem usa Claude Code todo dia sabe a hora exata em que o limite trava o trabalho no meio da tarefa.",
+      "Ninguém devia pagar de novo por um limite que já foi batido no meio do mês."
+    ],
+    "o_que_se_ve": "entra Claude Code travado no limite de uso, sai Claude Code rodando de novo com créditos grátis de outros provedores, sem trocar de ferramenta",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "O LIMITE ACABA ANTES DO MÊS",
+        "topicos": [
+          "Toda empresa que testa IA de verdade esbarra na mesma conta: o limite acaba antes do mês fechar."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "instalando o FreeLLMAPI",
+        "topicos": [
+          "Existe uma ferramenta aberta chamada FreeLLMAPI que junta o plano grátis de 34 provedores diferentes atrás de um único endereço.",
+          "Ela troca de provedor sozinha quando um deles bate o limite, e dá pra ligar direto no Claude Code sem mexer em nada manualmente."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 25 s",
+        "tela": "GRAVAR TELA: 15 a 20 s instalando e rodando o Claude Code com o FreeLLMAPI, sem chave paga",
+        "topicos": [
+          "Testei agora: instalei, rodei o comando de abrir o Claude Code por ele, e ele respondeu sem eu ter cadastrado nenhuma chave paga."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "25 a 30 s",
+        "tela": "LIMITE",
+        "topicos": [
+          "Isso só vale a pena pra quem sente o limite pesar no bolso. Se sua empresa já paga plano cheio sem dor nenhuma, o ganho aqui é zero.",
+          "Comenta LIMITE que eu te mando o passo a passo de instalação."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/Ddzhnw4lDQ9/",
+      "perfil": "99hud",
+      "vezes": "69.9",
+      "molde": "dor em reais no gancho sobre o limite pago, mostra a ferramenta grátis rodando, fecha com comenta PALAVRA"
+    },
+    "fonte": {
+      "nome": "FreeLLMAPI — projeto open source no GitHub (34 provedores gratuitos, mais de 22 mil estrelas)",
+      "link": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    "isca_sugerida": "LIMITE: o passo a passo de como instalar o FreeLLMAPI e ligar no Claude Code"
+  },
+  {
+    "id": "2026-09-28-3",
+    "data": "2026-09-28",
+    "vaga": "meme",
+    "formato": "meme",
+    "horario_sugerido": "28/09 · 14:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "CLAUDE & EU TREINANDO PESADO"
+    ],
+    "o_que_se_ve": "entra Claude trabalhando sozinho na tela, sai Gabriel treinando (cena real do treino)",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "CLAUDE TRABALHANDO PESADO",
+        "topicos": [
+          "sem fala, tela cheia de tarefas rodando sozinhas"
+        ]
+      },
+      {
+        "bloco": "Virada",
+        "tempo": "3 a 8 s",
+        "tela": "EU TREINANDO PESADO",
+        "topicos": [
+          "sem fala, cena real do treino"
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "8 a 12 s",
+        "tela": "Siga @gabrielfaria.ia",
+        "topicos": [
+          "sem fala"
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdjSf_oum-j/",
+      "perfil": "gabrielfaria.ia (post próprio)",
+      "vezes": "n/d",
+      "molde": "split Claude trabalhando vs Gabriel vivendo a vida, mesma estrutura do maior meme já publicado na própria conta (1.946 de alcance), troca só a cena de vida (regra 4: o treino)"
+    },
+    "fonte": {
+      "nome": "Molde interno (metricas.csv — maior meme da própria conta, 21/09)",
+      "link": ""
+    },
+    "isca_sugerida": ""
+  },
+  {
+    "id": "2026-09-28-4",
+    "data": "2026-09-28",
+    "vaga": "quente",
+    "formato": "descoberta",
+    "horario_sugerido": "30/09 · 16:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Lead que comenta e não recebe resposta rápida vira venda perdida, e a maioria das empresas pequenas não tem nada pra evitar isso.",
+      "Enquanto sua empresa não tem um quadro de vendas dentro do próprio WhatsApp, lead esfria na conversa.",
+      "CRM sempre pareceu coisa de empresa grande, com mensalidade de empresa grande."
+    ],
+    "o_que_se_ve": "entra conversa de WhatsApp sem organização, sai quadro kanban com cada lead numa coluna e um agente respondendo sozinho",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "CRM SEMPRE PARECEU COISA DE EMPRESA GRANDE",
+        "topicos": [
+          "CRM sempre pareceu coisa de empresa grande, com mensalidade de empresa grande."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "instalando o GoStarter no WhatsApp Web",
+        "topicos": [
+          "Existe uma extensão grátis chamada GoStarter que põe um CRM com IA direto dentro do WhatsApp Web.",
+          "Ela cria um quadro kanban da conversa, com etapa de lead, qualificação e proposta, e ainda tem um agente que atende sozinho."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 25 s",
+        "tela": "GRAVAR TELA: 15 a 20 s abrindo o WhatsApp Web com a extensão instalada, movendo um card no kanban",
+        "topicos": [
+          "Testei agora: instalei, abri uma conversa e o card já apareceu sozinho no quadro, sem eu cadastrar nada na mão."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "25 a 30 s",
+        "tela": "KANBAN",
+        "topicos": [
+          "Isso só vale a pena se seu funil ainda mora na cabeça de alguém. Se você já tem CRM redondo, essa versão grátis não muda seu jogo.",
+          "Comenta KANBAN que eu te mando o link e como configurar isso na sua empresa."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/Dc8gnHJIsA1/",
+      "perfil": "allesinisgalli",
+      "vezes": "16.9",
+      "molde": "dor em reais no gancho sobre lead perdido, mostra achado grátis rodando, fecha com comenta PALAVRA"
+    },
+    "fonte": {
+      "nome": "GoStarter.ai — extensão de CRM com IA e kanban grátis para WhatsApp Web",
+      "link": "https://chromewebstore.google.com/detail/gostarterai-crm-para-what/idplclpndjdljjcpphbcaonhidhlgcfc"
+    },
+    "isca_sugerida": "KANBAN: o link do GoStarter e como configurar isso na sua empresa"
+  },
+  {
+    "id": "2026-09-28-5",
+    "data": "2026-09-28",
+    "vaga": "case",
+    "formato": "bastidor",
+    "horario_sugerido": "29/09 · 21:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Minha esteira de conteúdo publica sozinha enquanto eu durmo, e isso não é sorte, é sistema.",
+      "Enquanto eu dormia essa noite, minha operação de conteúdo já tinha publicado, sem eu abrir uma tela sequer.",
+      "A pergunta que empresário nenhum devia parar de fazer é: o que na minha empresa ainda depende de mim acordado pra acontecer?"
+    ],
+    "o_que_se_ve": "entra fila de posts programada, sai post publicado sozinho de madrugada, sem ele tocar em nada",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "PUBLICOU SOZINHO ENQUANTO EU DORMIA",
+        "topicos": [
+          "Minha esteira de conteúdo publica sozinha enquanto eu durmo, e isso não é sorte, é sistema."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "esteira: agendador publicando os vídeos do dia",
+        "topicos": [
+          "Minha esteira de conteúdo grava a consulta, organiza a fila e o agendador publica os vídeos do dia sozinho.",
+          "Eu não abro o Instagram pra postar, eu só reviso o que já saiu."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 25 s",
+        "tela": "GRAVAR TELA: 15 a 20 s do painel do agendador mostrando os posts programados dos próximos dias",
+        "topicos": [
+          "O que trava a maioria das empresas não é falta de conteúdo, é depender de alguém lembrar de postar todo dia."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "25 a 30 s",
+        "tela": "SISTEMA",
+        "topicos": [
+          "Isso só vale a pena se sua empresa já sabe o que quer dizer todo dia; sistema não inventa estratégia, ele só tira a trava da execução.",
+          "Comenta SISTEMA que eu te conto como monto isso pra minha operação."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdUvMkyTsQr/",
+      "perfil": "allesinisgalli",
+      "vezes": "6.4",
+      "molde": "prova em primeira pessoa de operação rodando sozinha, mostra o sistema por trás, fecha com convite"
+    },
+    "fonte": {
+      "nome": "Molde interno (outliers.csv — allesinisgalli)",
+      "link": ""
+    },
+    "isca_sugerida": "SISTEMA: como monto a esteira de conteúdo que publica sozinha"
   }
 ]
