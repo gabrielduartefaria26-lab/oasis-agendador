@@ -451,6 +451,32 @@
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-metricas-previa.mp4?v=1790578063"
   },
   {
+    "id": "lote03-repo",
+    "arquivos": [
+      "lote03-repo-slide-1.jpg",
+      "lote03-repo-slide-2.jpg",
+      "lote03-repo-slide-3.jpg",
+      "lote03-repo-slide-4.jpg",
+      "lote03-repo-slide-5.jpg",
+      "lote03-repo-slide-6.jpg",
+      "lote03-repo-slide-7.jpg"
+    ],
+    "quando": "2026-10-03T15:00:00-03:00",
+    "legenda": "7 repositórios grátis de setembro. O primeiro substitui o Photoshop.\n\nTodos criados este mês, com licença aberta; dados de estrelas e colaboradores tirados do GitHub em 28/09.\n\nRepositório grátis não é ferramenta pronta. Instale um por vez.\n\nComenta REPO que eu te mando os 7 links com o que conferir antes de instalar.\n\n#github #opensource #inteligenciaartificial #ia #ferramentasdeia #produtividade #claude #automacao",
+    "formato": "ferramenta",
+    "gancho": "7 repositórios grátis de setembro",
+    "aprovacao": true,
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-repo-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-repo-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-repo-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-repo-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-repo-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-repo-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-repo-slide-7.jpg"
+    ]
+  },
+  {
     "id": "tut-financeiro",
     "arquivo": "tut-financeiro.mp4",
     "quando": "2026-10-03T19:00:00-03:00",
