@@ -233,6 +233,32 @@
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-google-maps-previa.mp4?v=1790552415"
   },
   {
+    "id": "ref-skill",
+    "arquivos": [
+      "ref-skill-slide-1.jpg",
+      "ref-skill-slide-2.jpg",
+      "ref-skill-slide-3.jpg",
+      "ref-skill-slide-4.jpg",
+      "ref-skill-slide-5.jpg",
+      "ref-skill-slide-6.jpg",
+      "ref-skill-slide-7.jpg"
+    ],
+    "quando": "2026-09-28T16:30:00-03:00",
+    "legenda": "Tem uma skill do Claude que acha a skill certa para qualquer tarefa.\n\nEla procura no diretório público skills.sh; o repositório tem 32,7 mil estrelas no GitHub e licença MIT.\n\nSkill é o processo de outra pessoa. Só rende ajustada ao seu.\n\nComenta SKILL que eu te mando como instalar e as 5 buscas que eu faria primeiro.\n\n#claude #claudecode #anthropic #inteligenciaartificial #ia #automacao #produtividade #ferramentasdeia",
+    "formato": "ferramenta",
+    "gancho": "Tem uma skill do Claude que acha a skill certa",
+    "aprovacao": true,
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-skill-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-skill-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-skill-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-skill-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-skill-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-skill-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-skill-slide-7.jpg"
+    ]
+  },
+  {
     "id": "meme-ifood",
     "arquivo": "meme-ifood.mp4",
     "quando": "2026-09-28T19:00:00-03:00",
