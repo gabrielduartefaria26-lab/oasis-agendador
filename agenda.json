@@ -739,6 +739,15 @@
     ]
   },
   {
+    "id": "visao-sitio",
+    "arquivo": "visao-sitio.mp4",
+    "quando": "2026-10-05T21:30:00-03:00",
+    "legenda": "A IA me devolveu tempo. E quanto mais tempo eu tenho, mais claro fica com quem eu quero passar ele.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#empreendedorismo #inteligenciaartificial #mentalidade",
+    "formato": "visao",
+    "capa_ms": 800,
+    "gancho": "Quanto mais próximo fico do Claude, mais eu quero ficar com minha família em um sítio no meio do nada"
+  },
+  {
     "id": "lote03-social",
     "arquivos": [
       "lote03-social-slide-1.jpg",
