@@ -1,1 +1,358 @@
-[]
+[
+  {
+    "id": "2026-09-29-1",
+    "data": "2026-09-29",
+    "vaga": "carrossel",
+    "formato": "carrossel",
+    "horario_sugerido": "07/10 · 09:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Você paga o ManyChat e ele trava toda vez que a Meta muda uma regra.",
+      "Comentário virando venda não devia custar assinatura nenhuma.",
+      "Testei sete formas de responder direct automático. Uma é grátis e nunca caiu."
+    ],
+    "o_que_se_ve": "entra print de fatura de automação paga, sai o funil dele rodando de graça (comentário vira direct, vira linha na planilha, vira aviso pro time)",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "slide 1",
+        "tela": "Você paga o ManyChat e ele trava toda vez que a Meta muda uma regra",
+        "topicos": [
+          "Você paga o ManyChat e ele trava toda vez que a Meta muda uma regra."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "slide 2",
+        "tela": "O que eu uso",
+        "topicos": [
+          "Eu troquei isso pela automação nativa da Meta. Custo zero, sem plataforma no meio."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "slides 3 a 5",
+        "tela": "Como o funil roda",
+        "topicos": [
+          "Alguém comenta a palavra no post e o direct sai sozinho com o link da página.",
+          "A pessoa cai numa página com nome, e-mail e WhatsApp, e isso vira linha numa planilha de leads.",
+          "Um aviso sai por e-mail e o time liga ainda no mesmo dia."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "slide 6",
+        "tela": "Isca",
+        "topicos": [
+          "Comenta DIRECT que eu te mando como montar sem pagar ferramenta nenhuma."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/p/DduXVqriSLb/",
+      "perfil": "fabianocarvalhojr",
+      "vezes": "7.8",
+      "molde": "dor seca de dono no slide 1 (ferramenta paga que não resolve), prova do sistema nos slides seguintes, isca de código curto no fecho"
+    },
+    "fonte": {
+      "nome": "Regras de fato — moldes.md (automação nativa da Meta, planilha, página e aviso por e-mail, isca DIRECT)",
+      "link": ""
+    },
+    "isca_sugerida": "DIRECT: passo a passo de como montar a automação sem pagar assinatura."
+  },
+  {
+    "id": "2026-09-29-2",
+    "data": "2026-09-29",
+    "vaga": "quente",
+    "formato": "descoberta",
+    "horario_sugerido": "07/10 · 16:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Toda vez que a Anthropic baixa o preço, eu vou lá ver se o meu assistente fica mais rápido ou só mais barato.",
+      "Ontem o modelo que roda meu assistente ficou até 30% mais barato. Isso muda quanto eu cobro de quem monta o dele.",
+      "Um cliente meu paga pelo token que o assistente gasta. Ontem essa conta ficou menor."
+    ],
+    "o_que_se_ve": "entra a tela do assistente rodando a mesma tarefa (organizar e-mail e WhatsApp do dia) no modelo antigo, sai a mesma tarefa cronometrada no Sonnet 5.5",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Sonnet 5.5 saiu ontem",
+        "topicos": [
+          "Toda vez que a Anthropic baixa o preço eu vou lá testar se o meu assistente fica mais rápido ou só mais barato."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "GRAVAR TELA: 10 a 20 s do cronômetro rodando a mesma tarefa nos dois modelos, na sua conta",
+        "topicos": [
+          "Rodei a mesma tarefa duas vezes, organizar o e-mail e o WhatsApp do dia.",
+          "Cronometrei as duas.",
+          "A diferença apareceu no tempo e no custo por token, não na qualidade da resposta."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 20 s",
+        "tela": "print do custo por tarefa",
+        "topicos": [
+          "Isso é o que muda pra quem paga por token rodando isso o dia inteiro."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "20 a 25 s",
+        "tela": "Isca",
+        "topicos": [
+          "Comenta ASSISTENTE que eu te mando como trocar o modelo sem quebrar o que já está rodando.",
+          "E aí é processo que segura o resultado, não o modelo sozinho."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdpTXOED49r/",
+      "perfil": "99hud",
+      "vezes": "191.0",
+      "molde": "dor ou ganho em reais no gancho, tela mostrando a ferramenta configurada passo a passo, fecho pedindo comentário de palavra-código para receber o passo a passo no Direct"
+    },
+    "fonte": {
+      "nome": "Anthropic — Claude Sonnet 5.5 (anúncio 28/09/2026, roda 30% mais rápido e custa até 30% menos)",
+      "link": "https://www.anthropic.com/claude-sonnet-5-5"
+    },
+    "isca_sugerida": "ASSISTENTE: como trocar o modelo do seu assistente sem quebrar o que já está rodando."
+  },
+  {
+    "id": "2026-09-29-3",
+    "data": "2026-09-29",
+    "vaga": "meme",
+    "formato": "meme",
+    "horario_sugerido": "29/09 · 14:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "POV: minha filha me chamando pra brincar numa quarta de manhã e os posts saindo sozinhos",
+      "POV: eu no parquinho numa quarta de manhã enquanto o Instagram continua publicando",
+      "POV: quarta de manhã, filha no colo, e a esteira publicando sem mim"
+    ],
+    "o_que_se_ve": "entra texto POV na tela com ele em casa ou no parque de manhã em dia de semana com a filha, sai corte rápido pro print do agendador publicando sozinho no horário certo",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "POV: minha filha me chamando pra brincar numa quarta de manhã",
+        "topicos": [
+          "cena dele com a filha, sem pressa, sem fala"
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 8 s",
+        "tela": "cena real com a filha continua",
+        "topicos": [
+          "mostra o momento de verdade, não encenado"
+        ]
+      },
+      {
+        "bloco": "Virada",
+        "tempo": "8 a 10 s",
+        "tela": "corte rápido pro print do agendador postando sozinho no horário",
+        "topicos": [
+          "prova visual de que o post saiu sem ele mexer em nada"
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "10 a 12 s",
+        "tela": "Siga @gabrielfaria.ia",
+        "topicos": []
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/Ddm38zOE1SR/",
+      "perfil": "gabrielfaria.ia",
+      "vezes": "2º melhor Reel da própria conta, 872 interações",
+      "molde": "POV com texto na tela sobre horário incomum em casa, corte pra prova visual do que roda enquanto isso, sem fala, 7 a 12 s"
+    },
+    "fonte": {
+      "nome": "Molde interno — Prova de dados da própria conta, moldes.md",
+      "link": ""
+    },
+    "isca_sugerida": ""
+  },
+  {
+    "id": "2026-09-29-4",
+    "data": "2026-09-29",
+    "vaga": "quente",
+    "formato": "descoberta",
+    "horario_sugerido": "08/10 · 12:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Um agente que decide sozinho quando responder um lead é diferente de uma automação que só manda mensagem pronta.",
+      "Testei o agente que decide, não só dispara mensagem: o primeiro teste foi decidir se um lead merecia resposta na hora ou não.",
+      "Automação pronta não segura lead ruim. Um agente decide isso sozinho."
+    ],
+    "o_que_se_ve": "entra a tela configurando um agente (descrição da tarefa, modelo, ferramentas), sai o agente decidindo sozinho com um lead de teste",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Agente decide, automação só dispara",
+        "topicos": [
+          "Um agente que decide sozinho quando responder um lead é diferente de uma automação que só manda mensagem pronta."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "GRAVAR TELA: 10 a 20 s configurando o agente e rodando com um lead de teste, na sua conta",
+        "topicos": [
+          "Configurei descrevendo a tarefa, escolhendo o modelo e as ferramentas que ele pode usar.",
+          "Joguei um lead de teste e ele decidiu se respondia na hora ou esperava."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 20 s",
+        "tela": "print da decisão do agente",
+        "topicos": [
+          "A decisão apareceu no próprio fluxo, sem eu escrever regra nenhuma pra esse caso."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "20 a 25 s",
+        "tela": "Isca",
+        "topicos": [
+          "Comenta AGENTE que eu te mando o passo a passo de como montar o seu.",
+          "Isso só rende se você já sabe o que faz um lead bom pro seu negócio; o agente não inventa esse critério."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DduYHDXlCHt/",
+      "perfil": "99hud",
+      "vezes": "365.1",
+      "molde": "dor ou ganho em reais no gancho, tela mostrando a ferramenta configurada passo a passo, fecho pedindo comentário de palavra-código para receber o passo a passo no Direct"
+    },
+    "fonte": {
+      "nome": "n8n — Introducing n8n Agents (25/09/2026)",
+      "link": "https://blog.n8n.io/introducing-n8n-agents/"
+    },
+    "isca_sugerida": "AGENTE: passo a passo de como montar um agente que decide, não só dispara mensagem."
+  },
+  {
+    "id": "2026-09-29-5",
+    "data": "2026-09-29",
+    "vaga": "meme",
+    "formato": "meme",
+    "horario_sugerido": "30/09 · 14:30",
+    "fala_com": "quem usa IA",
+    "aberturas": [
+      "Se seu cliente fechou contigo sem você abrir o direct, não me venha com dica de produtividade",
+      "Enquanto eu treino, o direct fecha sozinho. Não me venha com dica de produtividade",
+      "Se a venda saiu e você nem tinha aberto o Instagram, essa é a única produtividade que importa"
+    ],
+    "o_que_se_ve": "entra ele treinando (cena real), sai print do aviso de um novo lead chegando no e-mail enquanto ele está fora",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Se seu cliente fechou contigo sem você abrir o direct",
+        "topicos": [
+          "cena dele treinando, sem fala"
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 7 s",
+        "tela": "cena do treino continua",
+        "topicos": []
+      },
+      {
+        "bloco": "Virada",
+        "tempo": "7 a 10 s",
+        "tela": "corte pro aviso de novo lead chegando no e-mail",
+        "topicos": []
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "10 a 12 s",
+        "tela": "Se você nunca trabalhou assim, não me venha com dica de produtividade",
+        "topicos": []
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdxEStSDamF/",
+      "perfil": "gabrielfaria.ia",
+      "vezes": "melhor alcance da semana no próprio perfil, 1136",
+      "molde": "texto seco e desafiador na tela + cena real dele, sem fala, contraste entre o que ele faz e o que a pessoa imagina"
+    },
+    "fonte": {
+      "nome": "Molde interno — meme-produtividade (26/09/2026), moldes.md",
+      "link": "https://www.instagram.com/reel/DdxEStSDamF/"
+    },
+    "isca_sugerida": ""
+  },
+  {
+    "id": "2026-09-29-6",
+    "data": "2026-09-29",
+    "vaga": "case",
+    "formato": "visao",
+    "horario_sugerido": "29/09 · 21:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "A maioria das empresas que eu entro acha que precisa de um sistema gigante. Precisa de 20% dele rodando direito.",
+      "Já vi empresa de R$300 mil por mês travada numa planilha que ninguém mais entendia, e vi outra rodando redonda com três automações.",
+      "Complexidade não é sinal de sistema bom. É sinal de que ninguém teve coragem de cortar."
+    ],
+    "o_que_se_ve": "entra ele falando a tese olhando pra câmera, sai a tela do assistente (e-mail, WhatsApp e reuniões) montando o painel do dia sozinho",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Complexidade não é sistema",
+        "topicos": [
+          "A maioria das empresas que eu entro acha que precisa de um sistema gigante. Precisa de 20% dele rodando direito."
+        ]
+      },
+      {
+        "bloco": "Erro",
+        "tempo": "3 a 8 s",
+        "tela": "o erro que eu vejo",
+        "topicos": [
+          "O dono empilha ferramenta atrás de ferramenta achando que resolve.",
+          "Quanto mais peça, mais lugar pra travar, e quem segura isso sozinho é ele."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "8 a 15 s",
+        "tela": "GRAVAR TELA: 10 a 20 s do painel do assistente lendo e-mail, WhatsApp e reuniões, na sua conta",
+        "topicos": [
+          "O que eu uso pra mim tem três entradas: e-mail, WhatsApp e reunião.",
+          "Isso monta o painel do meu dia sozinho, sem eu abrir sistema nenhum de manhã."
+        ]
+      },
+      {
+        "bloco": "Critério",
+        "tempo": "15 a 20 s",
+        "tela": "quando vale complicar",
+        "topicos": [
+          "Só vale adicionar peça nova quando a que já existe está redonda.",
+          "Se você não sabe dizer qual 20% roda sua empresa, não é ferramenta que falta, é decisão."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "",
+      "perfil": "",
+      "vezes": "",
+      "molde": "estrutura tese, erro, prova e critério (Voz e nível — moldes.md), tese #220"
+    },
+    "fonte": {
+      "nome": "Tese interna #220 — moldes.md",
+      "link": ""
+    },
+    "isca_sugerida": ""
+  }
+]
