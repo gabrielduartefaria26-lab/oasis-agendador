@@ -821,5 +821,14 @@
     "capa_ms": 3050,
     "gancho": "Antes de contratar a próxima agência, deixa o Claude cuidar dos seus anúncios",
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-gestor-previa.mp4?v=1790574782"
+  },
+  {
+    "id": "visao-espirito",
+    "arquivo": "visao-espirito.mp4",
+    "quando": "2026-10-07T21:30:00-03:00",
+    "legenda": "Pobre de espírito, não de dinheiro: gente que culpa todo mundo e nunca assume a própria responsabilidade.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#empreendedorismo #inteligenciaartificial #mentalidade",
+    "formato": "visao",
+    "capa_ms": 800,
+    "gancho": "Descobri que tenho alergia a gente pobre de espírito"
   }
 ]
