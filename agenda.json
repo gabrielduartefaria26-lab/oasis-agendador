@@ -318,6 +318,15 @@
     "gancho": "Para escrever use esse, esse ou esse"
   },
   {
+    "id": "visao-quebrar",
+    "arquivo": "visao-quebrar.mp4",
+    "quando": "2026-09-29T21:30:00-03:00",
+    "legenda": "IA não conserta empresa desorganizada. Ela só deixa a bagunça mais rápida e mais visível. Primeiro o processo, depois a IA.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#empreendedorismo #inteligenciaartificial #mentalidade",
+    "formato": "visao",
+    "capa_ms": 800,
+    "gancho": "Usar IA vai quebrar o seu negócio (não é pelo motivo que você pensa)"
+  },
+  {
     "id": "lote02-conecta",
     "arquivos": [
       "lote02-conecta-slide-1.jpg",
