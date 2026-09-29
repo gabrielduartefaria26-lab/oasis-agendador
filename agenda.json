@@ -454,6 +454,15 @@
     "gancho": "Em vez de maratonar Netflix hoje à noite"
   },
   {
+    "id": "visao-almoco",
+    "arquivo": "visao-almoco.mp4",
+    "quando": "2026-10-01T21:30:00-03:00",
+    "legenda": "A gente empreende pela liberdade e acaba sem horário de almoço. Para mim, IA só faz sentido se devolver tempo e dinheiro.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#empreendedorismo #inteligenciaartificial #mentalidade",
+    "formato": "visao",
+    "capa_ms": 800,
+    "gancho": "Abri minha empresa para ninguém me falar a hora do almoço, agora eu nem almoço"
+  },
+  {
     "id": "lote02-lista",
     "arquivos": [
       "lote02-lista-slide-1.jpg",
