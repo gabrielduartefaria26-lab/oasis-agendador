@@ -601,6 +601,15 @@
     "gancho": "O CLAUDE vai salvar sua vida financeira em um final de semana"
   },
   {
+    "id": "visao-minutos",
+    "arquivo": "visao-minutos.mp4",
+    "quando": "2026-10-03T21:30:00-03:00",
+    "legenda": "Enquanto você faz perguntas soltas para o ChatGPT, tem gente usando IA do jeito certo e crescendo 10 vezes mais rápido.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#empreendedorismo #inteligenciaartificial #mentalidade",
+    "formato": "visao",
+    "capa_ms": 800,
+    "gancho": "Tem gente fazendo em minutos com IA o que seu time leva semanas"
+  },
+  {
     "id": "lote03-ads",
     "arquivos": [
       "lote03-ads-slide-1.jpg",
