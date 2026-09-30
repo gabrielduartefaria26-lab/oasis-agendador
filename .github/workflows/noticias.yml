@@ -1,0 +1,34 @@
+name: noticias quentes
+
+# 30/09: lê os canais oficiais (OpenAI, Anthropic, Google, DeepMind, Meta) 3x por dia e grava
+# quentes.json; o quadro mostra "🔥 Saiu X · gravar hoje". 07h, 15h e 21h em Brasília.
+on:
+  schedule:
+    - cron: "0 10,18 * * *"
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: noticias
+  cancel-in-progress: false
+
+jobs:
+  noticias:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ler os canais oficiais
+        run: python3 noticias.py
+      - name: guardar
+        run: |
+          if [ -n "$(git status --porcelain vistos.json quentes.json)" ]; then
+            git config user.name "agendador"
+            git config user.email "agendador@users.noreply.github.com"
+            git add vistos.json quentes.json
+            git commit -m "noticias: $(date -u +%Y-%m-%dT%H:%M)"
+            git pull --rebase --quiet origin main
+            git push
+          fi
