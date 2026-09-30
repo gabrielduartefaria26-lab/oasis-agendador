@@ -377,6 +377,15 @@
     "aprovado_por": "Gabriel no chat, 30/09"
   },
   {
+    "id": "visao-burro",
+    "arquivo": "visao-burro.mp4",
+    "quando": "2026-09-30T21:30:00-03:00",
+    "legenda": "Aprender de novo dá trabalho. É exatamente por isso que vale.\n\nQual foi a última coisa nova que você aprendeu? Conta aqui.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #empreendedorismo #aprendizado",
+    "formato": "visao",
+    "capa_ms": 1000,
+    "gancho": "Quando foi a última vez que você se sentiu burro?"
+  },
+  {
     "id": "lote02-cursos",
     "arquivos": [
       "lote02-cursos-slide-1.jpg",
@@ -845,14 +854,5 @@
     "formato": "visao",
     "capa_ms": 800,
     "gancho": "Descobri que tenho alergia a gente pobre de espírito"
-  },
-  {
-    "id": "visao-burro",
-    "arquivo": "visao-burro.mp4",
-    "quando": "2026-10-08T21:30:00-03:00",
-    "legenda": "Aprender de novo dá trabalho. É exatamente por isso que vale.\n\nQual foi a última coisa nova que você aprendeu? Conta aqui.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #empreendedorismo #aprendizado",
-    "formato": "visao",
-    "capa_ms": 1000,
-    "gancho": "Quando foi a última vez que você se sentiu burro?"
   }
 ]
