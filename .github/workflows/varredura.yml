@@ -1,0 +1,26 @@
+name: varredura transcricao
+
+# 30/09: transcreve pelo Supadata só o que ele marcou como "vídeo falado" E que passou na régua
+# do caçador (3x a mediana do próprio perfil, até 60 dias). Não escreve no repo: grava na
+# referência pela API do oasis-dm. Substitui o robô que rodava no Mac.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: varredura
+  cancel-in-progress: false
+
+jobs:
+  varredura:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: medir e transcrever
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          SUPADATA_KEY: ${{ secrets.SUPADATA_KEY }}
+          ROBO_SECRET: ${{ secrets.ROBO_SECRET }}
+        run: python3 varredura.py
