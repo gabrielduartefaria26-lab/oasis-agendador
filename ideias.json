@@ -1,1 +1,365 @@
-[]
+[
+ {
+  "id": "2026-09-30-1",
+  "data": "2026-09-30",
+  "vaga": "carrossel",
+  "formato": "carrossel",
+  "horario_sugerido": "07/10 · 09:00",
+  "fala_com": "empresário",
+  "aberturas": [
+   "91% das empresas que já testaram IA não sabem dizer se aquilo trouxe retorno.",
+   "A empresa assina a plataforma de IA achando que ela substitui o processo que não existe.",
+   "O erro não é a ferramenta. É contratar a ferramenta antes de desenhar o processo."
+  ],
+  "o_que_se_ve": "entra dado de pesquisa sobre empresa que testou IA, sai critério de 3 perguntas antes de assinar qualquer plataforma",
+  "roteiro": [
+   {
+    "bloco": "Slide 1 (Gancho)",
+    "tempo": "slide 1",
+    "tela": "91% das empresas que testaram IA não sabem dizer se aquilo trouxe retorno",
+    "topicos": [
+     "91% das empresas que já testaram IA não sabem dizer se aquilo trouxe retorno."
+    ]
+   },
+   {
+    "bloco": "Slide 2 (Tese)",
+    "tempo": "slide 2",
+    "tela": "Isso não é falta de ferramenta. É falta de processo antes da ferramenta",
+    "topicos": [
+     "Isso não é falta de ferramenta.",
+     "É falta de processo antes da ferramenta."
+    ]
+   },
+   {
+    "bloco": "Slide 3 (Erro)",
+    "tempo": "slide 3",
+    "tela": "Eu vejo esse erro toda semana: a empresa assina a plataforma de IA achando que ela substitui o sistema que não existe",
+    "topicos": [
+     "Eu vejo esse erro toda semana.",
+     "A empresa assina a plataforma de IA achando que ela substitui o sistema que não existe."
+    ]
+   },
+   {
+    "bloco": "Slide 4 (Prova)",
+    "tempo": "slide 4",
+    "tela": "Pesquisa do Sebrae com o Instituto Meta: 61% contratam a plataforma antes de desenhar o processo. Resultado: só 9% conseguem provar o retorno",
+    "topicos": [
+     "Tem uma pesquisa do Sebrae com o Instituto Meta sobre isso.",
+     "61% das empresas contratam a plataforma antes de desenhar o processo.",
+     "O resultado é que só 9% conseguem provar o retorno."
+    ]
+   },
+   {
+    "bloco": "Slide 5 (Critério)",
+    "tempo": "slide 5",
+    "tela": "Antes de qualquer implementação eu peço pra empresa responder 3 perguntas",
+    "topicos": [
+     "Antes de assinar qualquer IA eu peço pra empresa responder três perguntas.",
+     "Qual processo ela vai rodar, quem vai operar esse processo, e o que muda se a IA sair do ar amanhã."
+    ]
+   },
+   {
+    "bloco": "Slide 6 (Fecho)",
+    "tempo": "slide 6",
+    "tela": "Comenta PROCESSO que eu te mando essas 3 perguntas",
+    "topicos": [
+     "Se sua empresa já usa IA e ninguém sabe dizer o retorno, comenta PROCESSO.",
+     "Eu te mando as três perguntas que uso antes de qualquer implementação."
+    ]
+   }
+  ],
+  "referencia": {
+   "link": "",
+   "perfil": "moldes.md",
+   "vezes": "-",
+   "molde": "estrutura tese > erro do dono > prova de dados > critério, da seção Voz e nível de moldes.md"
+  },
+  "fonte": {
+   "nome": "Sebrae + Instituto Meta de Pesquisa (via Dasckup)",
+   "link": "https://www.dasckup.com/inteligencia-artificial/ia-para-empresarios"
+  },
+  "isca_sugerida": "PROCESSO: as 3 perguntas que ele usa antes de qualquer implementação de IA"
+ },
+ {
+  "id": "2026-09-30-2",
+  "data": "2026-09-30",
+  "vaga": "quente",
+  "formato": "tutorial",
+  "horario_sugerido": "08/10 · 12:00",
+  "fala_com": "empresário",
+  "aberturas": [
+   "Toda empresa que demora pra responder o WhatsApp já perdeu cliente pra concorrente.",
+   "A trava não é o atendimento, é configurar o WhatsApp Business certo.",
+   "Isso que travava 2 dias de programador agora o Claude faz sozinho."
+  ],
+  "o_que_se_ve": "entra número de WhatsApp sem verificação, sai conta Business configurada e template criado pelo Claude",
+  "roteiro": [
+   {
+    "bloco": "Gancho",
+    "tempo": "0 a 3 s",
+    "tela": "Toda empresa que demora pra responder o WhatsApp já perdeu cliente",
+    "topicos": [
+     "Toda empresa que eu entro perde cliente porque demora pra configurar o WhatsApp certo."
+    ]
+   },
+   {
+    "bloco": "Entrega",
+    "tempo": "3 a 15 s",
+    "tela": "GRAVAR TELA: 10 a 20 s do Claude configurando o WhatsApp Business com o MCP da Meta (registrar número, verificar telefone, criar template)",
+    "topicos": [
+     "A Meta lançou um jeito do Claude fazer essa parte sozinho.",
+     "Eu pedi pra ele registrar o número, verificar o telefone e criar o primeiro modelo de mensagem.",
+     "Fez em menos de 20 minutos, sem eu abrir o painel da Meta."
+    ]
+   },
+   {
+    "bloco": "Prova",
+    "tempo": "15 a 20 s",
+    "tela": "número verificado e template aprovado na tela",
+    "topicos": [
+     "Isso é a tela real, número verificado e template pronto."
+    ]
+   },
+   {
+    "bloco": "Fecho",
+    "tempo": "20 a 25 s",
+    "tela": "Comenta ZAP que eu te mando o passo a passo",
+    "topicos": [
+     "Isso não substitui o processo de atendimento, só tira a trava técnica.",
+     "Comenta ZAP que eu te mando o passo a passo no Direct."
+    ]
+   }
+  ],
+  "referencia": {
+   "link": "https://www.instagram.com/reel/DdpTXOED49r/",
+   "perfil": "99hud",
+   "vezes": "191.0",
+   "molde": "dor em reais no gancho + Claude cadastrando o número do WhatsApp na tela + isca 'comenta PALAVRA no Direct'"
+  },
+  "fonte": {
+   "nome": "Meta lança WhatsApp Business Tools MCP (via El Ecosistema Startup)",
+   "link": "https://ecosistemastartup.com/meta-lleva-agentes-de-ia-a-whatsapp-business-con-un-mcp/"
+  },
+  "isca_sugerida": "ZAP: o passo a passo pra configurar o WhatsApp Business com o Claude"
+ },
+ {
+  "id": "2026-09-30-3",
+  "data": "2026-09-30",
+  "vaga": "quente",
+  "formato": "descoberta",
+  "horario_sugerido": "07/10 · 16:30",
+  "fala_com": "empresário",
+  "aberturas": [
+   "Você paga três ferramentas diferentes pra criar um vídeo de anúncio e ainda demora dois dias.",
+   "Testei uma plataforma nova que junta vídeo, avatar e UGC num só lugar, de graça pra começar.",
+   "O anúncio que você demora dois dias pra montar, essa ferramenta faz numa conversa."
+  ],
+  "o_que_se_ve": "entra um prompt de texto, sai um vídeo de anúncio pronto gerado na tela",
+  "roteiro": [
+   {
+    "bloco": "Gancho",
+    "tempo": "0 a 3 s",
+    "tela": "Você paga três ferramentas pra criar um vídeo de anúncio e ainda demora dois dias",
+    "topicos": [
+     "Você paga três ferramentas diferentes pra criar um vídeo de anúncio e ainda demora dois dias."
+    ]
+   },
+   {
+    "bloco": "Entrega",
+    "tempo": "3 a 15 s",
+    "tela": "GRAVAR TELA: 10 a 20 s gerando um vídeo curto no Fetra AI a partir de um prompt",
+    "topicos": [
+     "Testei uma plataforma nova, gratuita pra começar, que junta gerador de vídeo, avatar e conteúdo UGC num lugar só.",
+     "Só de conversar com ela e explicar a ideia, ela monta o vídeo inteiro."
+    ]
+   },
+   {
+    "bloco": "Prova",
+    "tempo": "15 a 20 s",
+    "tela": "vídeo pronto sem marca d'água",
+    "topicos": [
+     "O resultado sai pronto pra publicar, sem marca d'água."
+    ]
+   },
+   {
+    "bloco": "Fecho",
+    "tempo": "20 a 25 s",
+    "tela": "Comenta VIDEO que eu te mando o link e o prompt",
+    "topicos": [
+     "Ferramenta boa não substitui oferta boa, só acelera a produção.",
+     "Comenta VIDEO que eu te mando o link e o prompt que usei."
+    ]
+   }
+  ],
+  "referencia": {
+   "link": "https://www.instagram.com/reel/DdzsCKOlAtY/",
+   "perfil": "fabianocarvalhojr",
+   "vezes": "23.1",
+   "molde": "dor seca do dono numa frase + prova de sistema/ferramenta conectada + isca de código estranho no Direct"
+  },
+  "fonte": {
+   "nome": "Fetra AI (via MacMagazine)",
+   "link": "https://macmagazine.com.br/post/2026/09/29/gerador-completo-de-videos-e-imagens-com-ia-comece-gratis-e-sem-marca-dagua-fetra-ai/"
+  },
+  "isca_sugerida": "VIDEO: o link da ferramenta e o prompt usado no vídeo"
+ },
+ {
+  "id": "2026-09-30-4",
+  "data": "2026-09-30",
+  "vaga": "meme",
+  "formato": "meme",
+  "horario_sugerido": "30/09 · 14:30",
+  "fala_com": "quem usa IA",
+  "aberturas": [
+   "O verdadeiro motivo de eu ter parado de trabalhar 12h por dia é pra poder brigar com o Claude por um prompt que não saiu certo."
+  ],
+  "o_que_se_ve": "entra texto de gancho na tela, sai cena dele irritado com um detalhe pequeno do Claude num momento de vida tranquila",
+  "roteiro": [
+   {
+    "bloco": "Gancho",
+    "tempo": "0 a 3 s",
+    "tela": "O verdadeiro motivo de eu ter parado de trabalhar 12h por dia é pra poder brigar com o Claude por um prompt que não saiu certo",
+    "topicos": [
+     "texto entra completo na tela, sem fala"
+    ]
+   },
+   {
+    "bloco": "Virada",
+    "tempo": "3 a 8 s",
+    "tela": "cena dele em momento de vida tranquila (tarde livre, informal) reagindo irritado a um detalhe pequeno na tela do Claude",
+    "topicos": [
+     "cena real, sem fala, corte seco no ponto da irritação"
+    ]
+   },
+   {
+    "bloco": "Fecho",
+    "tempo": "8 a 12 s",
+    "tela": "ele dá de ombros ou solta um meio sorriso, encerra sem CTA",
+    "topicos": [
+     "cena final, sem fala, sem isca"
+    ]
+   }
+  ],
+  "referencia": {
+   "link": "https://www.instagram.com/reel/Dc9bd24P-Y9/",
+   "perfil": "alberta.tech",
+   "vezes": "197.6",
+   "molde": "'O verdadeiro motivo de eu [decisão grande de vida] é pra [motivo pequeno e irônico]', texto na tela + cena real, sem fala"
+  },
+  "fonte": {
+   "nome": "",
+   "link": ""
+  },
+  "isca_sugerida": ""
+ },
+ {
+  "id": "2026-09-30-5",
+  "data": "2026-09-30",
+  "vaga": "meme",
+  "formato": "meme",
+  "horario_sugerido": "04/10 · 19:00",
+  "fala_com": "quem usa IA",
+  "aberturas": [
+   "Não odeia quando você entra numa call de trabalho numa tarde de terça e percebe que é o único que não está preso numa reunião chata."
+  ],
+  "o_que_se_ve": "entra texto de contraste na tela, sai cena dele relaxado numa tarde de terça enquanto celular mostra notificações de trabalho de outras pessoas",
+  "roteiro": [
+   {
+    "bloco": "Gancho",
+    "tempo": "0 a 3 s",
+    "tela": "Não odeia quando você entra numa call de trabalho numa tarde de terça e percebe que é o único que não está preso numa reunião chata",
+    "topicos": [
+     "texto entra completo na tela, sem fala"
+    ]
+   },
+   {
+    "bloco": "Virada",
+    "tempo": "3 a 8 s",
+    "tela": "cena dele numa tarde de terça livre, olhando o celular com leve sorriso irônico",
+    "topicos": [
+     "cena real, sem fala, contraste visual claro"
+    ]
+   },
+   {
+    "bloco": "Fecho",
+    "tempo": "8 a 12 s",
+    "tela": "ele volta pro que estava fazendo antes, sem CTA",
+    "topicos": [
+     "cena final, sem fala, sem isca"
+    ]
+   }
+  ],
+  "referencia": {
+   "link": "https://www.instagram.com/reel/DdRbBa9RRgm/",
+   "perfil": "alberta.tech",
+   "vezes": "6.6",
+   "molde": "'Não odeia quando [rotina] e todo mundo está [contraste absurdo]', texto na tela + cena real irônica, sem fala"
+  },
+  "fonte": {
+   "nome": "",
+   "link": ""
+  },
+  "isca_sugerida": ""
+ },
+ {
+  "id": "2026-09-30-6",
+  "data": "2026-09-30",
+  "vaga": "case",
+  "formato": "visao",
+  "horario_sugerido": "08/10 · 21:30",
+  "fala_com": "empresário",
+  "aberturas": [
+   "Esse resultado eu já fiz uma vez, na minha própria conta, antes de vender pra você.",
+   "Não confio em quem vende transformação e nunca passou por ela.",
+   "Meu perfil pessoal já tem 13 mil seguidores usando o mesmo mecanismo que eu ensino aqui."
+  ],
+  "o_que_se_ve": "entra o perfil pessoal dele, sai a explicação de que o mesmo mecanismo já foi testado nele antes de virar produto",
+  "roteiro": [
+   {
+    "bloco": "Gancho",
+    "tempo": "0 a 4 s",
+    "tela": "Esse resultado eu já fiz uma vez, na minha própria conta, antes de vender pra você",
+    "topicos": [
+     "Esse resultado eu já fiz uma vez, na minha própria conta, antes de vender pra você."
+    ]
+   },
+   {
+    "bloco": "Erro",
+    "tempo": "4 a 10 s",
+    "tela": "o consultor que vende transformação sem nunca ter passado por ela",
+    "topicos": [
+     "Eu não confio em quem vende transformação e nunca passou por ela.",
+     "É o mesmo consultor que entrega relatório em PDF e devolve a execução pra você."
+    ]
+   },
+   {
+    "bloco": "Prova",
+    "tempo": "10 a 18 s",
+    "tela": "perfil pessoal dele, 13 mil seguidores",
+    "topicos": [
+     "Meu perfil pessoal já tem 13 mil seguidores usando o mesmo mecanismo que eu ensino aqui.",
+     "Dinheiro, tempo e liberdade, com IA como ferramenta, não como estrela."
+    ]
+   },
+   {
+    "bloco": "Critério",
+    "tempo": "18 a 22 s",
+    "tela": "só ensino o que já testei em mim",
+    "topicos": [
+     "Eu só ensino pra empresa o que eu já testei em mim antes."
+    ]
+   }
+  ],
+  "referencia": {
+   "link": "",
+   "perfil": "moldes.md",
+   "vezes": "-",
+   "molde": "Regra 4 (ele é o case): prova é a vida e a operação dele, não cliente"
+  },
+  "fonte": {
+   "nome": "moldes.md (perfil pessoal validado, 13 mil seguidores)",
+   "link": ""
+  },
+  "isca_sugerida": ""
+ }
+]
