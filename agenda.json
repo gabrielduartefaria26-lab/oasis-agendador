@@ -446,6 +446,15 @@
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-cerebro-previa.mp4?v=1790578031"
   },
   {
+    "id": "tut-proposta",
+    "arquivo": "tut-proposta.mp4",
+    "quando": "2026-10-01T14:30:00-03:00",
+    "legenda": "O cliente esfria no intervalo entre a call e a proposta. Com o Claude, esse intervalo vira 5 minutos.\n\nComenta PROPOSTA que eu te mando o passo a passo, a skill e a estrutura da proposta que eu uso.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#claude #vendas #inteligenciaartificial",
+    "formato": "tutorial",
+    "capa_ms": 1500,
+    "gancho": "Proposta pronta durante a call"
+  },
+  {
     "id": "ref-atalho",
     "arquivos": [
       "ref-atalho-slide-1.jpg",
