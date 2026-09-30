@@ -353,46 +353,16 @@
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/funil-equipes-previa.mp4?v=1790579458"
   },
   {
-    "id": "ref-limite",
-    "arquivos": [
-      "ref-limite-slide-1.jpg",
-      "ref-limite-slide-2.jpg",
-      "ref-limite-slide-3.jpg",
-      "ref-limite-slide-4.jpg",
-      "ref-limite-slide-5.jpg",
-      "ref-limite-slide-6.jpg",
-      "ref-limite-slide-7.jpg"
-    ],
-    "quando": "2026-09-30T16:30:00-03:00",
-    "legenda": "Seu limite do Claude acaba antes do trabalho? 5 ferramentas grátis resolvem.\n\nTodas de código aberto; juntas passam de 260 mil estrelas no GitHub (dados de 28/09).\n\nO limite não acaba por falta de plano. Acaba por conversa bagunçada.\n\nComenta LIMITE que eu te mando os 5 links e o cuidado de cada um.\n\n#claude #claudecode #anthropic #inteligenciaartificial #ia #produtividade #ferramentasdeia #opensource",
-    "formato": "ferramenta",
-    "gancho": "Seu limite do Claude acaba antes do trabalho?",
-    "previa": [
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-1.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-2.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-3.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-4.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-5.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-6.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-7.jpg"
-    ]
-  },
-  {
-    "id": "meme-tokens",
-    "arquivo": "meme-tokens.mp4",
-    "quando": "2026-09-30T19:30:00-03:00",
-    "legenda": "Os tokens acabaram. Virei leitor. 🤣\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
-    "formato": "meme",
-    "gancho": "Eu fingindo que gosto de ler livros até os meus tokens do Claude voltarem"
-  },
-  {
-    "id": "visao-burro",
-    "arquivo": "visao-burro.mp4",
-    "quando": "2026-09-30T21:30:00-03:00",
-    "legenda": "Aprender de novo dá trabalho. É exatamente por isso que vale.\n\nQual foi a última coisa nova que você aprendeu? Conta aqui.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #empreendedorismo #aprendizado",
-    "formato": "visao",
-    "capa_ms": 1000,
-    "gancho": "Quando foi a última vez que você se sentiu burro?"
+    "id": "react-dots-chatgpt",
+    "arquivo": "react-dots-chatgpt.mp4",
+    "quando": "2026-09-30T14:30:00-03:00",
+    "legenda": "A OpenAI lançou agentes que trabalham sozinhos, 24 horas. A pergunta não é qual ferramenta. É o que você delega primeiro.\n\nComenta AGENTE que eu te mando os 10 trabalhos para delegar a um agente, com o pedido pronto.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #openai #inteligenciaartificial",
+    "formato": "react",
+    "capa_ms": 1440,
+    "gancho": "O ChatGPT agora trabalha 24h: a OpenAI lançou os dots",
+    "aprovacao": false,
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/react-dots-chatgpt-previa.mp4?v=1790785585",
+    "aprovado_por": "Gabriel no chat, 30/09 13:27"
   },
   {
     "id": "lote02-cursos",
@@ -419,17 +389,6 @@
     "capa_ms": 2520,
     "gancho": "A maioria das empresas usa IA como se fosse um estagiário",
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-cerebro-previa.mp4?v=1790578031"
-  },
-  {
-    "id": "react-dots-chatgpt",
-    "arquivo": "react-dots-chatgpt.mp4",
-    "quando": "2026-10-01T14:30:00-03:00",
-    "legenda": "A OpenAI lançou agentes que trabalham sozinhos, 24 horas. A pergunta não é qual ferramenta. É o que você delega primeiro.\n\nComenta AGENTE que eu te mando os 10 trabalhos para delegar a um agente, com o pedido pronto.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #openai #inteligenciaartificial",
-    "formato": "react",
-    "capa_ms": 1440,
-    "gancho": "O ChatGPT agora trabalha 24h: a OpenAI lançou os dots",
-    "aprovacao": true,
-    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/react-dots-chatgpt-previa.mp4?v=1790785585"
   },
   {
     "id": "ref-atalho",
@@ -679,6 +638,14 @@
     ]
   },
   {
+    "id": "meme-tokens",
+    "arquivo": "meme-tokens.mp4",
+    "quando": "2026-10-04T19:30:00-03:00",
+    "legenda": "Os tokens acabaram. Virei leitor. 🤣\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
+    "formato": "meme",
+    "gancho": "Eu fingindo que gosto de ler livros até os meus tokens do Claude voltarem"
+  },
+  {
     "id": "visao-ia-familia",
     "arquivo": "visao-ia-familia.mp4",
     "quando": "2026-10-04T21:30:00-03:00",
@@ -834,6 +801,31 @@
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-gestor-previa.mp4?v=1790574782"
   },
   {
+    "id": "ref-limite",
+    "arquivos": [
+      "ref-limite-slide-1.jpg",
+      "ref-limite-slide-2.jpg",
+      "ref-limite-slide-3.jpg",
+      "ref-limite-slide-4.jpg",
+      "ref-limite-slide-5.jpg",
+      "ref-limite-slide-6.jpg",
+      "ref-limite-slide-7.jpg"
+    ],
+    "quando": "2026-10-07T16:30:00-03:00",
+    "legenda": "Seu limite do Claude acaba antes do trabalho? 5 ferramentas grátis resolvem.\n\nTodas de código aberto; juntas passam de 260 mil estrelas no GitHub (dados de 28/09).\n\nO limite não acaba por falta de plano. Acaba por conversa bagunçada.\n\nComenta LIMITE que eu te mando os 5 links e o cuidado de cada um.\n\n#claude #claudecode #anthropic #inteligenciaartificial #ia #produtividade #ferramentasdeia #opensource",
+    "formato": "ferramenta",
+    "gancho": "Seu limite do Claude acaba antes do trabalho?",
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-limite-slide-7.jpg"
+    ]
+  },
+  {
     "id": "visao-espirito",
     "arquivo": "visao-espirito.mp4",
     "quando": "2026-10-07T21:30:00-03:00",
@@ -841,5 +833,14 @@
     "formato": "visao",
     "capa_ms": 800,
     "gancho": "Descobri que tenho alergia a gente pobre de espírito"
+  },
+  {
+    "id": "visao-burro",
+    "arquivo": "visao-burro.mp4",
+    "quando": "2026-10-08T21:30:00-03:00",
+    "legenda": "Aprender de novo dá trabalho. É exatamente por isso que vale.\n\nQual foi a última coisa nova que você aprendeu? Conta aqui.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #empreendedorismo #aprendizado",
+    "formato": "visao",
+    "capa_ms": 1000,
+    "gancho": "Quando foi a última vez que você se sentiu burro?"
   }
 ]
