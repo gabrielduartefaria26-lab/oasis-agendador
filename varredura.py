@@ -22,6 +22,10 @@ UA = {"User-Agent": "Mozilla/5.0 (Macintosh) Chrome/124"}
 SUPADATA = os.environ["SUPADATA_KEY"]
 ROBO = os.environ["ROBO_SECRET"]
 MAX_POR_RODADA = 10
+# 30/09, ordem dele: perfil de marca/lançamento (vídeo institucional, sem fala) NUNCA é transcrito;
+# vira react. Não gasta crédito com ele.
+MARCAS = {"claudeai", "anthropicai", "anthropic", "openai", "chatgpt", "googlegemini", "google", "meta",
+          "metaai", "higgsfield.ai", "higgsfield_ai", "notionhq", "canva", "capcut", "perplexity.ai"}
 
 
 def http(url, dados=None, cab=None, metodo=None):
@@ -53,6 +57,8 @@ def medir(link):
     reels = [p for p in posts if p.get("media_product_type") == "REELS" and "like_count" in p]
     este = next((p for p in posts if cod in (p.get("permalink") or "")), None)
     d = {"autor": autor}
+    if autor.lower() in MARCAS:
+        return False, f"@{autor} é perfil de marca: vídeo institucional vira REACT, não transcreve", d
     if not este:
         return False, f"o Reel não está entre os últimos 40 posts de @{autor} (antigo demais)", d
     if len(reels) < MINIMO_PARA_MEDIANA:
