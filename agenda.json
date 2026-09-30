@@ -365,6 +365,15 @@
     "aprovado_por": "Gabriel no chat, 30/09 13:27"
   },
   {
+    "id": "react-dots-meia",
+    "arquivo": "react-dots-meia.mp4",
+    "quando": "2026-09-30T15:37:00-03:00",
+    "legenda": "A OpenAI lançou agentes que trabalham sozinhos, 24 horas. A pergunta não é qual ferramenta. É o que você delega primeiro.\n\nComenta AGENTE que eu te mando os 10 trabalhos para delegar a um agente, com o pedido pronto.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #openai #inteligenciaartificial",
+    "formato": "react",
+    "capa_ms": 800,
+    "gancho": "O ChatGPT agora trabalha 24h (meia tela)"
+  },
+  {
     "id": "ref-limite",
     "arquivos": [
       "ref-limite-slide-1.jpg",
