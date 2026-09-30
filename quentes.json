@@ -1,5 +1,11 @@
 [
  {
+  "fonte": "Google DeepMind",
+  "titulo": "Introducing SynthID Bio",
+  "link": "https://deepmind.google/blog/introducing-synthid-bio/",
+  "visto_em": "2026-09-30T16:11+00:00"
+ },
+ {
   "fonte": "OpenAI",
   "titulo": "Introducing dots (agentes do ChatGPT)",
   "link": "https://openai.com/index/introducing-dots",
