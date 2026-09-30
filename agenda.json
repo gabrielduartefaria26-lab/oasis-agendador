@@ -372,8 +372,9 @@
     "formato": "visao",
     "capa_ms": 1500,
     "gancho": "O que ninguém te contou sobre os novos modelos do Claude",
-    "aprovacao": true,
-    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/react-opus-55-previa.mp4"
+    "aprovacao": false,
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/react-opus-55-previa.mp4",
+    "aprovado_por": "Gabriel no chat, 30/09"
   },
   {
     "id": "lote02-cursos",
