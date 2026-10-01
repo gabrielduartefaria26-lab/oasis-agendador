@@ -480,6 +480,15 @@
     ]
   },
   {
+    "id": "tut-5palavras",
+    "arquivo": "tut-5palavras.mp4",
+    "quando": "2026-10-01T18:00:00-03:00",
+    "legenda": "A pergunta é a mesma. A palavra que você escreve antes dela muda a resposta.\n\nComenta 50 que eu te mando mais 50 prompts escondidos para o ChatGPT.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#chatgpt #inteligenciaartificial #produtividade",
+    "formato": "tutorial",
+    "capa_ms": 1500,
+    "gancho": "5 comandos mais poderosos do ChatGPT"
+  },
+  {
     "id": "tut-ebook",
     "arquivo": "tut-ebook.mp4",
     "quando": "2026-10-01T19:30:00-03:00",
