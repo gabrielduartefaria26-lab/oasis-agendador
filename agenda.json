@@ -531,6 +531,15 @@
     "gancho": "Vendi R$ 4.000 em IA com 15 seguidores"
   },
   {
+    "id": "bast-editores",
+    "arquivo": "bast-editores.mp4",
+    "quando": "2026-10-02T14:30:00-03:00",
+    "legenda": "Eu gravo em 3 minutos. A IA edita em 6. É assim que eu posto de 5 a 7 vezes por dia sem editor.\n\nComenta CONTEÚDO que eu te mando o passo a passo no direct.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#edicaodevideo #inteligenciaartificial #claude",
+    "formato": "bastidor",
+    "capa_ms": 1700,
+    "gancho": "A era dos editores acabou?"
+  },
+  {
     "id": "ref-canal",
     "arquivos": [
       "ref-canal-slide-1.jpg",
