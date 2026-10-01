@@ -420,6 +420,14 @@
     "gancho": "Quando foi a última vez que você se sentiu burro?"
   },
   {
+    "id": "tut-ebook",
+    "arquivo": "tut-ebook.mp4",
+    "quando": "2026-10-01T08:00:00-03:00",
+    "legenda": "Em vez de maratonar Netflix hoje à noite, faz esse:\n\nO esboço sai em uma conversa. O design sai no Canva. O resto é você vender.\n\nPASSO 1: o assunto.\nNão invente tema. Escolha o que você já resolve para alguém há pelo menos um ano. Quem compra e-book de R$27,90 está com um problema pequeno e urgente, não procurando enciclopédia.\n\nCinco que vendem bem porque a dor é específica:\n. o que fazer nos 30 dias antes de abrir o CNPJ\n. o roteiro de atendimento no WhatsApp para quem vende serviço\n. a rotina de treino para quem só tem 40 minutos e três dias na semana\n. como organizar a planilha do mês quando a renda é variável\n. o passo a passo do primeiro anúncio para quem nunca subiu campanha\n\nPASSO 2: o esboço, no Claude.\n\n\"Você vai me ajudar a escrever um e-book curto, de 30 a 40 páginas, sobre [assunto], para [quem é a pessoa e em que momento ela está]. Antes de escrever, me faça 5 perguntas sobre o que eu já sei desse assunto na prática. Depois entregue o sumário com capítulos e o que cada um resolve, um por linha, e diga qual capítulo é o que faz a pessoa sentir que valeu o dinheiro.\"\n\nResponda as 5 perguntas com a sua experiência. É isso que separa o seu e-book do e-book genérico que ele escreveria sozinho.\n\nPASSO 3: capítulo por capítulo.\n\n\"Escreva o capítulo [X] com as minhas palavras, em no máximo 900 palavras, usando os exemplos que eu te dei. Nada de introdução sobre a importância do tema. Comece pelo que a pessoa faz primeiro.\"\n\nPASSO 4: o design.\nCanva, modelo de e-book, cola o texto, troca as cores, exporta em PDF. Capa com a promessa e o número, não com o seu nome.\n\nA conta do vídeo é conta, não promessa: 100 cópias a R$27,90. Quem tem 200 seguidores não vende 100 no primeiro dia. Mas o arquivo fica pronto hoje e vende enquanto você dorme, o que a série da Netflix nunca vai fazer.\n\nSalva para fazer hoje à noite.",
+    "formato": "lofi",
+    "gancho": "Em vez de maratonar Netflix hoje à noite"
+  },
+  {
     "id": "lote02-cursos",
     "arquivos": [
       "lote02-cursos-slide-1.jpg",
@@ -430,7 +438,7 @@
       "lote02-cursos-slide-6.jpg",
       "lote02-cursos-slide-7.jpg"
     ],
-    "quando": "2026-10-01T09:00:00-03:00",
+    "quando": "2026-10-01T10:00:00-03:00",
     "legenda": "7 cursos oficiais de IA, grátis e com certificado.\n\nSão da OpenAI Academy e da Anthropic Academy, em inglês, sem custo e com certificado no final.\n\nCurso sem aplicação é entretenimento. Faça um por semana e use no mesmo dia.\n\nComenta CURSOS que eu te mando os 7 links na ordem em que eu faria.\n\n#inteligenciaartificial #ia #cursosgratuitos #chatgpt #claude #openai #anthropic #aprendizado",
     "formato": "carrossel",
     "gancho": "7 cursos oficiais de IA grátis e com certificado"
@@ -489,14 +497,6 @@
     "gancho": "5 comandos mais poderosos do ChatGPT"
   },
   {
-    "id": "tut-ebook",
-    "arquivo": "tut-ebook.mp4",
-    "quando": "2026-10-01T19:30:00-03:00",
-    "legenda": "Em vez de maratonar Netflix hoje à noite, faz esse:\n\nO esboço sai em uma conversa. O design sai no Canva. O resto é você vender.\n\nPASSO 1: o assunto.\nNão invente tema. Escolha o que você já resolve para alguém há pelo menos um ano. Quem compra e-book de R$27,90 está com um problema pequeno e urgente, não procurando enciclopédia.\n\nCinco que vendem bem porque a dor é específica:\n. o que fazer nos 30 dias antes de abrir o CNPJ\n. o roteiro de atendimento no WhatsApp para quem vende serviço\n. a rotina de treino para quem só tem 40 minutos e três dias na semana\n. como organizar a planilha do mês quando a renda é variável\n. o passo a passo do primeiro anúncio para quem nunca subiu campanha\n\nPASSO 2: o esboço, no Claude.\n\n\"Você vai me ajudar a escrever um e-book curto, de 30 a 40 páginas, sobre [assunto], para [quem é a pessoa e em que momento ela está]. Antes de escrever, me faça 5 perguntas sobre o que eu já sei desse assunto na prática. Depois entregue o sumário com capítulos e o que cada um resolve, um por linha, e diga qual capítulo é o que faz a pessoa sentir que valeu o dinheiro.\"\n\nResponda as 5 perguntas com a sua experiência. É isso que separa o seu e-book do e-book genérico que ele escreveria sozinho.\n\nPASSO 3: capítulo por capítulo.\n\n\"Escreva o capítulo [X] com as minhas palavras, em no máximo 900 palavras, usando os exemplos que eu te dei. Nada de introdução sobre a importância do tema. Comece pelo que a pessoa faz primeiro.\"\n\nPASSO 4: o design.\nCanva, modelo de e-book, cola o texto, troca as cores, exporta em PDF. Capa com a promessa e o número, não com o seu nome.\n\nA conta do vídeo é conta, não promessa: 100 cópias a R$27,90. Quem tem 200 seguidores não vende 100 no primeiro dia. Mas o arquivo fica pronto hoje e vende enquanto você dorme, o que a série da Netflix nunca vai fazer.\n\nSalva para fazer hoje à noite.",
-    "formato": "lofi",
-    "gancho": "Em vez de maratonar Netflix hoje à noite"
-  },
-  {
     "id": "visao-almoco",
     "arquivo": "visao-almoco.mp4",
     "quando": "2026-10-01T21:30:00-03:00",
@@ -504,6 +504,16 @@
     "formato": "visao",
     "capa_ms": 800,
     "gancho": "Abri minha empresa para ninguém me falar a hora do almoço, agora eu nem almoço"
+  },
+  {
+    "id": "lofi-criar",
+    "arquivo": "lofi-criar.mp4",
+    "quando": "2026-10-02T08:00:00-03:00",
+    "legenda": "A IA não veio para você passar ainda mais horas na frente do computador. Veio para te devolver tempo: com a sua família, com você e com as ideias que ficaram guardadas.\n\nFomos feitos para criar.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #proposito #empreendedorismo",
+    "formato": "lofi",
+    "capa_ms": 1000,
+    "gancho": "A IA foi criada para que você tenha mais tempo para CRIAR!",
+    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lofi-criar-previa.mp4"
   },
   {
     "id": "lote02-lista",
@@ -516,7 +526,7 @@
       "lote02-lista-slide-6.jpg",
       "lote02-lista-slide-7.jpg"
     ],
-    "quando": "2026-10-02T09:00:00-03:00",
+    "quando": "2026-10-02T10:00:00-03:00",
     "legenda": "7 tarefas, 21 IAs: a certa para cada uma.\n\nVocê não precisa de 21. Precisa da que resolve a tarefa que mais te toma tempo, testada por uma semana antes de pagar.\n\nFerramenta nenhuma salva tarefa que ninguém sabe fazer.\n\nComenta LISTA que eu te mando as 21 com o endereço e o que cada uma resolve.\n\n#inteligenciaartificial #ia #ferramentasdeia #chatgpt #claude #produtividade #automacao #empreendedorismo",
     "formato": "carrossel",
     "gancho": "7 tarefas, 21 IAs, a certa para cada uma"
@@ -565,16 +575,6 @@
     ]
   },
   {
-    "id": "lofi-criar",
-    "arquivo": "lofi-criar.mp4",
-    "quando": "2026-10-02T19:30:00-03:00",
-    "legenda": "A IA não veio para você passar ainda mais horas na frente do computador. Veio para te devolver tempo: com a sua família, com você e com as ideias que ficaram guardadas.\n\nFomos feitos para criar.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #proposito #empreendedorismo",
-    "formato": "lofi",
-    "capa_ms": 1000,
-    "gancho": "A IA foi criada para que você tenha mais tempo para CRIAR!",
-    "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lofi-criar-previa.mp4"
-  },
-  {
     "id": "visao-saas",
     "arquivo": "visao-saas.mp4",
     "quando": "2026-10-02T21:30:00-03:00",
@@ -582,6 +582,14 @@
     "formato": "visao",
     "capa_ms": 1000,
     "gancho": "Tem empresas pagando para aprender a usar o ChatGPT"
+  },
+  {
+    "id": "tut-financeiro",
+    "arquivo": "tut-financeiro.mp4",
+    "quando": "2026-10-03T08:00:00-03:00",
+    "legenda": "O Claude arruma a sua vida financeira em um fim de semana. Os prompts estão aqui 👇\n\nVocê precisa de três coisas na mão: o extrato dos últimos 3 meses, a fatura do cartão e a lista do que entra por mês. Exporta tudo em PDF ou planilha e joga na conversa.\n\nPROMPT 1: o diagnóstico.\n\n\"Vou te enviar meus extratos e faturas dos últimos 3 meses. Leia tudo e me diga, sem suavizar: quanto entra por mês em média, quanto sai, e para onde vai. Separe em fixo, variável e invisível, que é o gasto pequeno e repetido que eu nem percebo. No fim, aponte os 3 buracos que mais custam caro e quanto cada um representa por ano.\"\n\nPROMPT 2: o plano.\n\n\"Com base no diagnóstico, monte meu plano dos próximos 90 dias. Quero: quanto preciso deixar de reserva antes de qualquer outra coisa, quanto dá para guardar por mês sem que a vida fique insuportável, qual dívida quito primeiro e por quê, e o único corte que faz mais diferença do que todos os outros juntos. Fale em número, não em conselho.\"\n\nPROMPT 3: a revisão que não deixa você desistir.\n\n\"Todo dia 1, me peça os números do mês que passou e compare com o plano. Diga o que eu cumpri, o que eu furei e quanto isso custou. Se eu furar duas vezes a mesma meta, ela está errada e não sou eu: refaça a meta.\"\n\nUm aviso honesto: ele não é consultor financeiro e não vai te dizer onde investir. O que ele faz bem é o trabalho chato que você adia, que é olhar 3 meses de extrato linha a linha e te mostrar o padrão que você não quer ver.\n\nDuas horas no sábado resolvem o que você vem empurrando há um ano.\n\nSalva e faz no fim de semana.",
+    "formato": "lofi",
+    "gancho": "O CLAUDE vai salvar sua vida financeira em um final de semana"
   },
   {
     "id": "lote03-seguro",
@@ -643,14 +651,6 @@
       "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-repo-slide-6.jpg",
       "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-repo-slide-7.jpg"
     ]
-  },
-  {
-    "id": "tut-financeiro",
-    "arquivo": "tut-financeiro.mp4",
-    "quando": "2026-10-03T19:30:00-03:00",
-    "legenda": "O Claude arruma a sua vida financeira em um fim de semana. Os prompts estão aqui 👇\n\nVocê precisa de três coisas na mão: o extrato dos últimos 3 meses, a fatura do cartão e a lista do que entra por mês. Exporta tudo em PDF ou planilha e joga na conversa.\n\nPROMPT 1: o diagnóstico.\n\n\"Vou te enviar meus extratos e faturas dos últimos 3 meses. Leia tudo e me diga, sem suavizar: quanto entra por mês em média, quanto sai, e para onde vai. Separe em fixo, variável e invisível, que é o gasto pequeno e repetido que eu nem percebo. No fim, aponte os 3 buracos que mais custam caro e quanto cada um representa por ano.\"\n\nPROMPT 2: o plano.\n\n\"Com base no diagnóstico, monte meu plano dos próximos 90 dias. Quero: quanto preciso deixar de reserva antes de qualquer outra coisa, quanto dá para guardar por mês sem que a vida fique insuportável, qual dívida quito primeiro e por quê, e o único corte que faz mais diferença do que todos os outros juntos. Fale em número, não em conselho.\"\n\nPROMPT 3: a revisão que não deixa você desistir.\n\n\"Todo dia 1, me peça os números do mês que passou e compare com o plano. Diga o que eu cumpri, o que eu furei e quanto isso custou. Se eu furar duas vezes a mesma meta, ela está errada e não sou eu: refaça a meta.\"\n\nUm aviso honesto: ele não é consultor financeiro e não vai te dizer onde investir. O que ele faz bem é o trabalho chato que você adia, que é olhar 3 meses de extrato linha a linha e te mostrar o padrão que você não quer ver.\n\nDuas horas no sábado resolvem o que você vem empurrando há um ano.\n\nSalva e faz no fim de semana.",
-    "formato": "lofi",
-    "gancho": "O CLAUDE vai salvar sua vida financeira em um final de semana"
   },
   {
     "id": "visao-minutos",
