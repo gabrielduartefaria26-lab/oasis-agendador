@@ -129,6 +129,7 @@ def main():
                 if (ENSAIO or datetime.fromisoformat(i["quando"]) <= agora)
                 and pendente(i)
                 and not i.get("aprovacao")   # espera o Gabriel aprovar no quadro
+                and not i.get("manual")      # 01/10: ele publica pelo app; a agenda so marca o horario
                 # 28/09: aprovado depois de vencido NAO sai sozinho (o ZapMeta v2 saiu as 08:00 do dia
                 # seguinte porque ele aprovou o card atrasado). Mais de 3 h de atraso = so manual.
                 # So vale para quem passou pelo quadro de aprovacao (tem "previa"); post normal atrasado

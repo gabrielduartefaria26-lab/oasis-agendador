@@ -747,6 +747,14 @@
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/visao-ia-familia-previa.mp4"
   },
   {
+    "id": "carr-semana",
+    "quando": "2026-10-05T08:00:00-03:00",
+    "legenda": "Segunda. Terça. Quarta. Quinta. Sexta. Sábado. Domingo.\n\nTreino, estudo, trabalho e família. Todo dia, as mesmas quatro coisas.\n\nNão tem dia especial. O resultado vem da repetição chata que quase ninguém aguenta.\n\nA IA me deu tempo. Eu escolhi onde gastar.\n\nQual dessas quatro você está deixando para segunda que vem?",
+    "formato": "carrossel",
+    "gancho": "Segunda a domingo: as mesmas quatro coisas",
+    "manual": true
+  },
+  {
     "id": "lote03-plugins",
     "arquivos": [
       "lote03-plugins-slide-1.jpg",
