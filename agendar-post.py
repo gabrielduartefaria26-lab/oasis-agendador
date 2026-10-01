@@ -21,6 +21,7 @@ Regras que ele checa antes de deixar passar, porque cada uma ja deu problema:
   - travessao na legenda
   - CTA "Comenta PALAVRA" com palavra que nao existe no iscas.json (promessa sem entrega)
 """
+import shutil
 import argparse, json, pathlib, re, subprocess, sys
 from datetime import datetime, timedelta
 
@@ -251,10 +252,17 @@ def main():
     destino.mkdir(exist_ok=True)
     jpgs = []
     for i, s in enumerate(slides, 1):
-        j = destino / f"{a.prefixo}-slide-{i}.jpg"
-        if not a.ensaio:
-            rodar(["sips", "-s", "format", "jpeg", "-s", "formatOptions", "92",
-                   str(s), "--out", str(j)])
+        # card animado: se existir videos/slide-NN.mp4, ele entra no lugar da imagem
+        animado = pasta / "videos" / f"slide-{i:02d}.mp4"
+        if animado.exists():
+            j = destino / f"{a.prefixo}-slide-{i}.mp4"
+            if not a.ensaio:
+                shutil.copyfile(animado, j)
+        else:
+            j = destino / f"{a.prefixo}-slide-{i}.jpg"
+            if not a.ensaio:
+                rodar(["sips", "-s", "format", "jpeg", "-s", "formatOptions", "92",
+                       str(s), "--out", str(j)])
         jpgs.append(j)
 
     item = {"id": a.prefixo, "arquivos": [j.name for j in jpgs],

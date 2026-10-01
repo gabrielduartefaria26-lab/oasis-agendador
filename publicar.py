@@ -49,7 +49,9 @@ def criar_container(arquivo, campos):
     url = f"{BASE_URL}/{urllib.parse.quote(arquivo)}"
     extensao = os.path.splitext(arquivo)[1].lower()
     if extensao in VIDEO:
-        campos = {"media_type": "REELS", "video_url": url, **campos}
+        # dentro de carrossel o video e VIDEO; solto, e Reel
+        tipo = "VIDEO" if campos.get("is_carousel_item") else "REELS"
+        campos = {"media_type": tipo, "video_url": url, **campos}
     elif extensao in IMAGEM:
         campos = {"image_url": url, **campos}
     else:
@@ -81,9 +83,6 @@ def publicar(item):
     if arquivos:
         if not 2 <= len(arquivos) <= 10:
             raise RuntimeError(f"carrossel vai de 2 a 10 imagens, vieram {len(arquivos)}")
-        if any(os.path.splitext(a)[1].lower() in VIDEO for a in arquivos):
-            raise RuntimeError("carrossel aqui e so de imagem; video em carrossel "
-                               "usa outro caminho e nao esta implementado")
         filhos = []
         for arquivo in arquivos:
             filho = criar_container(arquivo, {"is_carousel_item": "true"})
