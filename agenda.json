@@ -584,6 +584,32 @@
     ]
   },
   {
+    "id": "ref-dots",
+    "arquivos": [
+      "ref-dots-slide-1.mp4",
+      "ref-dots-slide-2.mp4",
+      "ref-dots-slide-3.mp4",
+      "ref-dots-slide-4.mp4",
+      "ref-dots-slide-5.mp4",
+      "ref-dots-slide-6.mp4",
+      "ref-dots-slide-7.mp4"
+    ],
+    "quando": "2026-10-02T18:00:00-03:00",
+    "legenda": "A OpenAI lançou funcionários de IA que trabalham 24 horas sem você pedir.\n\nOs dots saíram em 29/09, no DevDay: computador próprio na nuvem, mais de 4.000 apps e regras de aprovação (fonte: anúncio oficial da OpenAI).\n\nFuncionário que trabalha sozinho só rende com regra escrita.\n\nComenta DOTS que eu te mando como criar o seu e as 5 regras que eu daria antes de ligar.\n\n#openai #chatgpt #agentesdeia #inteligenciaartificial #ia #automacao #empreendedorismo #devday",
+    "formato": "descoberta",
+    "gancho": "A OpenAI lançou funcionários de IA que trabalham 24 horas sem você pedir",
+    "aprovacao": true,
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-1.mp4",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-2.mp4",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-3.mp4",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-4.mp4",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-5.mp4",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-6.mp4",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-7.mp4"
+    ]
+  },
+  {
     "id": "visao-saas",
     "arquivo": "visao-saas.mp4",
     "quando": "2026-10-02T21:30:00-03:00",
