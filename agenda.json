@@ -610,15 +610,6 @@
     ]
   },
   {
-    "id": "meme-piloto",
-    "arquivo": "meme-piloto.mp4",
-    "quando": "2026-10-02T19:30:00-03:00",
-    "legenda": "Às vezes o Claude é o piloto e eu sou só o passageiro. ✈️\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
-    "formato": "meme",
-    "capa_ms": 1000,
-    "gancho": "Cliente: preciso da proposta pra hoje."
-  },
-  {
     "id": "visao-saas",
     "arquivo": "visao-saas.mp4",
     "quando": "2026-10-02T21:30:00-03:00",
