@@ -1090,5 +1090,361 @@
       "link": ""
     },
     "isca_sugerida": ""
+  },
+  {
+    "id": "2026-10-03-1",
+    "data": "2026-10-03",
+    "vaga": "carrossel",
+    "formato": "carrossel",
+    "horario_sugerido": "03/10 · 09:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "95% dos projetos de IA dentro de empresas não trazem nenhum resultado financeiro, segundo um levantamento do MIT.",
+      "A empresa não trava por falta de inteligência artificial. Trava porque empilha complexidade em cima de um processo que não existe.",
+      "O dono que mais cresce com IA não é o que usa mais ferramenta. É o que sabe qual parte do sistema pode cortar."
+    ],
+    "o_que_se_ve": "entra o dado do MIT sobre projeto de IA que não devolve resultado, sai o critério de 3 perguntas pra saber o que cortar antes de automatizar",
+    "roteiro": [
+      {
+        "bloco": "Slide 1 (Gancho)",
+        "tempo": "slide 1",
+        "tela": "95% dos projetos de IA dentro de empresa não trazem resultado financeiro",
+        "topicos": [
+          "95% dos projetos de IA dentro de empresas não trazem nenhum resultado financeiro, segundo um levantamento do MIT."
+        ]
+      },
+      {
+        "bloco": "Slide 2 (Tese)",
+        "tempo": "slide 2",
+        "tela": "O problema não é o modelo. É a complexidade que o dono empilha em cima dele",
+        "topicos": [
+          "O problema não é o modelo.",
+          "É a complexidade que o dono empilha em cima dele."
+        ]
+      },
+      {
+        "bloco": "Slide 3 (Erro)",
+        "tempo": "slide 3",
+        "tela": "Eu vejo isso toda semana: empresa ligando IA em dez processos ao mesmo tempo",
+        "topicos": [
+          "Eu vejo isso toda semana.",
+          "A empresa tenta ligar a IA em dez processos ao mesmo tempo e não sabe qual dos dez sustenta o resultado."
+        ]
+      },
+      {
+        "bloco": "Slide 4 (Prova)",
+        "tempo": "slide 4",
+        "tela": "O MIT entrevistou mais de 150 líderes de empresa e viu que o motivo não era a qualidade do modelo, era a integração mal feita",
+        "topicos": [
+          "O MIT entrevistou mais de 150 líderes de empresa sobre isso.",
+          "O motivo do fracasso não era a qualidade do modelo.",
+          "Era a integração mal feita no processo que já existia."
+        ]
+      },
+      {
+        "bloco": "Slide 5 (Critério)",
+        "tempo": "slide 5",
+        "tela": "Antes de conectar qualquer IA eu pergunto: isso sustenta 80% do resultado ou é só a parte que parece importante",
+        "topicos": [
+          "Antes de conectar qualquer IA num processo eu faço uma pergunta.",
+          "Isso aqui sustenta 80% do resultado ou é só a parte que parece importante?",
+          "O que não sustenta, eu corto antes de automatizar."
+        ]
+      },
+      {
+        "bloco": "Slide 6 (Fecho)",
+        "tempo": "slide 6",
+        "tela": "Comenta CORTAR que eu te mando o critério completo",
+        "topicos": [
+          "Se sua empresa já tenta ligar IA em vários processos ao mesmo tempo, comenta CORTAR.",
+          "Eu te mando o critério completo que eu uso pra saber o que entra e o que fica de fora."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "",
+      "perfil": "moldes.md",
+      "vezes": "-",
+      "molde": "estrutura tese > erro do dono > prova de dados > critério, da seção Voz e nível de moldes.md, aplicada à tese #220 (complexidade é inimiga)"
+    },
+    "fonte": {
+      "nome": "MIT NANDA, relatório The GenAI Divide: State of AI in Business 2025 (via Fortune)",
+      "link": "https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo"
+    },
+    "isca_sugerida": "CORTAR: o critério de 3 perguntas pra saber o que cortar antes de automatizar"
+  },
+  {
+    "id": "2026-10-03-2",
+    "data": "2026-10-03",
+    "vaga": "quente",
+    "formato": "react",
+    "horario_sugerido": "07/10 · 16:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Toda vez que eu mando um PDF grande pro Claude, uma parte de mim sabe que eu tô pagando token a mais sem precisar.",
+      "Eu nunca tinha parado pra pensar que subir um PDF pro Claude custa o dobro do que devia.",
+      "Tem gente pagando duas vezes pelo mesmo PDF dentro do Claude e nem sabe."
+    ],
+    "o_que_se_ve": "entra o vídeo original explicando por que o PDF é cobrado em dobro, sai a comparação de custo de token antes e depois da correção",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Toda vez que eu mando um PDF grande pro Claude, uma parte de mim sabe que tô pagando token a mais sem precisar",
+        "topicos": [
+          "Toda vez que eu mando um PDF grande pro Claude, uma parte de mim sabe que tô pagando token a mais sem precisar.",
+          "Entro reagindo no segundo 3 do vídeo original, quando ele mostra o motivo disso."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s (meia tela com o vídeo original)",
+        "tela": "Todo PDF que você sobe pro Claude ele transforma cada página numa imagem antes de ler, e imagem custa mais token que texto",
+        "topicos": [
+          "Esse aqui achou o motivo.",
+          "Todo PDF que você sobe pro Claude ele transforma cada página numa imagem antes de ler, e imagem custa mais token que texto.",
+          "Isso foi corrigido há meses com uma ferramenta de graça, só que quase ninguém ligou essa correção."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 20 s",
+        "tela": "GRAVAR TELA: comparando o custo de token de um PDF subido direto contra o mesmo PDF já convertido antes de subir",
+        "topicos": [
+          "GRAVAR TELA: 15 a 20 s comparando o custo de token de um PDF subido direto contra o mesmo PDF já convertido pra texto antes de subir."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "20 a 24 s",
+        "tela": "Isso não é usar menos o Claude. É parar de pagar token por página que podia custar metade",
+        "topicos": [
+          "Isso não é sobre usar menos o Claude.",
+          "É sobre parar de pagar token por página que podia custar metade do preço.",
+          "Comenta TOKEN que eu te mando o passo a passo."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DcUJddXCIKx/",
+      "perfil": "liamjohnston.ai",
+      "vezes": "10.6",
+      "molde": "achado técnico de custo escondido no gancho + reação em meia tela com o vídeo original + isca 'comenta PALAVRA que mando o MCP e o passo a passo'"
+    },
+    "fonte": {
+      "nome": "PDF cobrado em dobro no Claude, correção gratuita via MarkItDown da Microsoft (achado no radar, perfil @liamjohnston.ai)",
+      "link": "https://www.instagram.com/reel/DcUJddXCIKx/"
+    },
+    "isca_sugerida": "TOKEN: o passo a passo pra converter o PDF antes de subir pro Claude"
+  },
+  {
+    "id": "2026-10-03-3",
+    "data": "2026-10-03",
+    "vaga": "quente",
+    "formato": "tutorial",
+    "horario_sugerido": "08/10 · 12:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "A maioria dos clientes que eu entro não trava por falta de ferramenta de IA. Trava porque recomeça a mesma tela toda segunda-feira.",
+      "Separei os arquivos que evitam que seu projeto de IA vire outra ideia abandonada na pasta.",
+      "O que separa quem termina um projeto de IA de quem fica recomeçando não é código. É organização."
+    ],
+    "o_que_se_ve": "entra o cliente recomeçando o mesmo prompt toda semana, sai a pasta com os arquivos prontos que travam o processo antes de abrir qualquer IA",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Clientes não travam por falta de ferramenta, travam por recomeçar toda segunda",
+        "topicos": [
+          "A maioria dos clientes que eu entro não trava por falta de ferramenta de IA.",
+          "Trava porque recomeça a mesma tela toda segunda-feira."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "6 arquivos que eu uso antes de qualquer implementação",
+        "topicos": [
+          "Separei os arquivos que eu uso antes de qualquer implementação pra isso não acontecer.",
+          "O briefing do processo, o prompt base da empresa, o checklist de aprovação e o jeito que eu meço se aquilo ficou pronto ou só parece pronto.",
+          "Nenhum deles é código."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 20 s",
+        "tela": "GRAVAR TELA: abrindo a pasta com os 6 arquivos e mostrando o prompt base preenchido de um processo real",
+        "topicos": [
+          "GRAVAR TELA: 15 a 20 s abrindo a pasta com os 6 arquivos.",
+          "Mostrar o prompt base preenchido de um processo real, sem expor nome de cliente."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "20 a 24 s",
+        "tela": "O que separa quem termina de quem recomeça é ter isso escrito antes de abrir a IA",
+        "topicos": [
+          "O que separa quem termina um projeto de IA de quem fica recomeçando é ter isso escrito antes de abrir o Claude.",
+          "Comenta ARQUIVOS que eu te mando a lista dos 6."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/Dd0J7HQgmKy/",
+      "perfil": "fabianocarvalhojr",
+      "vezes": "12.3",
+      "molde": "dor seca do dono numa frase (recomeça toda semana) + prova de sistema com arquivos prontos + isca de palavra curta que ninguém comenta por acaso"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": "ARQUIVOS: a lista dos 6 arquivos prontos"
+  },
+  {
+    "id": "2026-10-03-4",
+    "data": "2026-10-03",
+    "vaga": "meme",
+    "formato": "meme",
+    "horario_sugerido": "03/10 · 14:30",
+    "fala_com": "quem usa IA",
+    "aberturas": [
+      "Colocar minha filha pra dormir virou tipo rodar um cronjob."
+    ],
+    "o_que_se_ve": "entra ele colocando a filha pra dormir, sai ele parado tranquilo vendo o celular com o trabalho rodando sozinho",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Colocar minha filha pra dormir virou",
+        "topicos": []
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 7 s",
+        "tela": "tipo rodar um cronjob?",
+        "topicos": []
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "7 a 10 s",
+        "tela": "(a IA que roda enquanto eu não rodava)",
+        "topicos": []
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DcMBEKBOJd-/",
+      "perfil": "alberta.tech",
+      "vezes": "20.6",
+      "molde": "frase cotidiana banal comparada com termo técnico de programação, construída em reticências/pausas, cena real, remate seco e irônico"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": ""
+  },
+  {
+    "id": "2026-10-03-5",
+    "data": "2026-10-03",
+    "vaga": "meme",
+    "formato": "meme",
+    "horario_sugerido": "03/10 · 19:00",
+    "fala_com": "quem usa IA",
+    "aberturas": [
+      "Minha missão de vida, sim, aquela, é treinar numa terça às 14h."
+    ],
+    "o_que_se_ve": "entra ele com cara de discurso grandioso, sai ele treinando numa terça às 14h",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Minha missão de vida...",
+        "topicos": []
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 7 s",
+        "tela": "sim... aquela...",
+        "topicos": []
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "7 a 10 s",
+        "tela": "é treinar numa terça às 14h",
+        "topicos": []
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DcenPurPOip/",
+      "perfil": "alberta.tech",
+      "vezes": "12.6",
+      "molde": "frase grandiosa tipo discurso corporativo, pausada com reticências irônicas, corte seco pro oposto banal, cena real"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": ""
+  },
+  {
+    "id": "2026-10-03-6",
+    "data": "2026-10-03",
+    "vaga": "case",
+    "formato": "visao",
+    "horario_sugerido": "08/10 · 21:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Você não pode pedir pra sua empresa crescer e deixar tudo do jeito que tá confortável pra você.",
+      "O preço de crescer é abrir mão do controle que te dá segurança."
+    ],
+    "o_que_se_ve": "entra a frase dita direto pra câmera, sai o agendador publicando e o painel do assistente organizando o dia sem ele estar na tela",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Você não pode pedir pra sua empresa crescer e deixar tudo do jeito que tá confortável pra você",
+        "topicos": [
+          "Você não pode pedir pra sua empresa crescer e deixar tudo do jeito que tá confortável pra você."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 8 s",
+        "tela": "O preço de crescer é abrir mão do controle que te dá segurança",
+        "topicos": [
+          "O preço de crescer é abrir mão do controle que te dá segurança.",
+          "Eu abri mão de postar, de responder direct, de escrever ideia."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "8 a 15 s",
+        "tela": "GRAVAR TELA: o agendador publicando sozinho e o painel de tarefas do assistente organizando o dia, sem eu estar na tela",
+        "topicos": [
+          "GRAVAR TELA: 10 a 15 s mostrando o agendador publicando sozinho e o painel de tarefas do assistente organizando o dia, sem eu estar na tela."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "15 a 18 s",
+        "tela": "Isso publica, responde e organiza sem eu abrir o aplicativo. O desconforto foi a parte boa",
+        "topicos": [
+          "Isso aqui publica, responde e organiza sem eu abrir o aplicativo.",
+          "O desconforto foi a parte boa."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdwvGA5BkHl/",
+      "perfil": "hormozi",
+      "vezes": "24.2",
+      "molde": "frase filosófica curta e seca dita direto pra câmera, sem b-roll, tom grave, sobre o preço de crescer"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": ""
   }
 ]
