@@ -1446,5 +1446,357 @@
       "link": ""
     },
     "isca_sugerida": ""
+  },
+  {
+    "id": "2026-10-04-1",
+    "data": "2026-10-04",
+    "vaga": "carrossel",
+    "formato": "carrossel",
+    "horario_sugerido": "04/10 · 09:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Uma pesquisa com 457 donos de pequeno negócio mostrou que 65,7% deles não usa nenhuma ferramenta de IA, e mesmo assim 52,7% já sabe que vai precisar pra competir esse ano.",
+      "O problema não é não saber que precisa de IA. É não saber por onde começar, e aí trava, ou começa pelo lugar errado.",
+      "Antes de ligar qualquer IA numa empresa, eu faço a mesma pergunta, sempre."
+    ],
+    "o_que_se_ve": "entra o dado da pesquisa sobre quem ainda não usa IA, sai o critério que decide por onde começar primeiro",
+    "roteiro": [
+      {
+        "bloco": "Slide 1 (Gancho)",
+        "tempo": "slide 1",
+        "tela": "65,7% dos donos de pequeno negócio ainda não usa nenhuma ferramenta de IA. 52,7% já sabe que vai precisar",
+        "topicos": [
+          "Uma pesquisa com 457 donos de pequeno negócio mostrou que 65,7% deles não usa nenhuma ferramenta de IA, e mesmo assim 52,7% já sabe que vai precisar pra competir esse ano."
+        ]
+      },
+      {
+        "bloco": "Slide 2 (Tese)",
+        "tempo": "slide 2",
+        "tela": "O problema não é não saber que precisa. É não saber por onde começar",
+        "topicos": [
+          "O problema não é não saber que precisa.",
+          "É não saber por onde começar, e aí trava, ou começa pelo lugar errado."
+        ]
+      },
+      {
+        "bloco": "Slide 3 (Erro)",
+        "tempo": "slide 3",
+        "tela": "Eu vejo isso toda semana: dono testa chatbot, testa gerador de imagem, e nunca toca no processo que consome dinheiro todo dia",
+        "topicos": [
+          "Eu vejo isso toda semana.",
+          "O dono testa chatbot, testa gerador de imagem, e nunca toca no processo que realmente consome dinheiro da empresa todo santo dia."
+        ]
+      },
+      {
+        "bloco": "Slide 4 (Prova)",
+        "tempo": "slide 4",
+        "tela": "A mesma pesquisa mostra que 44,5% quer usar IA pra vender mais, mas só 23% pensa em automatizar tarefa repetitiva",
+        "topicos": [
+          "A mesma pesquisa mostra que 44,5% dos donos quer usar IA pra vender mais.",
+          "Só 23% pensa em automatizar tarefa repetitiva, que é onde o dinheiro vaza todo dia."
+        ]
+      },
+      {
+        "bloco": "Slide 5 (Critério)",
+        "tempo": "slide 5",
+        "tela": "Antes de automatizar qualquer coisa eu pergunto: isso trava dinheiro ou tempo todo santo dia?",
+        "topicos": [
+          "Antes de automatizar qualquer coisa numa empresa eu faço uma pergunta.",
+          "Isso aqui trava dinheiro ou tempo todo santo dia, ou só parece importante?",
+          "O que não trava, eu deixo pra depois."
+        ]
+      },
+      {
+        "bloco": "Slide 6 (Fecho)",
+        "tempo": "slide 6",
+        "tela": "Comenta CRITERIO que eu te mando o passo a passo de como decido o que automatizar primeiro",
+        "topicos": [
+          "Se você ainda não sabe por onde começar na sua empresa, comenta CRITERIO.",
+          "Eu te mando o passo a passo de como eu decido o que automatizar primeiro."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "",
+      "perfil": "moldes.md",
+      "vezes": "-",
+      "molde": "estrutura dado > tese > erro do dono > prova de dados > critério > fecho, mesma estrutura do carrossel de 03/10, aplicada aqui ao gap entre saber e agir"
+    },
+    "fonte": {
+      "nome": "Pesquisa InfinitePay (CloudWalk) com 457 micro e pequenos empresários, fevereiro de 2026 (via LetsMoney)",
+      "link": "https://www.letsmoney.com.br/ia/pesquisa-infinitepay-ia-pequenos-empreendedores-2026/"
+    },
+    "isca_sugerida": "CRITERIO: o passo a passo de como decido o que automatizar primeiro numa empresa"
+  },
+  {
+    "id": "2026-10-04-2",
+    "data": "2026-10-04",
+    "vaga": "quente",
+    "formato": "descoberta",
+    "horario_sugerido": "07/10 · 16:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "A empresa que criou o Claude abriu uma escola de IA, com certificado, e quase nenhum dono de empresa que eu converso usa isso pra treinar o time.",
+      "Enquanto você paga curso de IA pra equipe, a própria Anthropic já abriu o curso dela.",
+      "Testei a escola de IA da Anthropic pensando em treinamento de equipe, não em mim."
+    ],
+    "o_que_se_ve": "entra a tela de entrada da Claude Academy, sai ele navegando pelos cursos e escolhendo um pra indicar pra equipe",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "A empresa que criou o Claude abriu uma escola de IA, com certificado",
+        "topicos": [
+          "A empresa que criou o Claude abriu uma escola de IA, com certificado, e quase nenhum dono de empresa que eu converso usa isso pra treinar o time."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "GRAVAR TELA: 10 a 20 s navegando pela Claude Academy, mostrando os cursos e o certificado",
+        "topicos": [
+          "A Claude Academy tem curso que vai do básico até agente e integração com nuvem, todo de graça, com certificado no final.",
+          "Eu testei pensando em qual curso eu indicaria pra minha equipe começar, não pra mim."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 20 s",
+        "tela": "curso aberto na tela, o que eu escolheria pra quem cuida do atendimento comigo",
+        "topicos": [
+          "Essa tela aqui é o curso que eu escolheria pra quem cuida do atendimento comigo."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "20 a 25 s",
+        "tela": "Comenta ACADEMIA que eu te mando o link e por onde eu começaria se fosse treinar minha equipe",
+        "topicos": [
+          "Isso não troca quem decide a oferta da empresa, só tira a desculpa de que a equipe não sabe usar IA.",
+          "Comenta ACADEMIA que eu te mando o link e por onde eu começaria."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DcV1v6GoRIW/",
+      "perfil": "allesinisgalli",
+      "vezes": "34.8",
+      "molde": "dado de oportunidade ignorada no gancho (empresa que criou a ferramenta oferece algo de graça e quase ninguém usa) + prova rodando na tela + isca comenta PALAVRA no Direct"
+    },
+    "fonte": {
+      "nome": "Anthropic Academy, 14 cursos gratuitos com certificado em 3 trilhas",
+      "link": "https://anthropic.skilljar.com"
+    },
+    "isca_sugerida": "ACADEMIA: o link e por onde eu começaria se fosse treinar minha equipe"
+  },
+  {
+    "id": "2026-10-04-3",
+    "data": "2026-10-04",
+    "vaga": "quente",
+    "formato": "tutorial",
+    "horario_sugerido": "08/10 · 12:00",
+    "fala_com": "quem usa IA",
+    "aberturas": [
+      "Toda vez que eu preciso prospectar cliente no LinkedIn, o trabalho chato não é escrever a mensagem, é descobrir quem vale a pena procurar.",
+      "Alguém publicou de graça um sistema inteiro de Claude só pra rodar LinkedIn, com 11 partes separadas.",
+      "Eu testei as partes desse sistema que realmente resolvem prospecção, não as que só pareciam úteis."
+    ],
+    "o_que_se_ve": "entra a tarefa manual de prospectar lead no LinkedIn, sai a mesma tarefa rodando como skill do Claude",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Prospectar cliente no LinkedIn: o trabalho chato não é escrever a mensagem",
+        "topicos": [
+          "Toda vez que eu preciso prospectar cliente no LinkedIn, o trabalho chato não é escrever a mensagem, é descobrir quem vale a pena procurar."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "GRAVAR TELA: 10 a 20 s instalando e testando as skills do repositório que façam sentido pra operação dele",
+        "topicos": [
+          "Alguém publicou de graça um sistema com 11 skills de Claude só pra rodar LinkedIn.",
+          "Instalei e testei as que resolvem prospecção de verdade, não todas as 11."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 20 s",
+        "tela": "a skill rodando numa busca real do tipo de empresa que ele quer como cliente",
+        "topicos": [
+          "Essa tela aqui é a skill rodando, buscando o tipo de empresa que eu quero como cliente."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "20 a 25 s",
+        "tela": "Comenta LINKEDIN que eu te mando o repositório e o passo a passo",
+        "topicos": [
+          "Isso não escreve a mensagem certa por você, só tira o trabalho de garimpar manualmente quem vale a pena procurar.",
+          "Comenta LINKEDIN que eu te mando o repositório e o passo a passo pra instalar."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DczDlj4qQjI/",
+      "perfil": "liamjohnston.ai",
+      "vezes": "29.9",
+      "molde": "achado de repositório gratuito no gancho (sistema completo e grátis pra uma rede) + prova rodando na tela + isca comenta PALAVRA"
+    },
+    "fonte": {
+      "nome": "repositório aberto com 11 skills de Claude para operação no LinkedIn (via reel @liamjohnston.ai)",
+      "link": "https://www.instagram.com/reel/DczDlj4qQjI/"
+    },
+    "isca_sugerida": "LINKEDIN: o repositório e o passo a passo pra instalar"
+  },
+  {
+    "id": "2026-10-04-4",
+    "data": "2026-10-04",
+    "vaga": "meme",
+    "formato": "meme",
+    "horario_sugerido": "04/10 · 14:30",
+    "fala_com": "quem usa IA",
+    "aberturas": [
+      "Essa vai ser a maior campanha de marketing da história."
+    ],
+    "o_que_se_ve": "entra a frase grandiosa na tela, sai ele sozinho de chinelo comentando a palavra chave no próprio post pra testar a automação",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Essa vai ser a maior campanha de marketing da história",
+        "topicos": []
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 7 s",
+        "tela": "cena: ele de chinelo, sozinho, comentando a palavra chave no próprio post",
+        "topicos": []
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "7 a 10 s",
+        "tela": "a automação responde sozinha no Direct",
+        "topicos": []
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdiCTnRRQUI/",
+      "perfil": "alberta.tech",
+      "vezes": "9.7",
+      "molde": "frase grandiosa e irônica sobre algo da própria operação, texto na tela + cena real modesta contradizendo a grandiosidade, sem fala"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": ""
+  },
+  {
+    "id": "2026-10-04-5",
+    "data": "2026-10-04",
+    "vaga": "meme",
+    "formato": "meme",
+    "horario_sugerido": "05/10 · 14:30",
+    "fala_com": "quem usa IA",
+    "aberturas": [
+      "Minha apresentação de maior sucesso até hoje 🙏"
+    ],
+    "o_que_se_ve": "entra a frase de orgulho exagerado na tela, sai ele mostrando pro celular o painel de tarefas que o assistente montou de manhã",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Minha apresentação de maior sucesso até hoje 🙏",
+        "topicos": []
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "4 a 7 s",
+        "tela": "cena: ele mostra pro celular o painel de tarefas do dia, simples, gerado pelo assistente",
+        "topicos": []
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "7 a 10 s",
+        "tela": "ele guarda o celular, satisfeito, sem explicar nada",
+        "topicos": []
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DcjBy0UxzPI/",
+      "perfil": "alberta.tech",
+      "vezes": "8.9",
+      "molde": "afirmação de orgulho grandiosa sobre algo modesto, texto na tela + cena real despretensiosa contradizendo a frase, sem fala"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": ""
+  },
+  {
+    "id": "2026-10-04-6",
+    "data": "2026-10-04",
+    "vaga": "case",
+    "formato": "visao",
+    "horario_sugerido": "08/10 · 21:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "O maior inimigo do dono de empresa de serviço não é a concorrência. É o consultor que entrega relatório em PDF bonito e devolve a execução pra ele.",
+      "Eu já vi dezenas de operação por dentro. O dono paga a consultoria, recebe o diagnóstico, e no fim tem que contratar alguém pra executar o que o PDF disse."
+    ],
+    "o_que_se_ve": "entra a tese dita direto pra câmera, sai o sistema de captação dele rodando, comentário virando direct, planilha de lead se preenchendo, aviso chegando por e-mail",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "O maior inimigo do dono de empresa de serviço não é a concorrência",
+        "topicos": [
+          "O maior inimigo do dono de empresa de serviço não é a concorrência.",
+          "É o consultor que entrega relatório em PDF bonito e devolve a execução pra ele."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 8 s",
+        "tela": "Eu já vi dezenas de operação por dentro",
+        "topicos": [
+          "Eu já vi dezenas de operação por dentro.",
+          "O dono paga a consultoria, recebe o diagnóstico, e no fim tem que contratar alguém pra executar o que o PDF disse."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "8 a 15 s",
+        "tela": "GRAVAR TELA: 10 a 15 s mostrando o comentário virando direct, a planilha de lead se preenchendo e o aviso chegando por e-mail, sem ManyChat",
+        "topicos": [
+          "Eu não entrego relatório. Eu instalo o sistema e fico até ele rodar sozinho.",
+          "Isso aqui é comentário virando direct sem ManyChat, planilha de lead se preenchendo e aviso chegando por e-mail, ao vivo."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "15 a 18 s",
+        "tela": "O critério: ela liga o sistema e fica até ele rodar, ou só te dá uma opinião cara",
+        "topicos": [
+          "O critério que eu uso pra saber se uma consultoria vale o preço é esse.",
+          "Ela liga o sistema e fica até ele rodar sozinho, ou só te dá uma opinião cara.",
+          "Se for só a opinião, você não comprou execução."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "",
+      "perfil": "moldes.md",
+      "vezes": "-",
+      "molde": "tese 'o inimigo é o consultor que entrega relatório em PDF e devolve a execução para o dono', estrutura tese > erro > prova (sistema) > critério, da seção Voz e nível de moldes.md"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": ""
   }
 ]
