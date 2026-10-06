@@ -996,5 +996,14 @@
     "formato": "descoberta",
     "capa_ms": 3400,
     "gancho": "Claude Code sem pagar 200 dólares por mês"
+  },
+  {
+    "id": "bast-sistema",
+    "arquivo": "bast-sistema.mp4",
+    "quando": "2026-10-10T12:00:00-03:00",
+    "legenda": "Postar mais não resolve. O que resolve é saber o que fazer com o que funcionou.\n\nComenta SISTEMA que eu te mando o sistema desenhado no direct.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#marketingdigital #inteligenciaartificial #empreendedorismo",
+    "formato": "case",
+    "capa_ms": 4000,
+    "gancho": "Se ninguém te segue, falta conteúdo de topo"
   }
 ]
