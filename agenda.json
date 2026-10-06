@@ -969,5 +969,14 @@
     "formato": "visao",
     "capa_ms": 800,
     "gancho": "Descobri que tenho alergia a gente pobre de espírito"
+  },
+  {
+    "id": "bast-equipe-youtube",
+    "arquivo": "bast-equipe-youtube.mp4",
+    "quando": "2026-10-08T14:30:00-03:00",
+    "legenda": "Não é um robô que posta sozinho. É uma equipe que faz a parte chata para você só gravar.\n\nComenta TUBE que eu te mando as 4 skills prontas para o seu canal.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#youtube #claude #inteligenciaartificial",
+    "formato": "bastidor",
+    "capa_ms": 1500,
+    "gancho": "Alguém montou uma equipe inteira de IA para tocar um canal do YouTube"
   }
 ]
