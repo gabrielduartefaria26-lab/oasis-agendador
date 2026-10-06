@@ -986,6 +986,34 @@
     "gancho": "Agora sim, o Claude vai editar 100% dos seus conteúdos"
   },
   {
+    "id": "lote04-fake",
+    "arquivos": [
+      "lote04-fake-slide-1.jpg",
+      "lote04-fake-slide-2.jpg",
+      "lote04-fake-slide-3.jpg",
+      "lote04-fake-slide-4.jpg",
+      "lote04-fake-slide-5.jpg",
+      "lote04-fake-slide-6.jpg",
+      "lote04-fake-slide-7.jpg",
+      "lote04-fake-slide-8.jpg",
+      "lote04-fake-slide-9.jpg"
+    ],
+    "quando": "2026-10-10T10:00:00-03:00",
+    "legenda": "Esse influenciador tem 239 mil seguidores. Ele não existe.\n\nUm vídeo do Jean Philanthrope fez 35,9 milhões de visualizações, e a moeda do link da bio perdeu mais de 99% no dia do pico.\n\nO rosto engana. A conta entrega.\n\nComenta FAKE que eu te mando o checklist de 10 segundos para o grupo da família.\n\n#inteligenciaartificial #ia #deepfake #golpe #seguranca #gemini #instagram #iagenerativa",
+    "aprovacao": true,
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-fake-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-fake-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-fake-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-fake-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-fake-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-fake-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-fake-slide-7.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-fake-slide-8.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-fake-slide-9.jpg"
+    ]
+  },
+  {
     "id": "tut-design-bonito",
     "arquivo": "tut-design-bonito.mp4",
     "quando": "2026-10-10T12:00:00-03:00",
