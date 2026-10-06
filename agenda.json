@@ -1091,6 +1091,32 @@
     "gancho": "Alguém montou uma equipe inteira de IA para tocar um canal do YouTube"
   },
   {
+    "id": "lote04-venda",
+    "arquivos": [
+      "lote04-venda-slide-1.jpg",
+      "lote04-venda-slide-2.jpg",
+      "lote04-venda-slide-3.jpg",
+      "lote04-venda-slide-4.jpg",
+      "lote04-venda-slide-5.jpg",
+      "lote04-venda-slide-6.jpg",
+      "lote04-venda-slide-7.jpg",
+      "lote04-venda-slide-8.jpg"
+    ],
+    "quando": "2026-10-13T10:00:00-03:00",
+    "legenda": "Cole as conversas do WhatsApp no Claude e ele mostra em qual mensagem você perdeu a venda.\n\nExportar uma conversa leva 10 segundos. Junte 10 de quem pediu preço e sumiu.\n\nToda venda perdida tem uma última mensagem.\n\nComenta VENDA que eu te mando o pedido completo.\n\n#claude #inteligenciaartificial #ia #whatsapp #vendas #atendimento #empreendedorismo #comercial",
+    "aprovacao": true,
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-venda-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-venda-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-venda-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-venda-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-venda-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-venda-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-venda-slide-7.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-venda-slide-8.jpg"
+    ]
+  },
+  {
     "id": "desc-freellmapi",
     "arquivo": "desc-freellmapi.mp4",
     "quando": "2026-10-13T12:00:00-03:00",
