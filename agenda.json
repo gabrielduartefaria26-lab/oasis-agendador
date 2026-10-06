@@ -884,6 +884,15 @@
     ]
   },
   {
+    "id": "tut-skills-insta",
+    "arquivo": "tut-skills-insta.mp4",
+    "quando": "2026-10-06T12:00:00-03:00",
+    "legenda": "Elas não postam por você. Fazem a parte que mais toma tempo: pensar e escrever.\n\nComenta INSTA que eu te mando o passo a passo completo para instalar.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#claude #instagram #inteligenciaartificial",
+    "formato": "tutorial",
+    "capa_ms": 2800,
+    "gancho": "13 skills de graça que transformam o Claude no seu social media"
+  },
+  {
     "id": "lote03-code",
     "arquivos": [
       "lote03-code-slide-1.jpg",
