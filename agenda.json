@@ -925,6 +925,15 @@
     ]
   },
   {
+    "id": "desc-davinci-claude",
+    "arquivo": "desc-davinci-claude.mp4",
+    "quando": "2026-10-06T18:00:00-03:00",
+    "legenda": "Só funciona no Resolve Studio, a versão paga. Faça backup do projeto antes do primeiro teste.\n\nComenta CORTE que eu te mando a configuração inteira.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#davinciresolve #claude #edicaodevideo",
+    "formato": "descoberta",
+    "capa_ms": 1800,
+    "gancho": "Agora sim, o Claude vai editar 100% dos seus conteúdos"
+  },
+  {
     "id": "visao-6anos",
     "arquivo": "visao-6anos.mp4",
     "quando": "2026-10-06T21:30:00-03:00",
