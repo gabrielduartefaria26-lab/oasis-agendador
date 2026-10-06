@@ -893,6 +893,15 @@
     "gancho": "13 skills de graça que transformam o Claude no seu social media"
   },
   {
+    "id": "desc-escola-claude",
+    "arquivo": "desc-escola-claude.mp4",
+    "quando": "2026-10-06T14:30:00-03:00",
+    "legenda": "Está em inglês, mas o Chrome traduz. Custo zero para você e para a sua equipe.\n\nComenta ESCOLA que eu te mando a ordem certa dos 3 cursos, com o link oficial.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#claude #inteligenciaartificial #empreendedorismo",
+    "formato": "descoberta",
+    "capa_ms": 3400,
+    "gancho": "A empresa que criou o Claude abriu uma escola de IA 100% gratuita"
+  },
+  {
     "id": "lote03-code",
     "arquivos": [
       "lote03-code-slide-1.jpg",
