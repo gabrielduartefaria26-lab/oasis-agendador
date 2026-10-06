@@ -1159,5 +1159,31 @@
     "formato": "case",
     "capa_ms": 4000,
     "gancho": "Se ninguém te segue, falta conteúdo de topo"
+  },
+  {
+    "id": "lote04-molde",
+    "arquivos": [
+      "lote04-molde-slide-1.jpg",
+      "lote04-molde-slide-2.jpg",
+      "lote04-molde-slide-3.jpg",
+      "lote04-molde-slide-4.jpg",
+      "lote04-molde-slide-5.jpg",
+      "lote04-molde-slide-6.jpg",
+      "lote04-molde-slide-7.jpg",
+      "lote04-molde-slide-8.jpg"
+    ],
+    "quando": "2026-10-15T10:00:00-03:00",
+    "legenda": "Eu faço 7 carrosséis numa tarde com o Claude. Este é um deles.\n\nGarimpo, texto no molde, um comando que desenha e um agendador que posta sozinho.\n\nA IA não teve a ideia. Ela repetiu o meu processo 7 vezes.\n\nComenta MOLDE que eu te mando o mapa do processo.\n\n#claude #inteligenciaartificial #ia #carrossel #instagram #automacao #conteudo #produtividade",
+    "aprovacao": true,
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-molde-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-molde-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-molde-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-molde-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-molde-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-molde-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-molde-slide-7.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-molde-slide-8.jpg"
+    ]
   }
 ]
