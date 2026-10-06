@@ -84,6 +84,11 @@ jobs:
             # 27/09/2026: o cron do GitHub chegou a atrasar 6 h e o post das 09:00 caiu no
             # buraco entre dois plantoes (saiu 09:18). Perto das 5 h, este plantao abre o
             # proprio substituto; o cancel-in-progress encerra este quando o novo entra.
+            # 06/10/2026: o cron de hora em hora dos seguidores rodava a cada 4 a 9 h.
+            # O plantao, que fica vivo, dispara a coleta a cada 30 voltas (1 h).
+            if [ $((volta % 30)) = 1 ] && [ "$ENSAIO" != "1" ]; then
+              gh workflow run seguidores.yml --ref main || echo "nao consegui disparar os seguidores"
+            fi
             if [ "$volta" = "150" ]; then
               gh workflow run publicar.yml --ref main -f plantao=true && echo "substituto aberto" || echo "nao consegui abrir o substituto, fica o cron"
             fi
