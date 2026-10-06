@@ -1126,6 +1126,32 @@
     "gancho": "Claude Code sem pagar 200 dólares por mês"
   },
   {
+    "id": "lote04-perfil",
+    "arquivos": [
+      "lote04-perfil-slide-1.jpg",
+      "lote04-perfil-slide-2.jpg",
+      "lote04-perfil-slide-3.jpg",
+      "lote04-perfil-slide-4.jpg",
+      "lote04-perfil-slide-5.jpg",
+      "lote04-perfil-slide-6.jpg",
+      "lote04-perfil-slide-7.jpg",
+      "lote04-perfil-slide-8.jpg"
+    ],
+    "quando": "2026-10-14T10:00:00-03:00",
+    "legenda": "Mandei o print do meu Instagram para o Claude e pedi para ele ser cruel.\n\nTrês problemas na tela que quem chega vê primeiro: bio, grade e primeiro post.\n\nA IA acha o que você pede para procurar.\n\nComenta PERFIL que eu te mando o pedido completo para auditar o seu.\n\n#claude #inteligenciaartificial #ia #instagram #marketingdigital #perfil #marcapessoal",
+    "aprovacao": true,
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-perfil-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-perfil-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-perfil-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-perfil-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-perfil-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-perfil-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-perfil-slide-7.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-perfil-slide-8.jpg"
+    ]
+  },
+  {
     "id": "bast-sistema",
     "arquivo": "bast-sistema.mp4",
     "quando": "2026-10-14T12:00:00-03:00",
