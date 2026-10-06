@@ -953,6 +953,15 @@
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-gestor-previa.mp4?v=1790574782"
   },
   {
+    "id": "tut-design-bonito",
+    "arquivo": "tut-design-bonito.mp4",
+    "quando": "2026-10-07T18:00:00-03:00",
+    "legenda": "Design feio de IA não é culpa da IA. É falta de referência.\n\nComenta BONITO que eu te mando os 8 sites e o prompt de cada um.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#claude #webdesign #inteligenciaartificial",
+    "formato": "tutorial",
+    "capa_ms": 2200,
+    "gancho": "8 sites gratuitos que transformam o Claude num gênio do design"
+  },
+  {
     "id": "visao-espirito",
     "arquivo": "visao-espirito.mp4",
     "quando": "2026-10-07T21:30:00-03:00",
