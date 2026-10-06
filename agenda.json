@@ -584,32 +584,6 @@
     ]
   },
   {
-    "id": "ref-dots",
-    "arquivos": [
-      "ref-dots-slide-1.mp4",
-      "ref-dots-slide-2.mp4",
-      "ref-dots-slide-3.mp4",
-      "ref-dots-slide-4.mp4",
-      "ref-dots-slide-5.mp4",
-      "ref-dots-slide-6.mp4",
-      "ref-dots-slide-7.mp4"
-    ],
-    "quando": "2026-10-02T18:00:00-03:00",
-    "legenda": "A OpenAI lançou funcionários de IA que trabalham 24 horas sem você pedir.\n\nOs dots saíram em 29/09, no DevDay: computador próprio na nuvem, mais de 4.000 apps e regras de aprovação (fonte: anúncio oficial da OpenAI).\n\nFuncionário que trabalha sozinho só rende com regra escrita.\n\nComenta DOTS que eu te mando como criar o seu e as 5 regras que eu daria antes de ligar.\n\n#openai #chatgpt #agentesdeia #inteligenciaartificial #ia #automacao #empreendedorismo #devday",
-    "formato": "descoberta",
-    "gancho": "A OpenAI lançou funcionários de IA que trabalham 24 horas sem você pedir",
-    "aprovacao": true,
-    "previa": [
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-1.mp4",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-2.mp4",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-3.mp4",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-4.mp4",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-5.mp4",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-6.mp4",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-7.mp4"
-    ]
-  },
-  {
     "id": "meme-sob-pressao-v2",
     "arquivo": "meme-sob-pressao-v2.mp4",
     "quando": "2026-10-02T19:30:00-03:00",
@@ -634,31 +608,6 @@
     "legenda": "O Claude arruma a sua vida financeira em um fim de semana. Os prompts estão aqui 👇\n\nVocê precisa de três coisas na mão: o extrato dos últimos 3 meses, a fatura do cartão e a lista do que entra por mês. Exporta tudo em PDF ou planilha e joga na conversa.\n\nPROMPT 1: o diagnóstico.\n\n\"Vou te enviar meus extratos e faturas dos últimos 3 meses. Leia tudo e me diga, sem suavizar: quanto entra por mês em média, quanto sai, e para onde vai. Separe em fixo, variável e invisível, que é o gasto pequeno e repetido que eu nem percebo. No fim, aponte os 3 buracos que mais custam caro e quanto cada um representa por ano.\"\n\nPROMPT 2: o plano.\n\n\"Com base no diagnóstico, monte meu plano dos próximos 90 dias. Quero: quanto preciso deixar de reserva antes de qualquer outra coisa, quanto dá para guardar por mês sem que a vida fique insuportável, qual dívida quito primeiro e por quê, e o único corte que faz mais diferença do que todos os outros juntos. Fale em número, não em conselho.\"\n\nPROMPT 3: a revisão que não deixa você desistir.\n\n\"Todo dia 1, me peça os números do mês que passou e compare com o plano. Diga o que eu cumpri, o que eu furei e quanto isso custou. Se eu furar duas vezes a mesma meta, ela está errada e não sou eu: refaça a meta.\"\n\nUm aviso honesto: ele não é consultor financeiro e não vai te dizer onde investir. O que ele faz bem é o trabalho chato que você adia, que é olhar 3 meses de extrato linha a linha e te mostrar o padrão que você não quer ver.\n\nDuas horas no sábado resolvem o que você vem empurrando há um ano.\n\nSalva e faz no fim de semana.",
     "formato": "lofi",
     "gancho": "O CLAUDE vai salvar sua vida financeira em um final de semana"
-  },
-  {
-    "id": "lote03-seguro",
-    "arquivos": [
-      "lote03-seguro-slide-1.jpg",
-      "lote03-seguro-slide-2.jpg",
-      "lote03-seguro-slide-3.jpg",
-      "lote03-seguro-slide-4.jpg",
-      "lote03-seguro-slide-5.jpg",
-      "lote03-seguro-slide-6.jpg",
-      "lote03-seguro-slide-7.jpg"
-    ],
-    "quando": "2026-10-03T10:00:00-03:00",
-    "legenda": "O ChatGPT agora mostra quem entrou na sua conta.\n\nDesde 25/09, em todos os planos: Configurações, Segurança e login, Histórico de segurança (fonte: notas de versão do ChatGPT).\n\nConta de IA virou arquivo da empresa. Trate como tal.\n\nComenta SEGURO que eu te mando o checklist de 5 minutos para blindar a conta.\n\n#chatgpt #openai #segurancadigital #inteligenciaartificial #ia #empreendedorismo #produtividade #gestao",
-    "formato": "descoberta",
-    "gancho": "O ChatGPT agora mostra quem entrou na sua conta",
-    "previa": [
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-1.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-2.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-3.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-4.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-5.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-6.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-7.jpg"
-    ]
   },
   {
     "id": "tut-metricas",
@@ -824,32 +773,6 @@
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-biblioteca-previa.mp4?v=1790578116"
   },
   {
-    "id": "lote03-critico",
-    "arquivos": [
-      "lote03-critico-slide-1.jpg",
-      "lote03-critico-slide-2.jpg",
-      "lote03-critico-slide-3.jpg",
-      "lote03-critico-slide-4.jpg",
-      "lote03-critico-slide-5.jpg",
-      "lote03-critico-slide-6.jpg",
-      "lote03-critico-slide-7.jpg"
-    ],
-    "quando": "2026-10-05T16:30:00-03:00",
-    "legenda": "Se a IA concorda com tudo, o problema é a sua pergunta.\n\nMesma ideia, duas perguntas: uma ganha elogio, a outra acha o furo antes de você gastar.\n\nA IA amplifica o que você já é.\n\nComenta CRITICO que eu te mando as 5 frases e o prompt que eu uso antes de decisão grande.\n\n#inteligenciaartificial #ia #chatgpt #claude #tomadadedecisao #empreendedorismo #negocios #prompts",
-    "formato": "ferramenta",
-    "gancho": "Se a IA concorda com tudo, o problema é a sua pergunta",
-    "aprovacao": true,
-    "previa": [
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-1.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-2.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-3.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-4.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-5.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-6.jpg",
-      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-7.jpg"
-    ]
-  },
-  {
     "id": "visao-sitio",
     "arquivo": "visao-sitio.mp4",
     "quando": "2026-10-05T21:30:00-03:00",
@@ -893,15 +816,6 @@
     "gancho": "13 skills de graça que transformam o Claude no seu social media"
   },
   {
-    "id": "desc-escola-claude",
-    "arquivo": "desc-escola-claude.mp4",
-    "quando": "2026-10-08T12:00:00-03:00",
-    "legenda": "Está em inglês, mas o Chrome traduz. Custo zero para você e para a sua equipe.\n\nComenta ESCOLA que eu te mando a ordem certa dos 3 cursos, com o link oficial.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#claude #inteligenciaartificial #empreendedorismo",
-    "formato": "descoberta",
-    "capa_ms": 3400,
-    "gancho": "A empresa que criou o Claude abriu uma escola de IA 100% gratuita"
-  },
-  {
     "id": "lote03-code",
     "arquivos": [
       "lote03-code-slide-1.jpg",
@@ -925,15 +839,6 @@
     ]
   },
   {
-    "id": "desc-davinci-claude",
-    "arquivo": "desc-davinci-claude.mp4",
-    "quando": "2026-10-09T12:00:00-03:00",
-    "legenda": "Só funciona no Resolve Studio, a versão paga. Faça backup do projeto antes do primeiro teste.\n\nComenta CORTE que eu te mando a configuração inteira.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#davinciresolve #claude #edicaodevideo",
-    "formato": "descoberta",
-    "capa_ms": 1800,
-    "gancho": "Agora sim, o Claude vai editar 100% dos seus conteúdos"
-  },
-  {
     "id": "visao-6anos",
     "arquivo": "visao-6anos.mp4",
     "quando": "2026-10-06T21:30:00-03:00",
@@ -941,6 +846,31 @@
     "formato": "visao",
     "capa_ms": 800,
     "gancho": "Passei 6 anos enriquecendo o negócio dos outros, mas algo me fez mudar"
+  },
+  {
+    "id": "ref-dots",
+    "arquivos": [
+      "ref-dots-slide-1.mp4",
+      "ref-dots-slide-2.mp4",
+      "ref-dots-slide-3.mp4",
+      "ref-dots-slide-4.mp4",
+      "ref-dots-slide-5.mp4",
+      "ref-dots-slide-6.mp4",
+      "ref-dots-slide-7.mp4"
+    ],
+    "quando": "2026-10-07T10:00:00-03:00",
+    "legenda": "A OpenAI lançou funcionários de IA que trabalham 24 horas sem você pedir.\n\nOs dots saíram em 29/09, no DevDay: computador próprio na nuvem, mais de 4.000 apps e regras de aprovação (fonte: anúncio oficial da OpenAI).\n\nFuncionário que trabalha sozinho só rende com regra escrita.\n\nComenta DOTS que eu te mando como criar o seu e as 5 regras que eu daria antes de ligar.\n\n#openai #chatgpt #agentesdeia #inteligenciaartificial #ia #automacao #empreendedorismo #devday",
+    "formato": "descoberta",
+    "gancho": "A OpenAI lançou funcionários de IA que trabalham 24 horas sem você pedir",
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-1.mp4",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-2.mp4",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-3.mp4",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-4.mp4",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-5.mp4",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-6.mp4",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/ref-dots-slide-7.mp4"
+    ]
   },
   {
     "id": "tut-gestor",
@@ -953,13 +883,29 @@
     "previa": "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/tut-gestor-previa.mp4?v=1790574782"
   },
   {
-    "id": "tut-design-bonito",
-    "arquivo": "tut-design-bonito.mp4",
-    "quando": "2026-10-10T12:00:00-03:00",
-    "legenda": "Design feio de IA não é culpa da IA. É falta de referência.\n\nComenta BONITO que eu te mando os 8 sites e o prompt de cada um.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#claude #webdesign #inteligenciaartificial",
-    "formato": "tutorial",
-    "capa_ms": 2200,
-    "gancho": "8 sites gratuitos que transformam o Claude num gênio do design"
+    "id": "lote03-seguro",
+    "arquivos": [
+      "lote03-seguro-slide-1.jpg",
+      "lote03-seguro-slide-2.jpg",
+      "lote03-seguro-slide-3.jpg",
+      "lote03-seguro-slide-4.jpg",
+      "lote03-seguro-slide-5.jpg",
+      "lote03-seguro-slide-6.jpg",
+      "lote03-seguro-slide-7.jpg"
+    ],
+    "quando": "2026-10-07T16:30:00-03:00",
+    "legenda": "O ChatGPT agora mostra quem entrou na sua conta.\n\nDesde 25/09, em todos os planos: Configurações, Segurança e login, Histórico de segurança (fonte: notas de versão do ChatGPT).\n\nConta de IA virou arquivo da empresa. Trate como tal.\n\nComenta SEGURO que eu te mando o checklist de 5 minutos para blindar a conta.\n\n#chatgpt #openai #segurancadigital #inteligenciaartificial #ia #empreendedorismo #produtividade #gestao",
+    "formato": "descoberta",
+    "gancho": "O ChatGPT agora mostra quem entrou na sua conta",
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-seguro-slide-7.jpg"
+    ]
   },
   {
     "id": "visao-espirito",
@@ -969,6 +915,58 @@
     "formato": "visao",
     "capa_ms": 800,
     "gancho": "Descobri que tenho alergia a gente pobre de espírito"
+  },
+  {
+    "id": "lote03-critico",
+    "arquivos": [
+      "lote03-critico-slide-1.jpg",
+      "lote03-critico-slide-2.jpg",
+      "lote03-critico-slide-3.jpg",
+      "lote03-critico-slide-4.jpg",
+      "lote03-critico-slide-5.jpg",
+      "lote03-critico-slide-6.jpg",
+      "lote03-critico-slide-7.jpg"
+    ],
+    "quando": "2026-10-08T10:00:00-03:00",
+    "legenda": "Se a IA concorda com tudo, o problema é a sua pergunta.\n\nMesma ideia, duas perguntas: uma ganha elogio, a outra acha o furo antes de você gastar.\n\nA IA amplifica o que você já é.\n\nComenta CRITICO que eu te mando as 5 frases e o prompt que eu uso antes de decisão grande.\n\n#inteligenciaartificial #ia #chatgpt #claude #tomadadedecisao #empreendedorismo #negocios #prompts",
+    "formato": "ferramenta",
+    "gancho": "Se a IA concorda com tudo, o problema é a sua pergunta",
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote03-critico-slide-7.jpg"
+    ]
+  },
+  {
+    "id": "desc-escola-claude",
+    "arquivo": "desc-escola-claude.mp4",
+    "quando": "2026-10-08T12:00:00-03:00",
+    "legenda": "Está em inglês, mas o Chrome traduz. Custo zero para você e para a sua equipe.\n\nComenta ESCOLA que eu te mando a ordem certa dos 3 cursos, com o link oficial.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#claude #inteligenciaartificial #empreendedorismo",
+    "formato": "descoberta",
+    "capa_ms": 3400,
+    "gancho": "A empresa que criou o Claude abriu uma escola de IA 100% gratuita"
+  },
+  {
+    "id": "desc-davinci-claude",
+    "arquivo": "desc-davinci-claude.mp4",
+    "quando": "2026-10-09T12:00:00-03:00",
+    "legenda": "Só funciona no Resolve Studio, a versão paga. Faça backup do projeto antes do primeiro teste.\n\nComenta CORTE que eu te mando a configuração inteira.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#davinciresolve #claude #edicaodevideo",
+    "formato": "descoberta",
+    "capa_ms": 1800,
+    "gancho": "Agora sim, o Claude vai editar 100% dos seus conteúdos"
+  },
+  {
+    "id": "tut-design-bonito",
+    "arquivo": "tut-design-bonito.mp4",
+    "quando": "2026-10-10T12:00:00-03:00",
+    "legenda": "Design feio de IA não é culpa da IA. É falta de referência.\n\nComenta BONITO que eu te mando os 8 sites e o prompt de cada um.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#claude #webdesign #inteligenciaartificial",
+    "formato": "tutorial",
+    "capa_ms": 2200,
+    "gancho": "8 sites gratuitos que transformam o Claude num gênio do design"
   },
   {
     "id": "tut-espelho",
