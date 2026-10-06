@@ -24,7 +24,7 @@ SAIDA = "metricas.csv"
 # o que a planilha mostra, nessa ordem
 COLUNAS = ["data_postagem", "formato", "fonte", "cta", "versao", "tipo", "alcance", "views",
            "curtidas", "comentarios", "salvamentos", "compartilhamentos", "interacoes",
-           "taxa_salvamento", "gancho", "link", "media_id", "atualizado"]
+           "taxa_salvamento", "gancho", "link", "media_id", "atualizado", "tempo_medio_s"]
 
 
 def chamar(caminho, params=None):
@@ -60,6 +60,8 @@ def insights(media_id, produto):
     # Reel e carrossel aceitam conjuntos diferentes; pede um por um para que uma
     # metrica recusada nao derrube as outras.
     pedidas = ["reach", "saved", "shares", "total_interactions", "views"]
+    if produto == "REELS":
+        pedidas.append("ig_reels_avg_watch_time")  # 06/10: retencao, em milissegundos
     achou = {}
     for m in pedidas:
         try:
@@ -126,6 +128,7 @@ def main():
             "interacoes": ins.get("total_interactions", ""),
             "taxa_salvamento": f"{salvos / alcance:.3f}" if alcance else "",
             "link": p.get("permalink", ""), "media_id": p["id"], "atualizado": agora,
+            "tempo_medio_s": f"{ins['ig_reels_avg_watch_time'] / 1000:.1f}" if ins.get("ig_reels_avg_watch_time") else "",
         })
 
     linhas.sort(key=lambda x: x.pop("_ordem"), reverse=True)
