@@ -987,5 +987,14 @@
     "formato": "bastidor",
     "capa_ms": 1500,
     "gancho": "Alguém montou uma equipe inteira de IA para tocar um canal do YouTube"
+  },
+  {
+    "id": "desc-freellmapi",
+    "arquivo": "desc-freellmapi.mp4",
+    "quando": "2026-10-09T12:00:00-03:00",
+    "legenda": "635 modelos grátis dentro do Claude Code. Para testar e para tarefa simples, é um achado.\n\nComenta GRATIS que eu te mando o passo a passo para instalar.\n\nSiga @gabrielfaria.ia para ver a IA trabalhando de verdade.\n\n#inteligenciaartificial #claude #empreendedorismo",
+    "formato": "descoberta",
+    "capa_ms": 3400,
+    "gancho": "Claude Code sem pagar 200 dólares por mês"
   }
 ]
