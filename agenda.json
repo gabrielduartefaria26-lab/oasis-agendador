@@ -1058,6 +1058,30 @@
     "gancho": "O ChatGPT sabe mais de você do que você imagina"
   },
   {
+    "id": "lote04-privado",
+    "arquivos": [
+      "lote04-privado-slide-1.jpg",
+      "lote04-privado-slide-2.jpg",
+      "lote04-privado-slide-3.jpg",
+      "lote04-privado-slide-4.jpg",
+      "lote04-privado-slide-5.jpg",
+      "lote04-privado-slide-6.jpg",
+      "lote04-privado-slide-7.jpg"
+    ],
+    "quando": "2026-10-12T10:00:00-03:00",
+    "legenda": "Se a sua equipe usa o ChatGPT na conta pessoal, o contrato do seu cliente pode estar treinando a IA.\n\nNo ChatGPT pessoal o treino vem ligado. No Claude, ligado, a conversa pode ficar guardada até 5 anos.\n\nDesligar leva 2 minutos e não apaga o passado.\n\nComenta PRIVADO que eu te mando o passo a passo e a regra pronta para a equipe.\n\n#chatgpt #claude #gemini #privacidade #inteligenciaartificial #ia #lgpd #segurancadigital",
+    "aprovacao": true,
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-privado-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-privado-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-privado-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-privado-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-privado-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-privado-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-privado-slide-7.jpg"
+    ]
+  },
+  {
     "id": "bast-equipe-youtube",
     "arquivo": "bast-equipe-youtube.mp4",
     "quando": "2026-10-12T12:00:00-03:00",
