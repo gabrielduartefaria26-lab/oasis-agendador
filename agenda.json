@@ -951,6 +951,32 @@
     "gancho": "A empresa que criou o Claude abriu uma escola de IA 100% gratuita"
   },
   {
+    "id": "lote04-viagem",
+    "arquivos": [
+      "lote04-viagem-slide-1.jpg",
+      "lote04-viagem-slide-2.jpg",
+      "lote04-viagem-slide-3.jpg",
+      "lote04-viagem-slide-4.jpg",
+      "lote04-viagem-slide-5.jpg",
+      "lote04-viagem-slide-6.jpg",
+      "lote04-viagem-slide-7.jpg",
+      "lote04-viagem-slide-8.jpg"
+    ],
+    "quando": "2026-10-09T10:00:00-03:00",
+    "legenda": "Escrevi para a IA do Google \"uma semana de praia em novembro, sem escala\" e ela achou voo a R$ 740.\n\nA busca com IA do Google Voos está em teste e já entende português. Pesquisado hoje, saindo de Campinas.\n\nA IA acha o que você deixa ela procurar.\n\nComenta VIAGEM que eu te mando os pedidos prontos e o passo a passo com print.\n\n#inteligenciaartificial #ia #google #googlevoos #viagem #passagensbaratas #iagenerativa",
+    "aprovacao": true,
+    "previa": [
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-viagem-slide-1.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-viagem-slide-2.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-viagem-slide-3.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-viagem-slide-4.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-viagem-slide-5.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-viagem-slide-6.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-viagem-slide-7.jpg",
+      "https://3fu4nhbmul0rp520.public.blob.vercel-storage.com/previas/lote04-viagem-slide-8.jpg"
+    ]
+  },
+  {
     "id": "desc-davinci-claude",
     "arquivo": "desc-davinci-claude.mp4",
     "quando": "2026-10-09T12:00:00-03:00",
