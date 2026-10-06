@@ -839,6 +839,23 @@
     ]
   },
   {
+    "id": "ref-avatar",
+    "arquivos": [
+      "ref-avatar-slide-1.jpg",
+      "ref-avatar-slide-2.jpg",
+      "ref-avatar-slide-3.jpg",
+      "ref-avatar-slide-4.jpg",
+      "ref-avatar-slide-5.jpg",
+      "ref-avatar-slide-6.jpg",
+      "ref-avatar-slide-7.jpg",
+      "ref-avatar-slide-8.jpg"
+    ],
+    "quando": "2026-10-06T18:00:00-03:00",
+    "legenda": "O seu feed está lotado de influencers que não existem.\n\nO Higgsfield lançou o AI Influencer: você escolhe rosto, corpo e estilo em 19 campos e leva o personagem para um vídeo.\n\nCriar o rosto é fácil. O difícil é ele ser o mesmo no próximo post.\n\nComenta AVATAR que eu te mando o passo a passo com o pedido pronto para copiar.\n\n#inteligenciaartificial #ia #higgsfield #avatarIA #influencerdigital #criacaodeconteudo #iagenerativa #marketingdigital",
+    "formato": "ferramenta",
+    "gancho": "O seu feed está lotado de influencers que não existem"
+  },
+  {
     "id": "visao-6anos",
     "arquivo": "visao-6anos.mp4",
     "quando": "2026-10-06T21:30:00-03:00",
