@@ -1,6 +1,12 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "How Jump Trading is scaling quant research with ChatGPT",
+  "link": "https://openai.com/index/jump-trading",
+  "visto_em": "2026-10-07T04:47+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "A model guide for the GPT-6 family",
   "link": "https://openai.com/index/practical-guide-building-gpt-6",
   "visto_em": "2026-10-02T21:39+00:00"
@@ -46,17 +52,5 @@
   "titulo": "Introducing SynthID Bio",
   "link": "https://deepmind.google/blog/introducing-synthid-bio/",
   "visto_em": "2026-09-30T16:11+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "Introducing dots (agentes do ChatGPT)",
-  "link": "https://openai.com/index/introducing-dots",
-  "visto_em": "2026-09-30T03:32+00:00"
- },
- {
-  "fonte": "Anthropic",
-  "titulo": "Claude Sonnet 5.5",
-  "link": "https://www.anthropic.com/claude-sonnet-5-5",
-  "visto_em": "2026-09-30T03:32+00:00"
  }
 ]
