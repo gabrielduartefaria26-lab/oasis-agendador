@@ -235,3 +235,9 @@ posta sozinho (demiti o social media) · tiny planet · primeira venda com 15 se
   campo referencia) e segue a Regra 2: mesmo texto-esqueleto, mesma cena-tipo, mesmo áudio; só o
   assunto vira a vida dele com IA (trabalho de casa, tempo livre, dinheiro, cliente). Sem meme
   validado com link, não proponha meme.
+
+## TESE DE CONTEÚDO (07/10/2026): ler `tese-conteudo.md` antes de propor ideias
+
+Filtro de qualidade acrescentado, sem mudar grade, vagas, horários nem formatos. Em conflito com a
+seção VIRADA DE 27/09/2026 ou com decisão dele, vale a VIRADA. Leia o arquivo `tese-conteudo.md`
+(mesma pasta) e aplique as seis perguntas a cada ideia antes de gravar em ideias.json.
