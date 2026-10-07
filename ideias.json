@@ -2320,5 +2320,370 @@
       "link": "https://github.com/thedotmack/claude-mem"
     },
     "isca_sugerida": "MEMORIA: o passo a passo para instalar"
+  },
+  {
+    "id": "2026-10-07-1",
+    "data": "2026-10-07",
+    "vaga": "carrossel",
+    "formato": "carrossel",
+    "horario_sugerido": "07/10 · 09:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Você automatizou o comentário e a venda não aumentou nada.",
+      "O comentário virou direct na hora. A venda não fechou mais rápido por isso.",
+      "Testei separar o que só responde comentário do que realmente fecha venda."
+    ],
+    "o_que_se_ve": "entra a automação de comentário respondendo sozinha, sai a planilha de leads enchendo e o aviso chegando pro time de vendas",
+    "roteiro": [
+      {
+        "bloco": "Slide 1",
+        "tempo": "-",
+        "tela": "Você automatizou o comentário e a venda não aumentou nada.",
+        "topicos": [
+          "Você automatizou o comentário e a venda não aumentou nada."
+        ]
+      },
+      {
+        "bloco": "Slide 2",
+        "tempo": "-",
+        "tela": "A automação nativa da Meta é grátis e faz uma coisa.",
+        "topicos": [
+          "A automação nativa da Meta é grátis e faz uma coisa: manda a mensagem na hora que alguém comenta."
+        ]
+      },
+      {
+        "bloco": "Slide 3",
+        "tempo": "-",
+        "tela": "Ela não grava o contato em lugar nenhum.",
+        "topicos": [
+          "Só que ela não grava o contato em lugar nenhum."
+        ]
+      },
+      {
+        "bloco": "Slide 4",
+        "tempo": "-",
+        "tela": "Sem planilha, sem página, sem aviso pro time, o lead comentou e sumiu.",
+        "topicos": [
+          "Sem planilha, sem página e sem aviso pro time de vendas, o lead comentou e sumiu."
+        ]
+      },
+      {
+        "bloco": "Slide 5",
+        "tempo": "-",
+        "tela": "O que fecha venda vem depois do comentário.",
+        "topicos": [
+          "O que fecha venda é o que vem depois do comentário: página com nome, e-mail e WhatsApp."
+        ]
+      },
+      {
+        "bloco": "Slide 6",
+        "tempo": "-",
+        "tela": "Essa página cai numa planilha de leads.",
+        "topicos": [
+          "Essa página cai direto numa planilha de leads."
+        ]
+      },
+      {
+        "bloco": "Slide 7",
+        "tempo": "-",
+        "tela": "A planilha dispara um aviso por e-mail pro time.",
+        "topicos": [
+          "Então a planilha dispara um aviso por e-mail pro time de vendas."
+        ]
+      },
+      {
+        "bloco": "Slide 8",
+        "tempo": "-",
+        "tela": "Comenta DIRECT que eu te mando o passo a passo.",
+        "topicos": [
+          "O time liga no mesmo dia que a pessoa comentou.",
+          "Comenta DIRECT que eu te mando o passo a passo desse funil completo."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/p/DeAkKvTkW8R/",
+      "perfil": "fabianocarvalhojr",
+      "vezes": "16.3",
+      "molde": "dor seca do dono numa frase + lista numerada de passos + isca de código estranho no comentário"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": "DIRECT: passo a passo do funil (página, planilha, aviso por e-mail, time ligando no mesmo dia)"
+  },
+  {
+    "id": "2026-10-07-2",
+    "data": "2026-10-07",
+    "vaga": "quente",
+    "formato": "descoberta",
+    "horario_sugerido": "08/10 · 16:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "A maioria das pequenas empresas não automatiza nada porque acha que precisa contratar alguém de tech.",
+      "Testei pedir pra uma IA montar uma automação inteira só de conversa, sem programar uma linha.",
+      "O motivo de você não ter automação não é dinheiro. É achar que precisa de programador."
+    ],
+    "o_que_se_ve": "entra o chat pedindo em português pra montar um fluxo (puxar formulário, resumir e mandar pro WhatsApp), sai o fluxo pronto e rodando",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "A maioria das empresas não automatiza porque acha que precisa de programador.",
+        "topicos": [
+          "A maioria das pequenas empresas não automatiza nada porque acha que precisa contratar alguém de tech."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "GRAVAR TELA: pedindo em português pra IA montar o fluxo",
+        "topicos": [
+          "Só que isso parou de ser verdade.",
+          "Pedi pra uma IA de automação montar um fluxo inteiro, só de conversa, sem programar nada.",
+          "Falei o que eu queria e ela montou a automação sozinha, ligando os aplicativos."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 22 s",
+        "tela": "GRAVAR TELA: 10 a 20 s do fluxo publicado e rodando na sua conta",
+        "topicos": [
+          "O fluxo ficou pronto e já estava rodando antes de eu terminar o café."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "22 a 30 s",
+        "tela": "Comenta AGENTE que eu te mando o passo a passo no Direct.",
+        "topicos": [
+          "Serve pra quem não tem ninguém de tech no time.",
+          "Se você já tem um processo rodando, ainda vale ter alguém olhando a lógica por trás.",
+          "Comenta AGENTE que eu te mando o passo a passo no Direct."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DeFsrwspVrS/",
+      "perfil": "99hud",
+      "vezes": "47.0",
+      "molde": "dor em reais no gancho + ferramenta rodando na tela + fecho com isca de palavra no Direct"
+    },
+    "fonte": {
+      "nome": "Zapier Copilot (createwith.com)",
+      "link": "https://www.createwith.com/tool/zapier/updates/zapier-copilot-helps-non-technical-users-build-ai-agents-in-15-minutes"
+    },
+    "isca_sugerida": "AGENTE: passo a passo pra montar a automação só de conversa"
+  },
+  {
+    "id": "2026-10-07-3",
+    "data": "2026-10-07",
+    "vaga": "quente",
+    "formato": "tutorial",
+    "horario_sugerido": "09/10 · 16:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Todo dono que usa IA perde minutos reexplicando o negócio dele toda vez que abre uma conversa nova.",
+      "Eu não repito o contexto da empresa pro Claude toda vez que abro uma conversa.",
+      "Reexplicar o mesmo negócio em toda conversa nova é tempo que ninguém soma no fim do mês."
+    ],
+    "o_que_se_ve": "entra a instalação da skill de memória, sai uma conversa nova já respondendo com o contexto da empresa sem precisar reescrever nada",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Todo dono que usa IA perde tempo reexplicando o negócio dele toda vez.",
+        "topicos": [
+          "Todo dono que usa IA perde minutos reexplicando o negócio dele toda vez que abre uma conversa nova."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "GRAVAR TELA: instalando a skill de memória no Claude",
+        "topicos": [
+          "Eu não repito mais o contexto da empresa pro Claude.",
+          "Instalei uma skill que guarda o que já foi dito entre as conversas."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 22 s",
+        "tela": "GRAVAR TELA: conversa nova já respondendo com o contexto salvo, sem reescrever nada",
+        "topicos": [
+          "Abro uma conversa nova e ela já sabe o nome da empresa, o processo e o que eu testei semana passada."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "22 a 30 s",
+        "tela": "Comenta MEMORIA que eu te mando o passo a passo no Direct.",
+        "topicos": [
+          "Vale pra quem usa o Claude toda semana pro mesmo negócio.",
+          "Se o uso é esporádico, instalar isso não compensa.",
+          "Comenta MEMORIA que eu te mando o passo a passo no Direct."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdoEM-HIiQc/",
+      "perfil": "allesinisgalli",
+      "vezes": "20.6",
+      "molde": "primeira pessoa nega a ação manual esperada e revela o sistema que faz por ele"
+    },
+    "fonte": {
+      "nome": "GitHub trending (thedotmack/claude-mem)",
+      "link": "https://github.com/thedotmack/claude-mem"
+    },
+    "isca_sugerida": "MEMORIA: passo a passo pra instalar a memória persistente no Claude"
+  },
+  {
+    "id": "2026-10-07-4",
+    "data": "2026-10-07",
+    "vaga": "meme",
+    "formato": "meme",
+    "horario_sugerido": "07/10 · 14:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Você tira férias?"
+    ],
+    "o_que_se_ve": "entra a pergunta na tela com ele parado olhando pra câmera, sai ele relaxado enquanto o celular mostra o post saindo sozinho",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Você tira férias?",
+        "topicos": []
+      },
+      {
+        "bloco": "Virada",
+        "tempo": "3 a 8 s",
+        "tela": "ele numa cadeira relaxado, celular na mão",
+        "topicos": []
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "8 a 12 s",
+        "tela": "Minha esteira não sabe o que é feriado.",
+        "topicos": []
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/Dd9_GhrEVO0/",
+      "perfil": "gabrielfaria.ia (próprio, 1478 de alcance)",
+      "vezes": "",
+      "molde": "pergunta curta e seca direto pra câmera, pausa, corte pra reveal cômico da resposta real"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": ""
+  },
+  {
+    "id": "2026-10-07-5",
+    "data": "2026-10-07",
+    "vaga": "meme",
+    "formato": "meme",
+    "horario_sugerido": "07/10 · 19:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "\"Empresa pequena não precisa de automação.\" Bet."
+    ],
+    "o_que_se_ve": "entra a frase de descrença em texto grande na tela, sai a planilha de leads enchendo sozinha",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "\"Empresa pequena não precisa de automação.\"",
+        "topicos": []
+      },
+      {
+        "bloco": "Virada",
+        "tempo": "3 a 5 s",
+        "tela": "Bet.",
+        "topicos": []
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "5 a 10 s",
+        "tela": "planilha de leads enchendo sozinha",
+        "topicos": []
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdRnkRpxNhC/",
+      "perfil": "alberta.tech",
+      "vezes": "38.1",
+      "molde": "cita a frase de descrença entre aspas, responde seco com uma palavra, corta pra prova visual"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": ""
+  },
+  {
+    "id": "2026-10-07-6",
+    "data": "2026-10-07",
+    "vaga": "case",
+    "formato": "bastidor",
+    "horario_sugerido": "08/10 · 21:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "A maior prova de que uma empresa não depende do dono é ela continuar rodando quando ele não está olhando.",
+      "Se a sua empresa trava quando você viaja, o problema não é a equipe.",
+      "\"Se eu sair, a empresa para\" é o problema, não o orgulho."
+    ],
+    "o_que_se_ve": "entra a tela da esteira publicando sozinha (agenda rodando), sai ele fazendo outra coisa no mesmo horário do post",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "\"Se eu sair, a empresa para\" é o problema, não o orgulho.",
+        "topicos": [
+          "\"Se eu sair, a empresa para\" é o problema, não o orgulho."
+        ]
+      },
+      {
+        "bloco": "Erro",
+        "tempo": "3 a 10 s",
+        "tela": "dono sendo o único que sabe operar tudo",
+        "topicos": [
+          "A maioria dos donos que eu vejo por dentro é o único que sabe operar alguma parte do negócio.",
+          "Enquanto for assim, crescer significa trabalhar mais, nunca trabalhar menos."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "10 a 20 s",
+        "tela": "GRAVAR TELA: a esteira publicando 2 vídeos por dia sem ele precisar estar ali",
+        "topicos": [
+          "Minha esteira publica 2 vídeos por dia sozinha.",
+          "Eu não preciso estar olhando pra isso acontecer."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "20 a 28 s",
+        "tela": "Siga para ver a IA trabalhando de verdade.",
+        "topicos": [
+          "O sistema trabalha enquanto eu faço outra coisa.",
+          "Siga @gabrielfaria.ia para ver a IA trabalhando de verdade."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdUvMkyTsQr/",
+      "perfil": "allesinisgalli",
+      "vezes": "10.8",
+      "molde": "bastidor em primeira pessoa afirmando que o sistema trabalha sem ele, seguido de prova visual"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": ""
   }
 ]
