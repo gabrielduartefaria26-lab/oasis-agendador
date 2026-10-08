@@ -1,6 +1,12 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+  "link": "https://openai.com/index/oracle",
+  "visto_em": "2026-10-08T22:42+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "Radisson Hotel Group brings hotel discovery into ChatGPT",
   "link": "https://openai.com/index/radisson",
   "visto_em": "2026-10-07T22:29+00:00"
@@ -40,11 +46,5 @@
   "titulo": "The latest AI news we announced in September 2026",
   "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
   "visto_em": "2026-10-02T16:02+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-  "link": "https://openai.com/index/the-den-family-social",
-  "visto_em": "2026-10-01T22:11+00:00"
  }
 ]
