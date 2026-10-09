@@ -1,6 +1,126 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+  "link": "https://openai.com/index/asana-browser-agent",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Think Bigger: How Small Teams Win with ChatGPT",
+  "link": "https://openai.com/business/guides-and-resources/chatgpt-business-smb-guide",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "A Practical Guide to Building AI Agents",
+  "link": "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Building with the GPT-5 Model Series: A Practical Guide",
+  "link": "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-with-ai",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Inside GPT-5 for Work",
+  "link": "https://openai.com/business/guides-and-resources/inside-gpt5-our-best-model-for-work",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "How OpenAI Uses Codex to Accelerate Engineering",
+  "link": "https://openai.com/business/guides-and-resources/how-openai-uses-codex",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Using Codex across the software development lifecycle",
+  "link": "https://openai.com/business/learn/using-codex-across-the-software-development-lifecycle",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "How OpenAI uses ChatGPT Atlas at work",
+  "link": "https://openai.com/business/learn/how-openai-uses-chatgpt-atlas-at-work",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "GPT-5: Our best model for work",
+  "link": "https://openai.com/business/learn/gpt-5-our-best-model-for-work",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Delegate work to ChatGPT agent",
+  "link": "https://openai.com/business/learn/delegate-work-to-chatgpt-agent",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Personalize ChatGPT with custom instructions",
+  "link": "https://openai.com/business/learn/personalize-chatgpt-with-custom-instructions",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Collaborate and write with GPT-4o",
+  "link": "https://openai.com/business/learn/collaborate-and-write-with-gpt-4o",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Prototyping with canvas in ChatGPT",
+  "link": "https://openai.com/business/learn/prototyping-with-canvas-in-chatgpt",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Market research with ChatGPT",
+  "link": "https://openai.com/business/learn/market-research-with-chatgpt",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Creating a contextual workspace in ChatGPT",
+  "link": "https://openai.com/business/learn/creating-a-contextual-workspace-in-chatgpt",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Writing with canvas in ChatGPT",
+  "link": "https://openai.com/business/learn/writing-with-canvas-in-chatgpt",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Vision and voice in ChatGPT",
+  "link": "https://openai.com/business/learn/vision-and-voice-in-chatgpt",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Strategic planning with ChatGPT",
+  "link": "https://openai.com/business/learn/strategic-planning-with-chatgpt",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Shipping code to your IDE with ChatGPT",
+  "link": "https://openai.com/business/learn/shipping-code-to-your-ide-with-chatgpt",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Fine-tuning GPT-4o webinar",
+  "link": "https://openai.com/business/fine-tuning-gpt-4o-webinar",
+  "visto_em": "2026-10-09T22:04+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "LegalOn halves Codex costs while maintaining development speed",
   "link": "https://openai.com/index/legalon-halves-codex-costs",
   "visto_em": "2026-10-09T05:00+00:00"
@@ -34,17 +154,5 @@
   "titulo": "How Jump Trading is scaling quant research with ChatGPT",
   "link": "https://openai.com/index/jump-trading",
   "visto_em": "2026-10-07T04:47+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "A model guide for the GPT-6 family",
-  "link": "https://openai.com/index/practical-guide-building-gpt-6",
-  "visto_em": "2026-10-02T21:39+00:00"
- },
- {
-  "fonte": "Anthropic",
-  "titulo": "Claude Frontier Academy",
-  "link": "https://www.anthropic.com/news/claude-frontier-academy",
-  "visto_em": "2026-10-02T21:39+00:00"
  }
 ]
