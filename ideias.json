@@ -1,163 +1,5 @@
 [
   {
-    "id": "2026-10-06-1",
-    "data": "2026-10-06",
-    "vaga": "meme",
-    "formato": "meme",
-    "horario_sugerido": "06/10 · 14:30",
-    "fala_com": "empresário",
-    "aberturas": [
-      "POV: o motorista de aplicativo me vendo de bermuda e chinelo numa quinta-feira às 11h"
-    ],
-    "o_que_se_ve": "entra Gabriel de bermuda abrindo a porta pro motorista de aplicativo; sai ele sorrindo pro celular porque chegou notificação de venda",
-    "roteiro": [
-      {
-        "bloco": "Gancho",
-        "tempo": "0 a 3 s",
-        "tela": "POV: o motorista de aplicativo me vendo de bermuda e chinelo numa quinta-feira às 11h",
-        "topicos": [
-          "POV: o motorista de aplicativo me vendo de bermuda e chinelo numa quinta-feira às 11h"
-        ]
-      },
-      {
-        "bloco": "Entrega",
-        "tempo": "3 a 8 s",
-        "tela": "bem na hora que chegou a notificação de uma venda",
-        "topicos": [
-          "bem na hora que chegou a notificação de uma venda"
-        ]
-      },
-      {
-        "bloco": "Fecho",
-        "tempo": "8 a 11 s",
-        "tela": "tentando entender a minha profissão",
-        "topicos": [
-          "tentando entender a minha profissão"
-        ]
-      }
-    ],
-    "referencia": {
-      "link": "https://www.instagram.com/reel/Ddm38zOE1SR/",
-      "perfil": "gabrielfaria.ia",
-      "vezes": "883 alcance / 139 interações (próprio perfil, meme-vizinhos)",
-      "molde": "POV + dia da semana + hora + confusão de profissão, cena contrastante de vida leve; molde descrito em moldes.md como o 2º maior alcance da conta"
-    },
-    "fonte": {
-      "nome": "próprio perfil (moldes.md, VIRADA 27/09)",
-      "link": "https://www.instagram.com/reel/Ddm38zOE1SR/"
-    },
-    "isca_sugerida": ""
-  },
-  {
-    "id": "2026-10-06-2",
-    "data": "2026-10-06",
-    "vaga": "meme",
-    "formato": "meme",
-    "horario_sugerido": "06/10 · 19:00",
-    "fala_com": "empresário",
-    "aberturas": [
-      "O CLAUDE & EU FECHANDO A PROPOSTA PRO CLIENTE"
-    ],
-    "o_que_se_ve": "entra tela do Claude montando a proposta sozinho; sai Gabriel tomando café tranquilo do outro lado",
-    "roteiro": [
-      {
-        "bloco": "Gancho",
-        "tempo": "0 a 3 s",
-        "tela": "O CLAUDE & EU FECHANDO A PROPOSTA PRO CLIENTE",
-        "topicos": [
-          "O CLAUDE & EU FECHANDO A PROPOSTA PRO CLIENTE"
-        ]
-      },
-      {
-        "bloco": "Entrega",
-        "tempo": "3 a 7 s",
-        "tela": "ELE: TRABALHANDO. EU: TOMANDO CAFÉ.",
-        "topicos": [
-          "ELE: TRABALHANDO. EU: TOMANDO CAFÉ."
-        ]
-      },
-      {
-        "bloco": "Fecho",
-        "tempo": "7 a 10 s",
-        "tela": "ANTES DO CAFÉ FICAR FRIO.",
-        "topicos": [
-          "ANTES DO CAFÉ FICAR FRIO."
-        ]
-      }
-    ],
-    "referencia": {
-      "link": "https://www.instagram.com/reel/DdjSf_oum-j/",
-      "perfil": "gabrielfaria.ia",
-      "vezes": "1959 alcance / 122 interações (próprio perfil, o maior alcance da conta)",
-      "molde": "[parceiro de IA] & eu + contraste de esforço, cena dividida trabalho pesado vs vida leve"
-    },
-    "fonte": {
-      "nome": "próprio perfil (moldes.md, VIRADA 27/09)",
-      "link": "https://www.instagram.com/reel/DdjSf_oum-j/"
-    },
-    "isca_sugerida": ""
-  },
-  {
-    "id": "2026-10-06-3",
-    "data": "2026-10-06",
-    "vaga": "quente",
-    "formato": "descoberta",
-    "horario_sugerido": "08/10 · 16:30",
-    "fala_com": "quem usa IA",
-    "aberturas": [
-      "Toda vez que eu voltava numa automação de cliente depois de uma semana, eu perdia uns 20 minutos só lembrando o que já tinha decidido com a IA"
-    ],
-    "o_que_se_ve": "entra o Claude Code sem lembrar nada de um projeto antigo; sai ele retomando o contexto sozinho, sem o Gabriel reexplicar nada",
-    "roteiro": [
-      {
-        "bloco": "Gancho",
-        "tempo": "0 a 3 s",
-        "tela": "20 minutos só lembrando o que eu já tinha decidido",
-        "topicos": [
-          "Toda vez que eu voltava numa automação de cliente depois de uma semana, eu perdia uns 20 minutos só lembrando o que já tinha decidido com a IA.",
-          "Isso é tempo que eu cobro e não entrego."
-        ]
-      },
-      {
-        "bloco": "Entrega",
-        "tempo": "3 a 15 s",
-        "tela": "GRAVAR TELA: 10 a 20 s do Claude Code abrindo um projeto antigo e retomando o contexto sozinho, sem o Gabriel reexplicar nada",
-        "topicos": [
-          "Então eu testei uma coisa que dá memória permanente pro Claude Code entre as sessões.",
-          "Ele guarda o que foi decidido e o contexto do projeto, e traz isso de volta sozinho na próxima vez que eu abro."
-        ]
-      },
-      {
-        "bloco": "Prova",
-        "tempo": "15 a 20 s",
-        "tela": "lançou hoje no GitHub, de graça",
-        "topicos": [
-          "Lançou hoje no GitHub, é de graça, e instala em qualquer projeto que já usa Claude Code."
-        ]
-      },
-      {
-        "bloco": "Fecho",
-        "tempo": "20 a 25 s",
-        "tela": "memória não substitui processo",
-        "topicos": [
-          "Só que ferramenta nenhuma substitui processo.",
-          "Se você não documenta a decisão com o cliente, não existe memória que resolva isso."
-        ]
-      }
-    ],
-    "referencia": {
-      "link": "https://www.instagram.com/reel/Dd907MriUGV/",
-      "perfil": "99hud",
-      "vezes": "62.9",
-      "molde": "dor de dono em reais/tempo no gancho, ferramenta aparece como prova rodando na tela, fecha com comenta PALAVRA e te mando o passo a passo"
-    },
-    "fonte": {
-      "nome": "GitHub Trending diário - thedotmack/claude-mem",
-      "link": "https://github.com/thedotmack/claude-mem"
-    },
-    "isca_sugerida": "MEMORIA: o passo a passo para instalar"
-  },
-  {
     "id": "2026-10-07-1",
     "data": "2026-10-07",
     "vaga": "carrossel",
@@ -1920,5 +1762,344 @@
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/amp/"
     },
     "isca_sugerida": "CONECTA: o passo a passo pra ligar Gmail e Agenda no Claude sem Zapier"
+  },
+  {
+    "id": "2026-10-13-1",
+    "data": "2026-10-13",
+    "vaga": "carrossel",
+    "formato": "carrossel",
+    "horario_sugerido": "16/10 · 09:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "A maioria dos sistemas que o dono tenta montar morre por excesso, não por falta.",
+      "Quanto mais processo você tenta automatizar de uma vez, mais longe fica de automatizar o que realmente importa.",
+      "Empresa não trava por falta de automação. Trava por tentar automatizar tudo ao mesmo tempo."
+    ],
+    "o_que_se_ve": "entra a lista enorme de processos que o dono queria automatizar, sai o critério de 3 perguntas que decide por onde começar",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "slide 1",
+        "tela": "A maioria dos sistemas que o dono tenta montar morre por excesso, não por falta.",
+        "topicos": [
+          "A maioria dos sistemas que o dono tenta montar morre por excesso, não por falta."
+        ]
+      },
+      {
+        "bloco": "Erro",
+        "tempo": "slides 2 e 3",
+        "tela": "O erro mais caro que eu vejo",
+        "topicos": [
+          "O erro mais caro que eu vejo em consultoria é o dono querer automatizar cada processo que existe antes de saber qual processo sustenta o caixa.",
+          "Isso trava o projeto inteiro, porque ninguém termina de automatizar tudo, e enquanto isso nada roda de verdade."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "slides 4 e 5",
+        "tela": "O que eu monto primeiro",
+        "topicos": [
+          "Só uma fração pequena do que roda numa empresa de serviço é o que decide se ela fatura ou não. O resto é enfeite que o cliente nunca vai abrir.",
+          "Eu monto sistema assim: de três a cinco automações essenciais primeiro, o resto espera a vez."
+        ]
+      },
+      {
+        "bloco": "Critério",
+        "tempo": "slide 6",
+        "tela": "A pergunta antes de automatizar",
+        "topicos": [
+          "Antes de automatizar qualquer processo eu pergunto uma coisa: se isso quebrar hoje, a empresa perde dinheiro na hora, ou só fica menos bonito?",
+          "Se a resposta é 'só fica menos bonito', esse processo espera."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "slide 7",
+        "tela": "Comenta SISTEMA",
+        "topicos": [
+          "Comenta SISTEMA que eu te mando como eu decido o que automatizar primeiro."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/p/DeVYbSVghug/",
+      "perfil": "fabianocarvalhojr",
+      "vezes": "2.6",
+      "molde": "dor seca do dono numa frase + lista numerada com prova + isca de palavra estranha no fecho, aplicado à tese #220 (complexidade é inimiga)"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": "SISTEMA: como eu decido o que automatizar primeiro"
+  },
+  {
+    "id": "2026-10-13-2",
+    "data": "2026-10-13",
+    "vaga": "quente",
+    "formato": "descoberta",
+    "horario_sugerido": "13/10 · 16:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Teve agência que começou a cobrar caro só pra 'investigar' como o sistema de um concorrente funciona por dentro.",
+      "Pagar pra descobrir como o concorrente montou o sistema dele virou um tipo de serviço. Isso devia ser de graça.",
+      "Enquanto você paga uma consultoria pra 'desvendar' o sistema de outra empresa, isso já virou ferramenta aberta no mercado."
+    ],
+    "o_que_se_ve": "entra um site ou aplicativo qualquer, sai o mapa de como ele funciona por dentro, gerado pelo agente",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Pagar pra 'descobrir' como o concorrente fez o sistema virou negócio.",
+        "topicos": [
+          "Teve agência que começou a cobrar caro só pra investigar como o sistema de um concorrente funciona por dentro."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "GRAVAR TELA: 10 a 20 s do REA rodando sobre um site ou app, mostrando o mapa saindo",
+        "topicos": [
+          "Subiu hoje no topo do GitHub uma ferramenta de graça chamada REA.",
+          "Você aponta ela pra qualquer site ou aplicativo, e ela devolve pro seu agente de IA o comportamento de como aquele sistema funciona por dentro."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 20 s",
+        "tela": "resultado da análise aberto na tela",
+        "topicos": [
+          "Eu rodei aqui numa página comum e em poucos minutos ela já tinha mapeado o fluxo inteiro, com a evidência de cada conclusão."
+        ]
+      },
+      {
+        "bloco": "Critério e fecho",
+        "tempo": "20 a 25 s",
+        "tela": "Comenta REA",
+        "topicos": [
+          "Isso não serve pra copiar quem fez o trabalho de pensar o negócio. Serve pra parar de pagar por mistério que já tá aberto.",
+          "Comenta REA que eu te mando o passo a passo no Direct."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DeSdxYwiIf2/",
+      "perfil": "99hud",
+      "vezes": "65.1",
+      "molde": "dor em reais no gancho + ferramenta rodando na tela + fecho com isca de palavra no Direct"
+    },
+    "fonte": {
+      "nome": "GitHub Trending — morluto/rea (54,7 mil estrelas em 1 dia, 13/10/2026)",
+      "link": "https://github.com/morluto/rea"
+    },
+    "isca_sugerida": "REA: o passo a passo pra instalar e rodar"
+  },
+  {
+    "id": "2026-10-13-3",
+    "data": "2026-10-13",
+    "vaga": "meme",
+    "formato": "meme",
+    "horario_sugerido": "13/10 · 14:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "POV: desativei o Claude por 1 dia só pra ver se eu sentia diferença."
+    ],
+    "o_que_se_ve": "entra ele tentando montar proposta de cliente na mão, sem IA, sai ele reativando e resolvendo em minutos",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "POV: desativei o Claude por 1 dia só pra ver se eu sentia diferença.",
+        "topicos": []
+      },
+      {
+        "bloco": "Cena",
+        "tempo": "3 a 9 s",
+        "tela": "corte pra cena real dele perdido em documento, copiando e colando na mão, cara de cansaço, relógio passando",
+        "topicos": []
+      },
+      {
+        "bloco": "Virada",
+        "tempo": "9 a 12 s",
+        "tela": "reativei em 4 horas.",
+        "topicos": []
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/Dd2NUHRgajz/",
+      "perfil": "gabrielfaria.ia (próprio)",
+      "vezes": "",
+      "molde": "'POV: cancelei [assinatura] e voltei a usar [alternativa ruim]', texto na tela, corte pra cena real que prova, sem fala"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": ""
+  },
+  {
+    "id": "2026-10-13-4",
+    "data": "2026-10-13",
+    "vaga": "quente",
+    "formato": "descoberta",
+    "horario_sugerido": "14/10 · 12:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Toda vez que eu paro de pensar numa proposta pra abrir pasta, trocar de janela ou digitar comando, eu perco o fio do que já tava decidindo.",
+      "O tempo que você perde não é fechando proposta. É parando de pensar nela pra operar o computador na mão.",
+      "Interromper o raciocínio pra clicar em três menus custa mais caro do que parece no fim do dia."
+    ],
+    "o_que_se_ve": "entra ele falando um comando em voz alta, sai o Mac organizando janela e deixando rascunho de resposta pronto, sem ele digitar nada",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Toda vez que eu paro de pensar numa proposta pra operar o computador, eu perco o fio.",
+        "topicos": [
+          "Toda vez que eu paro de pensar numa proposta pra abrir pasta, trocar de janela ou digitar comando, eu perco o fio do que tava decidindo."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "GRAVAR TELA: 10 a 20 s dele segurando o atalho, falando o comando, o Mac executando",
+        "topicos": [
+          "Saiu um assistente de voz de graça pro Mac que usa o Claude que eu já pago.",
+          "Aperto um atalho, falo o que quero, e ele abre o app, organiza a janela ou já deixa um rascunho de resposta de e-mail escrito, sem eu soltar o raciocínio da proposta."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 20 s",
+        "tela": "tela sendo organizada sozinha",
+        "topicos": [
+          "Testei aqui: ele lê o que tá na tela e executa sem eu digitar nada."
+        ]
+      },
+      {
+        "bloco": "Critério e fecho",
+        "tempo": "20 a 25 s",
+        "tela": "Comenta VOZ",
+        "topicos": [
+          "Só vale a pena pra tarefa rápida e repetitiva. Decisão de preço ou de proposta continua sendo minha.",
+          "Comenta VOZ que eu te mando o passo a passo."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DeKs3ixj3_n/",
+      "perfil": "99hud",
+      "vezes": "41.2",
+      "molde": "dor em reais no gancho + ferramenta rodando na tela + fecho com isca de palavra no Direct"
+    },
+    "fonte": {
+      "nome": "Show HN — Atticus, assistente de voz pro Mac que roda sobre o Claude (requer plano Claude Pro ou Max, sem custo extra)",
+      "link": "https://github.com/SaarthurR/atticus-mac"
+    },
+    "isca_sugerida": "VOZ: o passo a passo pra instalar"
+  },
+  {
+    "id": "2026-10-13-5",
+    "data": "2026-10-13",
+    "vaga": "meme",
+    "formato": "meme",
+    "horario_sugerido": "13/10 · 19:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Eu fingindo que decidi brincar com a minha filha agora."
+    ],
+    "o_que_se_ve": "entra ele brincando com a filha, sem pressa, sai o celular mostrando a notificação do agendador publicando sozinho",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Eu fingindo que decidi brincar com a minha filha agora.",
+        "topicos": []
+      },
+      {
+        "bloco": "Cena",
+        "tempo": "3 a 9 s",
+        "tela": "corte pra cena real dele brincando com a filha, despreocupado, celular guardado",
+        "topicos": []
+      },
+      {
+        "bloco": "Virada",
+        "tempo": "9 a 12 s",
+        "tela": "na real: o agendador ainda tá publicando os 2 de hoje.",
+        "topicos": []
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DeFtms8AMAG/",
+      "perfil": "gabrielfaria.ia (próprio)",
+      "vezes": "",
+      "molde": "'Eu fingindo que [atividade casual] até [sistema] [terminar a ação]', texto na tela, corte pra cena real, sem fala"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": ""
+  },
+  {
+    "id": "2026-10-13-6",
+    "data": "2026-10-13",
+    "vaga": "case",
+    "formato": "bastidor",
+    "horario_sugerido": "13/10 · 21:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "A maior perda de tempo de quem cria conteúdo não é gravar. É decidir o que gravar.",
+      "Eu não começo o dia escolhendo pauta. Eu começo o dia já com ela decidida.",
+      "A maioria passa a manhã decidindo o que postar. Eu passo a manhã só decidindo o que gravar."
+    ],
+    "o_que_se_ve": "entra o e-mail chegando de manhã com a pauta pronta, sai ele só decidindo o que vai gravar no dia",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 4 s",
+        "tela": "A maior perda de tempo de quem cria conteúdo não é gravar.",
+        "topicos": [
+          "A maior perda de tempo de quem cria conteúdo não é gravar.",
+          "É decidir o que gravar."
+        ]
+      },
+      {
+        "bloco": "Erro",
+        "tempo": "4 a 9 s",
+        "tela": "",
+        "topicos": [
+          "A maioria passa a manhã decidindo pauta no feeling, e só começa a gravar depois do almoço."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "9 a 16 s",
+        "tela": "GRAVAR TELA: o e-mail da pauta chegando de manhã",
+        "topicos": [
+          "Aqui a pauta já chega pronta: todo dia de manhã cai um e-mail com o que gravar.",
+          "Publico 2 vídeos por dia, e o que entra na fila é decidido pelas métricas da própria conta, não por achismo."
+        ]
+      },
+      {
+        "bloco": "Critério e fecho",
+        "tempo": "16 a 20 s",
+        "tela": "",
+        "topicos": [
+          "Eu só decido o que apertar o play pra gravar. Nunca o que vai pro feed."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "",
+      "perfil": "gabrielfaria.ia",
+      "vezes": "",
+      "molde": "Regra 4 (ele é o case): operação rodando sozinha, prova de dados da própria conta, sem molde externo"
+    },
+    "fonte": {
+      "nome": "moldes.md / estado.json — inventário: agendador que publica 2 vídeos por dia sem equipe de conteúdo",
+      "link": ""
+    },
+    "isca_sugerida": ""
   }
 ]
