@@ -1,5 +1,23 @@
 [
  {
+  "fonte": "Google",
+  "titulo": "Gemini 4 Argon: Built to solve your hardest problems",
+  "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+  "visto_em": "2026-10-13T17:16+00:00"
+ },
+ {
+  "fonte": "Google DeepMind",
+  "titulo": "Gemini 4 Argon for Robotics",
+  "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+  "visto_em": "2026-10-13T17:16+00:00"
+ },
+ {
+  "fonte": "Google DeepMind",
+  "titulo": "Gemini 4 Argon: Built to solve your hardest problems",
+  "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+  "visto_em": "2026-10-13T17:16+00:00"
+ },
+ {
   "fonte": "Meta",
   "titulo": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
   "link": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
