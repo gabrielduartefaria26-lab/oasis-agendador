@@ -1,5 +1,17 @@
 [
  {
+  "fonte": "OpenAI",
+  "titulo": "The EU’s next chapter in AI is agentic",
+  "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+  "visto_em": "2026-10-14T14:48+00:00"
+ },
+ {
+  "fonte": "Google DeepMind",
+  "titulo": "Developing Gemini 4 Argon responsibly and safely",
+  "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+  "visto_em": "2026-10-14T14:48+00:00"
+ },
+ {
   "fonte": "Google",
   "titulo": "Gemini 4 Argon: Built to solve your hardest problems",
   "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
@@ -172,11 +184,5 @@
   "titulo": "Claude Haiku 5.5",
   "link": "https://www.anthropic.com/claude-haiku-5-5",
   "visto_em": "2026-10-07T22:29+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "How Jump Trading is scaling quant research with ChatGPT",
-  "link": "https://openai.com/index/jump-trading",
-  "visto_em": "2026-10-07T04:47+00:00"
  }
 ]
