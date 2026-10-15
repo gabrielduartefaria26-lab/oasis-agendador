@@ -1,352 +1,5 @@
 [
   {
-    "id": "2026-10-08-1",
-    "data": "2026-10-08",
-    "vaga": "carrossel",
-    "formato": "carrossel",
-    "horario_sugerido": "08/10 · 09:00",
-    "fala_com": "empresário",
-    "aberturas": [
-      "Agência cobra para 'implantar IA' algo que a Anthropic já deixou pronto dentro do próprio Claude.",
-      "Você paga consultoria pra montar um fluxo que já vem pronto no Claude, só ninguém te mostrou onde clicar.",
-      "Antes de contratar implantação de IA, confere se o que te venderam não já está dentro da ferramenta que você paga."
-    ],
-    "o_que_se_ve": "entra a cobrança de implantação, sai o catálogo oficial de tutoriais pra pequena empresa dentro do Claude",
-    "roteiro": [
-      {
-        "bloco": "Slide 1",
-        "tempo": "-",
-        "tela": "Agência cobra para 'implantar IA' algo que a Anthropic já deixou pronto dentro do próprio Claude.",
-        "topicos": [
-          "Agência cobra para 'implantar IA' algo que a Anthropic já deixou pronto dentro do próprio Claude."
-        ]
-      },
-      {
-        "bloco": "Slide 2",
-        "tempo": "-",
-        "tela": "Eu vejo isso toda semana: empresa pagando por configuração como se fosse invenção.",
-        "topicos": [
-          "Eu vejo isso toda semana: empresa pagando por configuração como se fosse invenção."
-        ]
-      },
-      {
-        "bloco": "Slide 3",
-        "tempo": "-",
-        "tela": "Dentro do Claude existe uma seção de tutoriais só pra pequena empresa: atendimento, financeiro, time comercial.",
-        "topicos": [
-          "Dentro do Claude existe uma seção de tutoriais só pra pequena empresa: atendimento, financeiro, time comercial."
-        ]
-      },
-      {
-        "bloco": "Slide 4",
-        "tempo": "-",
-        "tela": "Isso não substitui processo. Resolve a parte de não saber por onde montar.",
-        "topicos": [
-          "Isso não substitui processo. Resolve a parte de não saber por onde montar."
-        ]
-      },
-      {
-        "bloco": "Slide 5",
-        "tempo": "-",
-        "tela": "Vale pra quem já usa Claude e nunca saiu do chat. Quem precisa de processo desenhado do zero ainda precisa de implantação de verdade.",
-        "topicos": [
-          "Vale pra quem já usa Claude e nunca saiu do chat. Quem precisa de processo desenhado do zero ainda precisa de implantação de verdade."
-        ]
-      },
-      {
-        "bloco": "Slide 6",
-        "tempo": "-",
-        "tela": "Comenta COWORK que eu te mando o link oficial direto.",
-        "topicos": [
-          "Comenta COWORK que eu te mando o link oficial direto."
-        ]
-      }
-    ],
-    "referencia": {
-      "link": "https://www.instagram.com/reel/DeC-mAXknYX/",
-      "perfil": "fabianocarvalhojr",
-      "vezes": "41.8",
-      "molde": "dor seca do dono numa frase + prova de sistema/lista + isca de código curto estranho"
-    },
-    "fonte": {
-      "nome": "Claude (Anthropic) - tutoriais para pequena empresa",
-      "link": "https://claude.com/resources/tutorials/category/small-business"
-    },
-    "isca_sugerida": "COWORK: eu te mando o link oficial direto."
-  },
-  {
-    "id": "2026-10-08-2",
-    "data": "2026-10-08",
-    "vaga": "quente",
-    "formato": "descoberta",
-    "horario_sugerido": "08/10 · 16:30",
-    "fala_com": "empresário",
-    "aberturas": [
-      "Esquecer um combinado com cliente custa mais caro do que parece: você repete pergunta que já tinha resposta.",
-      "Toda vez que eu voltava pra uma call com cliente depois de uma semana, eu perdia os primeiros minutos só relembrando o que já tinha sido decidido.",
-      "Eu não entro mais em nenhuma reunião sem saber o que ficou pendente da última vez, e não é porque eu tenho memória boa."
-    ],
-    "o_que_se_ve": "entra ele abrindo o painel antes da call, sai o resumo com os pontos em aberto já prontos",
-    "roteiro": [
-      {
-        "bloco": "Gancho",
-        "tempo": "0 a 3 s",
-        "tela": "Esquecer um combinado com cliente custa caro",
-        "topicos": [
-          "Esquecer um combinado com cliente custa mais caro do que parece: você repete pergunta que já tinha resposta."
-        ]
-      },
-      {
-        "bloco": "Entrega",
-        "tempo": "3 a 15 s",
-        "tela": "GRAVAR TELA: painel lendo e-mail, WhatsApp e a última reunião e montando o resumo",
-        "topicos": [
-          "Eu tenho um assistente que lê e-mail, WhatsApp e reunião e monta o resumo antes de eu entrar na call.",
-          "Ele não decide nada por mim, só junta o que já foi dito."
-        ]
-      },
-      {
-        "bloco": "Prova",
-        "tempo": "15 a 22 s",
-        "tela": "lista de pontos em aberto na tela",
-        "topicos": [
-          "Entro sabendo o que ficou pendente, sem perguntar de novo pro cliente."
-        ]
-      },
-      {
-        "bloco": "Fecho",
-        "tempo": "22 a 28 s",
-        "tela": "Comenta RESUMO",
-        "topicos": [
-          "Vale pra quem tem mais de 3 ou 4 clientes recorrentes. Pra 1 cliente só, não compensa montar isso.",
-          "Comenta RESUMO que eu te mando como montei esse painel."
-        ]
-      }
-    ],
-    "referencia": {
-      "link": "https://www.instagram.com/reel/Dd907MriUGV/",
-      "perfil": "99hud",
-      "vezes": "62.9",
-      "molde": "dor em reais no gancho, ferramenta rodando como prova, fecho com isca de passo a passo no Direct"
-    },
-    "fonte": {
-      "nome": "inventário confirmado em moldes.md: assistente que lê e-mail, WhatsApp, reuniões e monta o painel de tarefas",
-      "link": ""
-    },
-    "isca_sugerida": "RESUMO: comenta que eu te mando como montei esse painel."
-  },
-  {
-    "id": "2026-10-08-3",
-    "data": "2026-10-08",
-    "vaga": "quente",
-    "formato": "descoberta",
-    "horario_sugerido": "12/10 · 12:00",
-    "fala_com": "empresário",
-    "aberturas": [
-      "Enquanto você ainda decide se vale a pena usar IA pra automatizar sua empresa, o resto do mercado de tecnologia já decidiu: é a ferramenta que mais cresce agora.",
-      "Tem gente gastando mês decidindo qual IA usar, enquanto o mercado inteiro de tecnologia já apostou a ficha numa só.",
-      "Demora pra decidir ferramenta é um dos jeitos mais caros de perder tempo que eu vejo em empresa."
-    ],
-    "o_que_se_ve": "entra a dúvida de qual ferramenta escolher, sai o ranking real de crescimento no GitHub",
-    "roteiro": [
-      {
-        "bloco": "Gancho",
-        "tempo": "0 a 3 s",
-        "tela": "A ferramenta que mais cresce agora no mundo da programação",
-        "topicos": [
-          "Enquanto você ainda decide se vale a pena usar IA pra automatizar sua empresa, o resto do mercado de tecnologia já decidiu: é a ferramenta que mais cresce agora."
-        ]
-      },
-      {
-        "bloco": "Entrega",
-        "tempo": "3 a 14 s",
-        "tela": "GRAVAR TELA: ranking do OSS Insight com o Claude Code no topo dos ganhos de estrela",
-        "topicos": [
-          "Nos últimos 28 dias o Claude Code foi o projeto que mais ganhou apoio entre as ferramentas de agente de código, quase 5 mil estrelas novas no GitHub, segundo o OSS Insight.",
-          "Isso não é hype de lançamento. É gente usando todos os dias."
-        ]
-      },
-      {
-        "bloco": "Prova",
-        "tempo": "14 a 20 s",
-        "tela": "minha tela do Claude Code aberta, rodando numa tarefa real",
-        "topicos": [
-          "É a mesma ferramenta que eu uso pra manter minha esteira de conteúdo rodando."
-        ]
-      },
-      {
-        "bloco": "Fecho",
-        "tempo": "20 a 26 s",
-        "tela": "Comenta CODE",
-        "topicos": [
-          "Serve pra quem já decidiu usar IA e só trava escolhendo qual. Não decide por você se vale automatizar, isso é processo, não ferramenta.",
-          "Comenta CODE que eu te mando por onde eu comecei."
-        ]
-      }
-    ],
-    "referencia": {
-      "link": "https://www.instagram.com/reel/DeFsrwspVrS/",
-      "perfil": "99hud",
-      "vezes": "47.0",
-      "molde": "dor por decisão lenta + prova de ferramenta validada pelo mercado + isca de passo a passo"
-    },
-    "fonte": {
-      "nome": "OSS Insight, ranking de crescimento de repositórios de IA no GitHub (últimos 28 dias)",
-      "link": "https://ossinsight.io/trending/ai"
-    },
-    "isca_sugerida": "CODE: comenta que eu te mando por onde eu comecei."
-  },
-  {
-    "id": "2026-10-08-4",
-    "data": "2026-10-08",
-    "vaga": "meme",
-    "formato": "meme",
-    "horario_sugerido": "08/10 · 14:30",
-    "fala_com": "quem usa IA",
-    "aberturas": [
-      "Devagar e sempre se chega lá 🫡"
-    ],
-    "o_que_se_ve": "entra a frase irônica parada na tela, sai ele terminando em minutos algo que pareceria levar o dia inteiro",
-    "roteiro": [
-      {
-        "bloco": "Gancho",
-        "tempo": "0 a 3 s",
-        "tela": "Devagar e sempre se chega lá 🫡",
-        "topicos": []
-      },
-      {
-        "bloco": "Virada",
-        "tempo": "3 a 6 s",
-        "tela": "corte pra ele fechando a tarefa em poucos minutos",
-        "topicos": []
-      },
-      {
-        "bloco": "Fecho",
-        "tempo": "6 a 10 s",
-        "tela": "tela do Claude já com o resultado pronto, ele de bermuda tomando café",
-        "topicos": []
-      }
-    ],
-    "referencia": {
-      "link": "https://www.instagram.com/reel/Dd5Lww2xRJO/",
-      "perfil": "alberta.tech",
-      "vezes": "38.8",
-      "molde": "frase irônica de calma/lentidão parada na tela, corte seco pra prova de que foi rápido"
-    },
-    "fonte": {
-      "nome": "",
-      "link": ""
-    },
-    "isca_sugerida": ""
-  },
-  {
-    "id": "2026-10-08-5",
-    "data": "2026-10-08",
-    "vaga": "meme",
-    "formato": "meme",
-    "horario_sugerido": "08/10 · 19:00",
-    "fala_com": "quem usa IA",
-    "aberturas": [
-      "Acompanhar toda ferramenta de IA nova que lança é praticamente um emprego full-time 😭"
-    ],
-    "o_que_se_ve": "entra o texto de cansaço sobre acompanhar ferramenta nova, sai ele ignorando e seguindo no mesmo sistema de sempre",
-    "roteiro": [
-      {
-        "bloco": "Gancho",
-        "tempo": "0 a 4 s",
-        "tela": "Acompanhar toda ferramenta de IA nova que lança é praticamente um emprego full-time 😭",
-        "topicos": []
-      },
-      {
-        "bloco": "Virada",
-        "tempo": "4 a 7 s",
-        "tela": "corte pra ele fechando a aba e voltando pro mesmo Claude de sempre",
-        "topicos": []
-      },
-      {
-        "bloco": "Fecho",
-        "tempo": "7 a 11 s",
-        "tela": "ele de boa, sistema rodando igual",
-        "topicos": []
-      }
-    ],
-    "referencia": {
-      "link": "https://www.instagram.com/reel/DdZR0oSR9ui/",
-      "perfil": "alberta.tech",
-      "vezes": "3.4",
-      "molde": "texto de cansaço/sobrecarga com emoji, corte pra prova de que ele não precisa correr atrás"
-    },
-    "fonte": {
-      "nome": "",
-      "link": ""
-    },
-    "isca_sugerida": ""
-  },
-  {
-    "id": "2026-10-08-6",
-    "data": "2026-10-08",
-    "vaga": "case",
-    "formato": "bastidor",
-    "horario_sugerido": "08/10 · 21:30",
-    "fala_com": "empresário",
-    "aberturas": [
-      "Toda empresa de conteúdo trava no mesmo lugar: esperando alguém aprovar ou editar. A minha não trava, porque não depende de mim em nenhuma das 5 partes.",
-      "Se eu sair de férias duas semanas, minha esteira de conteúdo continua publicando sozinha, em 5 etapas, sem eu tocar em nada.",
-      "Separei minha operação de conteúdo em 5 equipes. Nenhuma delas é uma pessoa."
-    ],
-    "o_que_se_ve": "entra o mapa com as 5 equipes da esteira de conteúdo, câmera entra em cada uma na palavra falada",
-    "roteiro": [
-      {
-        "bloco": "Gancho",
-        "tempo": "0 a 3 s",
-        "tela": "mapa: logo no centro, 5 equipes em círculo tracejado",
-        "topicos": [
-          "Separei minha operação de conteúdo em 5 equipes. Nenhuma delas é uma pessoa."
-        ]
-      },
-      {
-        "bloco": "Entrega",
-        "tempo": "3 a 16 s",
-        "tela": "câmera entra em cada equipe: Roteiro, Edição, Agendador, Produção, Métricas",
-        "topicos": [
-          "Equipe 1 traz o roteiro da ideia aprovada.",
-          "Equipe 2 edita sem eu abrir a timeline.",
-          "Equipe 3 é o agendador, publica sozinho ao longo do dia.",
-          "Equipe 4 organiza o quadro de produção, o que já gravou e o que falta.",
-          "Equipe 5 fecha com as métricas da semana, sem planilha manual."
-        ]
-      },
-      {
-        "bloco": "Prova",
-        "tempo": "16 a 22 s",
-        "tela": "GRAVAR TELA: a agenda publicando um post no horário, sem ele mexendo",
-        "topicos": [
-          "Essa é a prova: o post sai sozinho, no horário, e eu nem estou olhando pro celular."
-        ]
-      },
-      {
-        "bloco": "Fecho",
-        "tempo": "22 a 28 s",
-        "tela": "Siga para ver a operação rodando",
-        "topicos": [
-          "Isso é sistema, não esforço. Se uma dessas 5 travar, eu ainda não parei, porque nenhuma depende só de mim.",
-          "Siga @gabrielfaria.ia pra ver a IA trabalhando de verdade."
-        ]
-      }
-    ],
-    "referencia": {
-      "link": "",
-      "perfil": "moldes.md",
-      "vezes": "-",
-      "molde": "mapa de equipes aprovado 25/09: tela dividida rosto+mapa, logo no centro, 5 equipes em círculo tracejado, câmera entra em cada na palavra falada"
-    },
-    "fonte": {
-      "nome": "esteira de conteúdo (inventário confirmado em moldes.md: consulta de gravação, edição, agendador, quadro de produção, métricas semanais)",
-      "link": ""
-    },
-    "isca_sugerida": ""
-  },
-  {
     "id": "2026-10-09-1",
     "data": "2026-10-09",
     "vaga": "carrossel",
@@ -2101,5 +1754,377 @@
       "link": ""
     },
     "isca_sugerida": ""
+  },
+  {
+    "id": "2026-10-15-1",
+    "data": "2026-10-15",
+    "vaga": "carrossel",
+    "formato": "carrossel",
+    "horario_sugerido": "16/10 · 09:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Tem empresa pagando mensalidade pra ferramenta que virou commodity essa semana.",
+      "Enquanto você renova o contrato de uma ferramenta, essa semana saíram pelo menos quatro versões de graça que fazem o mesmo.",
+      "O erro não é pagar ferramenta. É nunca checar se saiu versão de graça do que você paga."
+    ],
+    "o_que_se_ve": "entra a mensalidade de ferramenta que virou commodity, sai a lista de 4 projetos que saíram de graça essa semana",
+    "roteiro": [
+      {
+        "bloco": "Slide 1",
+        "tempo": "-",
+        "tela": "Tem empresa pagando mensalidade pra ferramenta que virou commodity essa semana.",
+        "topicos": [
+          "Tem empresa pagando mensalidade pra ferramenta que virou commodity essa semana."
+        ]
+      },
+      {
+        "bloco": "Slide 2",
+        "tempo": "-",
+        "tela": "O erro não é usar ferramenta paga. É renovar contrato sem checar se saiu versão de graça que faz o mesmo.",
+        "topicos": [
+          "O erro não é usar ferramenta paga. É renovar contrato sem checar se saiu versão de graça que faz o mesmo."
+        ]
+      },
+      {
+        "bloco": "Slide 3",
+        "tempo": "-",
+        "tela": "Saiu de graça um jeito do Claude copiar a função de qualquer aplicativo que você viu rodando. Chama REA.",
+        "topicos": [
+          "Saiu de graça um jeito do Claude copiar a função de qualquer aplicativo que você viu rodando. Chama REA."
+        ]
+      },
+      {
+        "bloco": "Slide 4",
+        "tempo": "-",
+        "tela": "Saiu de graça uma coleção com mais de 200 papéis de agente prontos, um pra cada entrega da empresa.",
+        "topicos": [
+          "Saiu de graça uma coleção com mais de 200 papéis de agente prontos, um pra cada entrega da empresa."
+        ]
+      },
+      {
+        "bloco": "Slide 5",
+        "tempo": "-",
+        "tela": "Saiu de graça um clone de voz que roda no seu computador, sem mandar seu áudio pra nuvem de ninguém.",
+        "topicos": [
+          "Saiu de graça um clone de voz que roda no seu computador, sem mandar seu áudio pra nuvem de ninguém."
+        ]
+      },
+      {
+        "bloco": "Slide 6",
+        "tempo": "-",
+        "tela": "Isso não substitui ferramenta com suporte, integração e histórico. Serve pra parar de pagar pelo que já é commodity.",
+        "topicos": [
+          "Isso não substitui ferramenta com suporte, integração e histórico. Serve pra parar de pagar pelo que já é commodity."
+        ]
+      },
+      {
+        "bloco": "Slide 7",
+        "tempo": "-",
+        "tela": "Comenta GRATIS que eu te mando a lista com o link de cada uma.",
+        "topicos": [
+          "Comenta GRATIS que eu te mando a lista com o link de cada uma."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DeXobkpClJJ/",
+      "perfil": "fabianocarvalhojr",
+      "vezes": "6.2",
+      "molde": "dor seca numa frase + lista numerada de provas + isca curta e estranha no fecho"
+    },
+    "fonte": {
+      "nome": "GitHub Trending (diário) + Instagram @fabianocarvalhojr",
+      "link": "https://github.com/trending?since=daily"
+    },
+    "isca_sugerida": "GRATIS: a lista com o link de cada ferramenta"
+  },
+  {
+    "id": "2026-10-15-2",
+    "data": "2026-10-15",
+    "vaga": "quente",
+    "formato": "descoberta",
+    "horario_sugerido": "15/10 · 12:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Quanto você pagaria pra descobrir exatamente como funciona aquela funcionalidade que seu concorrente te vende como segredo dele?",
+      "Tem agência cobrando semanas de 'engenharia reversa' pra entender uma funcionalidade que saiu de graça essa semana.",
+      "Parei de pagar curiosidade sobre como um app faz aquilo que o meu ainda não faz."
+    ],
+    "o_que_se_ve": "entra a cobrança por engenharia reversa de concorrente, sai a ferramenta grátis que devolve a lógica de uma função em minutos",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Seu concorrente te vendeu uma funcionalidade como segredo dele.",
+        "topicos": [
+          "Quanto você pagaria pra descobrir exatamente como aquela funcionalidade do seu concorrente funciona por dentro?"
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "Claude rodando o REA apontado pra uma função de uma página pública.",
+        "topicos": [
+          "Saiu essa semana uma ferramenta de graça que aponta pra qualquer aplicativo ou site e devolve o código da função.",
+          "Chama REA, Reverse Engineer Anything, projeto aberto.",
+          "Isso não é pra clonar sistema de ninguém, é pra parar de pagar caro só pra entender uma lógica simples."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 22 s",
+        "tela": "Resultado: código da função extraído na tela.",
+        "topicos": [
+          "GRAVAR TELA: 10 a 20 s do REA rodando numa função simples de uma página pública, mostrando o código devolvido.",
+          "Rodei aqui numa função simples e em poucos minutos ele devolveu a lógica por trás."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "22 a 27 s",
+        "tela": "Comenta APP que eu te mando o link.",
+        "topicos": [
+          "Isso só vale pra entender e aprender, nunca pra copiar sistema fechado de alguém sem permissão.",
+          "Comenta APP que eu te mando o link e o passo a passo."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DeU5Kp0iQrL/",
+      "perfil": "99hud",
+      "vezes": "3.7",
+      "molde": "dor seca sobre pagar por algo que o concorrente escondeu + Claude mostrando a ferramenta rodando + isca 'comenta PALAVRA e eu mando o passo a passo no Direct'"
+    },
+    "fonte": {
+      "nome": "GitHub Trending (morluto/rea, 32.282 estrelas em 1 dia)",
+      "link": "https://github.com/morluto/rea"
+    },
+    "isca_sugerida": "APP: o link do REA e o passo a passo pra testar numa função simples"
+  },
+  {
+    "id": "2026-10-15-3",
+    "data": "2026-10-15",
+    "vaga": "meme",
+    "formato": "meme",
+    "horario_sugerido": "15/10 · 14:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "O Claude respondendo direct a tarde inteira.",
+      "Eu, no parquinho com minha filha.",
+      "Enfim, uma nova era."
+    ],
+    "o_que_se_ve": "entra o Claude trabalhando sozinho a tarde inteira, sai ele no parquinho com a filha",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "O Claude respondendo direct a tarde inteira.",
+        "topicos": [
+          "O Claude respondendo direct a tarde inteira."
+        ]
+      },
+      {
+        "bloco": "Virada",
+        "tempo": "3 a 7 s",
+        "tela": "Eu, no parquinho com minha filha.",
+        "topicos": [
+          "Eu, no parquinho com minha filha."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "7 a 9 s",
+        "tela": "Enfim, uma nova era.",
+        "topicos": [
+          "Enfim, uma nova era."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdwxbOKEko8/",
+      "perfil": "gabrielfaria.ia (próprio)",
+      "vezes": "alcance 204 (próprio)",
+      "molde": "contraste entre a atividade pessoal dele e o sistema trabalhando sozinho, texto em 3 cortes, sem fala, virada seca final"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": ""
+  },
+  {
+    "id": "2026-10-15-4",
+    "data": "2026-10-15",
+    "vaga": "quente",
+    "formato": "descoberta",
+    "horario_sugerido": "15/10 · 16:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Contratar um especialista pra cada entrega da empresa custa o que a maioria não tem pra pagar. Tem gente rodando 200 ao mesmo tempo, de graça.",
+      "Enquanto você decide se vale contratar mais um especialista, esse pacote de graça já tem 200 prontos pra testar.",
+      "Pare de pagar consultoria pra escrever do zero o papel de cada função da empresa."
+    ],
+    "o_que_se_ve": "entra o custo de contratar um especialista por função, sai o repositório com mais de 200 papéis prontos pra plugar no Claude",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Contratar um especialista pra cada entrega da empresa custa o que a maioria não tem pra pagar.",
+        "topicos": [
+          "Contratar um especialista pra cada entrega da empresa custa o que a maioria não tem pra pagar."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 15 s",
+        "tela": "Claude abrindo a pasta com os papéis de agente.",
+        "topicos": [
+          "Saiu de graça uma coleção com mais de 200 papéis prontos pra Claude virar: vendas, design, financeiro, engenharia.",
+          "Cada um já vem com a missão, as entregas e os critérios de sucesso escritos."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "15 a 22 s",
+        "tela": "Plugando o papel de vendas numa tarefa real.",
+        "topicos": [
+          "GRAVAR TELA: 10 a 20 s abrindo a pasta de papéis e plugando um deles numa tarefa real no Claude.",
+          "Testei aqui plugando o papel de vendas numa proposta real."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "22 a 27 s",
+        "tela": "Comenta AGENTE que eu te mando o link.",
+        "topicos": [
+          "Isso não decide por você. Serve pra não começar do zero.",
+          "Comenta AGENTE que eu te mando o link."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DeXyvRyEeTi/",
+      "perfil": "fabianocarvalhojr",
+      "vezes": "10.8",
+      "molde": "dor seca sobre custo de contratar especialista + prova de sistema com número grande + isca curta no fecho"
+    },
+    "fonte": {
+      "nome": "GitHub (msitarzewski/agency-agents)",
+      "link": "https://github.com/msitarzewski/agency-agents"
+    },
+    "isca_sugerida": "AGENTE: o link da coleção de papéis prontos"
+  },
+  {
+    "id": "2026-10-15-5",
+    "data": "2026-10-15",
+    "vaga": "meme",
+    "formato": "meme",
+    "horario_sugerido": "15/10 · 19:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Você joga algum jogo?",
+      "Eu jogo. Contra mim mesmo, pra não responder cliente no fim de semana.",
+      "E esse eu ainda não ganhei."
+    ],
+    "o_que_se_ve": "entra a pergunta boba 'você joga algum jogo', sai o jogo real: não responder cliente no fim de semana",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 2 s",
+        "tela": "Você joga algum jogo?",
+        "topicos": [
+          "Você joga algum jogo?"
+        ]
+      },
+      {
+        "bloco": "Virada",
+        "tempo": "2 a 6 s",
+        "tela": "Eu jogo. Contra mim mesmo, pra não responder cliente no fim de semana.",
+        "topicos": [
+          "Eu jogo. Contra mim mesmo, pra não responder cliente no fim de semana."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "6 a 8 s",
+        "tela": "E esse eu ainda não ganhei.",
+        "topicos": [
+          "E esse eu ainda não ganhei."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/Dd9_GhrEVO0/",
+      "perfil": "gabrielfaria.ia (próprio)",
+      "vezes": "alcance 1485 (próprio)",
+      "molde": "pergunta seca e cotidiana no segundo zero, corte pra resposta irônica que vira o verdadeiro jogo da vida dele, sem fala"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": ""
+  },
+  {
+    "id": "2026-10-15-6",
+    "data": "2026-10-15",
+    "vaga": "case",
+    "formato": "bastidor",
+    "horario_sugerido": "15/10 · 21:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Cada contato que me chama pelo comentário custa R$ 0 pra mim, e chega no direct dele em 3 segundos.",
+      "Não pago ManyChat, não pago anúncio pra converter comentário. E o direct cai em 3 segundos.",
+      "O custo por lead da minha operação é R$ 0. O gargalo nunca foi o preço, foi a demora."
+    ],
+    "o_que_se_ve": "entra o custo de gerar um lead pago, sai o sistema dele respondendo em 3 segundos por R$ 0",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Cada contato que me chama pelo comentário custa R$ 0.",
+        "topicos": [
+          "Cada contato que me chama pelo comentário custa R$ 0."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 12 s",
+        "tela": "Automação nativa da Meta respondendo o comentário na hora.",
+        "topicos": [
+          "A automação de comentário da própria Meta manda a mensagem na hora, de graça.",
+          "Isso sozinho já responde em 3 segundos.",
+          "O que eu monto por fora é o resto: a planilha de leads, a página do material e o aviso por e-mail pro time de vendas."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "12 a 20 s",
+        "tela": "GRAVAR TELA: 10 a 20 s mostrando o comentário caindo e a planilha ou aviso disparando.",
+        "topicos": [
+          "Quando um lead comenta, cai na planilha, o time recebe o aviso e chama no mesmo dia."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "20 a 25 s",
+        "tela": "Comenta DIRECT que eu te mando o passo a passo.",
+        "topicos": [
+          "Isso não substitui anúncio quando o que falta é alcance.",
+          "Resolve quando o alcance já existe e o lead se perde na demora."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DeHGyWeIVL4/",
+      "perfil": "allesinisgalli",
+      "vezes": "13.9",
+      "molde": "bastidor em primeira pessoa com prova numérica de custo do sistema rodando sozinho"
+    },
+    "fonte": {
+      "nome": "",
+      "link": ""
+    },
+    "isca_sugerida": "DIRECT: o passo a passo do sistema sem ManyChat"
   }
 ]
