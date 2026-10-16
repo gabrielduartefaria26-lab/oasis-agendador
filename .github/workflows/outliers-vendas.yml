@@ -1,0 +1,45 @@
+name: outliers vendas
+
+# Pesquisa do @gabrieldfaria_: mesma caça da Oasis com a lista de vendas.
+# Só lê perfis públicos (business_discovery); não publica nada em conta nenhuma.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: outliers-vendas
+  cancel-in-progress: false
+
+jobs:
+  outliers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: o token enxerga o @gabrieldfaria_?
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: |
+          curl -s "https://graph.facebook.com/v21.0/17841402121670664?fields=username,followers_count,media_count&access_token=$IG_TOKEN" | sed "s/$IG_TOKEN/***/g"
+
+      - name: cacar Reels e carrosseis fora da curva
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          REFERENCIAS: referencias-vendas.txt
+          SAIDA: outliers-vendas.csv
+          SAIDA_CARROSSEL: outliers-vendas-carrossel.csv
+        run: python3 outliers.py
+
+      - name: guardar
+        run: |
+          if [ -n "$(git status --porcelain outliers-vendas.csv outliers-vendas-carrossel.csv)" ]; then
+            git config user.name "agendador"
+            git config user.email "agendador@users.noreply.github.com"
+            git add outliers-vendas.csv outliers-vendas-carrossel.csv
+            git commit -m "outliers vendas: $(date -u +%Y-%m-%d)"
+            git pull --rebase --quiet origin main
+            git push
+          fi

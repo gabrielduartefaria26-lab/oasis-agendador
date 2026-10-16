@@ -19,8 +19,9 @@ from datetime import datetime, timedelta, timezone
 API = "https://graph.facebook.com/v21.0"
 TOKEN = os.environ["IG_TOKEN"]
 IG_ID = os.environ["IG_USER_ID"]
-SAIDA = "outliers.csv"
-SAIDA_CARROSSEL = "outliers-carrossel.csv"  # mesma passada, régua contra todos os posts do perfil
+SAIDA = os.environ.get("SAIDA", "outliers.csv")
+SAIDA_CARROSSEL = os.environ.get("SAIDA_CARROSSEL", "outliers-carrossel.csv")
+REFERENCIAS = os.environ.get("REFERENCIAS", "referencias.txt")  # a pesquisa do @gabrieldfaria_ usa referencias-vendas.txt  # mesma passada, régua contra todos os posts do perfil
 VEZES = 3.0          # quantas vezes a mediana do perfil para contar como fora da curva
 JANELA_DIAS = 60     # formato mais velho que isso provavelmente já saturou
 POSTS_POR_PERFIL = 40
@@ -49,7 +50,7 @@ def chamar(caminho, params=None):
 def perfis():
     """[(usuario, grupo)] na ordem do arquivo."""
     lista, grupo = [], ""
-    with open("referencias.txt", encoding="utf-8") as f:
+    with open(REFERENCIAS, encoding="utf-8") as f:
         for l in f:
             l = l.strip()
             if l.startswith("## "):
