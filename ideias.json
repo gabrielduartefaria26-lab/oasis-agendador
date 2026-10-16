@@ -1,345 +1,5 @@
 [
   {
-    "id": "2026-10-09-1",
-    "data": "2026-10-09",
-    "vaga": "carrossel",
-    "formato": "carrossel",
-    "horario_sugerido": "16/10 · 09:00",
-    "fala_com": "empresário",
-    "aberturas": [
-      "Você pede uma coisa pro ChatGPT e ainda perde tempo transformando a resposta em tabela na mão.",
-      "Enquanto você copia resposta de IA pra planilha, a OpenAI já tirou esse trabalho do seu caminho.",
-      "A IA já monta a tabela, o gráfico e a calculadora. O problema é que quase ninguém pediu isso ainda."
-    ],
-    "o_que_se_ve": "entra o print do chat respondendo só com texto corrido, sai o mesmo chat montando uma comparação interativa na hora",
-    "roteiro": [
-      {
-        "bloco": "Gancho",
-        "tempo": "slide 1",
-        "tela": "Você pede uma coisa pro ChatGPT e ainda perde tempo transformando a resposta em tabela na mão.",
-        "topicos": [
-          "Você pede uma coisa pro ChatGPT e ainda perde tempo transformando a resposta em tabela na mão."
-        ]
-      },
-      {
-        "bloco": "Erro",
-        "tempo": "slides 2 e 3",
-        "tela": "O que o dono ainda faz sozinho",
-        "topicos": [
-          "Você pede um orçamento, uma comparação de plano ou um cronograma de proposta pro ChatGPT.",
-          "Ele devolve um bloco de texto, e você é quem monta a tabela, o gráfico ou a calculadora depois, na mão.",
-          "Isso custa minutos todo santo dia numa tarefa que já devia sair pronta no primeiro pedido."
-        ]
-      },
-      {
-        "bloco": "Prova",
-        "tempo": "slides 4 e 5",
-        "tela": "print do anúncio do GPT-6 com Intelligent UI",
-        "topicos": [
-          "No dia 7 de outubro a OpenAI lançou o Intelligent UI dentro do GPT-6: a resposta já sai em tabela, calculadora ou comparação, sem você pedir o formato.",
-          "Funciona pra orçamento, cronograma de proposta e comparação de plano, direto dentro da própria conversa."
-        ]
-      },
-      {
-        "bloco": "Critério",
-        "tempo": "slide 6",
-        "tela": "Quando vale, quando não vale",
-        "topicos": [
-          "Vale pedir a ferramenta certa quando a resposta vai virar decisão de preço, prazo ou comparação.",
-          "Continua valendo exportar pra documento quando o cliente precisa assinar ou guardar."
-        ]
-      },
-      {
-        "bloco": "Fecho",
-        "tempo": "slide 7",
-        "tela": "Comenta UI que eu te mando o prompt",
-        "topicos": [
-          "Comenta UI que eu te mando o prompt exato que eu uso pra pedir isso pro ChatGPT."
-        ]
-      }
-    ],
-    "referencia": {
-      "link": "https://www.instagram.com/p/DeAx2QPFFND/",
-      "perfil": "fabianocarvalhojr",
-      "vezes": "14.6",
-      "molde": "dor seca do dono numa frase + sistema/prova numerada + isca curta e estranha no fecho"
-    },
-    "fonte": {
-      "nome": "OpenAI, GPT-6 and Intelligent UI for everyone",
-      "link": "https://openai.com/index/gpt-6-for-everyone/"
-    },
-    "isca_sugerida": "UI: o prompt exato que eu uso pra pedir isso pro ChatGPT"
-  },
-  {
-    "id": "2026-10-09-2",
-    "data": "2026-10-09",
-    "vaga": "quente",
-    "formato": "descoberta",
-    "horario_sugerido": "09/10 · 16:30",
-    "fala_com": "empresário",
-    "aberturas": [
-      "Quando eu monto automação pra cliente, metade do trabalho é decidir qual modelo cada tarefa usa. Não é sempre o mais caro.",
-      "Rodar modelo grande pra resumir contrato ou organizar mensagem é pagar luxo numa tarefa que não precisa disso.",
-      "Toda vez que eu rodava um agente pra classificar ou resumir mensagem, uma parte da conta ficava cara sem precisar."
-    ],
-    "o_que_se_ve": "entra comparação de preço na tela, sai o Haiku 5.5 resumindo ou classificando mensagens em segundos na própria conta",
-    "roteiro": [
-      {
-        "bloco": "Gancho",
-        "tempo": "0 a 3 s",
-        "tela": "Não é sempre o modelo mais caro",
-        "topicos": [
-          "Quando eu monto automação pra cliente, metade do trabalho é decidir qual modelo cada tarefa usa. Não é sempre o mais caro."
-        ]
-      },
-      {
-        "bloco": "Entrega",
-        "tempo": "3 a 15 s",
-        "tela": "tabela de preço: Haiku 4.5 vs Haiku 5.5",
-        "topicos": [
-          "A Anthropic lançou o Haiku 5.5 em 7 de outubro, cerca de 75% mais barato que o Haiku 4.5 e o modelo mais rápido que eles já fizeram.",
-          "Testei, e ele serve exatamente para o que a automação de cliente mais usa: resumir mensagem, classificar pedido, organizar reunião.",
-          "GRAVAR TELA: 10 a 20 s do Haiku 5.5 resumindo ou classificando uma mensagem real na sua conta."
-        ]
-      },
-      {
-        "bloco": "Prova",
-        "tempo": "15 a 22 s",
-        "tela": "print da comparação de preço com fonte",
-        "topicos": [
-          "Não é a IA que fica mais inteligente, é o preço da tarefa repetida que fica menor."
-        ]
-      },
-      {
-        "bloco": "Fecho",
-        "tempo": "22 a 28 s",
-        "tela": "Comenta HAIKU",
-        "topicos": [
-          "Comenta HAIKU que eu te mando quando vale trocar o modelo caro pelo barato nas tarefas do dia a dia."
-        ]
-      }
-    ],
-    "referencia": {
-      "link": "https://www.instagram.com/reel/DeFsrwspVrS/",
-      "perfil": "99hud",
-      "vezes": "47.0",
-      "molde": "dor em reais/decisão de custo no gancho + ferramenta rodando na tela + fecho com isca no Direct"
-    },
-    "fonte": {
-      "nome": "Anthropic, Claude Haiku 5.5",
-      "link": "https://www.anthropic.com/claude-haiku-5-5"
-    },
-    "isca_sugerida": "HAIKU: quando trocar o modelo caro pelo barato nas tarefas repetidas"
-  },
-  {
-    "id": "2026-10-09-3",
-    "data": "2026-10-09",
-    "vaga": "quente",
-    "formato": "tutorial",
-    "horario_sugerido": "10/10 · 16:30",
-    "fala_com": "empresário",
-    "aberturas": [
-      "Toda proposta que eu mando pra cliente tinha um diagrama torto, feito às pressas, que não combinava com nada da marca.",
-      "Eu pagava designer só pra fazer um organograma de processo pra proposta, e esperava dias por isso.",
-      "O diagrama feio na proposta é um detalhe pequeno que faz o cliente desconfiar do resto do trabalho."
-    ],
-    "o_que_se_ve": "entra prompt escrito no Claude Code, sai o diagrama editorial pronto na tela em menos de 1 minuto",
-    "roteiro": [
-      {
-        "bloco": "Gancho",
-        "tempo": "0 a 3 s",
-        "tela": "diagrama torto feito no Canva",
-        "topicos": [
-          "Toda proposta que eu mando pra cliente tinha um diagrama torto, feito às pressas, que não combinava com nada da marca."
-        ]
-      },
-      {
-        "bloco": "Entrega",
-        "tempo": "3 a 40 s",
-        "tela": "Claude Code instalando o skill e gerando o diagrama",
-        "topicos": [
-          "Essa semana apareceu no GitHub um skill aberto e gratuito só pra isso: o Claude Code monta o diagrama editorial direto, sem o visual batido de ferramenta de automação.",
-          "Eu instalo o skill, descrevo o processo da proposta numa frase, e o diagrama sai pronto em menos de um minuto, já no estilo da marca.",
-          "GRAVAR TELA: do comando de instalação até o diagrama pronto, sem cortar nada, pra mostrar que é mesmo rápido assim."
-        ]
-      },
-      {
-        "bloco": "Prova",
-        "tempo": "40 a 48 s",
-        "tela": "diagrama finalizado ao lado da proposta",
-        "topicos": [
-          "Isso não substitui identidade visual de marca, mas resolve o diagrama de processo e a linha do tempo que toda proposta de serviço precisa."
-        ]
-      },
-      {
-        "bloco": "Fecho",
-        "tempo": "48 a 55 s",
-        "tela": "Comenta DIAGRAMA",
-        "topicos": [
-          "Comenta DIAGRAMA que eu te mando o comando de instalação e o prompt que eu uso."
-        ]
-      }
-    ],
-    "referencia": {
-      "link": "",
-      "perfil": "moldes.md",
-      "vezes": "",
-      "molde": "FAZENDO NA PRÁTICA (pedido 25/09): ele constrói ao vivo do começo ao resultado em menos de 1 minuto, isca é o prompt ou o passo a passo"
-    },
-    "fonte": {
-      "nome": "GitHub trending diário, cathrynlavery/diagram-design",
-      "link": "https://github.com/cathrynlavery/diagram-design"
-    },
-    "isca_sugerida": "DIAGRAMA: o comando de instalação e o prompt que eu uso"
-  },
-  {
-    "id": "2026-10-09-4",
-    "data": "2026-10-09",
-    "vaga": "meme",
-    "formato": "meme",
-    "horario_sugerido": "09/10 · 14:30",
-    "fala_com": "empresário",
-    "aberturas": [
-      "Se você nunca fechou proposta assim, não quero sua dica de vendas."
-    ],
-    "o_que_se_ve": "texto na tela, corte pra ele entrando na call já com o painel do cliente aberto e pronto, sem procurar nada",
-    "roteiro": [
-      {
-        "bloco": "Gancho",
-        "tempo": "0 a 3 s",
-        "tela": "Se você nunca fechou proposta assim, não quero sua dica de vendas.",
-        "topicos": []
-      },
-      {
-        "bloco": "Virada",
-        "tempo": "3 a 9 s",
-        "tela": "corte pra ele entrando na call com o painel já aberto, tudo resumido",
-        "topicos": []
-      },
-      {
-        "bloco": "Fecho",
-        "tempo": "9 a 11 s",
-        "tela": "cara de quem já sabia o que ia acontecer",
-        "topicos": []
-      }
-    ],
-    "referencia": {
-      "link": "https://www.instagram.com/reel/DdxEStSDamF/",
-      "perfil": "gabrielfaria.ia (próprio)",
-      "vezes": "",
-      "molde": "frase declarativa de desafio ('se você nunca X, não quero sua dica de Y') + corte seco pra cena de prova"
-    },
-    "fonte": {
-      "nome": "",
-      "link": ""
-    },
-    "isca_sugerida": "PROPOSTA: o processo que eu uso pra chegar preparado antes da call"
-  },
-  {
-    "id": "2026-10-09-5",
-    "data": "2026-10-09",
-    "vaga": "meme",
-    "formato": "meme",
-    "horario_sugerido": "09/10 · 19:00",
-    "fala_com": "empresário",
-    "aberturas": [
-      "Eu esperando o cliente confirmar a reunião em cima da hora, porque meu assistente já tinha separado tudo."
-    ],
-    "o_que_se_ve": "texto na tela, corte pra tela do painel já com o resumo da reunião pronto antes mesmo da confirmação",
-    "roteiro": [
-      {
-        "bloco": "Gancho",
-        "tempo": "0 a 3 s",
-        "tela": "Eu esperando o cliente confirmar a reunião em cima da hora, porque meu assistente já tinha separado tudo.",
-        "topicos": []
-      },
-      {
-        "bloco": "Virada",
-        "tempo": "3 a 9 s",
-        "tela": "tela do painel com e-mail, WhatsApp e agenda já resumidos",
-        "topicos": []
-      },
-      {
-        "bloco": "Fecho",
-        "tempo": "9 a 12 s",
-        "tela": "ele de boa, sem pressa nenhuma",
-        "topicos": []
-      }
-    ],
-    "referencia": {
-      "link": "https://www.instagram.com/reel/DeAkB70lRwo/",
-      "perfil": "gabrielfaria.ia (próprio)",
-      "vezes": "",
-      "molde": "'Eu esperando [situação de última hora], porque [sistema] já tinha resolvido', texto na tela, sem fala"
-    },
-    "fonte": {
-      "nome": "",
-      "link": ""
-    },
-    "isca_sugerida": "ASSISTENTE: como eu monto o resumo antes de qualquer reunião"
-  },
-  {
-    "id": "2026-10-09-6",
-    "data": "2026-10-09",
-    "vaga": "case",
-    "formato": "case",
-    "horario_sugerido": "09/10 · 21:30",
-    "fala_com": "empresário",
-    "aberturas": [
-      "Um cliente meu sumiu duas semanas depois que eu montei o sistema dele. Não foi férias.",
-      "Configurei o Obsidian e ensinei o Claude em cima pra um cliente. Duas semanas depois ele tinha criado o site sozinho.",
-      "O sinal de que o sistema funcionou não é o cliente me elogiar. É ele desaparecer pra construir."
-    ],
-    "o_que_se_ve": "entra ele contando o caso direto pra câmera, corte pra cena do processo organizado (Obsidian, painel)",
-    "roteiro": [
-      {
-        "bloco": "Gancho",
-        "tempo": "0 a 3 s",
-        "tela": "fala direto pra câmera",
-        "topicos": [
-          "Um cliente meu sumiu duas semanas depois que eu montei o sistema dele. Não foi férias."
-        ]
-      },
-      {
-        "bloco": "Entrega",
-        "tempo": "3 a 16 s",
-        "tela": "Obsidian organizado, processos listados",
-        "topicos": [
-          "Eu configurei o Obsidian dele, organizei os processos da empresa e ensinei o Claude em cima disso.",
-          "Nessas duas semanas ele criou o site sozinho, automatizou processos que antes dependiam dele e ensinou a própria equipe a usar.",
-          "Hoje ele está criando um sistema próprio, e a esposa dele já faz apresentação inteira no Claude."
-        ]
-      },
-      {
-        "bloco": "Prova",
-        "tempo": "16 a 22 s",
-        "tela": "tela do painel ou processo do cliente, se puder mostrar",
-        "topicos": [
-          "Isso não veio de ferramenta nova. Veio de processo organizado antes de qualquer IA entrar."
-        ]
-      },
-      {
-        "bloco": "Fecho",
-        "tempo": "22 a 26 s",
-        "tela": "direto pra câmera",
-        "topicos": [
-          "Empresa não trava por falta de lead. Trava por falta de sistema."
-        ]
-      }
-    ],
-    "referencia": {
-      "link": "",
-      "perfil": "iMake",
-      "vezes": "",
-      "molde": "Regra 4 (ele é o case): prova real de cliente que topou aparecer, operação e vida dele, sem número inventado"
-    },
-    "fonte": {
-      "nome": "Gabriel, caso iMake (confirmado em moldes.md)",
-      "link": ""
-    },
-    "isca_sugerida": ""
-  },
-  {
     "id": "2026-10-10-1",
     "data": "2026-10-10",
     "vaga": "quente",
@@ -2126,5 +1786,336 @@
       "link": ""
     },
     "isca_sugerida": "DIRECT: o passo a passo do sistema sem ManyChat"
+  },
+  {
+    "id": "2026-10-16-1",
+    "data": "2026-10-16",
+    "vaga": "carrossel",
+    "formato": "carrossel",
+    "horario_sugerido": "16/10 · 09:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Antes de abrir o Claude, escreve isso aqui num papel.",
+      "A maioria das automações que falham, falha antes de ligar a ferramenta.",
+      "Todo dono que me pede ajuda com IA pula a parte que decide se ela vai funcionar."
+    ],
+    "o_que_se_ve": "entra a pergunta que todo dono pula antes de automatizar, sai a checklist de 4 perguntas que decide se a IA vai funcionar",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "slide 1",
+        "tela": "Antes de abrir o Claude, escreve isso num papel.",
+        "topicos": [
+          "Antes de abrir o Claude, escreve isso num papel."
+        ]
+      },
+      {
+        "bloco": "Erro",
+        "tempo": "slide 2",
+        "tela": "O erro não é a ferramenta.",
+        "topicos": [
+          "A IA não resolve falta de processo. Ela acelera o que já existe, bom ou ruim.",
+          "Então antes de automatizar qualquer coisa, eu respondo 4 perguntas."
+        ]
+      },
+      {
+        "bloco": "Checklist",
+        "tempo": "slides 3 a 6",
+        "tela": "As 4 perguntas",
+        "topicos": [
+          "1. Qual decisão ou tarefa eu quero especificamente tirar da minha mão?",
+          "2. Que informação ela precisa pra decidir certo, e onde essa informação já mora hoje?",
+          "3. O que eu faço quando ela erra? Esse é o critério de correção.",
+          "4. Quem olha o resultado antes dele sair pra cliente?"
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "slide 7",
+        "tela": "Comenta PAPEL",
+        "topicos": [
+          "Sem essas 4 respostas, a IA só erra mais rápido do que você errava sozinho.",
+          "Comenta PAPEL que eu te mando essa checklist pronta pra usar antes da próxima automação."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "",
+      "perfil": "",
+      "vezes": "",
+      "molde": "tese dele (moldes.md): processo antes da ferramenta, formato lista/checklist pra salvar"
+    },
+    "fonte": {
+      "nome": "moldes.md — tese do perfil (A IA amplifica o que você já é)",
+      "link": ""
+    },
+    "isca_sugerida": "PAPEL: a checklist das 4 perguntas antes de automatizar"
+  },
+  {
+    "id": "2026-10-16-2",
+    "data": "2026-10-16",
+    "vaga": "quente",
+    "formato": "descoberta",
+    "horario_sugerido": "16/10 · 12:00",
+    "fala_com": "empresário",
+    "aberturas": [
+      "O financeiro da sua empresa não devia sair da sua máquina pra nuvem de app nenhum.",
+      "Pare de digitar seu extrato bancário num chat que guarda sua conversa no servidor de outra empresa.",
+      "Toda ferramenta de IA que você usa pra finanças manda seu dado pra nuvem de alguém. Essa não manda."
+    ],
+    "o_que_se_ve": "entra a pergunta de quanto a empresa gastou no mês digitada num chat, sai a resposta calculada local, sem subir nada pra nuvem",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Seu financeiro não devia sair da sua máquina",
+        "topicos": [
+          "O financeiro da sua empresa não devia sair da sua máquina pra nuvem de app nenhum."
+        ]
+      },
+      {
+        "bloco": "Erro",
+        "tempo": "3 a 7 s",
+        "tela": "",
+        "topicos": [
+          "Todo app de IA pra finanças que te pediram pra testar manda seu extrato pra servidor de outra empresa.",
+          "Achei um que roda o modelo de IA inteiro dentro do computador, sem mandar nada pra fora."
+        ]
+      },
+      {
+        "bloco": "Prova",
+        "tempo": "7 a 18 s",
+        "tela": "GRAVAR TELA: 10 a 20 s abrindo o app, baixando o modelo e perguntando quanto a empresa gastou no mês",
+        "topicos": [
+          "Testei aqui: ele lê minhas transações e responde no chat, e o processamento é todo local.",
+          "Não precisa de conta, nem de assinatura pra usar a versão de graça."
+        ]
+      },
+      {
+        "bloco": "Critério e fecho",
+        "tempo": "18 a 23 s",
+        "tela": "Comenta CAIXA",
+        "topicos": [
+          "Isso só vale a pena se você já organiza a entrada e saída, a ferramenta só lê o que você já tem.",
+          "Comenta CAIXA que eu te mando o link e o passo a passo pra testar hoje."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://pulseos.finance",
+      "perfil": "",
+      "vezes": "",
+      "molde": "99hud: dor de dono em reais + mostra ferramenta rodando na tela + isca de palavra curta no direct"
+    },
+    "fonte": {
+      "nome": "Show HN — Pulse Local, app de orçamento para Mac com modelos de IA rodando 100% na máquina, versão de graça sem conta",
+      "link": "https://pulseos.finance"
+    },
+    "isca_sugerida": "CAIXA: o link do app e o passo a passo para rodar local"
+  },
+  {
+    "id": "2026-10-16-3",
+    "data": "2026-10-16",
+    "vaga": "meme",
+    "formato": "meme",
+    "horario_sugerido": "16/10 · 14:30",
+    "fala_com": "empresário",
+    "aberturas": [],
+    "o_que_se_ve": "entra o Claude respondendo comentário sozinho na tela, sai o Gabriel treinando taekwondo numa quarta de manhã",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "O Claude respondendo os comentários.",
+        "topicos": []
+      },
+      {
+        "bloco": "Virada",
+        "tempo": "3 a 7 s",
+        "tela": "Eu, treinando taekwondo numa quarta de manhã.",
+        "topicos": []
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "7 a 10 s",
+        "tela": "Enfim, uma nova era.",
+        "topicos": []
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DdjSf_oum-j/",
+      "perfil": "gabrielfaria.ia (conta própria)",
+      "vezes": "",
+      "molde": "contraste em tela dividida: a ferramenta trabalhando vs. o dono vivendo a vida, mesmo corte seco e mesma frase de fecho do original"
+    },
+    "fonte": {
+      "nome": "metricas.csv — meme validado da própria conta (1.972 de alcance)",
+      "link": "https://www.instagram.com/reel/DdjSf_oum-j/"
+    },
+    "isca_sugerida": ""
+  },
+  {
+    "id": "2026-10-16-4",
+    "data": "2026-10-16",
+    "vaga": "quente",
+    "formato": "tutorial",
+    "horario_sugerido": "16/10 · 16:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "O que custa assinatura de 300 reais por mês numa ferramenta de voz, hoje roda de graça no seu computador.",
+      "Pare de pagar por clonagem de voz pra gravar recado, anúncio ou audiobook da empresa.",
+      "Tem gente pagando mensalidade pra clonar a própria voz. Isso agora é de graça e roda local."
+    ],
+    "o_que_se_ve": "entra a própria voz do Gabriel gravada em 10 segundos, sai um áudio novo gerado com essa voz clonada, local, sem assinatura",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Pare de pagar assinatura pra clonar voz",
+        "topicos": [
+          "O que custa assinatura por mês numa ferramenta de voz, hoje roda de graça no seu computador."
+        ]
+      },
+      {
+        "bloco": "Erro",
+        "tempo": "3 a 6 s",
+        "tela": "",
+        "topicos": [
+          "A maioria paga mensalidade numa ferramenta de voz americana e nunca testa a versão de graça que roda local."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "6 a 18 s",
+        "tela": "GRAVAR TELA: 10 a 20 s instalando a ferramenta, gravando a própria voz e gerando o primeiro áudio",
+        "topicos": [
+          "Testei aqui: gravo 10 segundos da minha voz, e ela gera um áudio novo falando o texto que eu quiser.",
+          "É open source, roda no computador e não manda a gravação pra nenhum servidor."
+        ]
+      },
+      {
+        "bloco": "Critério e fecho",
+        "tempo": "18 a 23 s",
+        "tela": "Comenta VOZ",
+        "topicos": [
+          "Sem computador razoável, ela fica lenta, então teste antes de prometer prazo pro cliente.",
+          "Comenta VOZ que eu te mando o link pra testar hoje."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "https://github.com/debpalash/VoiceStudio",
+      "perfil": "",
+      "vezes": "",
+      "molde": "allesinisgalli: achado de ferramenta grátis + mostra rodando local + prova em primeira pessoa"
+    },
+    "fonte": {
+      "nome": "GitHub Trending (diário) — debpalash/VoiceStudio, alternativa open source e local ao ElevenLabs",
+      "link": "https://github.com/debpalash/VoiceStudio"
+    },
+    "isca_sugerida": "VOZ: o link da ferramenta e o passo a passo de instalação"
+  },
+  {
+    "id": "2026-10-16-5",
+    "data": "2026-10-16",
+    "vaga": "meme",
+    "formato": "meme",
+    "horario_sugerido": "16/10 · 19:00",
+    "fala_com": "empresário",
+    "aberturas": [],
+    "o_que_se_ve": "entra o Gabriel relaxado faltando 1 hora pro prazo do cliente, sai a entrega pronta puxada pelo Claude sob pressão",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "Eu esperando faltar só 1 hora pro prazo do cliente.",
+        "topicos": []
+      },
+      {
+        "bloco": "Virada",
+        "tempo": "3 a 6 s",
+        "tela": "Porque sob pressão o Claude entrega melhor do que eu de manhã cedo.",
+        "topicos": []
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "6 a 9 s",
+        "tela": "",
+        "topicos": []
+      }
+    ],
+    "referencia": {
+      "link": "https://www.instagram.com/reel/DeAkB70lRwo/",
+      "perfil": "gabrielfaria.ia (conta própria)",
+      "vezes": "",
+      "molde": "mesma estrutura do gancho (Eu esperando faltar só X pra Y, porque sob pressão o Claude Z), mesma duração e ritmo, troca só o assunto de proposta para prazo de cliente"
+    },
+    "fonte": {
+      "nome": "metricas.csv — meme validado da própria conta (465 de alcance)",
+      "link": "https://www.instagram.com/reel/DeAkB70lRwo/"
+    },
+    "isca_sugerida": ""
+  },
+  {
+    "id": "2026-10-16-6",
+    "data": "2026-10-16",
+    "vaga": "case",
+    "formato": "bastidor",
+    "horario_sugerido": "16/10 · 21:30",
+    "fala_com": "empresário",
+    "aberturas": [
+      "Minha primeira venda de implementação de IA saiu com 15 seguidores no perfil.",
+      "Eu não tinha audiência, não tinha lista, não tinha indicação. Tinha 15 seguidores e 4 dias postando.",
+      "Todo mundo acha que precisa de audiência pra vender. Minha primeira venda prova que o gargalo era outro."
+    ],
+    "o_que_se_ve": "entra o perfil com 15 seguidores e 4 dias de postagem, sai a primeira venda de implementação de IA fechada",
+    "roteiro": [
+      {
+        "bloco": "Gancho",
+        "tempo": "0 a 3 s",
+        "tela": "15 seguidores. 4 dias postando. 1 venda.",
+        "topicos": [
+          "Minha primeira venda de implementação de IA saiu com 15 seguidores no perfil."
+        ]
+      },
+      {
+        "bloco": "Entrega",
+        "tempo": "3 a 14 s",
+        "tela": "O que teve e o que não teve",
+        "topicos": [
+          "Não tinha audiência, não tinha lista de contato antiga, não tinha indicação.",
+          "Tinha o perfil criado do zero e 4 dias postando quando a venda fechou.",
+          "Então o gargalo nunca foi quantas pessoas me seguem. Foi o que eu oferecia e pra quem."
+        ]
+      },
+      {
+        "bloco": "Critério",
+        "tempo": "14 a 20 s",
+        "tela": "",
+        "topicos": [
+          "Isso não quer dizer que audiência não importa. Quer dizer que ela não é o primeiro problema a resolver.",
+          "Primeiro resolve o que você vende e pra quem. Audiência vem depois, e mais rápido do que parece."
+        ]
+      },
+      {
+        "bloco": "Fecho",
+        "tempo": "20 a 24 s",
+        "tela": "Siga pra acompanhar essa operação",
+        "topicos": [
+          "A promessa não é o número de seguidores. É o tempo e o dinheiro que isso devolve quando o posicionamento vem primeiro."
+        ]
+      }
+    ],
+    "referencia": {
+      "link": "",
+      "perfil": "",
+      "vezes": "",
+      "molde": "ele é o case: número confirmado da própria operação, sem citar fonte externa"
+    },
+    "fonte": {
+      "nome": "moldes.md — Regras de fato (primeira venda de implementação de IA, 15 seguidores, 4 dias postando)",
+      "link": ""
+    },
+    "isca_sugerida": ""
   }
 ]
