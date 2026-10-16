@@ -1,6 +1,12 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "Bringing GPT-Rosalind to academic research labs",
+  "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+  "visto_em": "2026-10-16T03:31+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "Amp puts AI agents to work beyond code with OpenAI models",
   "link": "https://openai.com/index/amp-beyond-coding",
   "visto_em": "2026-10-14T21:09+00:00"
@@ -172,11 +178,5 @@
   "titulo": "LegalOn halves Codex costs while maintaining development speed",
   "link": "https://openai.com/index/legalon-halves-codex-costs",
   "visto_em": "2026-10-09T05:00+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-  "link": "https://openai.com/index/oracle",
-  "visto_em": "2026-10-08T22:42+00:00"
  }
 ]
