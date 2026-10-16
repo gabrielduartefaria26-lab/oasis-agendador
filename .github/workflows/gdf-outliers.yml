@@ -1,15 +1,17 @@
-name: outliers vendas
+name: gdf outliers
 
 # Pesquisa do @gabrieldfaria_: mesma caça da Oasis com a lista de vendas.
 # Só lê perfis públicos (business_discovery); não publica nada em conta nenhuma.
 on:
+  schedule:
+    - cron: "0 11 * * 1"   # segunda 08:00 em Brasilia, depois da caça da Oasis
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: outliers-vendas
+  group: gdf-outliers
   cancel-in-progress: false
 
 jobs:
@@ -28,18 +30,18 @@ jobs:
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
-          REFERENCIAS: referencias-vendas.txt
-          SAIDA: outliers-vendas.csv
-          SAIDA_CARROSSEL: outliers-vendas-carrossel.csv
+          REFERENCIAS: gdf/referencias.txt
+          SAIDA: gdf/outliers.csv
+          SAIDA_CARROSSEL: gdf/outliers-carrossel.csv
         run: python3 outliers.py
 
       - name: guardar
         run: |
-          if [ -n "$(git status --porcelain outliers-vendas.csv outliers-vendas-carrossel.csv)" ]; then
+          if [ -n "$(git status --porcelain gdf/outliers.csv gdf/outliers-carrossel.csv)" ]; then
             git config user.name "agendador"
             git config user.email "agendador@users.noreply.github.com"
-            git add outliers-vendas.csv outliers-vendas-carrossel.csv
-            git commit -m "outliers vendas: $(date -u +%Y-%m-%d)"
+            git add gdf/outliers.csv gdf/outliers-carrossel.csv
+            git commit -m "gdf outliers: $(date -u +%Y-%m-%d)"
             git pull --rebase --quiet origin main
             git push
           fi

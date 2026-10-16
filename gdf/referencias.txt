@@ -1,5 +1,5 @@
 # Referências do @gabrieldfaria_ (vendas, processo comercial, time). Pesquisa de 15/10/2026.
-# Roda pelo workflow 'outliers vendas', que grava outliers-vendas.csv. Não mexe na lista da Oasis.
+# Roda pelo workflow "gdf outliers", que grava gdf/outliers.csv.
 
 ## gabriel
 # Escolhidas por ele em 15/10/2026. Régua 2x.
