@@ -1,6 +1,12 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+  "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+  "visto_em": "2026-10-21T21:05+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
   "link": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
   "visto_em": "2026-10-21T14:47+00:00"
@@ -64,17 +70,5 @@
   "titulo": "How Third Moment Research runs 10,000 agents for 36+ hours",
   "link": "https://openai.com/index/third-moment-research",
   "visto_em": "2026-10-14T21:09+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "The EU’s next chapter in AI is agentic",
-  "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-  "visto_em": "2026-10-14T14:48+00:00"
- },
- {
-  "fonte": "Google DeepMind",
-  "titulo": "Developing Gemini 4 Argon responsibly and safely",
-  "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-  "visto_em": "2026-10-14T14:48+00:00"
  }
 ]
