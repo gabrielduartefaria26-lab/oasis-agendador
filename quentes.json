@@ -1,6 +1,18 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "Uber brings ChatGPT Work to all employees with OpenAI",
+  "link": "https://openai.com/index/uber-chatgpt-work-rollout",
+  "visto_em": "2026-10-22T21:02+00:00"
+ },
+ {
+  "fonte": "Anthropic",
+  "titulo": "Donating Agent Skills To The Agentic Ai Foundation",
+  "link": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+  "visto_em": "2026-10-22T21:02+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
   "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
   "visto_em": "2026-10-21T21:05+00:00"
