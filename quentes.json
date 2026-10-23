@@ -1,6 +1,12 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+  "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+  "visto_em": "2026-10-23T20:51+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "Uber brings ChatGPT Work to all employees with OpenAI",
   "link": "https://openai.com/index/uber-chatgpt-work-rollout",
   "visto_em": "2026-10-22T21:02+00:00"
@@ -58,11 +64,5 @@
   "titulo": "Benefit Street Partners answers questions faster with Codex",
   "link": "https://openai.com/index/benefit-street-partners",
   "visto_em": "2026-10-17T13:23+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-  "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-  "visto_em": "2026-10-16T20:21+00:00"
  }
 ]
