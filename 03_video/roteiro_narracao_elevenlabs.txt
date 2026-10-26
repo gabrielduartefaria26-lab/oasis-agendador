@@ -1,0 +1,16 @@
+ROTEIRO DE NARRAÇÃO · CASTELO POLÍMEROS (ElevenLabs, voz Spuds Oxley)
+Ajustes: Stability ~50% (Natural) · Speed ~1.05 · modelo Eleven v3 (para as tags entre colchetes).
+Gerar uma fala por vez e salvar como 01.mp3 ... 12.mp3.
+
+01 [confident] Toda fábrica que usa plástico gera sobra. [short pause] Fita de arquear, ráfia, filme stretch, fio. [short pause] No setor, essa sobra tem nome: apara.
+02 [warm] E, na maioria das vezes, essa apara fica parada no pátio. Ocupa espaço, junta poeira e vira custo... quando poderia virar dinheiro.
+03 [matter-of-fact] Por que ninguém resolve? [short pause] Porque fita e filme são longos e enrolam. No moinho comum, eles se enroscam nas facas e a máquina para.
+04 [confident] A Castelo Polímeros nasceu exatamente pra isso: moer fita e plástico flexível, do jeito certo.
+05 [calm] Funciona assim. [short pause] O fardo entra inteiro, do jeito que sai da sua fábrica, sem precisar desmanchar. O pré-picador quebra o fardo em pedaços grandes. A esteira leva esses pedaços até o picador, que corta fino. Embaixo dele tem uma peneira: só passa o que tem até dois milímetros. O que é maior fica lá dentro até ser cortado de novo. [short pause] No final, o material cai moído, direto no big bag, pronto pra extrusora.
+06 [confident] Antes de começar, a gente pesa o seu material. Depois de moído, pesa de novo. Assim você sabe exatamente quanto entrou e quanto voltou. E a perda do processo já fica combinada em contrato.
+07 [warm] Cada big bag sai com uma etiqueta: nome do cliente, tipo de plástico, tamanho do grão, peso e data. Se precisar rastrear um lote, está tudo ali.
+08 [firm] E o mais importante: o seu material nunca se mistura com o de outro cliente. Também não misturamos tipos de plástico, porque PP e PET derretem em temperaturas diferentes... e misturado perde valor.
+09 [warm] Ficamos em Boituva, às margens da Castello Branco. Daqui, atendemos um raio de cem quilômetros: Sorocaba, Itu, Tatuí, Indaiatuba, Campinas e região.
+10 [confident] Em números: capacidade de quatro toneladas por dia, grão de até dois milímetros e três tipos de plástico: PP, PE e PET.
+11 [friendly] Quer ver antes de fechar? [short pause] Você manda até quinhentos quilos, a gente mói, e você testa na sua máquina. Aprovou? Aí sim a gente conversa sobre contrato.
+12 [proud] Pra pedir orçamento, é só acessar castelopolimeros ponto com ponto br, ou chamar no WhatsApp. [short pause] Castelo Polímeros: sua apara de volta como matéria-prima.

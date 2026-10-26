@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Castelo Polímeros: Apresentação</title>
+<style>
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #1d2a33; font-size: 10.5pt; line-height: 1.45; }
+.page { width: 210mm; height: 297mm; position: relative; overflow: hidden; break-after: page; }
+.page:last-child { break-after: auto; }
+.hero { background: #12385a; color: #fff; padding: 14mm 16mm 9mm; position: relative; }
+.hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 5px; background: repeating-linear-gradient(90deg, #f2a900 0 22px, #12385a 22px 30px); }
+.brand { display: flex; align-items: center; gap: 12px; }
+.logo { width: 46px; height: 46px; border-radius: 8px; background: #f2a900; display: grid; place-items: center; }
+.logo svg { width: 30px; height: 30px; }
+.name { font-size: 26pt; font-weight: 700; letter-spacing: .5px; }
+.name span { color: #f2a900; }
+.tag { font-size: 13.5pt; margin-top: 7mm; max-width: 150mm; line-height: 1.35; }
+.sub { opacity: .85; margin-top: 3mm; font-size: 10.5pt; }
+.content { padding: 7mm 16mm 0; }
+h2 { font-size: 12.5pt; color: #12385a; margin: 5.5mm 0 2.5mm; padding-bottom: 1.5mm; border-bottom: 2px solid #f2a900; }
+.grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+.card { background: #f3f6f9; border-radius: 6px; padding: 4mm 4.5mm; }
+.card h3 { margin: 0 0 1.5mm; font-size: 11pt; color: #12385a; }
+.card p { margin: 0; font-size: 9.6pt; }
+.kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; margin-top: 2mm; }
+.kpi { border: 1.5px solid #12385a; border-radius: 6px; padding: 3.5mm; text-align: center; }
+.kpi b { display: block; font-size: 14pt; white-space: nowrap; color: #12385a; }
+.kpi span { font-size: 8.8pt; color: #4a5a66; }
+ul { margin: 0; padding-left: 4.5mm; } li { margin: 1mm 0; }
+.ok li::marker { content: "✓  "; color: #2e7d32; font-weight: bold; }
+.no li::marker { content: "✕  "; color: #b23b3b; font-weight: bold; }
+.steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; counter-reset: s; }
+.step { position: relative; padding: 9mm 3.5mm 3.5mm; background: #f3f6f9; border-radius: 6px; font-size: 9.4pt; }
+.step::before { counter-increment: s; content: counter(s); position: absolute; top: 2.5mm; left: 3.5mm; width: 6mm; height: 6mm; border-radius: 50%; background: #f2a900; color: #12385a; font-weight: 700; display: grid; place-items: center; font-size: 9pt; }
+.step b { color: #12385a; }
+table { width: 100%; border-collapse: collapse; font-size: 9.5pt; }
+td { padding: 1.6mm 2mm; border-bottom: 1px solid #dde3e8; }
+td:last-child { text-align: right; color: #4a5a66; white-space: nowrap; }
+.offer { background: #12385a; color: #fff; border-radius: 6px; padding: 5mm 6mm; margin-top: 6mm; display: flex; justify-content: space-between; align-items: center; gap: 6mm; }
+.offer b { color: #f2a900; font-size: 13pt; }
+.contact { position: absolute; left: 0; right: 0; bottom: 0; background: #0d2a44; color: #fff; padding: 7mm 16mm; display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; font-size: 9.6pt; }
+.contact small { display: block; color: #f2a900; font-size: 8pt; text-transform: uppercase; letter-spacing: .6px; margin-bottom: .8mm; }
+.fill { background: #fff4cc; color: #12385a; padding: 0 1.5mm; border-radius: 2px; }
+.foot { position: absolute; bottom: 4mm; right: 16mm; font-size: 8pt; color: #8a98a3; }
+</style></head><body>
+
+<section class="page">
+  <div class="hero">
+    <div class="brand">
+      <div class="logo"><svg viewBox="0 0 24 24" fill="#12385a"><path d="M3 21V9l3-2v3l3-2v3l3-2v3l3-2V6h2V3h2v3h2v15z"/></svg></div>
+      <div class="name">Castelo <span>Polímeros</span></div>
+    </div>
+    <div class="tag">Moagem de fita de arquear, ráfia e plástico flexível.<br>Seu resíduo vira matéria-prima padronizada, sem você investir em máquina nem parar a produção.</div>
+    <div class="sub">Boituva-SP · às margens da Rodovia Castello Branco · atendendo a região de Sorocaba, Itu, Tatuí e Indaiatuba</div>
+  </div>
+
+  <div class="content">
+    <div class="kpis">
+      <div class="kpi"><b>4 t/dia</b><span>capacidade de moagem</span></div>
+      <div class="kpi"><b>até 2 mm</b><span>granulometria padronizada</span></div>
+      <div class="kpi"><b>PP · PE · PET</b><span>sempre em lotes separados</span></div>
+      <div class="kpi"><b>Big bag</b><span>pesado e identificado</span></div>
+    </div>
+
+    <h2>O que fazemos</h2>
+    <div class="grid3">
+      <div class="card"><h3>Moagem por encomenda</h3><p>Você envia a apara e recebe o material moído de volta, pronto para aglutinar, extrudar ou granular. Cobrança por kg processado.</p></div>
+      <div class="card"><h3>Retirada de aparas</h3><p>Para indústrias que geram fita, ráfia ou filme: retiramos ou compramos a apara, conforme volume e qualidade.</p></div>
+      <div class="card"><h3>Descaracterização</h3><p>Moagem de refugo e produto fora de especificação, com registro do lote para sua rastreabilidade ambiental.</p></div>
+    </div>
+
+    <h2>Especialistas em material flexível e longo</h2>
+    <div class="grid2">
+      <div>
+        <ul class="ok">
+          <li><b>Fita de arquear</b> PP e PET</li>
+          <li><b>Ráfia</b>, sacaria e big bag de PP</li>
+          <li><b>Filme stretch</b>, shrink e sacos de PE</li>
+          <li><b>Fio e multifilamento</b> de PP</li>
+        </ul>
+      </div>
+      <div>
+        <p style="margin:0 0 2mm"><b>Nosso equipamento recebe o fardo inteiro:</b> pré-picador + picador de esteira em linha. Fita e filme enrolados, que travam moinhos comuns, são o nosso dia a dia.</p>
+        <ul class="no"><li>Não processamos PVC nem material contaminado.</li></ul>
+      </div>
+    </div>
+
+    <h2>Como funciona</h2>
+    <div class="steps">
+      <div class="step"><b>Avaliação</b><br>Você conta o material, o volume e a granulometria desejada.</div>
+      <div class="step"><b>Teste</b><br>Moemos um lote-piloto para aprovar a qualidade.</div>
+      <div class="step"><b>Programação</b><br>Entrada e retirada agendadas, com pesagem na chegada e na saída.</div>
+      <div class="step"><b>Entrega</b><br>Material moído em big bag identificado por lote, com nota fiscal de retorno.</div>
+    </div>
+  </div>
+  <div class="foot">1/2</div>
+</section>
+
+<section class="page">
+  <div class="content" style="padding-top:14mm">
+    <h2 style="margin-top:0">Por que a Castelo Polímeros</h2>
+    <div class="grid2">
+      <div class="card"><h3>Foco em fita e flexível</h3><p>Enquanto a maioria dos moageiros trabalha com rígido e borra, nosso processo foi montado para fita de arquear, ráfia e filme.</p></div>
+      <div class="card"><h3>Perto de você</h3><p>Em Boituva, na Castello Branco: frete curto para Sorocaba, Itu, Tatuí, Cerquilho, Tietê, Porto Feliz e Indaiatuba.</p></div>
+      <div class="card"><h3>Lotes nunca misturados</h3><p>Cada resina e cada cliente em big bag separado e etiquetado. Material misturado perde valor; o seu não mistura.</p></div>
+      <div class="card"><h3>Transparência</h3><p>Pesagem na entrada e na saída, perda de processo combinada em contrato e relatório por lote.</p></div>
+      <div class="card"><h3>Empresa familiar</h3><p>Você fala direto com quem opera a máquina. Decisão rápida, sem burocracia.</p></div>
+      <div class="card"><h3>Sem investimento seu</h3><p>Não precisa comprar moinho, contratar operador nem ocupar espaço da fábrica.</p></div>
+    </div>
+
+    <h2>Região atendida</h2>
+    <table>
+      <tr><td>Cerquilho · Tietê · Iperó · Porto Feliz · Tatuí</td><td>até 30 km</td></tr>
+      <tr><td>Sorocaba · Votorantim · Itu · Salto · Elias Fausto · Salto de Pirapora</td><td>40 a 55 km</td></tr>
+      <tr><td>Cabreúva · Indaiatuba · Itupeva · Monte Mor</td><td>65 a 80 km</td></tr>
+      <tr><td>Piracicaba · Campinas · Sumaré · Jundiaí</td><td>85 a 100 km</td></tr>
+    </table>
+    <p style="font-size:8.5pt;color:#6b7a86;margin-top:1.5mm">Distâncias aproximadas por estrada a partir de Boituva.</p>
+
+    <h2>Para fazer um orçamento, nos diga</h2>
+    <div class="grid2">
+      <ul>
+        <li>Tipo de material (PP, PE, PET) e cor</li>
+        <li>Volume por mês (toneladas)</li>
+        <li>Como vem: fardo, bobina ou solto</li>
+      </ul>
+      <ul>
+        <li>Granulometria desejada</li>
+        <li>Quem faz o frete</li>
+        <li>Se precisa de documentação ambiental (MTR/CDF)</li>
+      </ul>
+    </div>
+
+    <div class="offer">
+      <div><b>Lote-piloto para aprovação</b><br>Moemos um lote de teste de até <span class="fill">500 kg</span> para você avaliar o resultado antes de fechar.</div>
+    </div>
+  </div>
+
+  <div class="contact">
+    <div><small>WhatsApp</small><span class="fill">(15) 9XXXX-XXXX</span></div>
+    <div><small>E-mail</small><span class="fill">contato@castelopolimeros.com.br</span></div>
+    <div><small>Endereço</small><span class="fill">Rua ____, nº __ · Boituva-SP</span></div>
+  </div>
+  <div class="foot" style="bottom:24mm">2/2</div>
+</section>
+</body></html>
