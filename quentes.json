@@ -1,6 +1,24 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+  "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+  "visto_em": "2026-10-26T22:08+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "ChatGPT’s expanding world of work",
+  "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
+  "visto_em": "2026-10-26T22:08+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Introducing GPT-6.1 Terra",
+  "link": "https://openai.com/index/introducing-gpt-6-1-terra",
+  "visto_em": "2026-10-26T22:08+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
   "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
   "visto_em": "2026-10-23T20:51+00:00"
