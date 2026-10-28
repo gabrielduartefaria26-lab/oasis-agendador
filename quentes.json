@@ -1,5 +1,11 @@
 [
  {
+  "fonte": "Meta",
+  "titulo": "Muse Is Now Available in Singapore: The World’s First Personal AI Agent Built for Everyone",
+  "link": "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/",
+  "visto_em": "2026-10-28T04:29+00:00"
+ },
+ {
   "fonte": "OpenAI",
   "titulo": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
   "link": "https://openai.com/index/oracle-apps-in-chatgpt",
@@ -76,11 +82,5 @@
   "titulo": "How we built ChatGPT’s novel ad stack for user trust and relevance",
   "link": "https://openai.com/index/building-chatgpt-ad-stack",
   "visto_em": "2026-10-21T14:47+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-  "link": "https://openai.com/index/terminal-x",
-  "visto_em": "2026-10-21T03:40+00:00"
  }
 ]
