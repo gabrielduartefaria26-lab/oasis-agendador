@@ -1,5 +1,11 @@
 [
  {
+  "fonte": "OpenAI",
+  "titulo": "Daybreak Red is now available in AWS GovCloud (US-East)",
+  "link": "https://openai.com/index/daybreak-red-aws-govcloud",
+  "visto_em": "2026-11-04T17:40+00:00"
+ },
+ {
   "fonte": "Google DeepMind",
   "titulo": "Agentic cheminformatics with Google Antigravity",
   "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
@@ -34,17 +40,5 @@
   "titulo": "Gemini 4 Carbon: Our next frontier model",
   "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
   "visto_em": "2026-10-28T22:03+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "Legora is building the agentic operating system for legal work",
-  "link": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-  "visto_em": "2026-10-28T16:22+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "Legora is building the agentic operating system for legal work",
-  "link": "https://openai.com/index/legora",
-  "visto_em": "2026-10-28T16:22+00:00"
  }
 ]
