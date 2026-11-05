@@ -1,6 +1,12 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "Introducing Images 2.6",
+  "link": "https://openai.com/index/introducing-images-2-6",
+  "visto_em": "2026-11-05T05:33+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
   "link": "https://openai.com/index/devrev-enterprise-self-service",
   "visto_em": "2026-11-04T23:02+00:00"
