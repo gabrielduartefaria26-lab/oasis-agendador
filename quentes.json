@@ -1,6 +1,12 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "ChatGPT Enterprise now available in AWS Marketplace",
+  "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+  "visto_em": "2026-11-09T20:19+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "Measuring how AI agents handle everyday wet-lab science",
   "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
   "visto_em": "2026-11-06T22:36+00:00"
@@ -52,23 +58,5 @@
   "titulo": "Agentic cheminformatics with Google Antigravity",
   "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
   "visto_em": "2026-11-03T17:27+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "Introducing the Grid Protectors Program",
-  "link": "https://openai.com/index/grid-protectors-program",
-  "visto_em": "2026-11-02T19:55+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "Qodo builds context into AI code review with Codex",
-  "link": "https://openai.com/index/qodo-codex-plugin",
-  "visto_em": "2026-11-02T19:55+00:00"
- },
- {
-  "fonte": "Google",
-  "titulo": "The latest AI news we announced in October 2026",
-  "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-  "visto_em": "2026-11-02T19:55+00:00"
  }
 ]
