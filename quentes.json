@@ -1,5 +1,35 @@
 [
  {
+  "fonte": "Google",
+  "titulo": "Google Cloud launches Gemini for healthcare.",
+  "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+  "visto_em": "2026-11-10T17:24+00:00"
+ },
+ {
+  "fonte": "Google DeepMind",
+  "titulo": "Gemini 4 Carbon is now available",
+  "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+  "visto_em": "2026-11-10T17:24+00:00"
+ },
+ {
+  "fonte": "Google DeepMind",
+  "titulo": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+  "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+  "visto_em": "2026-11-10T17:24+00:00"
+ },
+ {
+  "fonte": "Google DeepMind",
+  "titulo": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+  "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+  "visto_em": "2026-11-10T17:24+00:00"
+ },
+ {
+  "fonte": "Anthropic",
+  "titulo": "Roadshow Launch",
+  "link": "https://www.anthropic.com/news/roadshow-launch",
+  "visto_em": "2026-11-10T17:24+00:00"
+ },
+ {
   "fonte": "OpenAI",
   "titulo": "CodeRabbit scales agentic software development and ships 20x more",
   "link": "https://openai.com/index/coderabbit-codex-daybreak",
