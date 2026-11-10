@@ -1,5 +1,47 @@
 [
  {
+  "fonte": "OpenAI",
+  "titulo": "Introducing Businesses in ChatGPT",
+  "link": "https://openai.com/index/introducing-businesses-chatgpt",
+  "visto_em": "2026-11-10T22:41+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "How OpenAI Uses Codex to Accelerate Engineering",
+  "link": "https://openai.com/business/learn/how-openai-uses-codex",
+  "visto_em": "2026-11-10T22:41+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "New in ChatGPT for Business: April 2025",
+  "link": "https://openai.com/business/learn/new-in-chatgpt-for-business-april-updates-2025",
+  "visto_em": "2026-11-10T22:41+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "New in ChatGPT for Business: March 2025",
+  "link": "https://openai.com/business/learn/new-in-chatgpt-for-work-march-updates-2025",
+  "visto_em": "2026-11-10T22:41+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Using GPT-4 to deliver a new customer service standard",
+  "link": "https://openai.com/business/customer-stories/ada",
+  "visto_em": "2026-11-10T22:41+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Fine-tuning GPT-4o webinar",
+  "link": "https://openai.com/business/learn/fine-tuning-gpt-4o-webinar",
+  "visto_em": "2026-11-10T22:41+00:00"
+ },
+ {
+  "fonte": "Google",
+  "titulo": "Gemini Intelligence: New features, on more devices",
+  "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+  "visto_em": "2026-11-10T22:41+00:00"
+ },
+ {
   "fonte": "Google",
   "titulo": "Google Cloud launches Gemini for healthcare.",
   "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
@@ -88,11 +130,5 @@
   "titulo": "Daybreak Red is now available in AWS GovCloud (US-East)",
   "link": "https://openai.com/index/daybreak-red-aws-govcloud",
   "visto_em": "2026-11-04T17:40+00:00"
- },
- {
-  "fonte": "Google DeepMind",
-  "titulo": "Agentic cheminformatics with Google Antigravity",
-  "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-  "visto_em": "2026-11-03T17:27+00:00"
  }
 ]
