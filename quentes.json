@@ -1,6 +1,12 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "CodeRabbit scales agentic software development and ships 20x more",
+  "link": "https://openai.com/index/coderabbit-codex-daybreak",
+  "visto_em": "2026-11-10T06:19+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "ChatGPT Enterprise now available in AWS Marketplace",
   "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
   "visto_em": "2026-11-09T20:19+00:00"
