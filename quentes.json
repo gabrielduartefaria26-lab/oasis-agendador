@@ -1,5 +1,11 @@
 [
  {
+  "fonte": "Google",
+  "titulo": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+  "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+  "visto_em": "2026-11-11T23:54+00:00"
+ },
+ {
   "fonte": "OpenAI",
   "titulo": "ChatGPT Plus for veterans and servicemembers",
   "link": "https://openai.com/index/chatgpt-plus-for-veterans",
@@ -124,17 +130,5 @@
   "titulo": "Introducing Images 2.6",
   "link": "https://openai.com/index/introducing-images-2-6",
   "visto_em": "2026-11-05T05:33+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-  "link": "https://openai.com/index/devrev-enterprise-self-service",
-  "visto_em": "2026-11-04T23:02+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "Daybreak Red is now available in AWS GovCloud (US-East)",
-  "link": "https://openai.com/index/daybreak-red-aws-govcloud",
-  "visto_em": "2026-11-04T17:40+00:00"
  }
 ]
