@@ -1,6 +1,36 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "Introducing GPT-6.2 Astra and Sol",
+  "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+  "visto_em": "2026-11-17T18:53+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "Introducing OpenAI for Chile",
+  "link": "https://openai.com/index/introducing-openai-for-chile",
+  "visto_em": "2026-11-17T18:53+00:00"
+ },
+ {
+  "fonte": "OpenAI",
+  "titulo": "ChatGPT Ads increases its market presence in 44 countries",
+  "link": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+  "visto_em": "2026-11-17T18:53+00:00"
+ },
+ {
+  "fonte": "Google",
+  "titulo": "Put Gemini to work for you",
+  "link": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+  "visto_em": "2026-11-17T18:53+00:00"
+ },
+ {
+  "fonte": "Meta",
+  "titulo": "Muse Is Now Available in Australia: The World’s First Personal AI Agent Built for Everyone",
+  "link": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/",
+  "visto_em": "2026-11-17T18:53+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "Science at the Frontier: How scientists use ChatGPT",
   "link": "https://openai.com/index/science-at-the-frontier",
   "visto_em": "2026-11-16T19:56+00:00"
@@ -118,35 +148,5 @@
   "titulo": "Gemini Intelligence: New features, on more devices",
   "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
   "visto_em": "2026-11-10T22:41+00:00"
- },
- {
-  "fonte": "Google",
-  "titulo": "Google Cloud launches Gemini for healthcare.",
-  "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-  "visto_em": "2026-11-10T17:24+00:00"
- },
- {
-  "fonte": "Google DeepMind",
-  "titulo": "Gemini 4 Carbon is now available",
-  "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-  "visto_em": "2026-11-10T17:24+00:00"
- },
- {
-  "fonte": "Google DeepMind",
-  "titulo": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-  "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
-  "visto_em": "2026-11-10T17:24+00:00"
- },
- {
-  "fonte": "Google DeepMind",
-  "titulo": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-  "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-  "visto_em": "2026-11-10T17:24+00:00"
- },
- {
-  "fonte": "Anthropic",
-  "titulo": "Roadshow Launch",
-  "link": "https://www.anthropic.com/news/roadshow-launch",
-  "visto_em": "2026-11-10T17:24+00:00"
  }
 ]
