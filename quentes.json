@@ -1,6 +1,12 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "Introducing ChatGPT for Sales",
+  "link": "https://openai.com/index/introducing-chatgpt-for-sales",
+  "visto_em": "2026-11-18T06:18+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "Introducing GPT-6.2 Astra and Sol",
   "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
   "visto_em": "2026-11-17T18:53+00:00"
@@ -106,47 +112,5 @@
   "titulo": "ChatGPT Plus for veterans and servicemembers",
   "link": "https://openai.com/index/chatgpt-plus-for-veterans",
   "visto_em": "2026-11-11T17:36+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "Introducing Businesses in ChatGPT",
-  "link": "https://openai.com/index/introducing-businesses-chatgpt",
-  "visto_em": "2026-11-10T22:41+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "How OpenAI Uses Codex to Accelerate Engineering",
-  "link": "https://openai.com/business/learn/how-openai-uses-codex",
-  "visto_em": "2026-11-10T22:41+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "New in ChatGPT for Business: April 2025",
-  "link": "https://openai.com/business/learn/new-in-chatgpt-for-business-april-updates-2025",
-  "visto_em": "2026-11-10T22:41+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "New in ChatGPT for Business: March 2025",
-  "link": "https://openai.com/business/learn/new-in-chatgpt-for-work-march-updates-2025",
-  "visto_em": "2026-11-10T22:41+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "Using GPT-4 to deliver a new customer service standard",
-  "link": "https://openai.com/business/customer-stories/ada",
-  "visto_em": "2026-11-10T22:41+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "Fine-tuning GPT-4o webinar",
-  "link": "https://openai.com/business/learn/fine-tuning-gpt-4o-webinar",
-  "visto_em": "2026-11-10T22:41+00:00"
- },
- {
-  "fonte": "Google",
-  "titulo": "Gemini Intelligence: New features, on more devices",
-  "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-  "visto_em": "2026-11-10T22:41+00:00"
  }
 ]
