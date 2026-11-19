@@ -1,6 +1,18 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+  "link": "https://openai.com/business/customer-stories/sumitomo-life",
+  "visto_em": "2026-11-19T06:20+00:00"
+ },
+ {
+  "fonte": "Google DeepMind",
+  "titulo": "Introducing Gemini 4 Neon",
+  "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+  "visto_em": "2026-11-19T06:20+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "Inside the Codex sandbox",
   "link": "https://openai.com/index/inside-the-codex-sandbox",
   "visto_em": "2026-11-18T18:32+00:00"
@@ -124,11 +136,5 @@
   "titulo": "Holiday Extras is rethinking what it can build with Codex",
   "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
   "visto_em": "2026-11-12T17:49+00:00"
- },
- {
-  "fonte": "Google",
-  "titulo": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-  "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-  "visto_em": "2026-11-11T23:54+00:00"
  }
 ]
