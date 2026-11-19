@@ -1,6 +1,18 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+  "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+  "visto_em": "2026-11-19T18:45+00:00"
+ },
+ {
+  "fonte": "Google",
+  "titulo": "Introducing Tool Retrieval in the Gemini API",
+  "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+  "visto_em": "2026-11-19T18:45+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
   "link": "https://openai.com/business/customer-stories/sumitomo-life",
   "visto_em": "2026-11-19T06:20+00:00"
@@ -130,11 +142,5 @@
   "titulo": "Claude Fable And Mythos 5.2",
   "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
   "visto_em": "2026-11-12T23:02+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "Holiday Extras is rethinking what it can build with Codex",
-  "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
-  "visto_em": "2026-11-12T17:49+00:00"
  }
 ]
