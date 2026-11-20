@@ -1,6 +1,12 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "Explore the Codex Security Plugin",
+  "link": "https://openai.com/business/learn/codex-security-plugin-demo",
+  "visto_em": "2026-11-20T06:05+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "How OpenAI’s Performance Factory keeps ChatGPT fast",
   "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
   "visto_em": "2026-11-19T18:45+00:00"
@@ -118,29 +124,5 @@
   "titulo": "Introducing ChatGPT Wallet",
   "link": "https://openai.com/index/introducing-chatgpt-wallet",
   "visto_em": "2026-11-13T17:26+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "Gondola doubles revenue as its team builds more with Codex",
-  "link": "https://openai.com/business/customer-stories/gondola",
-  "visto_em": "2026-11-13T05:29+00:00"
- },
- {
-  "fonte": "Google",
-  "titulo": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-  "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-  "visto_em": "2026-11-12T23:02+00:00"
- },
- {
-  "fonte": "Google DeepMind",
-  "titulo": "Introducing Gemini 4 Hydrogen",
-  "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-  "visto_em": "2026-11-12T23:02+00:00"
- },
- {
-  "fonte": "Anthropic",
-  "titulo": "Claude Fable And Mythos 5.2",
-  "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-  "visto_em": "2026-11-12T23:02+00:00"
  }
 ]
