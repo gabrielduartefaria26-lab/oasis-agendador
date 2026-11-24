@@ -1,5 +1,17 @@
 [
  {
+  "fonte": "OpenAI",
+  "titulo": "OpenAI and Cisco introduce Shirudo",
+  "link": "https://openai.com/index/introducing-shirudo",
+  "visto_em": "2026-11-24T08:49+00:00"
+ },
+ {
+  "fonte": "Meta",
+  "titulo": "Introducing Muse in the UK: A Personal AI Agent You Control",
+  "link": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+  "visto_em": "2026-11-24T08:49+00:00"
+ },
+ {
   "fonte": "Google DeepMind",
   "titulo": "Finding faster quantum algorithms with agents and formal verification",
   "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
