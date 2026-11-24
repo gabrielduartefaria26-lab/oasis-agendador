@@ -1,6 +1,18 @@
 [
  {
   "fonte": "OpenAI",
+  "titulo": "How iFood scales coding agents across 15,000 repositories",
+  "link": "https://openai.com/business/customer-stories/ifood",
+  "visto_em": "2026-11-24T20:26+00:00"
+ },
+ {
+  "fonte": "Google",
+  "titulo": "How Gemini is changing the game for Golden State's organization and fans.",
+  "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+  "visto_em": "2026-11-24T20:26+00:00"
+ },
+ {
+  "fonte": "OpenAI",
   "titulo": "OpenAI and Cisco introduce Shirudo",
   "link": "https://openai.com/index/introducing-shirudo",
   "visto_em": "2026-11-24T08:49+00:00"
@@ -82,35 +94,5 @@
   "titulo": "Introducing ChatGPT for Sales",
   "link": "https://openai.com/index/introducing-chatgpt-for-sales",
   "visto_em": "2026-11-18T06:18+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "Introducing GPT-6.2 Astra and Sol",
-  "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-  "visto_em": "2026-11-17T18:53+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "Introducing OpenAI for Chile",
-  "link": "https://openai.com/index/introducing-openai-for-chile",
-  "visto_em": "2026-11-17T18:53+00:00"
- },
- {
-  "fonte": "OpenAI",
-  "titulo": "ChatGPT Ads increases its market presence in 44 countries",
-  "link": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
-  "visto_em": "2026-11-17T18:53+00:00"
- },
- {
-  "fonte": "Google",
-  "titulo": "Put Gemini to work for you",
-  "link": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-  "visto_em": "2026-11-17T18:53+00:00"
- },
- {
-  "fonte": "Meta",
-  "titulo": "Muse Is Now Available in Australia: The World’s First Personal AI Agent Built for Everyone",
-  "link": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/",
-  "visto_em": "2026-11-17T18:53+00:00"
  }
 ]
