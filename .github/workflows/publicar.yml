@@ -53,7 +53,9 @@ jobs:
           # So vale no disparo manual: no cron os inputs vem vazios, e vazio == false e
           # verdadeiro para o GitHub. Esse erro fez todo cron rodar uma vez e sair em 8 s,
           # e o post das 12:00 de 24/09 so saiu as 12:30, disparado na mao.
-          UMA_VEZ: ${{ github.event_name == 'workflow_dispatch' && (inputs.ensaio || inputs.somente != '' || !inputs.plantao) && '1' || '0' }}
+          # 25/11/2026: o GitHub bloqueou o cortes-agendador por termos de uso; job vivo 24 h que
+          # reabre a si mesmo parece servidor. Agora toda execucao e UMA passada; o cron de 30 min basta.
+          UMA_VEZ: "1"
         run: |
           git config user.name "agendador"
           git config user.email "agendador@users.noreply.github.com"
